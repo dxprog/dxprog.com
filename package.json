@@ -1,0 +1,29 @@
+{
+  "name": "dxprog.github.io",
+  "version": "1.0.0",
+  "description": "The personal website of Matt Hackmann",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "ts-node index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dxprog/dxprog.github.io.git"
+  },
+  "author": "Matt Hackmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dxprog/dxprog.github.io/issues"
+  },
+  "homepage": "https://github.com/dxprog/dxprog.github.io#readme",
+  "dependencies": {
+    "staticr-site": "0.0.2",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.7.1"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.0",
+    "staticr-site": "0.0.4"
+  }
+}
