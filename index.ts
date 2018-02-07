@@ -1,13 +1,14 @@
-import staticr from 'staticr-site';
+import { PageGenerator } from 'staticr-site';
 import * as path from 'path';
 
-const { PageGenerator } = staticr;
-
+import { DxApiReader } from './src/readers/dxapi-reader';
 
 const pg = new PageGenerator({
   outputDir: path.join(process.cwd(), 'docs/')
 });
 
-pg.build().then(result => {
+//pg.addReader(DxApiReader);
+
+pg.build().then((result: any) => {
 
 });

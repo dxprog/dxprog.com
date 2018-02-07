@@ -1,0 +1,63 @@
+import { IPost, IContentReader } from 'staticr-site';
+import * as rp from 'request-promise';
+import * as marked from 'marked';
+import * as fs from 'fs';
+import * as moment from 'moment-timezone';
+
+const DXCODE_TO_MARKDOWN = [
+  [ /\[b\]([^\[]+)\[\/b\]/ig, '**$1**' ],
+  [ /\[i\]([^\[]+)\[\/i\]/ig, '_$1_' ],
+  [ /\[head\]([^\[]+)\[\/head\]/ig, '_## $1_' ],
+  [ /\[header\]([^\[]+)\[\/header\]/ig, '_## $1_' ],
+  [ /\[img=([^\]]+)\]([^\[]+)\[\/img\]/ig, '![]($1 "$2")' ],
+  [ /\[url=([^\]]+)\]([^\[]+)\[\/url\]/ig, '[$2]($1)' ],
+  [ /\[youtube=([^\/]+)\]/g, '[![youtube video](https://img.youtube.com/vi/$1/0.jpg)](https://www.youtube.com/watch?v=$1)' ],
+];
+
+function convertDxApiPostToMarkdown(post: any): IPost {
+  const html = DXCODE_TO_MARKDOWN.reduce((html: string, [ match, replace ]: [ RegExp, string ]) => {
+    return html.replace(match, replace);
+  }, post.body);
+
+  const date = moment.tz(post.date * 1000, 'America/Chicago');
+
+  fs.writeFileSync(`${process.cwd()}/posts/${post.perma}.md`,
+`---
+title: ${post.title}
+slug: ${post.perma}
+date: ${date.format('YYYY/MM/DD h:mmA')}
+tags:
+${post.tags.map(tag => `- ${tag.name}`).join('\n')}
+---
+${html}
+`
+  );
+
+  return {
+    attributes: {
+      title: post.title,
+      slug: post.perma
+    },
+    body: post.body,
+    html: html
+  };
+}
+
+export const DxApiReader: IContentReader = {
+  read(): Promise<Array<IPost>> {
+    return rp('https://api.dxprog.com/?method=content.getContent&contentType=blog&type=json')
+      .then((body: string) => {
+        let apiData: any;
+        try {
+          apiData = JSON.parse(body);
+        } catch (exc) {}
+
+        let retVal = [];
+        if (apiData) {
+          retVal = apiData.body.content.map(convertDxApiPostToMarkdown);
+        }
+
+        return retVal;
+      });
+  }
+};

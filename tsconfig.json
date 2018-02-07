@@ -3,10 +3,9 @@
     "outDir": "./dist/",
     "sourceMap": true,
     "noImplicitAny": true,
-    "module": "umd",
-    "lib": [ "es2015", "dom" ],
-    "target": "es5",
+    "target": "es2017",
     "jsx": "react",
+    "moduleResolution": "node",
     "typeRoots": [ "node_modules/@types" ]
   },
   "files": [
