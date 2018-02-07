@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head><title>A tiny PHP/Twitter script just for you!</title></head><body><article><h2>A tiny PHP/Twitter script just for you!</h2><time>February 24, 2009</time><div><p>Was rather bored this afternoon and then I though to myself &quot;Why not add Twitter functionality to my music page?&quot; So, after some digging through Twitter APIs and some refreshers on HTTP Authentication, I wrote this tiny, beautiful little script.</p>
+<p>[code=php]
+// Return values
+define (&quot;TWITTER_OK&quot;, true);
+define (&quot;TWITTER_UNAUTHORIZED&quot;, -1);
+define (&quot;TWITTER_TOO_LONG&quot;, -2);
+define (&quot;TWITTER_COULD_NOT_CONNECT&quot;, -3);</p>
+<p>function sendTweet ($status, $userName, $userPass)
+{</p>
+<pre><code>// Open a socket to Twitter
+if (!($socket = fsockopen (&quot;twitter.com&quot;, 80)))
+    return TWITTER_COULD_NOT_CONNECT;
+
+// Create the headers
+$headers = &quot;POST /statuses/update.xml HTTP/1.1\r\n&quot;;
+$headers .= &quot;Host: twitter.com\r\n&quot;;
+$headers .= &quot;Authorization: Basic &quot;.base64_encode ($userName.&quot;:&quot;.$userPass).&quot;\r\n&quot;;
+$headers .= &quot;Content-length: &quot;.strlen (&quot;status=$status&quot;).&quot;\r\n\r\n&quot;;
+$headers .= &quot;status=$status\r\n&quot;;
+
+// Send the headers
+fwrite ($socket, $headers);
+
+// Get the response
+$response = &quot;&quot;;
+while (!feof ($socket))
+    $response .= fgets ($socket, 1024);
+
+// Check for HTTP status OK (200)
+if (!strpos ($response, &quot;200&quot;))
+    return TWITTER_UNAUTHORIZED;
+
+return TWITTER_OK;
+</code></pre><p>}
+[/code]</p>
+<p>It is as simple as it looks. Enjoy!</p>
+</div></article></body></html>

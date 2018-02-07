@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html><head><title>Arduino Project #1 - Taiko March</title></head><body><article><h2>Arduino Project #1 - Taiko March</h2><time>August 10, 2012</time><div><p>I&#39;ve been wanting an Arduino microcontroller for some time and last week I finally broke down and bought one. I&#39;ve been dicking around with some simple projects, but on of the things that I&#39;ve been eagerly looking forward to doing is a computer controlled Christmas lights setup. There are some selfish reasons, I&#39;ll admit, like winning the company Christmas decorations contest. But, I digress.</p>
+<p>To that end, I horked some code from a Taiko no Tatsujin clone I&#39;d been writing a few years ago and tossed the output at the Arduino via serial data. Here&#39;s the result:</p>
+<p>[![youtube video](<a href="https://img.youtube.com/vi/NNB-FKYbRWY">https://img.youtube.com/vi/NNB-FKYbRWY</a>]</p>
+<p>Code is after the break![break]</p>
+<p>The sketch for this is stupid simple: take the number from serial, make that pin high. Wait a bit, turn it off. Rinse and repeat.</p>
+<p>[code=arduino/0.jpg)](<a href="https://www.youtube.com/watch?v=NNB-FKYbRWY">https://www.youtube.com/watch?v=NNB-FKYbRWY</a>]</p>
+<p>Code is after the break![break]</p>
+<p>The sketch for this is stupid simple: take the number from serial, make that pin high. Wait a bit, turn it off. Rinse and repeat.</p>
+<p>[code=arduino)
+int rxPin = 0;</p>
+<p>void setup() {
+  Serial.begin(9600); 
+  pinMode(8, OUTPUT);
+  pinMode(9, OUTPUT);
+  pinMode(10, OUTPUT);
+  pinMode(11, OUTPUT);
+}</p>
+<p>void loop() {
+  if (Serial.available() &gt; 0) {
+    rxPin = Serial.read();
+    digitalWrite(rxPin + 8, HIGH);
+    delay(10);
+    digitalWrite(rxPin + 8, LOW);
+  }
+}
+[/code]</p>
+<p>All the magic happens in the C# application that funnels the data down to the Arduino. It reads the beatmap (a custom XML format with data scraped from an osu! beatmap) and times the whole thing out.</p>
+<p>[code=c#]</p>
+<p>using System;
+using System.Collections.Generic;
+using System.Diagnostics;
+using System.IO.Ports;
+using System.Xml;
+using System.Media;</p>
+<p>using WMPLib;</p>
+<p>namespace ArduinoTalk
+{
+    class Program
+    {</p>
+<pre><code>    private class Note
+    {
+        public int x, type, accuracy;
+        public bool active, deployed, hasBeenClosest, closest;
+        public long delay;
+    }
+
+    // Constants
+    private const int EASY = 0;
+    private const int NORMAL = 1;
+    private const int HARD = 2;
+    private const int ONI = 3;
+    private const int DON = 0;
+    private const int KA = 1;
+
+    private static List&lt;Note&gt; notes = new List&lt;Note&gt;();
+    private static string songTitle, songFile;
+    private static int bpm, noteSpeed, noteOffset, frameRate, currentNote;
+    private static string[] maps = new string[4];
+    private static WindowsMediaPlayer player = new WindowsMediaPlayer();
+    private static int lastNote = 0;
+    private static int prevNote = 0;
+    private static int noteRun = 0;
+
+    static void Main(string[] args)
+    {
+
+        SerialPort port = new SerialPort(&quot;COM5&quot;);
+        port.Open();
+        if (port.IsOpen)
+        {
+            loadSong(&quot;taiko_march&quot;);
+            port.BaudRate = 9600;
+            beginSong(HARD);
+
+            System.Threading.Thread.Sleep(100);
+
+            while (player.controls.currentPosition &lt; player.currentMedia.duration)
+            {
+                double positionMilli = Math.Round(player.controls.currentPosition * 1000);
+                if (lastNote &lt; notes.Count &amp;&amp; notes[lastNote].delay - positionMilli &lt;= 0)
+                {
+                    noteRun = prevNote == notes[lastNote].type ? noteRun + 1 : 0;
+                    int type = notes[lastNote].type * 2;
+                    type = prevNote == notes[lastNote].type ? type + noteRun % 2 : type;
+                    byte[] data = new byte[] { Convert.ToByte(type) };
+                    port.Write(data, 0, 1);
+                    Console.WriteLine(&quot;{0}, {1}, {2}&quot;, notes[lastNote].type, type, noteRun);
+                    prevNote = notes[lastNote].type;
+                    lastNote++;
+                }
+            }
+
+
+        }
+    }
+
+    private static void loadSong(string patternFile)
+    {
+
+        XmlDocument xmlDoc = new XmlDocument();
+
+        // Load and parse the song file
+        xmlDoc.Load(&quot;maps/&quot; + patternFile + &quot;.xml&quot;);
+        foreach (XmlNode node in xmlDoc.FirstChild)
+        {
+            switch (node.Name)
+            {
+                case &quot;title&quot;:
+                    songTitle = node.FirstChild.Value;
+                    break;
+                case &quot;bpm&quot;:
+                    bpm = Convert.ToInt32(node.FirstChild.Value);
+                    break;
+                case &quot;file&quot;:
+                    songFile = node.FirstChild.Value;
+                    break;
+                case &quot;maps&quot;:
+                    foreach (XmlNode xmlMap in node.ChildNodes)
+                    {
+                        switch (xmlMap.Name)
+                        {
+                            case &quot;easy&quot;:
+                                maps[EASY] = xmlMap.FirstChild.Value;
+                                break;
+                            case &quot;normal&quot;:
+                                maps[NORMAL] = xmlMap.FirstChild.Value;
+                                break;
+                            case &quot;hard&quot;:
+                                maps[HARD] = xmlMap.FirstChild.Value;
+                                break;
+                            case &quot;oni&quot;:
+                                maps[ONI] = xmlMap.FirstChild.Value;
+                                break;
+                        }
+                    }
+                    break;
+            }
+        }
+
+    }
+
+    public static void beginSong(int difficulty)
+    {
+
+        // Load the map
+        string[] map = maps[difficulty].Split(&#39;,&#39;);
+        notes.Clear();
+        foreach (string note in map)
+        {
+            Note t = new Note();
+            string type = note.Substring(0, 1);
+            t.delay = Convert.ToInt32(note.Substring(1, note.Length - 1));
+            switch (type)
+            {
+                case &quot;d&quot;:
+                    t.type = DON;
+                    break;
+                case &quot;k&quot;:
+                    t.type = KA;
+                    break;
+            }
+            t.x = 852;
+            notes.Add(t);
+        }
+        currentNote = 0;
+        notes.Sort((x, y) =&gt; x.delay.CompareTo(y.delay));
+
+        // Play the song and note the start time
+        player.URL = &quot;C:\\Users\\Matt\\Documents\\Visual~1\\Projects\\ArduinoTalk\\ArduinoTalk\\bin\\Debug\\maps\\&quot; + songFile;
+        player.controls.play();
+
+    }
+
+}
+</code></pre><p>}
+[/code]</p>
+</div></article></body></html>

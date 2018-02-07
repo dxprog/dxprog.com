@@ -1,7 +1,7 @@
 ---
 title: Has it really been a year? Or maybe even six years?
 slug: has-it-really-been-a-year-or-maybe-even-six-years
-date: 2018/02/05 11:11PM
+date: 2018-02-05T23:11-06:00
 ---
 Hmmm... the dust is thick... about one year thick. How did that happen?
 

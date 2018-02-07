@@ -23,7 +23,7 @@ function convertDxApiPostToMarkdown(post: any): IPost {
 
   fs.writeFileSync(`${process.cwd()}/posts/${post.perma}.md`,
 `---
-title: ${post.title}
+title: "${post.title.replace(/"/g, '\\"')}"
 slug: ${post.perma}
 date: ${date}
 tags:
@@ -46,7 +46,7 @@ ${html}
 
 export const DxApiReader: IContentReader = {
   read(): Promise<Array<IPost>> {
-    return rp('https://api.dxprog.com/?method=content.getContent&contentType=blog&type=json')
+    return rp('https://api.dxprog.com/?method=content.getContent&contentType=blog&type=json&max=1000')
       .then((body: string) => {
         let apiData: any;
         try {

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html><head><title>Wordpress - Related Posts Script</title></head><body><article><h2>Wordpress - Related Posts Script</h2><time>September 13, 2010</time><div><p>At my job, I currently have three Wordpress sites under my watchful eye. On one, I was tasked with creating a related posts feature. Now, there are certainly enough plug-ins that will do just that, but none of them worked how I wanted to or were generally more complex than necessary. So, I whipped up this little script:</p>
+<p>[code=php]function relatedPosts($id) {</p>
+<pre><code>/* Build a query to get a list of all posts that share similar tags */
+$s = microtime(true);
+$q = &quot;SELECT count(*) AS total, p.ID, p.post_title, p.post_date FROM wp_posts p INNER JOIN wp_term_relationships t ON p.ID=t.object_id AND t.term_taxonomy_id in (SELECT s.term_taxonomy_id FROM wp_term_relationships s WHERE s.object_id=$id) AND t.object_id != $id AND p.post_status=&#39;publish&#39; GROUP BY p.id ORDER BY total DESC, p.post_date DESC LIMIT 5&quot;;
+
+/* Format the output */
+$out = &quot;&quot;;
+$result = @mysql_query($q);
+if ($result &amp;&amp; @mysql_num_rows($result) &gt; 0) {
+    $out = &quot;&lt;h3 class=\&quot;related\&quot;&gt;Related Posts&lt;/h3&gt;&lt;ul class=\&quot;related\&quot;&gt;&quot;;
+    while ($row = mysql_fetch_object($result)) {
+        $perma = get_permalink($row-&gt;ID);
+        $out .= &#39;&lt;li&gt;&lt;a href=&quot;&#39;.$perma.&#39;&quot;&gt;&#39;.$row-&gt;post_title.&#39;&lt;/a&gt; - &#39;.date(&quot;F j, Y&quot;, strtotime($row-&gt;post_date)).&#39;&lt;/li&gt;&#39;;
+    }
+    $out .= &quot;&lt;/ul&gt;&quot;;
+}
+
+echo($out);
+</code></pre><p>}[/code]</p>
+<p>Just drop that in the wp-content/<em>yourtheme</em>/functions.php file, where <em>yourtheme</em> is the directory of your active theme. Then add the following in your wp-content/<em>yourtheme</em>/single.php where you want the related posts to appear:</p>
+<p>[code=php]relatedPosts(get_the_ID());[/code]</p>
+<p>You should now have a list of posts with similar tags. Styling is simple: one h3 and one ul, both with the class &quot;related&quot;.</p>
+<p>Enjoy!</p>
+</div></article></body></html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html><head><title>Writing Super Tiny Code</title></head><body><article><h2>Writing Super Tiny Code</h2><time>July 11, 2012</time><div><p>About a month or so ago, there was a contest thread on reddit whose objective was to write a PHP function to score a bowling game in as few characters as possible. A comma delimited string of frames would be passed in to the function and the score of said string would be returned.</p>
+<p>My first step to this was to write, in normal code, a function that would do just that:</p>
+<p>[code=php]function dxprog($game) {
+    $game = explode(&#39;,&#39;, $game);
+    $len = count($game);
+    $i = 0;
+    $score = 0;
+    $frame = 0;
+    while ($frame &lt; 10) {
+        $frame++;
+        $score += $game[$i];
+        $next = $i + 1 &lt; $len ? $game[$i + 1] : 0;
+        $next2 = $i + 2 &lt; $len ? $game[$i + 2] : 0;
+        if ($game[$i] == 10) {
+            $score += $next + $next2;
+            $i++;
+        } else if ($game[$i] &lt; 10 &amp;&amp; $game[$i] + $next == 10) {
+            $score += $next;
+            $score += $next2;
+            $i += 2;
+        } else {
+            $score += $next;
+            $i += 2;
+        }
+    }
+    return $score;
+}[/code]</p>
+<p>496 characters. Obviously, the next step was to minify that code:</p>
+<p>[code=php]function dxprog($game) {
+    $g=split(&#39;,&#39;,$game);$l=count($g);$i=$s=$f=0;while($f&lt;10){$f++;$s+=$g[$i];$n=$i+1&lt;$l?$g[$i+1]:0;$n2=$i+2&lt;$l?$g[$i+2]:0;if($g[$i]==10){$s+=$n+$n2;$i++;}else if($g[$i]&lt;10&amp;&amp;$g[$i]+$n==10){$s+=$n+$n2;$i+=2;}else{$s+=$n;$i+=2;}}return $s;
+}[/code]</p>
+<p>That brings us down to 232 characters. All of the minification was done by hand and now began the task of trimming as many characters as I could. Any reduction in characters, no matter how few, was welcomed. I reviewed my logic, rolled together declarations where I could and came up with the following 186 characters:</p>
+<p>[code=php]function dxprog($game) {
+    $g=split(&#39;,&#39;,$game);$l=count($g);$i=$s=$f=0;while($f&lt;10){$f++;$s+=$x=$g[$i];$o=$i+2&lt;$l?$g[$i+2]:0;$n=++$i&lt;$l?$g[$i]:0;if($x==10)$s+=$n+$o;else{$s+=$n;$i++;$s+=$x+$n==10?$o:0;}}return $s;
+}[/code]</p>
+<p>This challenge was pretty interesting because it required me to think in ways I never have before. In PHP, there&#39;s little reason to write small code, and in JavaScript, I&#39;ll just run it all through something like <a href="http://closure-compiler.appspot.com/home">Closure Compiler</a>, so this was something entirely new. What really helped reduce the code in the end was eliminating conditional branches that did the same thing (ternaries also helped immensely).</p>
+</div></article></body></html>

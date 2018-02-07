@@ -1,0 +1,10 @@
+<!DOCTYPE html>
+<html><head><title>My God, I am a creepy person</title></head><body><article><h2>My God, I am a creepy person</h2><time>February 15, 2014</time><div><p>I have this personal website, which essentially means I am my own little mini NSA. If I wanted to, for example, find out if a person I have very few details on were to visit here, I&#39;d be able to find that out. Let&#39;s say, for example, I know what probable day they&#39;d view this blog, what page they&#39;d be coming from, and approximately where they live.</p>
+<p>Well, I have enough data to know (probably) if that person hit my site and what they did when they got here.</p>
+<p>As a hypothetical example, let&#39;s say I know they&#39;re somewhere in Northern California, probably came to the homepage via a Google search, and did so on February 13th. Alright, first thing&#39;s first, grep the logs for that day, that page, and exclude crawlers...</p>
+<p>Sweet, now I have a list of IPs. Let&#39;s plug those into <a href="http://www.maxmind.com/en/geoip_demo">MaxMind geoip lookup</a> and see what comes of it.</p>
+<p>Hmm, no exact match, but ISPs are fuzzy about location and this one is certainly within the area! Alright, now grep the logs for that IP address...</p>
+<p>Okay, the person was on the homepage for about three seconds before going to the art page. Once there, they clicked on <a href="http://dxprog.com/uploads/Vesperia-Doll.jpg">three</a> <a href="http://dxprog.com/uploads/Kagami_Doll.jpg">pieces</a> of <a href="http://dxprog.com/uploads/HanakoChristmas.jpg">art</a> before leaving the site. All in all, about a minute of time elapsed between the first and final requests.</p>
+<p>Other fun things you can find out while grepping logs is that your mother and former boss are the most frequent visitors to your site. The latter - going under a pseudonym - even listened to the Inception soundtrack on your music page sometime back in November while at work.</p>
+<p>This is, of course, all hypothetical.</p>
+</div></article></body></html>
