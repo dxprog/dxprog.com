@@ -19,13 +19,13 @@ function convertDxApiPostToMarkdown(post: any): IPost {
     return html.replace(match, replace);
   }, post.body);
 
-  const date = moment.tz(post.date * 1000, 'America/Chicago');
+  const date = moment.tz(post.date * 1000, 'America/Chicago').format();
 
   fs.writeFileSync(`${process.cwd()}/posts/${post.perma}.md`,
 `---
 title: ${post.title}
 slug: ${post.perma}
-date: ${date.format('YYYY/MM/DD h:mmA')}
+date: ${date}
 tags:
 ${post.tags.map(tag => `- ${tag.name}`).join('\n')}
 ---
@@ -36,7 +36,8 @@ ${html}
   return {
     attributes: {
       title: post.title,
-      slug: post.perma
+      slug: post.perma,
+      date
     },
     body: post.body,
     html: html
