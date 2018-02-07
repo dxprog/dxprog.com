@@ -15,7 +15,7 @@ As stated, somewhere in (probably) 1996, we hit up a garage sale a few blocks up
 
 And enjoy it I did. It became one of the very few games I played to completion on our old machine, a fact that I was proud of at the time. So, as I've been slowly watching TOS at the behest of my boss boss boss, I remembered this game and the feeling of enjoying it quite much. A quick trip to eBay, and I found not only a copy, but a copy with box and manual. That's a big deal for one who has the tendencies of a collector. For once, though, I actually played the game instead of let it sit and collect dust. And now that I'm done with my long ass intro, the review.[break]
 
-_## Scenario_
+## Scenario
 
 ![](http://i.imgur.com/XrLsxyk.png "Space... the final frontier...")
 
@@ -27,7 +27,7 @@ One thing that I particularly enjoyed - especially after having been watching th
 
 ![](http://i.imgur.com/fHvggU8.png "GORNY")
 
-_## Graphics_
+## Graphics
 
 ![](http://i.imgur.com/Cro5nvy.png "Spock. Myy... arm! Is so... TINY!")
 
@@ -41,11 +41,11 @@ But, all is not sunshine and roses, despite the cleverness. The limitations of t
 
 ![](http://i.imgur.com/voZh0Cu.png "Spock seems to be smiling...")
 
-_## Music_
+## Music
 
 You have to give credit to anybody that can create a good chiptune. The guys at Capcom had it down to a [fucking science](http://www.youtube.com/watch?v=KF32DRg9opA). Granted, creating an original score is a lot simpler than trying to arrange an existing piece for a few triangle waves, a square, and a noise channel. Still, it can be done [with great success.](http://www.youtube.com/watch?v=roHje14-K44) This game, while it does incorporate themes and background tunes from the show, tends to be very barebones and the loops are super short. The gangster theme in particular gets really annoying pretty quickly. But, you have to give them props for keeping it "in the family", as it were.
 
-_## Overall_
+## Overall
 
 I'm not ten anymore and am not so easily amused as I once was, but I feel that this game has actually held up really well. You can tell that the guys who made it had a great deal of respect for the source material, ensuring that the characters and story telling that we all have come to know and love were represented as accurately as possible. Yes, the game is short (about four-five hours), the music could be better, and there were a couple instances where figuring out what to do next was a bit tricky (GameFaqs was on tap a couple times), but I genuinely enjoyed revisiting this game some seventeen years after first being introduced to it. That I'm now more familiar with the series now only makes it even better.
 

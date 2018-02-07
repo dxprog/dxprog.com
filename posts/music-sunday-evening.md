@@ -10,7 +10,7 @@ My mom does this thing on her blog called "music monday" where she chooses some 
 - it's Sunday
 - the song I'm choosing is sung in Gaelic and I have no idea what it means
 
-_## The Best is Yet to Come - Metal Gear Solid_
+## The Best is Yet to Come - Metal Gear Solid
 
 [![youtube video](https://img.youtube.com/vi/6miaTf1gF4g/0.jpg)](https://www.youtube.com/watch?v=6miaTf1gF4g)
 

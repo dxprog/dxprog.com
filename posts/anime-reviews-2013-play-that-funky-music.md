@@ -8,7 +8,7 @@ tags:
 ---
 It's time again for the wave of anime reviews from the brothers Hack (swear we'll actually finish this year). Per usual, we're kicking it off by picking our top openers and enders of the year. Steve is absent this year because he's being *super lazy* and lying on the couch whining that he doesn't have enough time to write - forget the fact that Chris and Jeff started and finished just moments ago. But whatever, here we go!
 
-_## Best Opener_
+## Best Opener
 
 [![youtube video](https://img.youtube.com/vi/8OkpRK2_gVs]
 
@@ -42,7 +42,7 @@ On the other hand, "May I help you?" is a delightfully upbeat song and a pleasur
 
 Fuck you, "Guren No Yumiya long version".
 
-_## Best Ending_
+## Best Ending
 
 [![youtube video](https://img.youtube.com/vi/g_ErEdPos_o]
 

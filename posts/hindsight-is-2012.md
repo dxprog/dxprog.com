@@ -10,12 +10,12 @@ tags:
 
 The year is coming to a close yet again and with it the usual [self reflective post](http://dxprog.com/entry/2012-things-to-do-before-we-all-die/) for my future self to gaze upon. Also, the [anime reviews](http://dxprog.com/entry/best-of-anime-awards-finale/) will kick in soon. Not that anybody cares, but it makes for an interesting read later on. But, without further ado, let's see how I did on last year's list of self improvements and what to look forward to in 2013. I hadn't counted on this seeing as we were all supposed to die a couple weeks back...[break]
 
-_## A note on productivity_
+## A note on productivity
 Before I begin eviscerating myself for, again, not adhering to the goals I set out for myself in the previous year's worth of days, I want to note the brighter part of the year, namely that 2012 was probably the most productive programming year I've had in a long, long time. You've been privvy to a [lot](http://dxprog.com/entry/christmas-lights-extravaganza/) of the [personal projects](http://dxprog.com/entry/a-cute-world-of-programming-possibilities/) I've engaged in, but I also got a lot of shit done at work (compared to the previous year where most of my time at Winnercomm was spent on projects that eventually got canned). Not only did I rewrite or re-engineer in some way nearly every page on our [main news sites](http://www.newson6.com/), but I also wrote our [new mobile sites](http://m.newson6.com/) from the ground up, taking control back from a third party. 2013 is going to be difficult to live up to in terms of programming, but the almost guaranteed return of the awwnime bracket (which garnered over a quarter million votes by the time it wrapped) and work officially carving out some time for game development, it should be an interesting one.
 
 Okay, enough back patting. Now for the self-deprecation!
 
-_## 2012's Goals_
+## 2012's Goals
 **MOAR EXERCISE** - On the whole, I didn't do terribly in the exercise department. I've been a bit lax lately, what with the cold weather and such, but I managed to lose ~15 pounds from my heaviest point this year, so I guess there's that. Also, 45 minutes of walking at 3.5mph doesn't affect me near the way it used to. I'm going to label this one as OKAY, which is to say not a failure nor a success.
 
 **MOAR GAMING** - From the list I provided, only Skyward Sword and the Left 4 Deads were completed. I did make some headway on Catherine and never even touched the others. However, I did do a fair amount of gaming and acquired two new consoles, a 3DS XL and Wii U. I also played a lot of visual novels, but I'm not sure if that really counts as "gaming" or not. Mostly reading, I suppose. I'll again chalk this one up as OKAY.
@@ -24,7 +24,7 @@ _## 2012's Goals_
 
 **MOAR DRAWING** - A handful of comics notwithstanding, I hardly drew a single thing this year. FAILED
 
-_## Onwards Towards 2013_
+## Onwards Towards 2013
 **Health** - The trend of exercise must maintain or increase. But, more importantly than that, my eating habits have got to change. The late night runs to McDonald's and Taco Bell _must stop_. I need to be making more meals at home and healthier meals at that. The goal I'm going to set for myself is to be 200lbs when I sit down to write this post at the end of the year. That's 20lbs less than I am now, more than doable.
 
 **Finances** - I made a lot of unnecessary purchases in 2013. **A lot**. I must make the note that never once did I spend outside of my means and am even ahead in YTD funds, but the amount of money I spent on anime alone could have paid off my credit card. Or a large chunk of the remaining loan on my car. That's just anime. Gaming purchases, random one-off items, and eating out combined probably rival that number a couple times over. My goal for this year is to pay off in full three major bills: car, credit card, and the LASIK loan. Between those three, that's an extra $600 a month that I can begin throwing at my insane student loan debt, the ultimate goal there being to have those paid off by 2018 at the very latest.

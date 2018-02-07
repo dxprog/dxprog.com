@@ -11,15 +11,15 @@ I've probably mentioned before, but this trip is something that my brothers and 
 
 If you were to ask "what are you going to do there?", the answer would be slightly awkward. You see, while there is a list of things we'd like to do, there's no set plan, no schedule, no itinerary. This is probably a terrible way to visit a foreign country, let alone one for people who've never left the States and also have only the most rudimentary knowledge of the native tongue. But, the idea is more one of exploration than anything else. So here are the main points we plan to hit:
 
-_## Akihabara_
+## Akihabara
 The mecca for all things otaku, we'll probably spend a goodly amount of time here. This is probably where most of my money will be dropped on swag, arcades, and god knows what else. There are also plans of hitting up a [maid cafe](http://en.wikipedia.org/wiki/Maid_cafe) while there, where my brother Chris and I can admire the local selection of females while being entirely awkward around them.
 
-_## Food_
+## Food
 Obviously, food is a huge fuckin' deal over there, and a huge fuckin' amount different than over here. Now, I myself am not a seafood fan, but on this occasion I'm going to make some exceptions. I'll try fish, I'll have one of my brothers film it in case the result is funny. We're already preparing for a bit called "Chris will eat it" wherein Chris will eat things that are.... unusual. Here's the "official" list:
 
 [list][item]Takoyaki[/item][item]Dancing squid[/item][item]Sea-horse on a stick[/item][item]Something with jellyfish[/item][item]Taiyaki[/item][item]Nikuman[/item][item]Sushi[/item][item]Tamago on a stick[/item][item]Honest to god ramen stall[/item][item]"Family" restaurant (or Denny's)[/item][item]Korean Barbecue[/item][item]KFC[/item][item]Kitkats[/item][item]Pepsi[/item][/list]
 
-_## Cultural/Touristy Things_
+## Cultural/Touristy Things
 Of course, we need to hit some more mainstream items as well. On the list are:
 
 [list][item]Fuckin' Sky Tree[/item][item]Rainbow Bridge[/item][item]Tokyo Big Sight[/item][item]Ueno Park[/item][item]A shrine[/item][item]A castle[/item][item]7-Eleven[/item][item]Karaoke[/item][/list]

@@ -10,7 +10,7 @@ tags:
 ---
 Back in January, I wrote a rather [frustrated post](http://dxprog.com/entry/systems-architecture-in-the-unknown/) about rewriting RedditBooru on a new tech stack and how everything sucked. Six months (almost to the day) after that post, I finally launched the second major revision of the site. That launch was not without a whole bunch of drama.
 
-_## Codebase Direction_
+## Codebase Direction
 
 In the aforementioned post, I was originally developing on a stack consisting of nodejs and mongoDB. Shortly after, I abandoned nearly everything I had written, the only thing carried over being the few templates that were done. There were many lessons learned in that excursion, particularly "if it ain't broke, don't rewrite it". I decided that instead of again rewriting everything from the ground up, I would work off of the existing codebase and retool that. This proved immediately to be the right idea, as I was able to quickly port many of the new things I'd written in node to PHP but without any of the stability issues. The first of these was the cron job.
 
@@ -18,7 +18,7 @@ The nodejs version of the cron (which was more of a daemon than a cron, really) 
 
 One major change I did make to the front-end was to use [backbone](http://backbonejs.org/) as my JS framework. The primary reason I did this was to familiarize myself with the MV* frameworks that have been all the rage lately and I know the day is coming when I'll need to know this stuff for work. The other reason was that it provided logical structure to my JS instead of haphazardly throwing everything into a single JS file. The only issues I had with the framework were around it's handling of routes, a chunk of code I eventually just [wrote myself](https://github.com/dxprog/reddit-booru/blob/master/static/js/dev/controls/Routes.js) to suit my particular use cases. All in all, I'm pretty happy with backbone, but I feel that I probably did not use it to its fullest advantage. I probably could've gotten away with no framework and using something like [Fiber](https://github.com/linkedin/Fiber) to give me a nice, classical style OOP scheme to work off of.
 
-_## Release Day_
+## Release Day
 
 So, development went pretty smoothly once I kept doing things I knew how to do. And everything was fine... right up until just before the hard date I'd set for release (June 30th, in this case). A couple days before release, I went over my hosting bandwidth cap on the existing server, something that had been threatening to happen for months. I quickly began scrambling to figure how to route traffic to places where I wouldn't be paying the enormous overage fees I would be getting from my hosting. During all that, I made the decision that I should just spin the new redditbooru up on a new machine, one with much greater bandwidth caps. Many hours of file copying later, I had all of my sites on the new machine with traffic slowly diverting over there... except for redditbooru. Because of how it names hosted files, this would have to be transferred over last. And everything probably would have gone okay... if I hadn't forgotten one thing. As the traffic was shifting from the old machine to the new machine, there were weird anomalies showing up with pictures people had posted to reddit, namelyt different people were seeing different things for the same file. At this point, it should be mentioned that a user's DNS could be in one of four states:
 
@@ -31,7 +31,7 @@ My initial thoughts were that one or two things slipped through before I migrate
 
 It was a hellacious couple of days and I'm honestly surprised anybody still trusted my software after that.
 
-_## One Month Later_
+## One Month Later
 
 It's now one month later and things have finally smoothed out. Of course, there are still some issues I've been experiencing with the new software and new machine. For instance, all sites on that machine stopped working a week or two ago. Turns out that MariaDB had enabled binary query logging by default and had exhausted all of the available disk space (some 77GB of logs). MongoDB, which I'd relegated to image caching and internal metrics logging, also just fucking died a couple times, bringing all of RB with it. I've since disabled mongo and migrated the image caching to a [simple disk based system](https://github.com/dxprog/reddit-booru/commit/1c15499f6c21d98de695cb571640a2cba6cd210a). This leaves me in a bit of a bind as many features I had planned were going to use mongo for a denormalized data store (stats type things, mostly). I'm currently looking into redis as a possible way replacing this.
 

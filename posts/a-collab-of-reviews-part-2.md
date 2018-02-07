@@ -10,7 +10,7 @@ tags:
 ---
 Alright, here we are at round two of the Super Hackmann Bros. "Shit we watched in 2010" anime review. It's a little shorter today as we were all down with the sickness at various points last week, but rest assured more is to come.
 
-_## Dai Mahou Touge (Magical Witch Punie-chan)_
+## Dai Mahou Touge (Magical Witch Punie-chan)
 ![](http://images.dxprog.com/blog/reviews10_punie.jpg "Dai Mahou Togue")
 The story revolves around a young girl named Tanaka Punie who is princess of Magical Land. In order for her to become queen, however, she must become a transfer student in a Japanese high school. Crazy hi-jinks ensue.
 
@@ -27,7 +27,7 @@ For a short series though, you could do worse. **6/10**
 
 [Follow the break to read the rest](http://dxprog.com/entry/a-collab-of-reviews-part-2)[break]
 
-_## The Meloncholy of Haruhi Suzumiya - Season 2_
+## The Meloncholy of Haruhi Suzumiya - Season 2
 ![](http://images.dxprog.com/blog/reviews10_haruhi.jpg "The Meloncholy of Haruhi Suzumiya - Season 2")
 
 **Matt**
@@ -44,7 +44,7 @@ But eight times.  Eight times I watched the same episode with slight changes, an
 Thankfully, that wraps up well and the following arc goes back to what we know and love from the series, helping to wash done the season as a whole.
 But that _speedo_. - **8/10**
 
-_## Karin_
+## Karin
 ![](http://images.dxprog.com/blog/reviews09_karin.jpg "Karin")
 
 **Matt**

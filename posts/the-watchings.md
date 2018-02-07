@@ -7,7 +7,7 @@ tags:
 ---
 I have nothing better to talk about than the things I am watching, either actively or are just stuck in the middle of. So, whatever.
 
-_## Normal Shows_
+## Normal Shows
 
 **Breaking Bad** - Currently somewhere in season 2. Everybody lost their shit over this show and, while I certainly think it's well written, it hasn't quite gotten to the "gripping" part for me yet. Also, the episodes are so long and deep that it's a hard one to marathon.
 
@@ -15,7 +15,7 @@ _## Normal Shows_
 
 **Star Trek (TOS)** - I'm somewhere down at the end of the first season and it's been entertaining so far. Despite the rocky start it's had trying to flesh out that universe, the core stories feel very Trek.
 
-_## Anime_
+## Anime
 
 The new season just started, and I don't want to give away too much of my opinions for the end-of-year reviews, so I'll keep this brief.
 

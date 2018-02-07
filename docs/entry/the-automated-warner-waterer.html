@@ -7,7 +7,7 @@
 <p>I&#39;m currently in possession of my brother&#39;s frog whilst he gets his new life set up. I love the little guy (the frog, not my brother), so I&#39;m okay with this. The only downside is that it does keep me attached to my place to care for him (again, the frog) at a time in my life where I can do whatever the hell I want whenever the hell I want.</p>
 <p>To that last point, I booked a rather spur of the moment trip to visit good ol&#39; [devbus)(<a href="http://dxprog.com/comic/dark-over-light/">http://dxprog.com/comic/dark-over-light/</a>) over the long weekend. Now, the frog (who from hereon out will be referred to as &quot;Warner&quot;) can live with some neglect, particularly on the food side of things. I&#39;ll only be gone four days, which should be fine. Still, he should be kept moist regularly and that&#39;s been weighing on my soul.</p>
 <p>Enter the Automated Warner Waterer! (Or, &quot;aww&quot; for short)</p>
-<p><em>## The Supplies</em></p>
+<h2 id="the-supplies">The Supplies</h2>
 <p><img src="https://cdn.awwni.me/tu48.jpg" alt="" title="SUPPLIES!"></p>
 <ul>
 <li>One small fountain pump (picked up at Home Depot)</li>
@@ -17,7 +17,7 @@
 <li>One <a href="http://dxprog.com/entry/christmas-lights-extravaganza/">reused, relay-controlled gangbox</a></li>
 </ul>
 <p>Excluding the Pi and the box which I already had, I spent about $25 for everything. Not too shabby. Oh, and this isn&#39;t meant to be a blog-by-blow tutorial. I&#39;m not instructables...</p>
-<p><em>## Building It</em></p>
+<h2 id="building-it">Building It</h2>
 <p><img src="https://cdn.awwni.me/tu4b.jpg" alt="" title="If you look real closely, you can see Warner"></p>
 <p>The water pump and tubing stuff came together pretty easily, the stuff that I figured would be difficult. Despite it being drip tubing, I wound up punching some holes as the pump wasn&#39;t strong enough to force the water through. Other than that, cake all the way.</p>
 <p><img src="https://cdn.awwni.me/tu49.jpg" alt="" title="So much wires"></p>
@@ -27,7 +27,7 @@
 <li>The relays themselves are active when they&#39;re pulled low, something I do not recall when messing with them before. Had to do some rewiring so that the pump would be off when the relay is engaged (which is basically all the time when the Pi is on). This of course means that if the Pi loses power, that pump will always be on.</li>
 <li>When running something as a cron job, you don&#39;t get the benefits of running with that user&#39;s shell. So, when you run node, you need to absolute path to that</li>
 </ul>
-<p><em>## The Result</em></p>
+<h2 id="the-result">The Result</h2>
 <p><img src="https://cdn.awwni.me/tu4a.jpg" alt="" title="The business end"></p>
 <p>The way everything is set up now, I can manually water Warner by running the script through SSH, but it&#39;s also set to water for fifteen seconds every day at 3PM. In addition to that, it will reboot the Pi at 3:01PM, resetting the GPIO pins and shutting off the pump just in case something went wrong and the script hung with the pump on. MY CODE HAS LIVES IN THE BALANCE.</p>
 <p>A pretty good way to spend half a day and it&#39;ll make me feel more at ease while I&#39;m away.</p>

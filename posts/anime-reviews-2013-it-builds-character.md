@@ -8,7 +8,7 @@ tags:
 ---
 We're leisurely sauntering towards the finish line this year. Will we make it to the end? Maybe. But, as for today, here are the best/worst characters of 2013.
 
-_## Best Characters_
+## Best Characters
 ![](http://cdn.awwni.me/mzjz.jpg "The bokeh comes for free")
 **Chris - Yutaka Hasebe (Servant x Service)**
 When I first started watching Servant x Service, I honestly expected the characters to be set in stone in the first episode, staying as largely unchanged archetypes as the show progressed. This largely holds true for most of the characters, but there is an exception - Yutaka Hasebe.
@@ -25,7 +25,7 @@ After several visions, and revisions, of this writing, I can find no better expl
 **Matt - Tomoko Kuroki (Watamote)**
 Tomoko is a broken person, there's no two ways about that. She's socially inept to the point that it might actually be diagnosable. But, there's a certain charm about her over the top delusions and awkwardness that keep her in the realm of likeable character. Her rampant imagination of how she predicts a social situation will play out versus her inability to actually say two words to a stranger, even a cashier, is pitiably lovable. Perhaps there's a bit of self-identification there; lord knows that I've got my share of social anxieties from cenversating to my appearance. Tomoko, her awkward antics and highly cynical world view, get the knowing nod of approval and my vote for best character of last year.
 
-_## Worst Character_
+## Worst Character
 
 ![](http://cdn.awwni.me/mzk1.jpg "Looks are deceiving")
 **Chris - Kaga Kouko (Golden Time)**

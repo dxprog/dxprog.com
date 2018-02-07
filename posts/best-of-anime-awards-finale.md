@@ -8,7 +8,7 @@ tags:
 ---
 Here we are at the final day of the year and our little anime awards show. So, here they are and we'll see you on the other side!
 
-_## Best Show of 2011_
+## Best Show of 2011
 **Chris - Steins;Gate**
 ![](http://images.dxprog.com/blog/2011_reviews_steins_gate.jpg "Steins;Gate")
 Time travel stories are amazing, and this is something I've always known.  However, Steins Gate -- a show I started watching out of idle curiosity - has confirmed how badass I think they are.  Why is that, exactly?  Sit your ass down and I'll tell you.  
@@ -24,7 +24,7 @@ Are you looking for a good time? Good, because Nichijou just saw your good time 
 **Matt - Nichijou**
 There are a few somethings about Nichijou that separates it from nearly every other anime I've watched. First of all is its gratuitous use of slapstick style visual humor. This is something that is present in most of my favorite Western cartoons (Dexter's Lab, SpongeBob, etc), probably due to the more serious/light-hearted/based in reality nature of most of the shows I've watched. The scenarios that Nichijou presents are ridiculous in and of themselves, but its the timing, animation, and supremely awesome voice work takes the insane and makes it exponentially so. I posit the [following evidence](http://www.youtube.com/watch?v=teFFokJZ8go) (Wadsworth's constant applies). Balancing out the insanity side of our equation are the cuteness overload portions of the show with the super intelligent five year-old Professor and her [robot maternal figure](http://www.youtube.com/watch?v=FqqGgSe6qfI). Nichijou is pretty much everything I love about anime and Western cartoons rolled into one quite hilarious ball of awesome. It _is_ the complete package.
 
-_## Best Show Watched in 2011_
+## Best Show Watched in 2011
 **Chris - Death Note**
 ![](http://images.dxprog.com/blog/2011_reviews_death_note.jpg "Death Note")
 If Death Note came out this year, I would have a tough time deciding between it and Steins; Gate as the best 2011 show, but as it didn't, this is my way of splitting the highest award.

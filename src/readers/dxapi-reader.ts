@@ -7,8 +7,8 @@ import * as moment from 'moment-timezone';
 const DXCODE_TO_MARKDOWN = [
   [ /\[b\]([^\[]+)\[\/b\]/ig, '**$1**' ],
   [ /\[i\]([^\[]+)\[\/i\]/ig, '_$1_' ],
-  [ /\[head\]([^\[]+)\[\/head\]/ig, '_## $1_' ],
-  [ /\[header\]([^\[]+)\[\/header\]/ig, '_## $1_' ],
+  [ /\[head\]([^\[]+)\[\/head\]/ig, '## $1' ],
+  [ /\[header\]([^\[]+)\[\/header\]/ig, '## $1' ],
   [ /\[img=([^\]]+)\]([^\[]+)\[\/img\]/ig, '![]($1 "$2")' ],
   [ /\[url=([^\]]+)\]([^\[]+)\[\/url\]/ig, '[$2]($1)' ],
   [ /\[youtube=([^\/]+)\]/g, '[![youtube video](https://img.youtube.com/vi/$1/0.jpg)](https://www.youtube.com/watch?v=$1)' ],

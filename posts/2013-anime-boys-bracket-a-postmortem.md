@@ -7,17 +7,17 @@ tags:
 ---
 Today wound up the [anime boys bracket](http://bracket.awwni.me/2013-boys-bracket/view/) I ran as a precursor to the big girls bracket, testing out some new rules and a much needed overhaul for the administrative side. All in all, it was a roaring success.
 
-_## Code Changes_
+## Code Changes
 
 On the whole, I had developed out the system to be fairly robust on the user facing side by the end of the last bracket. The only real issue remaining there was that the bracket overview was a set of enormous images. This year I fixed that by rendering everything client side as a standard page, with a tiny bit of interactivity sprinkled in (that's what I linked above). The real work was done on the backend, moving all the administrative code into the model/controllers and out of CLI scripts I had quickly hammered out. That part was an absolute godsend because all I had to do was login and click "advance bracket". Granted, this could be done on a cron job, but I have to be present to write the [recap post](http://www.reddit.com/r/awwnime/comments/1nts6x/2013_boys_bracket_and_the_winner_is/) anyways. Also, there were almost no technological hiccups this year which made everything so much less stressful.
 
-_## Curbing Abuse_
+## Curbing Abuse
 
 Last year, there were some groups of users hell bent on getting their character voted in no matter the cost. Because of the rush I was in to get the code out the door, the system was pretty easy to get around in terms of flooding votes. All votes were tied to IP, so you could either get friends to help, go to the library and vote again, or just power cycle your phone. Because everything was IP based, I can't say how much abuse there was, but I suspect there was a fair amount.
 
 This year, everything was tied to reddit user accounts, using OAuth for authentication. A user would have to have a valid account and that account needed to be at least a month old. I still recorded IPs with the registrations to keep track of multiple users under a single IP. Out of the 660 users who voted, only about a dozen had more than one user to an IP and never more than two. So, another big win.
 
-_## Stats_
+## Stats
 
 ![](http://i.imgur.com/SLrruty.jpg "An upward trend")
 

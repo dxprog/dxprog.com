@@ -10,7 +10,7 @@ tags:
 ---
 We are at, again, the end of another year. As I am wont to do, I watched anime again and I am here to review it for you, my fine reading populace. However, my anime watchings is not something I do alone with a bucket of Haagan Daas in hand. I watch it while downing manly drinks and filling myself with sugar in the company of a couple of my many brothers. So, this year, I'm turning this series of reviews into a family affair. Since they missed out last year, we'll also be touching on some stuff I've already reviewed. Enjoy!
 
-_## Outlaw Star_
+## Outlaw Star
 ![](http://images.dxprog.com/blog/reviews10_outlaw_star.jpg "Outlaw Star")
 **Synopsis**
 Another entry in a long line of 90s space westerns. Gene Starwind and Jim Hawkings are the purveyors of a business that handles various odd jobs (think Han Solo). Through one of these jobs, they find themselves with a highly advanced spaceship which leads to many a crazy space adventure.
@@ -26,7 +26,7 @@ Outlaw Star?  More like Outhouse Stall.
 I can't count how many times this show promised something more and then turned around and kicked me in the balls.  Throw in some super annoying characters and crappy character designs and you have one of the worst shows ever made, not even taking into consideration the beach episode(in a sci-fi show?) which scarred my eyes in ways razor blades and nails never could.
 I'll give it a point for the accurate physics on that prison planet, though. **1/10**
 [See our other reviews after the break.](http://dxprog.com/entry/a-collab-of-reviews-part-1/#break)[break]
-_## K-ON!_
+## K-ON!
 ![](http://images.dxprog.com/blog/reviews10_kon.jpg "K-ON!")
 **Synopsis**
 K-ON! follows the day to day happenings of four students at an all girl school who have formed a music club/band.
@@ -41,7 +41,7 @@ There isn't really much to say about this show. Much like Azumanga Daioh, it's j
 K-ON! is a show about cute girls in a high-school music club... and that's pretty much it.  Those looking for simple things like a plot should look elsewhere, but for those who just want a fun, light-hearted romp, this is a good choice.
 While not really unique -- all of them conforming to the usual archetypes -- the characters are all likeable and work well together.  Throw in superb Kyoto Animation character designs and some good songs, and you have solid entertainment that never tries to turn serious on you.  And sometimes, that's all you need in a show. **7/10**
 
-_## Higurashi no Naku Koro ni (and Kai)_
+## Higurashi no Naku Koro ni (and Kai)
 ![](http://images.dxprog.com/blog/reviews10_higurashi.jpg "Higurashi no Naku Koro ni")
 **Synopsis**
 Keiichi Maebara moves to the remote village of Hinamizawa in the summer of 1983 when weird things begin happening. Everybody clamors on about Oyashiro's curse, but is there more afoot?
@@ -58,7 +58,7 @@ Higurashi may seem like an odd show on paper, with the way that it switches from
 The plot is engaging from beginnning to end, with everything starting out shrouded in mystery, but as time goes by and the questions are answered things are sown together to create an intricate story that culminates in a satisfying ending.  All of this is helped along by a large cast of likeable characters, each with intersting back stories of their own.
 Overall, Higurashi is one of the best anime I've seen, and it certainly ranks in my top shows of the year. **9/10**
 
-_## Trigun_
+## Trigun
 ![](http://images.dxprog.com/blog/reviews09_trigun.jpg "Trigun")
 [b][Matt](http://dxprog.com/entry/two-years-of-anime-part-2/#break)[/b]
 I watched Trigun as the result of a deal with one of my many, many brothers. The stage is set on some distant planet with an old west style theme. The story is told from the perspective of a couple of girls working for an insurance claims department as they follow the world reknowned outlaw, Vash the Stampede. It feels like Trigun tries to tackle too many issues at once, attempting to be episodic while having a larger story arc. The further the show goes on, the more things fall apart, but I'll cut it some slack as the manga went into hiatus in the middle of animation. All in all, it's good but not great. **6/10**
@@ -72,7 +72,7 @@ Unfortunately, the plot isn't as well thought out as the setting.  While not bad
 Thankfully, most of the characters are likeable, especially Vash, who is light-hearted and fun most of the time, but can be serious if necessary, although oftentimes he comes off as a pussy.
 However, in the end, the show doesn't live up to it's true potential, which is truly a shame. **6/10**
 
-_## Azumanga Daioh_
+## Azumanga Daioh
 ![](http://images.dxprog.com/blog/reviews10_azumanga_daioh.jpg "Azumanga Daioh")
 **Matt**
 Watch my review of Azumanga Daioh [here.](http://dxprog.com/entry/a-taste-of-things-to-come/)

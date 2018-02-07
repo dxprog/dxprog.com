@@ -7,7 +7,7 @@ tags:
 ---
 Taking a page from the [tiny little blog posts](http://mom28kids.com/2015/02/february-five-4/) my mom is doing right now, I'm going to steal that idea.
 
-_## February 5th, 2015_
+## February 5th, 2015
 
 1. Went to work today
 2. Larger breakfast because everything looked good.

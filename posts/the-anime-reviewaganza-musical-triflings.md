@@ -8,7 +8,7 @@ tags:
 ---
 As has been customary for four years now, I and some of my brothers have put into words our feelings of the Japanimation things we watched this year. The categories are changed up slightly from last year, but remain more or less the same. But, enough intro, here's Chris and I's favorite tunes of the year.
 
-_## Best Opening_
+## Best Opening
 [b]Chris - _Crossing Field (Sword Art Online)_[/b]
 [![youtube video](https://img.youtube.com/vi/gMDwrRNTp8M]
 
@@ -37,7 +37,7 @@ I will not lie; I chose this song solely because it had the most play counts for
 
 I will not lie; I chose this song solely because it had the most play counts for the year (281 as of this writing). However, it is entirely deserving of this position. Both the music, which is at the same time both powerful and gentle, and the opening visuals are pretty fantastic. The visuals in particular are dripping with a design aesthetic that could only come from studio SHAFT (coincidentally, they’re also responsible for [my best OP pick last year)(http://dxprog.com/entry/2011-best-of-anime-awards/)). A combination of a shitload of text combined with bright solids give what’s left of the designer in me a raging design boner.
 
-_## Best Ending_
+## Best Ending
 [b]Chris - _Umikaze no Brave (Robotics;Notes)_[/b]
 [![youtube video](https://img.youtube.com/vi/TomOoTkiCTY]
 _(note - this is the only video of this song I could find)_

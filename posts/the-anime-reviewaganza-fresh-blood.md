@@ -8,7 +8,7 @@ tags:
 ---
 As stated, taking a really relaxed pace this year. Today, I'd like to welcome Steve - yet another of my many, many brothers - to our little band of reviews. Today we'll be delving into the characters that did and didn't do it for us.
 
-_## Worst Character_
+## Worst Character
 ![](http://images.dxprog.com/blog/reviews12_hina.jpg "Hina Takanashi")
 [b]Chris - _Hina Takanashi (Listen to Me, Girls, I am Your Father)_[/b]
 Holy gay sex, Batman, if I hated one character more than any in 2012, it was Hina Takanashi.
@@ -29,7 +29,7 @@ There are characters you love to hate. Benjamin Linus from LOST or [Joffrey from
 
 This is not one of those cases and it fills my nerd core with rage.
 
-_## Best Character_
+## Best Character
 ![](http://images.dxprog.com/blog/reviews12_manabe.jpg "Manabe Yoshihisa")
 [b]Steve - _Manabe Yoshihisa (Kotoura-san)_[/b]
 Although ‘Kotoura-San' is a brand new anime, only just begun, Manabe has quickly shot to the top of my ‘Favorite Anime Character' list. He may be an extremely pervy guy (aren't we all?) but he's the only one who can accept Kotoura as a human, something so many people have failed to notice.

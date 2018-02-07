@@ -8,7 +8,7 @@ tags:
 ---
 Back again with a mishmash of categories.
 
-_## Biggest Surprise_
+## Biggest Surprise
 ![](http://i.imgur.com/qrZZgaW.jpg "Flowers of Evil")
 [b]Chris - _Flowers of Evil_[/b]
 
@@ -23,7 +23,7 @@ Unfortunately, chances of a second season are pretty much non-existent, which sa
 
 In a genre filled with "cute girls doing cute things" shows, I would have expected Girls und Panzer, a series centering around - surprise, surprise - high school girls who drive and battle tanks, to be more of the same. And while there is plenty of pandering in that area, the show seems to concentrate more on the tank battles and the tactics around them instead of the girls' antics. For the silly ass plot, it's surprisingly engaging without being dull or saccharine sweet. The suspension of disbelief becomes a little difficult when there are live ammunition rounds flying everywhere, tanks flipping, and lots of explosions without any of the characters getting a scratch, but it's a wholly enjoyable romp. I mean, c'mon. You have to give credit to any show making such a blatant [homage to the Spam sketch](http://www.youtube.com/watch?v=8qF51ApP5PA).
 
-_## Biggest Letdown_
+## Biggest Letdown
 ![](http://i.imgur.com/hsl22ww.jpg "Henneko")
 [b]Chris - _The Hentai Prince and the Stony Cat_[/b]
 I’m not gonna lie, I enjoyed Henneko. It was sometimes funny and occasionally touching, but I still can't contain my raging disappointment with certain parts of the show.
@@ -40,7 +40,7 @@ Yes, I'm still bitter over that one.
 [b]Matt - _My Little Sister Can't Be This Cute (Season 2 OVAs)_[/b]
 I suppose in a show entitled "My Little Sister Can’t Be This Cute" I shouldn't be surprised that they ended it how they did. However, I was lead to believe that this show was going to eschew the images suggested by the title and simply be about a couple of estranged siblings making amends and the journey to get there… not to half-assedly take the incest route, crushing souls all along the way. And even in the end, the author doesn’t commit to this serving of taboo (apparently forced by the publisher) and cops out of the whole thing. Whatever, I was more butthurt over this ending than I should have been especially considering that I really wasn't attached to the show… or at least, that’s what I thought. It makes me uneasy that the bitch herself is currently at the top of the "popular art" block and [also stares at me as I’m falling asleep](http://dxprog.com/entry/weekend-swag/)...
 
-_## What the Fuck, Anime?_
+## What the Fuck, Anime?
 ![](http://cdn.awwni.me/mww0.jpg "GJ-bu")
 [b]Matt - _GJ-Club_[/b]
 GJ-bu (or "Good Job Club") is, on the surface, Yet-Another-Do-Nothing-Club™ anime that's also kind of harem-y with a dash of Cute Girls Doing Cute Things®. Kyouya is our male protagonist in a club with four (at some point, five) girls. Apparently, they kidnapped him and (presumably) forced him to join. That kind of sets the tone for the entire show, really. He is their boy toy; a male upon which they can fire off odd females wiles… I guess, I mean they're not wiles I would ever associate as being stereotypically female. For example, they're teasing him about whether he thinks he's popular with the girls and they all start rubbing themselves on him. Or they all get him to brush their hair at some point (this show has a serious hair fetish) which moistens all the women's panties, apparently.

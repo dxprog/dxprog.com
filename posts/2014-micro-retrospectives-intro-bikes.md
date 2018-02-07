@@ -9,7 +9,7 @@ tags:
 
 For myself, 2014 was arguably less exciting than 2013. No sudden life changes, no international trips, just a fairly standard year. Still, it wasn't without its own interesting things and I'll now take a look back at the more notable things that happened in a series of very short blog posts.
 
-_## Biking_
+## Biking
 
 I'd purchased a bike in 2013, shortly after returning from Japan (partially because my original bike had been stolen while I was gone). Despite having it, I didn't make use of it nearly as much as I should have. But, this year, I began going on long rides with friends which really makes the whole experience much more appealing. On top of that, I bought a [very nice bike](http://www.cannondale.com/nam_en/2015/bikes/road/elite-road/caad8/caad8-6-tiagra) and, as I became more accustomed to it, started upgrading that with nice upgrades like better wheels and clips. All said and done, I logged over 1800 miles this year which is an accomplishment I'm quite proud of.
 

@@ -20,5 +20,5 @@ Of all the things mentioned here, I latch onto the mention of my fish the most. 
 
 Also, I myself could not remember what the successful "two weeks" thing was all about. Some bribe from my parents, no doubt. Jeff seems to think that it was going to bed on time for two weeks, which would certainly be fitting for ourselves at the time.
 
-_## Glossary of Terms_
+## Glossary of Terms
 **Go Forth** was a small time Catholic periodical for kids. I don't remember much about the content outside of the fact that the back page was full of "user generated content," for lack of a better term, and also a list of kids' names/ages/addresses for the pen pal list. I had no less than three pen pals from that, none of which I have been in contact with for many, many years.

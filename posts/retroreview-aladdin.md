@@ -17,17 +17,17 @@ Thematically, the movie seems to be about being unsatisfied with life. All of ou
 
 Let the musing begin.[break]
 
-_## Making an Effort_
+## Making an Effort
 
 In writing a sentence in my second synopsis paragraph, I thought of something I hadn't before. Why _is_ Aladdin a street rat? He's poor, yes, and has to resort to thievery just to survive. But we don't see him actually _making an effort_ to improve his condition. Instead of handing out CVs to the local sugar dates or fish stalls, he just bitches and moans about how life is unfair. Fucking put some effort into it, boy. In real life, the solution isn't just handed to you as a magical lamp or a random encounter with royalty. You have to actively _do_ something to change your life. Jafar, while certainly being evil, has obviously done quite a lot of work in his quest to rule the world. Not only is he an accomplished sorcerer, but obviously also a fairly learned man if he's able to pull all the pieces together in his search for the lamp. Jasmine also makes her escape from the palace in an attempt to change things. Her process may have been ill thought out and naive, but a step is a step. The only person who actually cannot do anything about his condition is the Genie and he is, for the most part, the happiest character in the entire flick.
 
 Conclusion: Aladdin is deadbeat scumbag.
 
-_## Speed Dating_
+## Speed Dating
 
 The movie also suffers from the usual Fairy Tale Relationship Syndrome in that Aladdin and Jasmine hit it off with very, very little time of actually knowing each other. A chance encounter in the marketplace and a magic carpet ride is all it takes for these two to commit to a life together. Shit like that just doesn't happen in real life and, if it does, it's [exceedingly rare](http://what-if.xkcd.com/9/) when it works out at all. Perhaps that's why I have a penchant for stupid romcom anime; it's slightly more real in that it takes a dozen episodes (on average covering six months to a year of story) before guy and girl get to the relationship stage. Granted, there's usually a lot of contrived shit in between, but time-wise, it's better. But, I digress.
 
-_## An Excellent Judge of Character_
+## An Excellent Judge of Character
 
 To be honest, Aladdin and Jasmine, while technically being the main characters, are ultimately the most forgettable. They're bland and cliche and, while there is certainly nothing wrong with the acting, they just don't stand out. The real stars of the show are Jafar, Iago, and of course, the Genie. Even the carpet has more personality, though that's not surprising since it takes more thought to get a feeling across using nothing but pantomime.
 
@@ -45,7 +45,7 @@ There's honestly not much to say about this. Robin Williams _is_ the Genie, alth
 
 This is less a blurb about the carpet and more about the technology used in the film. CGI was still in its infancy at this point and Aladdin was only the second animated Disney film to use rendered to film computer visuals (Beauty and the Beast being the first). It is painfully obvious, too. The Cave of Wonders is very CG looking, the lava in the lava chase is very CG looking (the recolored fractal texture just seems off). The tower rolling down the snow covered mountain at the end doesn't fare any better. And the reason why I put this under the carpet is because, while the carpet was hand drawn, the texture was applied digitally and it makes for some rather odd looking effects. One of the big things in cartoon style animation is the use of [squash and stretch](http://en.wikipedia.org/wiki/Squash_and_stretch) to make animation look more... animated. Well, this leads to some very ugly results on the carpet texture because, while when the carpet is at rest things look fine, when it is morphed into an exaggerated shape, the texture becomes exaggerated in places that it might not in real life. Somehow Disney managed to find a spot in the Uncanny Valley for an animated rug. Granted, it still looked better than it did in the Aladdin TV series (where they just hand animated it). I could never figure out why it looked so shitty as a kid, but now I know.
 
-_## Ugh... Musicals_
+## Ugh... Musicals
 
 It was typical for the time, but every goddamned animated film was riddled with musical numbers. Why? I don't know, but Aladdin is no different. Everybody winds up singing about their strifes or whatever at some point. Again, I don't know why; singing will not solve most of life's problems. Most of the songs are benign, but the main one, "A Whole New World" is so. Fucking. Catchy. And I don't mean catchy in the annoying kind of why. It's a damn good song. Remember that bit above about how I sing in the car? This is usually what I break out into. There's just something about it...
 

@@ -9,11 +9,11 @@ The last couple years or so, I've been on a big Alan Parsons Project kick. This 
 
 When listening to an artist so much, you start to pick up on things they like to do. One of these I noticed about Alan Parsons Project is what I'm going to call "setup, opposite comparator" (or SOC). Over the course of a verse, a series of back-to-back comparisons (often opposites) are made. Here's a bunch of examples:
 
-_## What goes up... (Pyramid)_
+## What goes up... (Pyramid)
 _What goes up, must come down_
 _What must rise, must fall_
 
-_## Gemeni (Eye in the Sky)_
+## Gemeni (Eye in the Sky)
 _Watching, waiting_
 _Rising, falling_
 _Listening, calling_
@@ -22,7 +22,7 @@ _Touching, feeling_
 _Seeing, believing_
 
 
-_## Psychobabble (Eye in the Sky)_
+## Psychobabble (Eye in the Sky)
 _It ain't Kodachrome and it isn't black and white_
 ...
 _Well, I'm never on my own but there's nobody in sight_

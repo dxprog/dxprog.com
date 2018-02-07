@@ -2,10 +2,10 @@
 <html><head><title>Christmas Lights Extravaganza</title></head><body><article><h2>Christmas Lights Extravaganza</h2><time>December 23, 2012</time><div><p>I&#39;ve been sitting on this one for a while now. I&#39;m sure everybody&#39;s seen the video, but I&#39;ve been meaning to do a technical writeup. In case you haven&#39;t seen the video and have no idea what I&#39;m talking about: I made a computer controlled lights setup. You can watch it below:</p>
 <p>[![youtube video](<a href="https://img.youtube.com/vi/ufCdZ3xzuUY">https://img.youtube.com/vi/ufCdZ3xzuUY</a>]</p>
 <p>Okay, now that we have that out of the way, follow the break for the technical goodies.[break]</p>
-<p><em>## Layout</em></p>
+<h2 id="layout">Layout</h2>
 <p>Certainly I mentioned it [some time ago/0.jpg)](<a href="https://www.youtube.com/watch?v=ufCdZ3xzuUY">https://www.youtube.com/watch?v=ufCdZ3xzuUY</a>]</p>
 <p>Okay, now that we have that out of the way, follow the break for the technical goodies.[break]</p>
-<p><em>## Layout</em></p>
+<h2 id="layout">Layout</h2>
 <p>Certainly I mentioned it [some time ago)(<a href="http://dxprog.com/entry/arduino-project-1-taiko-march/">http://dxprog.com/entry/arduino-project-1-taiko-march/</a>), but at the heart of this project is an Arduino Uno. Actually, there are two hearts in this case. The other one is a Raspberry Pi, the $35 micro computer. Both of these pieces perform very different roles, but before I delve into that, have a shoddily drawn &quot;schematic&quot; on how all the parts are connected:</p>
 <p><img src="http://images.dxprog.com/blog/tree_lights_schematic.jpg" alt="" title="Grossly simplified"></p>
 <p>Here&#39;s a quick rundown of each component and its use:</p>
@@ -14,10 +14,10 @@
 <p><strong>Raspberry Pi</strong> - The Pi is what does most all of the heavy lifting. It plays the music and parses the sequence file to send the correct commands to the Arduino at the appropriate time. It&#39;ll also change display modes upon pressing a button on the Arduino. Pressing the button cycles through the following modes: play loaded light sequence, all on, all off.</p>
 <p><img src="http://images.dxprog.com/blog/tree_lights_hardware.jpg" alt="" title="The setup"></p>
 <p>That&#39;s the hardware side, let&#39;s move onto the softer side of things.</p>
-<p><em>## Sequencing</em></p>
+<h2 id="sequencing">Sequencing</h2>
 <p><img src="http://images.dxprog.com/blog/tree_lights_after_effects.jpg" alt="" title="It&#39;s like motion graphics for real life"></p>
 <p>All of my sequencing was done in After Effects. I setup a basic scene with all my light channels (mapped to approximations of what they&#39;d be in real life) and the song I was sequencing. I used the opacity property to set the on/off state of each string; 0 was off, non-0 on. Sadly, I forgot all about hold frames until I was nearly done, so I have a lot of side-by-side key frames keeping the previous state. The composition was set at a flat 30fps to make time coding easy later. Once I was done sequencing, I copied each layers key frames into a flat text file for compilation later.</p>
-<p><em>## Code</em></p>
+<h2 id="code">Code</h2>
 <p>With the hardware and sequencing in place, only code remained. There are three programs used through out the process: one to compile together all the pasted sequences from After Effects into a nice JSON format, the program to parse said file and output data to the Arduino, and the program running on the Arduino itself. Note - there&#39;s not a <em>lot</em> of code, but too much to paste here. I&#39;ve made the entire project available on <a href="https://github.com/dxprog/ChristmasLights">GitHub</a>.</p>
 <p><strong>Parsing After Effects Key Frame Data</strong></p>
 <p><a href="https://github.com/dxprog/ChristmasLights/blob/master/compile.php">This script was written in PHP</a> because it&#39;s what I work with fastest. The keyframes code was slightly augmented to identify what string was what (String ID). It is then time coded and converted into a nice JSON format. The sequence can be found <a href="https://github.com/dxprog/ChristmasLights/blob/master/holy_night.txt">here</a> and the converter program converts it to some nice <a href="https://raw.github.com/dxprog/ChristmasLights/master/holy_night.js">JSON</a>.</p>

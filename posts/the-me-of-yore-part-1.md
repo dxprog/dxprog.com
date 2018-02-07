@@ -19,7 +19,7 @@ Well today was the day of Festival 66! I got up early this morning. Got my chore
 
 This passage alone encapsulates so many aspects of my youth. Also, those super short sentences and terrible use - or lack of use - of punctuation. I shudder.
 
-_## Glossary of Terms:_
+## Glossary of Terms:
 **Festival 66** was a company wide festival of sorts that then Phillips 66 would hold during the summer. They would block off a couple of streets downtown and had carnival games and free food. Being that my dad works for them, we got to partake in the festivities.
 
 **"The court"** was the playground of a school down the street from us. Adjacent to the swing set they had was a giant map of the US. I liked to kick my shoes off whilst swinging and used the map as a measurement of distance.

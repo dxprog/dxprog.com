@@ -15,13 +15,13 @@ I've been sitting on this one for a while now. I'm sure everybody's seen the vid
 
 Okay, now that we have that out of the way, follow the break for the technical goodies.[break]
 
-_## Layout_
+## Layout
 
 Certainly I mentioned it [some time ago/0.jpg)](https://www.youtube.com/watch?v=ufCdZ3xzuUY]
 
 Okay, now that we have that out of the way, follow the break for the technical goodies.[break]
 
-_## Layout_
+## Layout
 
 Certainly I mentioned it [some time ago)(http://dxprog.com/entry/arduino-project-1-taiko-march/), but at the heart of this project is an Arduino Uno. Actually, there are two hearts in this case. The other one is a Raspberry Pi, the $35 micro computer. Both of these pieces perform very different roles, but before I delve into that, have a shoddily drawn "schematic" on how all the parts are connected:
 
@@ -39,13 +39,13 @@ Here's a quick rundown of each component and its use:
 
 That's the hardware side, let's move onto the softer side of things.
 
-_## Sequencing_
+## Sequencing
 
 ![](http://images.dxprog.com/blog/tree_lights_after_effects.jpg "It's like motion graphics for real life")
 
 All of my sequencing was done in After Effects. I setup a basic scene with all my light channels (mapped to approximations of what they'd be in real life) and the song I was sequencing. I used the opacity property to set the on/off state of each string; 0 was off, non-0 on. Sadly, I forgot all about hold frames until I was nearly done, so I have a lot of side-by-side key frames keeping the previous state. The composition was set at a flat 30fps to make time coding easy later. Once I was done sequencing, I copied each layers key frames into a flat text file for compilation later.
 
-_## Code_
+## Code
 
 With the hardware and sequencing in place, only code remained. There are three programs used through out the process: one to compile together all the pasted sequences from After Effects into a nice JSON format, the program to parse said file and output data to the Arduino, and the program running on the Arduino itself. Note - there's not a _lot_ of code, but too much to paste here. I've made the entire project available on [GitHub](https://github.com/dxprog/ChristmasLights).
 

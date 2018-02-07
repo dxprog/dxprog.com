@@ -18,7 +18,7 @@ As is per normal for me, it's time again to reexamine myself and birth a new Mat
 
 **Drawing** - Pfffffft!
 
-_## The 2014 Version_
+## The 2014 Version
 
 I'm going to shoot for simplicity this year, so here's the plan (that I will not follow):
 

@@ -22,7 +22,7 @@ To that last point, I booked a rather spur of the moment trip to visit good ol' 
 
 Enter the Automated Warner Waterer! (Or, "aww" for short)
 
-_## The Supplies_
+## The Supplies
 
 ![](https://cdn.awwni.me/tu48.jpg "SUPPLIES!")
 
@@ -34,7 +34,7 @@ _## The Supplies_
 
 Excluding the Pi and the box which I already had, I spent about $25 for everything. Not too shabby. Oh, and this isn't meant to be a blog-by-blow tutorial. I'm not instructables...
 
-_## Building It_
+## Building It
 
 ![](https://cdn.awwni.me/tu4b.jpg "If you look real closely, you can see Warner")
 
@@ -48,7 +48,7 @@ Setting up the script and such to control it via the Raspberry Pi turned out to 
 - The relays themselves are active when they're pulled low, something I do not recall when messing with them before. Had to do some rewiring so that the pump would be off when the relay is engaged (which is basically all the time when the Pi is on). This of course means that if the Pi loses power, that pump will always be on.
 - When running something as a cron job, you don't get the benefits of running with that user's shell. So, when you run node, you need to absolute path to that
 
-_## The Result_
+## The Result
 
 ![](https://cdn.awwni.me/tu4a.jpg "The business end")
 

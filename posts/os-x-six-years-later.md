@@ -9,13 +9,13 @@ tags:
 ---
 About six and a half years ago, I wrote a [review of my opinions on OS X](http://dxprog.com/entry/a-word-on-the-state-of-apple/), then version 10.3 (Tiger). At some point, I dropped trying to struggle through using OS X and moved back to Windows. But, now that I find myself in a work environment that uses Apple's operating system and have been using it on a daily basis for three or four months (I initially was working on my RedHat machine), it's time to revisit this. I've changed as a computer user, and the version number has incremented five times, so surely the outcome is different. Despite my hatred for Apple's attitude as a company, I will try to make this as objective as possible.
 
-_## Stuff I Love_
+## Stuff I Love
 
 **The Terminal** - The best part of OS X is having a Unix terminal at its core. I was not very Linux savvy seven years ago, and even bitched about the folder structure in my initial review. While all those directories with periods in front of them can get annoying (and you know I have finder set to show them), I have no qualms moving about in a command line world. In fact, I prefer it in a lot of cases, especially since I remote into machines basically all of the time.
 
 **The Apple Mouse** - Not an OS X feature, per se, but I always thought this thing looked stupid retarded, mainly for the lack of buttons. But, I have to cave on this one and say that in the short time I've been using it, I've become addicted to the extra functionality you get with the touch surface. Scroll vertically and horizontally, swipe left/right to go back/forward in the browser, two fingers to switch spaces, and most importantly, right and left clicks are recognized. I really only have two complaints about this thing: there's no middle click and the double two finger tap to bring up expose only work about half the time, making that almost unusable.
 
-_## Stuff That Drives Me Up a Tree_
+## Stuff That Drives Me Up a Tree
 **Finder** - For all intents and purposes, Finder hasn't changed much since OS5 (except now it's in color). My biggest complaints are:
 
 - Still can't sort leaving directories at the top (pet peeve number 1 about all of OS X)

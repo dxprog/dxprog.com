@@ -11,7 +11,7 @@ tags:
 ---
 2007 was, indeed, a monumental year in gaming. So many triple A titles, ninety-nine percent of which were released in the holiday season making it very expensive for those who wanted to stay on top. Today I'm going to take a look back at gaming in 2007 (the games I have played, at least).
 
-_## Wii_
+## Wii
 **Wario Ware: Smooth Moves**
 This was my first foray into the world that is Wario Ware and, as such, cannot compare it to previous entries in the series. For the uninformed, Wario Ware is a collection of micro games, meaning each little game has one goal and you have about five (or less) seconds to complete said goal. The folks at Nintendo got incredibly inventive and this game shows off the abilities of the Wiimote excellently. As far as looks go there isn't anything jaw dropping, but the art direction can be hilarious at times and it certainly fits in with the zany, face paced style of the game. I only wish there were some better multiplayer options especially since this is a great party game (especially when over zealous players put their hand through a ceiling fan).
 8/10 Stars
@@ -24,7 +24,7 @@ Previous entries in the Paper Mario series have been more RPGish in that battles
 I will admit, I do not own this nor have I played it much. However, in my time with it I can see how it has gotten such high praise. The visuals alone are simply beautiful, I'd say the best looking of any game made this year. The music is a joy to listen to with many motifs going back to the days of Mario 3 and some Mario 64 selections as well. Most of it is orchestrated which makes it all the better. The best thing is, these are only the icing on an extremely delicious cake. The game play is simply fantastic. Gravity plays a huge role in the mechanics of this game and you had best be keeping that in mind whilst traversing the spherical levels. There's really not much to say about this game aside from that it's everything a Mario game should be.
 10/10 Stars
 
-_## Xbox 360_
+## Xbox 360
 **Crackdown**
 This is probably the must underrated game of the year. If you bought this game just for the Halo 3 beta, raise your hand. (raises hand) If that's the only reason you bought this game and never even played it, then you should be ashamed of yourself. I was originally going to pass on Crackdown and the Halo 3 beta, but after playing the demo I realized that it (Crackdown) was a really cool game. I've never played a sandbox game before and just the ability to go wherever and do whatever I wanted was awesome enough. Throw in being able to leap tall buildings in a single bound and run faster than your mom and you've got one sweet game. The ending does suck, but story isn't the most prominent aspect so I'll let it slide. I spent many a good hour with this game.
 7/10 Stars
@@ -41,7 +41,7 @@ By far the most hyped game of the year, luckily it delivers. There really isn't 
 Rock Band, aka Drum Hero or the Real Guitar Hero III, is by far the best rhythm game ever. Guitar Hero was awesome, but there's not much room left for innovation in that game outside of new songs. I don't know if this is what Harmonix was thinking or not, but they definitely upped the ante with Rock Band. Guitar is more or less the same, same for vocals if you've played Sing Star or Karaoke Revolution, but the drums is an entirely different beast. Getting all your limbs to work separately from each other can be a challenge, albeit a very satisfying one once you get the hang of it. In terms of song selection, there should be something for everyone especially with new downloadable tracks coming every week. The only thing about Rock Band is that, as the name suggests, you really have to play it with other people. Playing the solo tour is fun and all, but the multiplayer is where it's at. Paying attention to our band mates and saving them (or vice versa) adds an extra element to the game. The most awesome part, though, is when your singer can't sing. It can be hilarious and horrible... all at the same time.
 10/10 Stars
 
-_## Nintendo DS_
+## Nintendo DS
 **Phoenix Wright: Justice for All**
 The Phoenix Wright series was already fairly well established by the time I got to it. I originally a half ass purchase as a game to play on my flight to Orlando in May. It turned out to be one of the best things I bought this year. Phoenix Wright was like an interactive Encyclopedia Brown story, only with killing and stuff. The stories are so intriguing that it is hard to put them down, and when you do finish you are saddened because the awesome ride you were just on ended. Graphically there's not much to see, though the artwork is nice. If you're into thinking type games you should definitely pick this one up.
 9/10 Stars
@@ -50,7 +50,7 @@ The Phoenix Wright series was already fairly well established by the time I got 
 Zelda's first foray onto the Nintendo DS brought some radical changes to gameplay; namely, a game controlled entirely by the stylus. As bad as that may seem it works amazingly well. The game's visuals and sound are near identical to its predecessor, the Wind Waker. Despite all this, I felt the game was somewhat lacking and felt very scaled down. Granted, this is a protable release and the target audience was newcomers, but it still took away some of that Zelda feel. However, they still could've made some better music for the dungeons.
 7/10 Stars
 
-_## Portal_
+## Portal
 Just yesterday I picked up a copy of the Orange Box. Five games for fifty dollars is simply too good of a deal to pass up. At this point in time I have only installed/played/completed Portal. Portal is, by far, one of the most awesome games I've played in some time. The concept is insanely clever and forces you to think in a vastly different way. The writing is top notch and there were several things that I laughed out loud at. My only problem is that the game was far too short. I completed it in a few hours. Luckily there are advanced maps to complete yet and hopefully some stuff made by the community that I can get later.
 9/10 Stars
 

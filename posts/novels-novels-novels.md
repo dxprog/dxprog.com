@@ -7,17 +7,17 @@ tags:
 ---
 I thought I'd post today about what novels I am currently reading.  I’ll also include the read-alouds I'm doing with the four hundred college kids since I am actually reading those.
 
-_## School Read Alouds:_
+## School Read Alouds:
 
 A Presentation on Web Development at LinkedIn (for Full Sail)
 
-_## Personal Reading:_
+## Personal Reading:
 
 Attack on Titan
 Game of Thrones
 Puella Magi Oriko Magica
 
-_## Books I've Finished Reading:_
+## Books I've Finished Reading:
 
 Boys of Summer (an unpublished novel written by my old boss, good shit)
 

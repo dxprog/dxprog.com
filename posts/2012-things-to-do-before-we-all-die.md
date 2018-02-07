@@ -9,7 +9,7 @@ tags:
 
 Well, here we are again. It's always such a pleasure. Remember when I did this [last year](http://dxprog.com/entry/2011-to-do-what-must-be-done/)? I do. Seems like it wasn't that long ago. But, time flies, as they say, and with increasing age, it does so with increased velocity, it seems. This calls for some retrospective and forward contemplation.[break]
 
-_## The Previous Year_
+## The Previous Year
 As linked above, last year I made a series of goals for myself to achieve. Let's look in and see how I fared on that:
 
 **Draw more** - Could probably count on two hands the amount of times I set pencil to paper for art's sake. _FAILED_
@@ -20,7 +20,7 @@ As linked above, last year I made a series of goals for myself to achieve. Let's
 
 **Apartment and girlfriend** - Perhaps the only section on the list where I wasn't a complete failure. Upset with my conditions at my old job, I sought new and greener pastures and got the pay bump I needed to set out on my own (now I'm back at that old job, but with more pay). On the girlfriend front, I've made a handful of probes, but at this point I think I'm content where I'm at and will let things fall into place as they come. So, I'm going to say _SUCCEEDED_ on this one.
 
-_## The Coming Year_
+## The Coming Year
 Now that I've looked back on my list of past failures, let's set up a list of NEW ONES!
 
 **MOAR EXERCISE** - I have a good exercise facility at my disposal and I need to utilize it as much as I can. Goal - 3 hours of exercise per week increasing in amount and intensity as my physical endurance improves.

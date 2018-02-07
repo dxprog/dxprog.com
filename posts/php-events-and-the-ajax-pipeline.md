@@ -10,7 +10,7 @@ Working at LinkedIn, I feel almost required to talk about coding on my blog, esp
 
 Some months ago, I was trying to beef up the user feedback that [redditbooru](http://awwnime.redditbooru.com/) would give when making requests to the server. One thing I wanted to do was, during a reverse image lookup, have a continually updating status to the user. "Retrieving image", "Searching database", and then the final data. This required a couple of interesting things: implementing an event model in PHP, and the not-so-talked-about third readyState value in the XMLHttpRequest response: 3, or "processing request".
 
-_## PHP Eventing_
+## PHP Eventing
 
 Anybody who has coded JavaScript for more than thirty minutes will understand that it runs on a highly evented model. You attach a listener to an object with a function callback, the object fires and event, and the callback is called with data provided pertaining to the event in question. PHP, being a highly linear programming language, doesn't really have such a concept baked in. Being that I wanted something that could be easily reused through out an entire project, I came up with a stupid simple [events library](https://github.com/dxprog/reddit-booru/blob/master/lib/events.php). Pertaining to the internal event modelling, it exposes the following two methods:
 
@@ -21,7 +21,7 @@ These work essentially as they do in JavaScript: subscribe to an event with addE
 
 Here are a couple of quick production examples of [event firing](https://github.com/dxprog/reddit-booru/blob/master/api/image.php#L215) and [event subscribing](https://github.com/dxprog/reddit-booru/blob/master/controller/images.php#L199). One half of the puzzle solved.
 
-_## Sending and Parsing Evented JSON_
+## Sending and Parsing Evented JSON
 As stated previously, on modern browsers, the XMLHttpRequest response has a third ready state of "processing request". Essentially, this fires at certain points as the request is receiving data. We can use this to our advantage to send small status updates to the user as the backend performs numerous/long running tasks. Part of the events library are some calls to handle what I refer to as "evented Ajax", though I'm sure there's a real term for it. It has the following methods:
 
 [code=php]public static function beginAjaxEvent();

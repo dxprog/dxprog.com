@@ -9,10 +9,10 @@ A couple weeks back, I was hunting for the keys to the familial house, hoping th
 
 As I scanned the names of my old classmates, thoroughly surprised at just how many of them I had forgotten, I thought it would be fun to do a little experiment: see which ones I could track down online with any degree of confidence. Having gone to a rather expensive, private school, there were many kids of some affluence, so I assumed that quite a few of them would turn up. My thinking there being that they'd all have gone to college and made something of themselves.
 
-_## The Method_
+## The Method
 My method of performing this search was rather simple: open a private window in Chrome (to avoid any "social" cookies set in my normal browsing session), and search '"first last" oklahoma'. Some leads or additional information I knew would sometimes make me change this query, but it nearly always started there. Once I'd perused no more than three pages of search results, I would rank them on my confidence that I had found a person and how prominent or easily they showed up in the search. These were ranked from low to confirmed. I also tried to note where I found them, what they were doing, and any personal remarks that came to mind. I used my second grade class as the data pool, a total of 28 "kids".
 
-_## The Results_
+## The Results
 The results are almost entirely not what I expected at all. People I expected to appear easily (due to their prominence in school and/or highly specific names) were nowhere to be found, while people I barely remember existing were quite prominent. A lot can happen in twenty years, I suppose. But number break downs:
 
 **Confirmed** - 18%, 5 people

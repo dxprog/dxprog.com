@@ -14,7 +14,7 @@ MP Skin Studio [ [download](http://dxprog.com/docs/MPSkinStudio.zip) ]
 The GIMP [ [download](http://www.gimp.org/downloads/) ] (or any other imaging software that can create 256 color bitmaps). This tutorial will be written with GIMP in mind
 VisualBasic runtimes [ [download](http://www.microsoft.com/downloads/en/details.aspx?FamilyID=7b9ba261-7a9c-43e7-9117-f673077ffb3c&displaylang=en) ] - Only needed if you get some DLL missing errors when running MP Skin Studio.
 
-_## Step 1 - Creating Your Images_
+## Step 1 - Creating Your Images
 
 The first thing you'll need to do before even opening MPSS is to create all the images for your skin. Here's a list of everything there is to create:
 
@@ -44,7 +44,7 @@ So, after you've gathered up all your images (assuming you're not creating them 
 **256 colors? Palettized? What now?**
 For anybody who's never messed around with palettized file formats, this part will be the most annoying. Without going into too much technical detail, the GBA can only display so many colors at a given time to save on space and speed up render times. This means take our images, which could have a possible 38,400 colors and reduce them down to 256. This is where the GIMP comes in.
 
-_## Making a Simple Background_
+## Making a Simple Background
 We need to take a different approach for creating backgrounds that have icons and those that don't, though if you're feeling lazy you can use this method for all of them and MPSS will do it's best to make things look all pretty. Enough preamble, let's fire up GIMP. It'll take a while to start up the first time, but with some patience you should see something like this once it's done:
 
 [url=http://images.dxprog.com/blog/mpss_gimp.jpg]![](http://images.dxprog.com/blog/mpss_gimp.jpg "Kind of like this, but with less Toradora! Christmas wallpaper")[/url]
@@ -77,7 +77,7 @@ Name your file appropriately (with a .bmp extension) and click save. You'll be n
 
 As I mentioned earlier, you can create all your backgrounds this way, but to get the icons looking all nice we'll need to go a step further. First, let's create some icons.
 
-_## Creating an Icon_
+## Creating an Icon
 The steps to create an icon are very similar. In fact, it's just changing a couple of values. So, here they are:
 
 Cropping: set your ratio to 1:1 instead of 240:160
@@ -88,7 +88,7 @@ Transparency: If you would like an icon to have a transparent part, you'll need 
 
 Done!
 
-_## Making a Background w/ Icons_
+## Making a Background w/ Icons
 Here is where things can get a little tedius. This step needs to be performed BEFORE you set your image to 256 colors. With your background and icons all open, start copying all of your icons to your background image on new layers. Here's how we do that. On your icon, select the entire canvas by press Ctl+A and the press Ctl+C to copy. Now, move over to your background image and press Ctl+V. Your icon should appear in the middle of the screen. We want this on a new layer, so now click the New Layer button in the layers window:
 
 ![](http://images.dxprog.com/blog/mpss_layers.jpg "Click new layer after pasting")
@@ -103,7 +103,7 @@ Once you've hidden these, save the background image as above. Now to do all the 
 
 After all your icons and backgrounds have been sized, palettized and saved, we're ready to put it all together in MPSS!
 
-_## Pulling it all together_
+## Pulling it all together
 Now that all the graphics have been prepared, we're ready to pull it all together in MP Skin Studio. So, open it up and you'll be greeted with the following screen:
 
 ![](http://images.dxprog.com/blog/mpss_startup.jpg "MP Skin Studio")
@@ -155,7 +155,7 @@ After you've set the "File" background image, you can load in your file icons. T
 **Saving Up**
 Once you've gotten all your graphics loaded, positioned and such we're ready to save our skin. Click File->Save BACKIMG. Be sure to name your file BACKIMG.ext where ext can be whatever you want. If you've chosen to leave out some backgrounds or icons you may receive a warning. Just click OK and it'll save anyways. You're now ready to put your skin onto your GBAMP or M3!
 
-_## Errata_
+## Errata
 During the writing of this tutorial I've encountered more than a few bugs. As I originally wrote this software six years ago, I can't offer much in the way of support in terms of fixing them (I'm missing at least one source file :(). However, I will list what I discovered:
 
 - Having the bounding box enabled prevents you from loading in a new background. Just disable it and all is good.

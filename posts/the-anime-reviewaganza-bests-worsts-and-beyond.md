@@ -8,7 +8,7 @@ tags:
 ---
 Taking a bit slower pace on rolling these out this year, but here's another page of anime reviews.
 
-_## Biggest Surprise_
+## Biggest Surprise
 ![](http://images.dxprog.com/blog/reviews12_my_little_monster.jpg "My Little Monster")
 [b]Chris - _My Little Monster_[/b]
 When 2012 started, little did I know that I would close out the year by watching a shoujo title, which -- let's not beat around the bush here -- are made for girls.  But I did.
@@ -25,7 +25,7 @@ In a show that has the phrase "pet girl" in it, one's expectations certainly can
 
 Unbelievably, these moments are relatively scarce and, for the most part, play themselves out by the end of the first episode. What we're left with is a story about finding one's niche, pursuing one's passions, envy and jealousy, and learning to adapt to living around people who are insanely talented. The cast of characters, while adhering to the usual tropes, are varied and interesting and the dynamics between them make for an enjoyable watch. The titular character is still the least likable of the bunch, being far too inept to be likeable (and made more annoying in that she'll wind up being the protagonist's primary love interest, no doubt). All in all, though, it's an entertaining show that certainly could have been worse and I plan to continue watching to its conclusion.
 
-_## Biggest Disappointment_
+## Biggest Disappointment
 ![](http://images.dxprog.com/blog/reviews12_kokoro_connect.jpg "Kokoro Connect")
 [b]Chris - _Kokoro Connect_[/b]
 This show should have been bad ass, and in some ways it was.  Following a group of high school students as some funky jack ass screws with their lives in various ways, the premise was solid and complemented by a solid set of characters, notably Taichi and Inaba.  Unfortunately, the execution was less than stellar plot-wise.
@@ -46,7 +46,7 @@ While Papakiki does indeed attempt incorporate some of these elements, it also h
 
 It's trying to do both and utterly fails on all fronts.
 
-_## Why the Fuck Did I Watch That?_
+## Why the Fuck Did I Watch That?
 ![](http://images.dxprog.com/blog/reviews12_papakiki.jpg "Papakiki... again")
 [b]Chris - _Listen to Me, Girls, I'm am you Father_[/b]
 I'll be honest, I know why I started watching this show initially.

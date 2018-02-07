@@ -8,7 +8,7 @@ tags:
 ---
 It's that time of year again. That is, the end of the year and the beginning of another. As has become a normal thing for my website, I am here doing reviews of anime series I watched during the year. However, I will be changing it up a bit and instead of reviewing everything, things will be done in a categorized award fashion. Joining me again this year are my brothers Jeff and Chris. So, without further ado, let's begin!
 
-_## Why the Hell did I Watch That?_
+## Why the Hell did I Watch That?
 
 ![](http://images.dxprog.com/blog/2011_reviews_wings.jpg "We Without Wings")
 **Chris - First half of the first episode of We Without Wings**
@@ -32,7 +32,7 @@ I actually have a handful of shows that could fit in this category, but I too mu
 
 Oh, and there's a milk maid. But she doesn't get her milk from cows... her cow shaped ears and actions tell us that she _is_ the cow...
 
-_## Best Opening Song_
+## Best Opening Song
 [b]Chris - Hacking to the Gate (_Steins; Gate_)[/b]
 [![youtube video](https://img.youtube.com/vi/nLGS_rNSlKU]
 This song is from Steins; Gate, which automatically makes it awesome.  Do you know how many times I've listened to this song?  _One hundreds of zillions of times_.  FUCK YOU, that is a real number.
@@ -52,7 +52,7 @@ This song is from Steins; Gate, which automatically makes it awesome.  Do you kn
 I'd considered choosing Madoka Magica's [Connect/0.jpg)](https://www.youtube.com/watch?v=dQbaJquz_jo]
 I'd considered choosing Madoka Magica's [Connect)(http://www.youtube.com/watch?v=btNSYi2QMTM), but instead opted for Pani Poni Dash' third opener. What bumps Shojou Q above is how the song is drippy with 80s goodness, from the synth stabs to the wire frames littered throughout the opening animation. This really fits in well with Pani Poni's pop culture referential, super random craziness.
 
-_## Best Ending Song_
+## Best Ending Song
 [b]Chris - Sky Clad no Kansokusha (Sky Clad Observer) (_Steins; Gate_)[/b]
 [![youtube video](https://img.youtube.com/vi/mKQ2DCMC0JM]
 This song was used as the ending in one episode of Steins; Gate, but that' enough to grab the award from me.  As with my choice of best opening, I have listened to this song _one zillion jillion times_.  Not possible?  This song makes it possible through pure badassery.

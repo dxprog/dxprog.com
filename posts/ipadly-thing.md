@@ -9,10 +9,10 @@ tags:
 ---
 As I sit here, hogging my little brother's bed, typing out a blog post on my own personal PADD, I realize that I do not really know what it is that I want to say. So, I shall talk about the device itself and my opinions on it seeing as I've now owned the thing going on a week.
 
-_## The Hardware_
+## The Hardware
 There is no doubting that the iPad hardware is top quality. It is sleek and has a good, solid feel to it. The screen is bright and crisp, though it does come withe usual glare problems you will get from having a glossy screen (not to mention the fingerprints... Oh, god the fingerprints!) My only real complaint about the hardware is it's lone, mono speaker. It doesn't sound _bad_, but it doesn't have e crispness you get from two discrete aud channels.
 
-_## Software_
+## Software
 iOS is much nicer and easier to use on a lager screen, but in the end it is still iOS. I will list off a few apps I've found that I feel warrant some attention (food or ill):
 
 Flipboard: This is a feed reader of sorts (it will pull feeds from twitter, Facebook, google reader, etc.), but presents stories in a very newspaper-esque way. It is very clean and sexy to look at and for the price is free, probably the best iPad app I've gotten.
