@@ -1,10 +1,18 @@
-import { SiteGenerator } from 'staticr-site';
+import {
+  SiteGenerator,
+  Renderers } from 'staticr-site';
 import * as path from 'path';
 
 import { DxApiReader } from './src/readers/dxapi-reader';
 
+const { PostsRollupRenderer, PostRenderer } = Renderers;
+
 const pg = new SiteGenerator({
-  outputDir: path.join(process.cwd(), 'docs/')
+  outputDir: path.join(process.cwd(), 'docs/'),
+  renderers: [
+    new PostsRollupRenderer(5),
+    PostRenderer,
+  ]
 });
 
 // pg.addReader(DxApiReader);

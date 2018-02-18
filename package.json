@@ -23,7 +23,7 @@
     "moment-timezone": "^0.5.14",
     "request": "^2.83.0",
     "request-promise": "^4.2.2",
-    "staticr-site": "^0.3.0",
+    "staticr-site": "^0.3.1",
     "ts-node": "^4.1.0",
     "typescript": "^2.7.1"
   },

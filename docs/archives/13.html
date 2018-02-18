@@ -1,24 +1,86 @@
 <!DOCTYPE html>
-<html><head><title>Archives - Page 13</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>Riiiiccoollaaa--aa--aa----a------</h2><time>June 4, 2015</time><div><p>Hey, there. It&#39;s been quite some time. About two months, I&#39;d reckon. Actually, I&#39;m not even sure that last post counts for much, being that it was entirely technical. The one before it doesn&#39;t count either, as it was more of an op-ed piece... I guess? I dunno...</p>
-<p>So, what exactly has Matt Hackmann been up to since his last meaningful &quot;life update&quot;? Who wants to know? Certainly, you don&#39;t. But, the future me does, so that&#39;s enough to validate my want to write this post. The answer to the original question is fairly simple: not a lot. And also, everything. Maybe it&#39;s not so simple after all.</p>
-<p>The easy answer, really, is work. NDA prevents me from mentioning what exactly is going on, but it&#39;s pretty big. Now that I&#39;m a team lead, I&#39;m being challenged in ways that are completely new and foreign to me. Adding to that, I&#39;ve spent the last month or so on a pretty large portion of this project that affects everybody working on this codebase. All of that landed on Monday and since then, I&#39;ve been helping people on-board while also crushing any bugs that crop up. I still have a long way to go until all that is all tied up with a neat little bow, but this is probably the most difficult and certainly the most crucial time in the life cycle. I&#39;m hoping to be able to breathe a little bit once this part is done.</p>
-<p>In the now, very little happens outside of work. I spend most of my evenings and weekends just trying to mentally recuperate, which primarily consists of naps and lazing around. However, this is coming off of a fair amount of things that happened in the last few months.</p>
-<p>Back in March, I moved from my little apartment in Sunnyvale to a slightly less little apartment in San Mateo. The apartment itself is pretty sweet and the location is even better. There are so many places that are now in walking distance, from ramen shops to the train station to friends houses. Due to the above exhaustion, I haven&#39;t taken as much advantage of this as I should, but once things ease up, I hope to start sampling some more of the food wares in the area. Inside my apartment, I built a couple of sweet desks to fill the larger space in my room, so I now have a space for computer things and a space for electronics things.</p>
-<p><img src="http://i.imgur.com/YWUQqEZ.jpg" alt="" title="SO MUCH DESK ROOM FOR ACTIVITIES"></p>
-<p>In April, I made another pilgrimage to Japan, this time accompanied by a couple of friends from work. In some regards, I consider this trip to have been more successful than the previous one. I knew better what was going on, and had far, far less fast/conbini food than last time. We also managed to land right in the middle of cherry blossom season which was goddamned gorgeous. Of course, there was plenty of time spent in Akihabara and I came away with many nerdy goods to fill my shelves and to gift to folks. It&#39;s hard to believe that it&#39;s already been almost two months since I&#39;ve been back... or that I even went at all.</p>
-<p>So, that&#39;s a bunch of stuff. I&#39;m actually feeling motivated to work on my LED board project right now, so I guess I&#39;ll do that.</p>
-<p>Or I&#39;ll binge watch a bunch of Forensic Files &gt;_&gt;</p>
-</div></article><article><h2>Fun with Load Balancers and Running on Lean Disk Space</h2><time>March 29, 2015</time><div><p>A while back, I spun up a new server and threw a load balancer on top of it and my existing server. The primary reason at the time was to allow cdn.awwni.me to continue to run while Linode performed some mandatory maintenance on the original server (we&#39;ll call it &quot;Chitoge&quot;). The size of that directory at the time was somewhere around 100GB; my new server (we&#39;ll call that one &quot;Taiga&quot;) has something like 20GB of total space. Obviously, I couldn&#39;t clone from Chitoge to Taiga, so I got a little clever. Using some fun around the hosts file, the nginx site config, and a small <a href="https://github.com/dxprog/rbcdn">PHP script</a>, when a file can&#39;t be found locally, it&#39;d be retrieved from the Amazon S3 store I use as long term backup. S3 is slow, though, so I later changed it to pull directly from Chitoge. This helped both with speed and didn&#39;t count against traffic since internal network traffic is free. In a bout of laziness, instead of opening a connection to that server via IP and hand massaging the &#39;Host&#39; header of the request (or mounting some sort of file share), I just host overrode cdn.awwni.me on Taiga to point to Chitoge. Everything worked great.</p>
-<p>Last night, knowing that I was soon to exhaust space on Chitoge (a thing that has happened on more than one occasion), I decided to convert it over to the same setup as Taiga. This would allow me to kill dozens of gigabytes of locally stored images and extend the life of my server plan at least a couple of years. Knowing that I was now deleting Taiga&#39;s source of truth image store, I changed up the script to check from a pool of servers; first try a local server, then if that fails, go to AWS. That worked fine and, while I was setting this script up on Chitoge, I decided that it should check against Taiga just in case it had a copy before wasting time downloading from AWS.</p>
-<p>I got everything set up and started deleting old image files. Everything seemed fine, so I let the deleting continue and went to bed.</p>
-<p>When I woke up, I was greeted by many messages in my reddit inbox saying that images were experiencing 50x errors. My initial thought was that I was saturating the CPU/connection with that long running process, so I killed it. I was unable to repro any errors, so I went on my merry way... until somebody new complained. Well, fuck...</p>
-<p>To make a long story short, because I had pointed each server to each other, I was creating an infinite network loop whenever an non-local image was requesting. Here it is in traffic logs:</p>
-<p>[User Request -&gt; Taiga] GET /the_image.jpg
-Doesn&#39;t exist locally. Retrieving from first server in pool: <a href="http://cdn.awwni.me/the_image.jpg">http://cdn.awwni.me/the_image.jpg</a> (Forced pointing to Chitoge)
-[Taiga -&gt; Chitoge] GET /the_image.jpg
-Doesn&#39;t exist locally. Retrieving from first server in pool: <a href="http://cdn.awwni.me/the_image.jpg">http://cdn.awwni.me/the_image.jpg</a> (Forced pointing to Taiga)
-[Chitoge -&gt; Taiga] GET /the_image.jpg
-Doesn&#39;t exist locally. Retrieving from first server in pool: <a href="http://cdn.awwni.me/the_image.jpg">http://cdn.awwni.me/the_image.jpg</a></p>
-<p>So, basically that until the scripts start timing out. Now, in a normal infinite loop, you kill your own process but, generally, should be safe from affecting others. However, here, every time there&#39;s a new request, that&#39;s potentially a new instance of PHP being spun up because the other instances are deadlocked waiting for data. So, eventually, the entire chain collapses and you start getting orangereds in your reddit inbox.</p>
-<p>In the end, I still have Taiga sourcing from Chitoge since all image uploads go directly there and, generally, Chitoge will have a copy of the file. Chitoge will always take the AWS hit when a file doesn&#39;t exist to avoid this loop scenario. There are many ways I could avoid this scenario entirely, but for now, this set up is getting the job done.</p>
+<html><head><title>Archives - Page 13</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>The One Time I Get Something Pixel Perfect...</h2><time>October 18, 2013</time><div><p>Was flipping through old comps and ran across the initial comp for the current version of the music page:</p>
+<p><img src="http://i.imgur.com/luLm1zu.jpg" alt="" title="Still looks good"></p>
+<p>Obviously there have been some feature adds, but I was a bit shocked to see that I was essentially pixel perfect in coding this (something I rarely bother with in personal projects). I did have to go in and add the <a href="http://designshack.net/articles/css/mastering-css-reflections-in-webkit/">album reflection</a>, but it was fifteen minutes well spent. I looks fuckin&#39; DOPE!</p>
+<p><img src="http://cdn.awwni.me/mjat.png" alt="" title="Yeeaaahhh..."></p>
+<p>Now, I just need to get the app looking as cool...</p>
+<p><img src="http://i.imgur.com/wthey9W.png" alt="" title="Yes, there is an app for this"></p>
+</div></article><article><h2>OS X - Six Years Later</h2><time>October 17, 2013</time><div><p>About six and a half years ago, I wrote a <a href="http://dxprog.com/entry/a-word-on-the-state-of-apple/">review of my opinions on OS X</a>, then version 10.3 (Tiger). At some point, I dropped trying to struggle through using OS X and moved back to Windows. But, now that I find myself in a work environment that uses Apple&#39;s operating system and have been using it on a daily basis for three or four months (I initially was working on my RedHat machine), it&#39;s time to revisit this. I&#39;ve changed as a computer user, and the version number has incremented five times, so surely the outcome is different. Despite my hatred for Apple&#39;s attitude as a company, I will try to make this as objective as possible.</p>
+<h2 id="stuff-i-love">Stuff I Love</h2>
+<p><strong>The Terminal</strong> - The best part of OS X is having a Unix terminal at its core. I was not very Linux savvy seven years ago, and even bitched about the folder structure in my initial review. While all those directories with periods in front of them can get annoying (and you know I have finder set to show them), I have no qualms moving about in a command line world. In fact, I prefer it in a lot of cases, especially since I remote into machines basically all of the time.</p>
+<p><strong>The Apple Mouse</strong> - Not an OS X feature, per se, but I always thought this thing looked stupid retarded, mainly for the lack of buttons. But, I have to cave on this one and say that in the short time I&#39;ve been using it, I&#39;ve become addicted to the extra functionality you get with the touch surface. Scroll vertically and horizontally, swipe left/right to go back/forward in the browser, two fingers to switch spaces, and most importantly, right and left clicks are recognized. I really only have two complaints about this thing: there&#39;s no middle click and the double two finger tap to bring up expose only work about half the time, making that almost unusable.</p>
+<h2 id="stuff-that-drives-me-up-a-tree">Stuff That Drives Me Up a Tree</h2>
+<p><strong>Finder</strong> - For all intents and purposes, Finder hasn&#39;t changed much since OS5 (except now it&#39;s in color). My biggest complaints are:</p>
+<ul>
+<li>Still can&#39;t sort leaving directories at the top (pet peeve number 1 about all of OS X)</li>
+<li>No visible-by-default address bar. As I was writing this post and dicking around with the Finder preferences, I did discover the &quot;path bar&quot; and a path dropdown which make me a little bit happier. The path bar is similar to Vista and up&#39;s bread-crumb address bar (which I really didn&#39;t like at launch), but is actually for visual info only and has no interaction. Still, in finding the settings pane, I eliminated a couple of items on this list.</li>
+<li>Keyboard support still sucks (can&#39;t delete by pressing delete, can&#39;t cut a file at all)</li>
+</ul>
+<p><strong>Application Management</strong> - The one thing that really annoys me about the dock is in its inability to let me see at a glance what I have open. Yes, I know what applications are running, but when you have multiple windows open, that can&#39;t be gauged at all. There is expose, and I&#39;ve tried to get into the habit of using that, but it&#39;s still frustrating to move my mouse down to the dock, click my application, and never get the window I was expecting. This action <em>should</em> bring back the last window to have focus, but I don&#39;t even know what the logic is. For example, when I click Chrome, it always goes to my instance of Chrome running the music page in another space (virtual desktop, whatever they call that shit). It&#39;s super annoying.</p>
+<p><strong>Window Management</strong> - Clicking the maximize button and not having my application take up the entire screen, but whatever portion of the screen it deems it needs is annoying. There&#39;s a way around this by holding shift, so technically that base is covered. However, the window doesn&#39;t stick there. In messing with tabs in Chrome, sometimes I&#39;ll accidentally move the entire window by some pixels and, because it thinks it&#39;s maximized, I can&#39;t do the shift click trick again to force it back into the viewport proper. That&#39;s something that&#39;s plagued OS X for as long as I&#39;ve been using it. The other thing that bugs me is how awesome Windows 7 suddenly got at managing windows, particularly the snapping stuff. Drag a chrome tab to the top of the screen, it would full screen on that viewport (something I do all the time in multi-monitor setups). Make a window take up all the vertical height it can by resizing the top or bottom edge to the top or bottom of the viewport, something I did with Skype all the time. I never realize how awesome that shit is until it&#39;s gone, like when I was at Winnercomm and all we had were XP machines.</p>
+<p><strong>Calendar</strong> - This is another Vista/7 thing that I got used to, but when you click on the time in the task tray, you&#39;re given a fully functional calendar. I would often use this to figure out what day a date was in the future, across months or years. OS X&#39;s date just gives me view options. If I open up the date and time preferences, I can see the currently calendar month but can&#39;t pan through them because auto updating is enabled. Yet another feature that I didn&#39;t realize I had become so reliant on until it was gone.</p>
+<p><strong>Keyboard</strong> - As my final complaint, a couple things relating to the keyboard. First of all, those fucking symbols. Just say command, shift, option, or control for god&#39;s sake instead of having things that look like foreign currency characters. Last item is the home and end keys. Now, I was able to adjust some obscure ass setting to get these keys to move to the beginning/end of a line which makes them ~80% usable again, but the other use case was Ctl+Home/End to move to the beginning/end of a document (which were their initial assigned functions in OS X).</p>
+<p>So, that&#39;s my updated rant about OS X. It may seem like I have a lot of complaints, but they&#39;re really all minor annoyances that jam up a workflow I&#39;ve spent years crafting. I&#39;m doing my best to retrain myself to native ways around these problems, but old habits die hard with a vengeance and even at that, there&#39;s not always a solution. Still, in retraining myself, I&#39;ve taken to a couple of concepts very quickly, namely the aforementioned mouse and spaces. Both of these have become muscle memory in a matter of days.</p>
+<p>Concluding, I don&#39;t hate OS X. I&#39;m just as productive in it as I am in Windows. There are just a lot of hiccups regarding learned behaviours that, when given enough of them, really get on my nerves.</p>
+</div></article><article><h2>Why Write What&#x27;s Already Been Filmed</h2><time>October 16, 2013</time><div><p>Due to a bout of crazy sleep, I missed yesterday. Whatever, MOM!</p>
+<p>This Sunday, I&#39;ll be flying back out to Florida to encourage the fresh minds at my alma mater that working at LinkedIn is pretty cool and a thing they should do. Part of that encouragement is in the form of a presentation I must give. A part of that presentation is an introduction of myself. I&#39;ve gone through a couple revisions, based off of feedback from the good folks organizing the effort, but it&#39;s been mixed. Say more about yourself and your journey and less about LinkedIn. Oh, now say a bit less. It&#39;s slightly maddening.</p>
+<p>But, I don&#39;t really need to do any of this. After all, it&#39;s all been done before...</p>
+<p><a href="https://www.youtube.com/watch?v=Lhfy7Bo9hng"><img src="https://img.youtube.com/vi/Lhfy7Bo9hng/0.jpg" alt="youtube video"></a></p>
+</div></article><article><h2>The Gunstick Maker</h2><time>October 14, 2013</time><div><p>War.</p>
+<p>It was a thing despised by most, and rightfully so. Very little good generally came of war; death, destruction, and various other negative words in the same vein. But, to Edgar Smith, war was a thing to be embraced, welcomed into the home like a friend not seen in a long time.</p>
+<p>Because war meant business.</p>
+<p>Even from a young age, Edgar had always show an interest in black smithing. Perhaps it was destiny, his last being Smith after all. He&#39;d apprenticed under Old Man Jenkins through his adolescence and opened his own shop at seventeen, a thing that even the most experienced men in the field could not brag. From his shop came the most incredible items the town had seen, everything from chairs to wall lamps. Life was good and business thrived.</p>
+<p>And then the South decided that owning slaves was something to fight over and war broke out.</p>
+<p>If business was good before, it was great now. Orders were coming in by the horse load. Muskets needed to be made, and bullets to go with them. Horses needed shoes and wagons needed wheels. Overnight, Edgar went from modest silverware maker to rich arms dealer. He didn&#39;t care what side came to him, either; their money was good anywhere. Yes, the hours grew longer, but so did the piles of cash and even when a ship date slipped, he didn&#39;t worry. He crafted the most reliable guns in America and that was something that customers would wait an extra day or two for.</p>
+<p>Life was good and it was only getting better.</p>
+<p>Late one evening, there was a loud knock at Edgar&#39;s shop door. Startled, he whirled around but never even had the chance to open it.</p>
+<p>He was dead.</p>
+<p>Run through by a gunstick he&#39;d been pleasuring himself in the ass with.</p>
+</div></article><article><h2>Even more screenplays</h2><time>October 13, 2013</time><div><p>I was going to make a post going over statistics of the redditbooru CDN (I myself am not aware of the numbers), but seeing as how awstats is still churning through my 1GB log file and I need to be at the theater in half an hour if I want to see Gravity, you&#39;ll have to settle for another screenplay I wrote ten years ago.</p>
+<p>[quote]RANGER BOB</p>
+<p>EXT. FOREST - DAY</p>
+<p>Two KIDS are throwing rocks into a lake when RANGER BOB steps out from behind some trees</p>
+<pre><code>RANGER BOB
+Hey, you! Throwing objects into the lake is against
+park rules!
+
+KID1
+Yeah, so what are you going to do about it?
+</code></pre><p>Ranger Bob pushes both kids into the lake</p>
+<pre><code>KID2
+Hey! I thought you couldn&#39;t throw things into the lake
+
+RANGER BOB
+I didn&#39;t throw you, I pushed you
+</code></pre><p>Ranger Bob walks off as kids stare at him
+Some people are eating when Ranger Bob approaches</p>
+<pre><code>RANGER BOB
+I&#39;m sorry, but the park calorie limit is 500. Eating that
+will exceed the limit. I&#39;m afraid I&#39;ll have to take it.
+</code></pre><p>Ranger Bob grabs food and walks off eating it humming</p>
+<p>EXT. FOREST - NIGHT</p>
+<p>Two kids are around a camp fire telling ghost stories
+Next to them is a sign that reads &quot;No campfires beyond this point&quot; and a line is marked.</p>
+<pre><code>KID1
+And then he rose out of the darkness and said…
+</code></pre><p>Shadow of Ranger Bob rises behind Kid1</p>
+<pre><code>RANGER BOB
+This campfire is illegal.
+
+
+KID2
+No it ain&#39;t! We&#39;re not over the border.
+</code></pre><p>Ranger Bob leans of and blows the fire so the flames are over the line</p>
+<pre><code>RANGER BOB
+I&#39;m afraid I&#39;m going to have to write you two up.
+</code></pre><p>Ranger Bob walks off</p>
+<pre><code>KID1
+Jerk!
+</code></pre><p>Ranger Bob is in front of a sunset</p>
+<pre><code>ANNOUNCER
+Ranger Bob, the supreme symbol of national park authority.
+</code></pre><p>Kid comes skipping across the scene and Ranger Bob runs after him</p>
+<pre><code>RANGER BOB
+Hey you
+</code></pre><p>THE END[/quote]</p>
 </div></article></section></body></html>

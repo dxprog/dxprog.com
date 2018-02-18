@@ -1,21 +1,60 @@
 <!DOCTYPE html>
-<html><head><title>Archives - Page 35</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>The Watchings</h2><time>October 9, 2013</time><div><p>I have nothing better to talk about than the things I am watching, either actively or are just stuck in the middle of. So, whatever.</p>
-<h2 id="normal-shows">Normal Shows</h2>
-<p><strong>Breaking Bad</strong> - Currently somewhere in season 2. Everybody lost their shit over this show and, while I certainly think it&#39;s well written, it hasn&#39;t quite gotten to the &quot;gripping&quot; part for me yet. Also, the episodes are so long and deep that it&#39;s a hard one to marathon.</p>
-<p><strong>Parks and Rec</strong> - Basic sitcom, and a humorous one at that. Unlike Breaking Bad, I could watch this all day. Light and fluffy.</p>
-<p><strong>Star Trek (TOS)</strong> - I&#39;m somewhere down at the end of the first season and it&#39;s been entertaining so far. Despite the rocky start it&#39;s had trying to flesh out that universe, the core stories feel very Trek.</p>
-<h2 id="anime">Anime</h2>
-<p>The new season just started, and I don&#39;t want to give away too much of my opinions for the end-of-year reviews, so I&#39;ll keep this brief.</p>
-<p><strong>Kyoukai no Kanata</strong> - The new KyoAni show, so obviously I have to watch. They&#39;ve been on kind of a fantasy/mystery kick lately and this falls right in line with that.</p>
-<p><strong>Golden Time</strong> - Some college harem show. The first episode was pretty abysmal, but I&#39;ll stick around for the second to see if it improves and where they go with the cliffhanger ending.</p>
-<p><strong>Little Busters Refrain</strong> - I enjoyed the first season enough to watch the second. It&#39;s Key, so generally that means emotionally manipulative stuff even if it&#39;s not being expertly executed by KyoAni.</p>
-<p><strong>Nagi no Asukara</strong> - Interesting show about fish humans. I have a super weak spot for oceany type things, and the visuals hit that spot with a jack hammer.</p>
-<p><strong>Kill la Kill</strong> - From the guys who brought you Gurren Lagann, another crazy ass, stylized action show.</p>
-<p>So, yeah. There&#39;s my post for the day.</p>
-</div></article><article><h2>The Fates Conspired Against My Better Treadmill Entertainment</h2><time>October 8, 2013</time><div><p>This evening, I went out to grab my mail and, as I was walking that way, noticed that the gym was empty. Having not done my biking the last couple days as should have happened, I decided that a quick jog on the treadmill would be beneficial (especially since the scale is tipping down again).</p>
-<p>After quick journey back to the apartment to grab my iPad and shoes, I made my way back towards the gym where I would mooch off some wifi and catch some Parks and Rec courtesy of Netflix. Except that the wifi is either moles asses slow or just plain doesn&#39;t work, because I walked in place in front of a red screen loading for a couple minutes before giving up.</p>
-<p>No matter, just about every machine in that room is wired up with cable. Flicking on the TV, I waited through a few commercials to see what channel I was on. Turns out it was the Food Network and it was showing Chopped, one of those god awful reality shows that the former cooking show channel likes to play these days. Because god forbid we&#39;re not entertained by shallow, scripted-through-editing shit TV instead of being educated on how to woo women with succulent dishes. Yes, I&#39;m a little sore that every channel that had mildly educational stuff has gone over to this format (looking at you Discovery Channel, History Channel, The Learning Channel).</p>
-<p>But, whatever. I could just change the channel. Except, the channel changing buttons wouldn&#39;t actually change anything. They clearly were doing <em>something</em> because the OSD would come up with the current station number, but it would actually change. At this point, I should have turned off the TV. But I didn&#39;t.</p>
-<p>I walked/jogged as hippies tried to cook chickens feet for a Halloween themed dish.</p>
-<p>Goddammit...</p>
+<html><head><title>Archives - Page 35</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>Writing Super Tiny Code</h2><time>July 11, 2012</time><div><p>About a month or so ago, there was a contest thread on reddit whose objective was to write a PHP function to score a bowling game in as few characters as possible. A comma delimited string of frames would be passed in to the function and the score of said string would be returned.</p>
+<p>My first step to this was to write, in normal code, a function that would do just that:</p>
+<p>[code=php]function dxprog($game) {
+    $game = explode(&#39;,&#39;, $game);
+    $len = count($game);
+    $i = 0;
+    $score = 0;
+    $frame = 0;
+    while ($frame &lt; 10) {
+        $frame++;
+        $score += $game[$i];
+        $next = $i + 1 &lt; $len ? $game[$i + 1] : 0;
+        $next2 = $i + 2 &lt; $len ? $game[$i + 2] : 0;
+        if ($game[$i] == 10) {
+            $score += $next + $next2;
+            $i++;
+        } else if ($game[$i] &lt; 10 &amp;&amp; $game[$i] + $next == 10) {
+            $score += $next;
+            $score += $next2;
+            $i += 2;
+        } else {
+            $score += $next;
+            $i += 2;
+        }
+    }
+    return $score;
+}[/code]</p>
+<p>496 characters. Obviously, the next step was to minify that code:</p>
+<p>[code=php]function dxprog($game) {
+    $g=split(&#39;,&#39;,$game);$l=count($g);$i=$s=$f=0;while($f&lt;10){$f++;$s+=$g[$i];$n=$i+1&lt;$l?$g[$i+1]:0;$n2=$i+2&lt;$l?$g[$i+2]:0;if($g[$i]==10){$s+=$n+$n2;$i++;}else if($g[$i]&lt;10&amp;&amp;$g[$i]+$n==10){$s+=$n+$n2;$i+=2;}else{$s+=$n;$i+=2;}}return $s;
+}[/code]</p>
+<p>That brings us down to 232 characters. All of the minification was done by hand and now began the task of trimming as many characters as I could. Any reduction in characters, no matter how few, was welcomed. I reviewed my logic, rolled together declarations where I could and came up with the following 186 characters:</p>
+<p>[code=php]function dxprog($game) {
+    $g=split(&#39;,&#39;,$game);$l=count($g);$i=$s=$f=0;while($f&lt;10){$f++;$s+=$x=$g[$i];$o=$i+2&lt;$l?$g[$i+2]:0;$n=++$i&lt;$l?$g[$i]:0;if($x==10)$s+=$n+$o;else{$s+=$n;$i++;$s+=$x+$n==10?$o:0;}}return $s;
+}[/code]</p>
+<p>This challenge was pretty interesting because it required me to think in ways I never have before. In PHP, there&#39;s little reason to write small code, and in JavaScript, I&#39;ll just run it all through something like <a href="http://closure-compiler.appspot.com/home">Closure Compiler</a>, so this was something entirely new. What really helped reduce the code in the end was eliminating conditional branches that did the same thing (ternaries also helped immensely).</p>
+</div></article><article><h2>Lost Items Means Pictures of Cookies</h2><time>July 10, 2012</time><div><p>Sadly, the mounting plate for my tripod seems to have gone missing which is really putting a damper on my video shooting ability (I fear I may have shipped it away with my camcorder).</p>
+<p>So, in the stead of a video, here are photos of the peanut butter cookies I made after midnight last night. I had a hankering for cookies and, seeing as I have barred myself from stepping foot back in Wal-Mart again this week, conjured these up. I make the rules and if I decide I want cookies, I&#39;ll make some cookies regardless of the hour.</p>
+<p><img src="http://images.dxprog.com/blog/peanutbutter_cookies1.jpg" alt="" title="Depth of field!"></p>
+<p><img src="http://images.dxprog.com/blog/peanutbutter_cookies2.jpg" alt="" title="MOAR depth of field"></p>
+</div></article><article><h2>Lunch Musings - November 11, 2011</h2><time>July 9, 2012</time><div><p>I was walking on my lunch break as I oft do and I saw sign with &quot;11-1-11&quot; scribbled on the back. This reminded me of the big stink that nerds raised last year on 11-11-11 and how it was the &quot;last binary date of our generation&quot;.</p>
+<p>But, nerds. You should know this wasn&#39;t true.</p>
+<p>Yes, 111111 is 63 and, no, we&#39;re never going to encounter a date like that again in our lifetimes or in the next thousand years, for that matter. But for any nerd to try and assume that 11-11-11 is a valid date is stupid. There was this little thing a few years ago called Y2K.</p>
+<p>You may recall it.</p>
+<p>The whole issue with Y2K, for those who don&#39;t recall or never knew, was in the data depiction of years in a date. The first two digits were discarded and only the last two saved. Computers automatically stuffed a &quot;19&quot; in front and called it a day. Obviously, when those two stored digits were &quot;00&quot;, all the dates would read 1900 and there would be mass pandemonium.</p>
+<p>But, since the crossing of the (almost) new millennium, we&#39;ve had to differentiate by storing the entire date, meaning all years would be stored/displayed as a four digit number.</p>
+<p>So, in nerd terms, there never <em>was</em> a 11-11-11, just 11-11-2011 (or, 20111111 if you like being able to sort your dates numerically). And now that we can store dates ranging from 1/1/0001 to 12/31/9999, there was no excuse for the &quot;whooaaahh&quot; moment.</p>
+<p>Now, January 19, 2038 03:14:08? <em>That&#39;s</em> something to look <a href="http://en.wikipedia.org/wiki/Year_2038_problem">forward to</a>.</p>
+</div></article><article><h2>When Your Foods Combine...</h2><time>July 8, 2012</time><div><p><a href="http://reddit.com">reddit</a> is a great place to kill time with somewhat similarly like-minded people. It&#39;s a great place for comedy, feels, and elitism. As it turns out, it&#39;s also a great place for crazy awesome food ideas such as <a href="http://imgur.com/a/avjMU">pizza cupcakes</a>.</p>
+<p>That photo series is scant on details, but there&#39;s really no recipe to follow here. I used the recipe on the back of a package of pizza yeast, stuffed into muffin tins, and filled with deliciousness - pizza sauce, Canadian bacon, Italian sausage, and mozzarella (the stuff you find in the hispanic section, not shredded). Stuff in a 400F oven for 10-15 minutes (depending on how you like your crust) and you get amazingness:</p>
+<p><img src="http://images.dxprog.com/blog/pizzacakes1.jpg" alt="" title="Raw"></p>
+<p><img src="http://images.dxprog.com/blog/pizzacakes2.jpg" alt="" title="Not so raw"></p>
+</div></article><article><h2>I Has a Shiny New Toy</h2><time>July 7, 2012</time><div><p><img src="http://images.dxprog.com/blog/me2012.jpg" alt="" title="The only face I know how to make"></p>
+<p>As it turns out, FedEx delivers Tuesday through Saturday, so my lost weekend is less so.</p>
+<p>I&#39;ve been wanting a decent camera for some time as the point and shoots do not deliver the kind of quality I would prefer (and tend to fall apart rather quickly). I was actually planning on picking up a dSLR last year before the <a href="http://dxprog.com/entry/from-the-con-floor-day-1/">anime convention</a>, but, I couldn&#39;t find one for a decent enough price that also did video. The answer to that problem, apparently, is to simply wait a year.</p>
+<p>Fast forward to now - still wanting a good camera for the con - and the camera I&#39;ve purchased, a <a href="http://www.amazon.com/gp/product/B004J3V90Y/ref=s9_simh_gw_p421_d6_g421_i2?pf_rd_m=ATVPDKIKX0DER&amp;pf_rd_s=center-3&amp;pf_rd_r=19H1SBQ8D7AXT6FGWZCS&amp;pf_rd_t=101&amp;pf_rd_p=470938811&amp;pf_rd_i=507846">Canon Rebel T3i</a> retails for $750, well under the lower end numbers from last year. Toss in some clever shopping about and selling off of soon-to-be deprecated hardware (my old camcorder), and that $750 is brought down to a much more tolerable $350.</p>
+<p>Even at $750, it would have been worth every goddamn penny. The picture above was taken with the flash <em>off</em> in my poorly lit bathroom. AND IT STILL LOOKS AMAZING (my troll face notwithstanding)!</p>
+<p>I&#39;ve not yet played around with the video option much, but expect some new movies this month now with fancy, movie style <a href="http://www.youtube.com/watch?v=vzC0Ek6X5FY">rack focus</a>!</p>
 </div></article></section></body></html>

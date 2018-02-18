@@ -1,24 +1,137 @@
 <!DOCTYPE html>
-<html><head><title>Archives - Page 18</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>Designing with Materials</h2><time>September 8, 2014</time><div><p>So, I found my bike pump. Turns out I stashed it in the back of my car at some point. Probably that time I drove down to San Mateo to bike into work (as I&#39;ll be doing very early tomorrow morning).</p>
-<p>As I begin spinning up the ol&#39; design gears readying myself for the inevitable yearly update to the bracket, I was scanning the docs for Google&#39;s <a href="http://www.google.com/design/spec/material-design/introduction.html">Material specs</a>. Interesting stuff, for sure, and an aesthetic I really like. That in mind, I attempted reworking the bracket selection page somewhat in this style. Failed miserably, but it was an interesting night of exploration.</p>
-<p><img src="http://i.imgur.com/KFmaoyY.jpg" alt="" title="Bleh"></p>
-<p>The thought of a full screen selection page was kind of nice for about the first 30 minutes, but has since lost its appeal. Also, finding the right kind of imagery to pull that off would be difficult. On top of all that, not really pleased with the typography.</p>
-<p>I think the better patter to use in this case would be a <a href="http://www.google.com/design/spec/components/cards.html#cards-actions">card</a>. This will scale better with more brackets, will be easily transferrable to the <em>other</em> bracket site that&#39;s been spin from all of this, and also easily made for mobile devices. We&#39;ll see how that one goes.</p>
-</div></article><article><h2>And I would bike 500 miles</h2><time>September 7, 2014</time><div><p>But I wouldn&#39;t bike 500 more. At least, not within the span of a month.</p>
-<p>This morning, as a friend and I were biking our disappointment of not biking away, he made a comment about attempting to hit 500 miles by the end of the month. Though I grunted an agreement, my thoughts were skeptical. However, as I was biking this evening, attempting to bring my total milage for the week above my goal of 50, I considered how I might go about this without killing myself.</p>
-<p>Truth be told, it wouldn&#39;t be all bad.</p>
-<p>Let&#39;s consider that today is the 7th and that I have 23 more days with which to achieve my goal. I&#39;ve already biked 51.7 miles, so that leaves <em>only</em> 448.3 miles to go. Let&#39;s crack out some math:</p>
-<p><strong>448.3 / 23 = ~19.5 miles per day</strong></p>
-<p>Might seem high, but actually quite attainable. Let&#39;s break it down piece by piece.</p>
-<p>Five days a week, I can bike to work from home. It&#39;s about 6.3 miles in each direction, so that&#39;d be 12.6 miles. Lately, I&#39;ve been enjoying doing an end-to-end-and-back-again ride on my street, which is just shy of ten miles even. So, on any given work day, I could bike 22.5 miles. With 17 work days left in the month, that would be:</p>
-<p><strong>22.5 * 17 = 382.5</strong></p>
-<p>Now to figure out the other 65.8 miles.</p>
-<p>One way to do this would to simply continue my ten mile evening ride on the weekends. There are six weekend days left in the month, so that&#39;d be 60 miles. Of course, there&#39;s no reason why I couldn&#39;t do something a little longer, such as a bike to San Jose and back. On average, these run about 20 miles, so trade out one ten mile ride for that and I&#39;m already there.</p>
-<p>But, let&#39;s assume I don&#39;t want to bike <em>every</em> day. Let&#39;s also assume that I&#39;ll be doing some riding from San Mateo (because I most certainly will).</p>
-<p>The ride from San Mateo to Mountain View is on the order of 25.5 miles. Were I to do just one of those per week (let&#39;s assume Tuesdays), I could get four of those in. Here&#39;s the new workday break down:</p>
-<p><strong>13 <em> 12.6 + 4 </em> 25.5 + 4 <em> 6.3 + 17 </em> 10 = 461</strong></p>
-<p>So, that&#39;s 13 days of biking to and from home and work, four days of San Mateo -&gt; work -&gt; home, and then doing that short ten mile ride every evening. Suddenly, my weekends are free to collapse onto the couch and do nothing :D. Now, let&#39;s see how many calories this would burn (using some quickly head-calculated averages):</p>
-<p><strong>13 <em> 500 + 4 </em> 850 + 4 <em> 250 + 17 </em> 300 = 16,000 calories</strong></p>
-<p>So, basically 16 Taco Bell box meals if I don&#39;t drink soda. But, in actuality, I could eat more.</p>
-<p>Because just living also burns calories...</p>
+<html><head><title>Archives - Page 18</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>I Am My Own NSA When It Comes To Music</h2><time>June 27, 2013</time><div><p><p>It&#39;s time yet again to put on my <a href="http://www.youtube.com/watch?v=w3a52kemJcY" target="_blank">Data Analysis Cosby</a> hat and churn out some fun graphs based upon the listening habits of those using my ever present <a href="https://github.com/dxprog/DxCMS" target="_blank">music page</a> (a misnomer since it&#39;s done video for a long time now). Unlike <a href="http://dxprog.com/entry/the-battle-for-musical-listening-supremacy/">last time</a> where I just compared myself to my brother Chris (the other heavy user of the product), today are just some general stats of when music is played and how much we&#39;re listening to. Steve (yet another brother) has become quite active with this, and as such is pretty high on the charts as well.</p>
+<p><h4>Song Plays By Day and Hour</h4></p>
+<p><style type="text/css">
+            table { font:10px sans-serif; width:100%; }
+            .times { margin-bottom:20px; }
+            .times td { border:1px solid #000; position:relative; cursor:pointer; }
+            .times img { max-width:100%; display:block; box-shadow:0; padding:0; margin:0; }
+            .times td.day { border:0; border:1px solid #fff; text-align:right; }
+            .times td span { display:none; position:absolute; top:-21px; background:#fff; width:75px; padding:2px; text-align:center; left:-32px; border:1px solid #000; }
+            .times td:hover span { display:block; }
+            .times td.perc-1 { background:#e5edee; }
+            .times td.perc-2 { background:#ccdcde; }
+            .times td.perc-3 { background:#b3cacd; }
+            .times td.perc-4 { background:#9ab9bd; }
+            .times td.perc-5 { background:#80a8ac; }
+            .times td.perc-6 { background:#4d858a; }
+            .times td.perc-7 { background:#4d858a; }
+            .times td.perc-8 { background:#35747a; }
+            .times td.perc-9 { background:#1b6269; }
+            .times td.perc-10 { background:#025159; }
+            .times th.total { width:30%; }
+            .stats { font-size:12px; border-collapse:collapse; border-spacing:0; border-bottom:1px solid #ccc; }
+            .stats td, .stats th { text-align:center; padding:10px; border:0; border-top:1px solid #ccc; }
+            .stats th { border-top:0; }
+            .stats .even td { background:#f1f1f1; }
+            .stats .user { text-align:left; }
+            .stats .total { text-align:right; }
+            .stats td span { color:#777; }
+        </style>
+        <table class="times" summary="Plays By Hour/Day">
+            <thead>
+                <tr>
+                    <th></th>
+                    <th>12a</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>11</th>
+                    <th>12p</th>
+                    <th>1</th>
+                    <th>2</th>
+                    <th>3</th>
+                    <th>4</th>
+                    <th>5</th>
+                    <th>6</th>
+                    <th>7</th>
+                    <th>8</th>
+                    <th>9</th>
+                    <th>10</th>
+                    <th>11</th>
+                </tr>
+            </thead>
+            <tbody></p>
+<p><tr><td class="day">Sunday</td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>270</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>171</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>90</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>21</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>9</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>8</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>2</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>1</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>13</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>38</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>95</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>195</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>166</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>194</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>243</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>174</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>247</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>211</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>201</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>200</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>283</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>278</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>306</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>248</span></td></tr><tr><td class="day">Monday</td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>127</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>125</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>79</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>42</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>13</span></td><td><span>0</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>1</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>18</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>50</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>230</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>451</span></td><td class="perc-10"><img src="http://images.dxprog.com/spacer.png" /><span>521</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>448</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>206</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>290</span></td><td class="perc-8"><img src="http://images.dxprog.com/spacer.png" /><span>431</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>363</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>352</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>260</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>233</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>259</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>346</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>329</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>284</span></td></tr><tr><td class="day">Tuesday</td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>131</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>62</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>16</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>24</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>4</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>5</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>14</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>58</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>71</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>238</span></td><td class="perc-8"><img src="http://images.dxprog.com/spacer.png" /><span>404</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>354</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>390</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>310</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>329</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>472</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>330</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>307</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>334</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>244</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>254</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>239</span></td><td class="perc-8"><img src="http://images.dxprog.com/spacer.png" /><span>394</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>306</span></td></tr><tr><td class="day">Wednesday</td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>125</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>71</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>38</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>25</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>19</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>9</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>5</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>22</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>85</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>206</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>350</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>349</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>337</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>225</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>325</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>472</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>458</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>318</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>159</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>275</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>282</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>281</span></td><td class="perc-8"><img src="http://images.dxprog.com/spacer.png" /><span>415</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>363</span></td></tr><tr><td class="day">Thursday</td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>235</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>89</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>52</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>45</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>9</span></td><td><span>0</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>1</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>18</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>83</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>279</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>485</span></td><td class="perc-10"><img src="http://images.dxprog.com/spacer.png" /><span>501</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>480</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>333</span></td><td class="perc-8"><img src="http://images.dxprog.com/spacer.png" /><span>439</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>468</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>362</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>286</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>143</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>178</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>207</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>218</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>266</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>250</span></td></tr><tr><td class="day">Friday</td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>249</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>131</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>58</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>49</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>17</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>24</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>4</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>10</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>89</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>312</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>459</span></td><td class="perc-10"><img src="http://images.dxprog.com/spacer.png" /><span>499</span></td><td class="perc-9"><img src="http://images.dxprog.com/spacer.png" /><span>453</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>285</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>320</span></td><td class="perc-6"><img src="http://images.dxprog.com/spacer.png" /><span>335</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>225</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>187</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>144</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>120</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>221</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>160</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>272</span></td><td class="perc-7"><img src="http://images.dxprog.com/spacer.png" /><span>350</span></td></tr><tr><td class="day">Saturday</td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>151</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>124</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>81</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>60</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>42</span></td><td class="perc-0"><img src="http://images.dxprog.com/spacer.png" /><span>13</span></td><td><span>0</span></td><td><span>0</span></td><td class="perc-1"><img src="http://images.dxprog.com/spacer.png" /><span>45</span></td><td class="perc-2"><img src="http://images.dxprog.com/spacer.png" /><span>88</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>215</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>179</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>217</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>187</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>240</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>277</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>227</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>173</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>183</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>179</span></td><td class="perc-4"><img src="http://images.dxprog.com/spacer.png" /><span>214</span></td><td class="perc-3"><img src="http://images.dxprog.com/spacer.png" /><span>143</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>259</span></td><td class="perc-5"><img src="http://images.dxprog.com/spacer.png" /><span>247</span></td></tr>            </tbody>
+        </table></p>
+<p><h4>General Play Stats</h4>
+        <table class="stats">
+            <thead>
+                <tr>
+                    <th class="user">User</th>
+                    <th>Unique Songs</th>
+                    <th>Total Plays</th>
+                    <th>Avg. Song Length</th>
+                    <th class="total">Totals</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td class="user">Steve</td>
+                    <td>1893</td>
+                    <td>9492</td>
+                    <td>2m 43s</td>
+                    <td class="total">18 <span>days</span> 4 <span>hr</span> 18 <span>min</span> 3 <span>sec</span></td>
+                </tr>
+                <tr class="even">
+                    <td class="user">Matt</td>
+                    <td>1738</td>
+                    <td>13950</td>
+                    <td>2m 42s</td>
+                    <td class="total">29 <span>days</span> 18 <span>hr</span> 6 <span>min</span> 57 <span>sec</span></td>
+                </tr>
+                <tr>
+                    <td class="user">Chris</td>
+                    <td>486</td>
+                    <td>9527</td>
+                    <td>2m 52s</td>
+                    <td class="total">26 <span>days</span> 14 <span>hr</span> 11 <span>min</span> 5 <span>sec</span></td>
+                </tr>
+                <tr class="even">
+                    <td class="user">Jeff</td>
+                    <td>185</td>
+                    <td>567</td>
+                    <td>3m 12s</td>
+                    <td class="total">1 <span>day</span> 8 <span>hr</span> 14 <span>min</span> 33 <span>sec</span></td>
+                </tr>
+            </tbody>
+        </table></p>
+</div></article><article><h2>It&#x27;s Not Coruscant, But Still Cool</h2><time>June 26, 2013</time><div><p>On the same day that we <a href="http://www.dxprog.com/entry/a-gay-romp-across-the-rainbow-bridge/">crossed the Rainbow Bridge</a> and saw the ass of a Gundam in <a href="http://www.dxprog.com/entry/breezing-through-odaiba/">Odaiba</a>, we took a wander around the Imperial Palace in the heart of Tokyo. Here&#39;s a bunch of pictures and little write up because... well, there&#39;s not really a story here and sadly no swan boats.</p>
+<p><img src="http://i.imgur.com/3E6RPo8h.jpg" alt="" title="I&#39;m not going to be commenting on stuff here"></p>
+<p><img src="http://i.imgur.com/VBMs5Ruh.jpg" alt="" title="So, don&#39;t bother looking">[break]</p>
+<p><img src="http://i.imgur.com/KLBkeibh.jpg" alt="" title="Because, you&#39;re not going to get any satisfaction"></p>
+<p><img src="http://i.imgur.com/kZ4snnFh.jpg" alt="" title="In fact, you could probably stop reading now"></p>
+<p><img src="http://i.imgur.com/VBMs5Ruh.jpg" alt="" title="If only because I recommended you should"></p>
+<p><img src="http://i.imgur.com/bHAAQYIh.jpg" alt="" title="And maybe come out ahead in life"></p>
+<p><img src="http://i.imgur.com/AzvoJC5h.jpg" alt="" title="Gaining back the precious seconds you would otherwise waste reading this"></p>
+<p><img src="http://i.imgur.com/EIivKkzh.jpg" alt="" title="Those seconds add up, you know"></p>
+<p><img src="http://i.imgur.com/HWH4DUYh.jpg" alt="" title="If you were to take all the seconds you waste on stupid shit and them up"></p>
+<p><img src="http://i.imgur.com/gTYTE4Ih.jpg" alt="" title="You might have enough time put together to enjoy something meaningful"></p>
+<p><img src="http://i.imgur.com/RHtgUPMh.jpg" alt="" title="Like, a game of Risk between friends and family"></p>
+<p><img src="http://i.imgur.com/Wz65wnMh.jpg" alt="" title="Or, having a social drink while passing around stupid stories of your life"></p>
+<p><img src="http://i.imgur.com/3Uo3jkGh.jpg" alt="" title="Drinking is a lot of fun, after all"></p>
+<p><img src="http://i.imgur.com/lE1NkFkh.jpg" alt="" title="In fact, you don&#39;t even really need a good reason to have one"></p>
+<p><img src="http://i.imgur.com/8DxgCVjh.jpg" alt="" title="If I hadn&#39;t drank all my beer last night, I&#39;d probably have some now"></p>
+<p><img src="http://i.imgur.com/9Or47plh.jpg" alt="" title="But, shooting robot dudes while intoxicated has a bit of a rush"></p>
+<p><img src="http://i.imgur.com/PsSNUt4h.jpg" alt="" title="And you can&#39;t just STOP drinking... until you&#39;re forced to by the lack of drink"></p>
+<p><img src="http://i.imgur.com/O4Aq5S0h.jpg" alt="" title="Because that&#39;s how the world works"></p>
+<p><img src="http://i.imgur.com/0LDov3lh.jpg" alt="" title="What was I talking about? Oh, well. FISH!">[/url]</p>
+</div></article><article><h2>Accountability Report - A Little Tipsy</h2><time>June 25, 2013</time><div><p>Contrary to yesterday&#39;s post, I should embrace the accountability report because it&#39;s stupid simple to write. A handful of subjects and some words on how I failed to meet them. Works well today when I&#39;m buzzing a bit and just need to get a post out.</p>
+<p><strong>Health</strong> - I actually did very well last week, biking to work four out of five days and keeping away from the sweets. I stumbled a bit on Friday where I had a heart stopping burger and didn&#39;t bike, but it could have been worse. The weekend was fairly low key calorie wise as well. Compare that to today where I had four beers while conversing with a certain USB input virtual accessor and killing digital robots and then following it up with Taco Bell. Not great to be sure. Also, it&#39;s been rainy, so I haven&#39;t biked. Tomorrow I plan on changing that.</p>
+<p><strong>Finances</strong> - I&#39;m still running through the list of stuff I need to get for living in my new quarters. This weekend, I acquired myself a new bed, one of much higher quality than I&#39;m used to having; certainly one that cost more money than I would&#39;ve otherwise been comfortable in parting with. Additionally, a small trip to Japantown drained a few dollars, but not too bad.</p>
+<p><strong>Japanese</strong> - Ain&#39;t done squat, and this is unacceptable. Though, I do often listen to some of the audio lessons when they pop up on random during bike rides... this isn&#39;t actually helping me, though. It does sometimes re-enforce the little Japanese I do know, I guess.</p>
+</div></article><article><h2>Forever Unfinished</h2><time>June 24, 2013</time><div><p>I was going to do an accountability report today, but I don&#39;t want to type that much. Instead, I&#39;ll give you some pictures of in progress comics... that have been that way for probably a year now. A couple of these I&#39;ll probably finish eventually, and one I don&#39;t even remember the premise for, so it&#39;ll forever remain a mystery.</p>
+<p><img src="http://i.imgur.com/6GkBdvRh.jpg" alt="" title="This one comes straight off the Whiteboard"></p>
+<p><img src="http://i.imgur.com/d3mpb31h.jpg" alt="" title="Borne from a discussion with coworkers, this will probably get finished first"></p>
+<p><img src="http://i.imgur.com/HTCqgT6h.jpg" alt="" title="No fuckin&#39; clue..."></p>
+</div></article><article><h2>Chris Will Eat It - Croquet Bread</h2><time>June 23, 2013</time><div><p>It&#39;s another exciting episode of Chris Will Eat It! Also, the last episode!</p>
+<p><a href="https://www.youtube.com/watch?v=oRy0ITGeE7g"><img src="https://img.youtube.com/vi/oRy0ITGeE7g/0.jpg" alt="youtube video"></a></p>
+<p>Maybe it&#39;s not the last, though.....</p>
 </div></article></section></body></html>
