@@ -4,6 +4,7 @@ import {
 import * as path from 'path';
 
 import { DxApiReader } from './src/readers/dxapi-reader';
+import { HomePageRenderer } from './src/renderers/home-page-renderer';
 
 const { PostsRollupRenderer, PostRenderer } = Renderers;
 
@@ -12,6 +13,7 @@ const pg = new SiteGenerator({
   renderers: [
     new PostsRollupRenderer(5),
     PostRenderer,
+    HomePageRenderer
   ]
 });
 

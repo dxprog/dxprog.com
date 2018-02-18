@@ -30,3 +30,55 @@ article p {
 article img {
   max-width: 100%;
 }
+
+.intro-bar {
+  background: url(../images/sidebar.jpg) no-repeat;
+  background-size: cover;
+  width: 480px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 10rem;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+}
+
+.intro-bar__photo {
+  width: 280px;
+  height: 280px;
+  border: 3px solid #fff;
+  display: block;
+  border-radius: 140px;
+  margin-bottom: 5rem;
+  box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
+}
+
+.intro-bar__header {
+  margin-bottom: 2.5rem;
+}
+
+.intro-bar__name {
+  display: block;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.intro-bar__name--first {
+  font: 4.8rem/1 'Roboto Light', 'Roboto', sans-serif;
+}
+
+.intro-bar__name--last {
+  font: 4.8rem/1 'Roboto', sans-serif;
+}
+
+.intro-bar__subhead {
+  font: 2.4rem/1 'Roboto Light', 'Roboto', sans-serif;
+  text-align: center;
+}
+
+.main .article-list {
+  margin-top: 10rem;
+  margin-left: 480px;
+  padding: 0 5rem;
+}
