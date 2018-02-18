@@ -1,13 +1,15 @@
 <!DOCTYPE html>
-<html><head><title>phpGraphs - A PHP Graph Drawing Library</title></head><body><article><h2>phpGraphs - A PHP Graph Drawing Library</h2><time>September 7, 2009</time><div><p><img src="http://images.dxprog.com/blog/phpgraphs.png" alt="" title="phpGraphs">
+<html><head><title>phpGraphs - A PHP Graph Drawing Library</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>phpGraphs - A PHP Graph Drawing Library</h2><time>September 7, 2009</time><div><p><img src="http://images.dxprog.com/blog/phpgraphs.png" alt="" title="phpGraphs">
 Over the past few days, I&#39;ve been developing a library to help in drawing graphs for various stuff on the <a href="http://dxprog.com/entry/celebrating-one-year-of-the-music-page">music page</a>. I&#39;ve built to to be a fairly complete solution that is both robust and simple to use. Today, I offer phpGraphs to the masses to do with as they please, <a href="http://dxprog.com/files/phpGraphs_1.0.zip">free of charge.</a> Follow the break for a quick tutorial on how to use it.[break]
 phpGraphs requires PHP5 and the GD2 extension to be enabled. To install, simply copy the phpGraph.php to a place accessible to your script.
-Here&#39;s a small script that sets up the graph object an adds data:
-[code=php]include (&quot;<a href="http://dxprog.com/phpGraphs.php">http://dxprog.com/phpGraphs.php</a>&quot;);</p>
-<p>$graph = new Graph (&quot;My Graph&quot;, 640, 480);
+Here&#39;s a small script that sets up the graph object an adds data:</p>
+<pre><code class="lang-php">include (&quot;http://dxprog.com/phpGraphs.php&quot;);
+
+$graph = new Graph (&quot;My Graph&quot;, 640, 480);
 $dataSet = $graph-&gt;createDataSet (&quot;Data Set 1&quot;);
 for ($i = 0; $i &lt; 50; $i++)
-    $dataSet-&gt;add (rand () % 100);[/code]</p>
+    $dataSet-&gt;add (rand () % 100);
+</code></pre>
 <p><strong>Line 2 - </strong>Here, we include the phpGraph library. Pretty self-explanitory.
 <strong>Line 4 - </strong>We create our graph object in the variable $graph. The argument passed is the title that will be drawn at the top of the graph. The second two parameters are the width and height of the image, respectively.
 <strong>Line 5 - </strong>This creates a new dataset with the name &quot;Data Set 1&quot;. It returns a pointer to the dataset object within the graph object. You can create an infinite amount of data sets, though there is a visual limitation I will discuss later.
@@ -37,19 +39,23 @@ _r, g, b - _The red, green and blue values of the color. Valid value range is 0-
 _index - _setDataColor allows you to change the color of the lines, bars and slices used for data. The index value specifies the data set number. Valid valus are 1-infinity.
 Below is an example of a graph that has a custom color scheme:
 <img src="http://dxprog.com/pics/phpGraphs_custom.png" alt="" title="A graph using custom colors">
-Expounding upon the example given above, here is how a complete script would look.
-[code=php]include (&quot;<a href="http://dxprog.com/phpGraphs.php">http://dxprog.com/phpGraphs.php</a>&quot;);</p>
-<p>// Create the graph and add some data
+Expounding upon the example given above, here is how a complete script would look.</p>
+<pre><code class="lang-php">include (&quot;http://dxprog.com/phpGraphs.php&quot;);
+
+// Create the graph and add some data
 $graph = new Graph (&quot;My Graph&quot;, 640, 480);
 $dataSet = $graph-&gt;createDataSet (&quot;Data Set 1&quot;);
 for ($i = 0; $i &lt; 50; $i++)
-    $dataSet-&gt;add (rand () % 100);</p>
-<p>// Draw the graph
-$img = $graph-&gt;drawLineGraph (&quot;Iteration&quot;, &quot;Value&quot;, false);</p>
-<p>// Add the appropriate headers so the browser recognizes this as an image
+    $dataSet-&gt;add (rand () % 100);
+
+// Draw the graph
+$img = $graph-&gt;drawLineGraph (&quot;Iteration&quot;, &quot;Value&quot;, false);
+
+// Add the appropriate headers so the browser recognizes this as an image
 header (&quot;Content-type: image/png&quot;);
 imagepng ($img);
-imagedestroy ($img);[/code]
-That&#39;s about all there is to it. If you find any bugs, have any feature requests, or are just having issues, feel free to leave a comment below and I&#39;ll be glad to help. Enjoy!</p>
+imagedestroy ($img);
+</code></pre>
+<p>That&#39;s about all there is to it. If you find any bugs, have any feature requests, or are just having issues, feel free to leave a comment below and I&#39;ll be glad to help. Enjoy!</p>
 <p>[ <a href="http://dxprog.com/files/phpGraphs_1.0.zip">Download</a> ]</p>
 </div></article></body></html>

@@ -8,7 +8,8 @@ tags:
 ---
 Whilst working on my current video project, I came across a need to display the current time code. Expressions are the answer, of course, so I came up with this.
 
-[code=javascript]txt = "";
+```javascript
+txt = "";
 frames = timeToFrames(t = time + thisComp.displayStartTime, fps = 1.0 / thisComp.frameDuration, isDuration = false);
 f = frames % 30;
 s = Math.floor(frames / 30);
@@ -19,6 +20,7 @@ if (s &lt; 10) s = "0" + s;
 if (m &lt; 10) m = "0" + m;
 if (h &lt; 10) h = "0" + h;
 txt = h + ":" + m + ":" + s + ";" + f;
-txt[/code]
+txt
+```
 
 Simply attach this expression to the Source Text property of a text layer and viola!

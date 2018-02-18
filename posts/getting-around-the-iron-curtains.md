@@ -16,19 +16,24 @@ After disabling the caching layer on that subdomain (cdn.awwni.me), I began weig
 
 Since I had a way to test availability, I needed to actually perform the test itself. What I devised was an iframe that would be loaded on every page of RedditBooru. It would load the following script:
 
-[code=html]<html>
+```html
+<html>
     <head>
         <script type="text/javascript" src="http://licdn.awwni.me/cdncheck.js"></script>
     </head>
-</html>[/code]
+</html>
+```
 
-[code=javascript]// If this page has managed to load, go ahead and set the CDN cookie to expire on my 100th birthday
+```javascript
+// If this page has managed to load, go ahead and set the CDN cookie to expire on my 100th birthday
 var date = (new Date('2086/6/8')).toGMTString();
-document.cookie = 'use_cdn=true; expires=' + date;[/code]
+document.cookie = 'use_cdn=true; expires=' + date;
+```
 
 If the user has access to the licdm subdomain, a cookie is set noting such and does so on the cdn.awwni.me domain. Since these users were now marked, this information can be used in nginx to reroute the user.
 
-[code=nginx]if ($host != licdn.awwni.me) {
+```nginx
+if ($host != licdn.awwni.me) {
     set $useCdn "P";
 }
 
@@ -38,7 +43,8 @@ If the user has access to the licdm subdomain, a cookie is set noting such and d
 
 if ($useCdn = PC) {
             rewrite ^/(.*) http://licdn.awwni.me/$1 permanent;
-}[/code]
+}
+```
 
 Getting around nginx' inability to do multiple conditionals in one line aside, the above checks to make sure that the cookie is set and that the user is _not_ coming from the licdn.awwni.me domain. That last bit was added when I accidentally set the CDN cookie on licdn and got caught in an infinite redirect loop for a while. If either of the conditions aren't met, the image will just serve out of my machine.
 

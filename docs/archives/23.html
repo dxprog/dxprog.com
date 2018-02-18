@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html><head><title>Archives - Page 23</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>Head Sensations</h2><time>March 20, 2014</time><div><p>I&#39;d been considering writing a blog post on this subject for some time, but balked because it seemed an odd thing to talk about. But, after the topic came up at lunch not long ago, I figured why not. Besides, I need to post something this month as I&#39;ve not missed posting at least one thing per month since August 2010. Gotta keep the streak alive.</p>
+<p>The aforementioned topic is a physical sensation that&#39;s been dubbed on the internet as &quot;ASMR&quot;, or &quot;autonomous sensory meridian response&quot;.It&#39;s honestly a really shitty name and I thought the original idea of &quot;brain orgasm&quot; explained it better, but the <a href="http://www.reddit.com/r/asmr">community</a> doesn&#39;t take kindly to that since it&#39;s not a sexual thing. To actually describe the feeling is a bit difficult as there&#39;s nothing really to relate it to. The usual description is &quot;head tingles&quot; and, while that&#39;s not entirely untrue, it doesn&#39;t seem quite accurate either. I&#39;d describe it more as a feeling of mild pressure sensation on the top and back of the scalp that will at times &quot;bloom&quot; in intensity across the scalp in response to stimuli. Yes, there are also tingles.</p>
+<p>What triggers this seems to be hit and miss. Slow, steady, soft speech patterns or rustling noises can do it, so does close personal attention such as a visit to the eye doctor. The aforementioned community is a subreddit that deals in posting videos that cause this sensation for people. These generally range from creepy videos of people whispering things into a microphone to creepy videos of people making various noises with various things or sometimes role play videos that are a mix of the two. There&#39;s no getting around the creepy factor, because it is and doubly so if you don&#39;t know what the fuck is going on.</p>
+<p>As for myself and my history with this... condition(?), I&#39;ve had it for as long as I can remember. I recall fairly well the first time I actually tried to vocalize it to somebody. One of my cousins and I were coloring at my grandma&#39;s house and I said something about tickles in my brain. I believe I was six or seven at the time. My young self would try to figure out ways of inducing the &quot;tingles&quot;, at one point settling on raising and lowering my eyebrows repeatedly in erratic patterns (the results were mixed).</p>
+<p>As I rolled into my later teen years, I kind of forgot about whole thing except when I would go to the optometrist. It wasn&#39;t until mid-2012 when I saw an ad for the subreddit that it was brought back to my attention and a little bit of perspective put on the whole thing. Having been tuned back into the phenomenon and having a better idea of how to trigger it, I tested the waters with the creepy videos and, though it&#39;s hit and miss, they work. Now, late in the evening, I&#39;ll often put one of those videos on, lay down on my bed or the couch with my earbuds in, and take a train to Relaxation Town.</p>
+<p>It&#39;s quite nice, really.</p>
+</div></article><article><h2>Getting Around the Iron Curtains</h2><time>February 23, 2014</time><div><p>Last week, a friend clued me into CloudFlare, a CDN service that also somehow has a free tier with unlimited bandwidth. This played right into my fears of hitting the 4TB bandwidth ceiling on my current hosting tier. Put into perspective, that&#39;s pretty close to all the digital storage I have available in my apartment. Also, it quells the fears that users on the other side of the pond are getting subpar download times. So, with minimal weighing of the consequences, I flipped everything over. And, lo and behold, it worked!</p>
+<p>Almost...</p>
+<p>You see, some countries and ISPs think that blocking shit on the internet is a really great idea. I&#39;m not going to go on a political rampage right now because that&#39;s not my style, but when you&#39;re getting messages about users unable to download content from your hosting due to these reasons, it&#39;s more than a little irritating. But, goddammit, I&#39;m a programmer and there had to be a solution that&#39;d get me the best of both worlds without shelling out additional money.</p>
+<p>After disabling the caching layer on that subdomain (cdn.awwni.me), I began weighing my options. Somehow I needed to find out if a particular user had the ability to talk to CloudFlare (now working through licdn.awwni.me). Most views were going to be served straight out of reddit.com, but I had a couple of attack vectors: the redditbooru.com main site, which is hit often for people doing repost checks or looking at albums that have been posted to reddit, and the RedditBooru browser extensions. The former was going to be the easiest to tinker with (so I thought) and affect the most people.</p>
+<p>Since I had a way to test availability, I needed to actually perform the test itself. What I devised was an iframe that would be loaded on every page of RedditBooru. It would load the following script:</p>
+<pre><code class="lang-html">&lt;html&gt;
+    &lt;head&gt;
+        &lt;script type=&quot;text/javascript&quot; src=&quot;http://licdn.awwni.me/cdncheck.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+&lt;/html&gt;
+</code></pre>
+<pre><code class="lang-javascript">// If this page has managed to load, go ahead and set the CDN cookie to expire on my 100th birthday
+var date = (new Date(&#39;2086/6/8&#39;)).toGMTString();
+document.cookie = &#39;use_cdn=true; expires=&#39; + date;
+</code></pre>
+<p>If the user has access to the licdm subdomain, a cookie is set noting such and does so on the cdn.awwni.me domain. Since these users were now marked, this information can be used in nginx to reroute the user.</p>
+<pre><code class="lang-nginx">if ($host != licdn.awwni.me) {
+    set $useCdn &quot;P&quot;;
+}
+
+    if ($http_cookie ~* &#39;use_cdn&#39;) {
+    set $useCdn &quot;${useCdn}C&quot;;
+}
+
+if ($useCdn = PC) {
+            rewrite ^/(.*) http://licdn.awwni.me/$1 permanent;
+}
+</code></pre>
+<p>Getting around nginx&#39; inability to do multiple conditionals in one line aside, the above checks to make sure that the cookie is set and that the user is <em>not</em> coming from the licdn.awwni.me domain. That last bit was added when I accidentally set the CDN cookie on licdn and got caught in an infinite redirect loop for a while. If either of the conditions aren&#39;t met, the image will just serve out of my machine.</p>
+<p>There are a few drawbacks to this approach. First of all, every request still hits my machine, so I&#39;m still taking a bandwidth hit. Secondly, those getting served out of the CDN have an extra hop for the redirect. However, I believe neither of these issues are bad enough to warrant removing it completely. For starters, on my side I&#39;m now only serving a handful of bytes as opposed to millions. Secondly, a redirect on a single image is pretty much inconsequential to the user&#39;s experience.</p>
+<p>I&#39;ve only been running with this solution for a few hours, so I don&#39;t yet have a good look on how great the benefits are. Time will tell on that one, but I haven&#39;t yet heard any issues on images not loading, so there&#39;s some comfort.</p>
+</div></article></section></body></html>

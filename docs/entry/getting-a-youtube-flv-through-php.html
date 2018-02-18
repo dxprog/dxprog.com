@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><title>Getting a YouTube FLV through PHP</title></head><body><article><h2>Getting a YouTube FLV through PHP</h2><time>October 4, 2009</time><div><p><img src="http://images.dxprog.com/blog/php_corner.png" alt="" title="PHP Corner">
+<html><head><title>Getting a YouTube FLV through PHP</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>Getting a YouTube FLV through PHP</h2><time>October 4, 2009</time><div><p><img src="http://images.dxprog.com/blog/php_corner.png" alt="" title="PHP Corner">
 Recently, while making some additions to the <a href="http://labs.dxprog.com/smp/">Music Page</a>, I came across the need to get the location of a YouTube FLV. Unfortunately, most of my googling turned up outdated results that no longer work. Fortunately, unlike a certain <a href="http://hulu.com/">other</a> site, it&#39;s not impossible. Below is a quick explanation of what I got to work. I&#39;ll be assuming that you know how to get your hands on the video ID (the &quot;v&quot; parameter in the query string).[break]</p>
 <p>There really is only one thing that&#39;s needed by YouTube to get the video file, and that&#39;s the video token. As far as I can tell, this is a time sensitive key that is generated for the user to prevent abuse on the YouTube servers. Luckily, this is pretty easy to obtain. The get_video_info page returns not only the token, but all sorts of other valuable information about the video, such as author, date uploaded, length in seconds, etc. Here&#39;s a small function that retrieves this information and returns it as an object:</p>
 <p>[code=php]function ytGetInfo ($id)
@@ -14,18 +14,19 @@ Recently, while making some additions to the <a href="http://labs.dxprog.com/smp
 }[/code]</p>
 <p>Simple stuff, really. The contents of get_video_info are retrieved and stored in $file. This information comes URL encoded, so we first need to decode that. As with any URL string, each variable is separated by an ampersand (&amp;), so when calling <a href="http://us.php.net/manual/en/function.explode.php">explode</a>. That returns the variable/value pairs in an array ([0]=&gt;&quot;author=dxprog&quot;, [1]=&gt;&quot;token=asi940tnas&quot;, ...). Iterating through each of those, we then explode the var/value pairs and add them to our outgoing object. Now we have the token (amongst other info), so next will be retrieving the video file itself.</p>
 <p>YouTube uses get_video to return where the actual video is stored. Now, I don&#39;t know all the nuances of this method, but as of this writing, it returns a 303 See other HTTP response code with the location header pointing to the actual, real address of the video file. We&#39;ll functionize that:</p>
-<p>[code=php]function ytGetVideoPath ($id)
+<pre><code class="lang-php">function ytGetVideoPath ($id)
 {
     $info = ytGetInfo ($id);
     $token = $info-&gt;token;
-    $headers = get_headers (&quot;<a href="http://www.youtube.com/get_video?video_id=$id&amp;t=$token&amp;fmt=18">http://www.youtube.com/get_video?video_id=$id&amp;t=$token&amp;fmt=18</a>&quot;);
+    $headers = get_headers (&quot;http://www.youtube.com/get_video?video_id=$id&amp;t=$token&amp;fmt=18&quot;);
     foreach ($headers as $item) {
         if (strpos ($item, &quot;Location: &quot;) !== false) {
             return str_replace (&quot;Location: &quot;, &quot;&quot;, $item);
         }
     }
     return false;
-}[/code]</p>
+}
+</code></pre>
 <p>First thing this function does is grab the video information so that we can get the token. We then retrieve the headers of the video providing the video ID <em>(v)</em> and the token <em>(t)</em> as parameters to get_video. The <em>fmt</em> parameter specifies the quality video you want, none being low, 18 being high, and 22 being HD. Using the <a href="http://us.php.net/manual/en/function.get-headers.php">get_headers</a> function, we should be returned a 303 response code with the location header set to the video location. I can&#39;t guarantee that this is always the case, but it hasn&#39;t failed me yet.</p>
 <p>From here, you can do with the returned URL as you please. You can use <a href="http://us.php.net/manual/en/function.file-get-contents.php">file_get_contents</a> or <a href="http://us.php.net/manual/en/function.fsockopen.php">fsockopen</a> - my favorite - to download the stream, load it into your flash video player or whatever you want. I hope you found this little guide useful. If you run into any problems with the above code, please leave a comment below and I&#39;d be happy to help. Cheers!</p>
 </div></article></body></html>

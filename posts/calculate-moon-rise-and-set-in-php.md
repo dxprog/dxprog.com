@@ -16,9 +16,11 @@ The above code is pretty much a direct port of Keith Burnett's implementation [h
 
 **How to Use**
 Moon::calculateMoonTimes(_month_, _day_, _year_, _latitude_, _longitude_);
-[code=php]date_default_timezone_set('America/Chicago');
+```php
+date_default_timezone_set('America/Chicago');
 include('moon.php');
-print_r(Moon::calculateMoonTimes(6, 28, 2011, 36.754478, -96.110291));[/code]
+print_r(Moon::calculateMoonTimes(6, 28, 2011, 36.754478, -96.110291));
+```
 
 The above code will output the following result:
 

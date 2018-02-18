@@ -9,7 +9,8 @@ tags:
 ---
 At my job, I currently have three Wordpress sites under my watchful eye. On one, I was tasked with creating a related posts feature. Now, there are certainly enough plug-ins that will do just that, but none of them worked how I wanted to or were generally more complex than necessary. So, I whipped up this little script:
 
-[code=php]function relatedPosts($id) {
+```php
+function relatedPosts($id) {
 
 	/* Build a query to get a list of all posts that share similar tags */
 	$s = microtime(true);
@@ -29,11 +30,14 @@ At my job, I currently have three Wordpress sites under my watchful eye. On one,
 	
 	echo($out);
 
-}[/code]
+}
+```
 
 Just drop that in the wp-content/_yourtheme_/functions.php file, where _yourtheme_ is the directory of your active theme. Then add the following in your wp-content/_yourtheme_/single.php where you want the related posts to appear:
 
-[code=php]relatedPosts(get_the_ID());[/code]
+```php
+relatedPosts(get_the_ID());
+```
 
 You should now have a list of posts with similar tags. Styling is simple: one h3 and one ul, both with the class "related".
 

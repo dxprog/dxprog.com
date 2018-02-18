@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html><head><title>Archives - Page 166</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>A tiny PHP/Twitter script just for you!</h2><time>February 24, 2009</time><div><p>Was rather bored this afternoon and then I though to myself &quot;Why not add Twitter functionality to my music page?&quot; So, after some digging through Twitter APIs and some refreshers on HTTP Authentication, I wrote this tiny, beautiful little script.</p>
+<pre><code class="lang-php">
+// Return values
+define (&quot;TWITTER_OK&quot;, true);
+define (&quot;TWITTER_UNAUTHORIZED&quot;, -1);
+define (&quot;TWITTER_TOO_LONG&quot;, -2);
+define (&quot;TWITTER_COULD_NOT_CONNECT&quot;, -3);
+
+function sendTweet ($status, $userName, $userPass)
+{
+
+    // Open a socket to Twitter
+    if (!($socket = fsockopen (&quot;twitter.com&quot;, 80)))
+        return TWITTER_COULD_NOT_CONNECT;
+
+    // Create the headers
+    $headers = &quot;POST /statuses/update.xml HTTP/1.1\r\n&quot;;
+    $headers .= &quot;Host: twitter.com\r\n&quot;;
+    $headers .= &quot;Authorization: Basic &quot;.base64_encode ($userName.&quot;:&quot;.$userPass).&quot;\r\n&quot;;
+    $headers .= &quot;Content-length: &quot;.strlen (&quot;status=$status&quot;).&quot;\r\n\r\n&quot;;
+    $headers .= &quot;status=$status\r\n&quot;;
+
+    // Send the headers
+    fwrite ($socket, $headers);
+
+    // Get the response
+    $response = &quot;&quot;;
+    while (!feof ($socket))
+        $response .= fgets ($socket, 1024);
+
+    // Check for HTTP status OK (200)
+    if (!strpos ($response, &quot;200&quot;))
+        return TWITTER_UNAUTHORIZED;
+
+    return TWITTER_OK;
+
+}
+</code></pre>
+<p>It is as simple as it looks. Enjoy!</p>
+</div></article><article><h2>A coding compo!</h2><time>February 10, 2009</time><div><p>I was sitting in lab last night bored out of my skull. Yes, I could have (and should have) been working on my project, but when you&#39;re already ahead of schedule it&#39;s okay to slack off now and again.</p>
+<p>So, as I was saying, I was sitting there and I think &quot;Hey. I&#39;ll make a game between now and when final roll is called.&quot; I turned to Ryan and asked him what game I should make to which he replied &quot;Space Invaders.&quot; I figured &quot;Why the hell not? I did that back when I was fourteen.&quot; I told my bro (whom I was Skyping at the time) and he was like &quot;Yeah, well, I bet I can make Asteroids before you can finish Space Invaders.&quot; The gauntlet had been thrown and much coding ensued.</p>
+<p>After a couple hours of some intense typing and trying to pull down sprites off of the crappy ass wireless in the school, my Space Invaders clone was complete. Not two or three minutes later my bro finished his game, but alas it&#39;s not Flash and can&#39;t be embedded in browsers like so:</p>
+<object type="application/x-shockwave-flash" style="width:640px; height:480px;" data="http://www.dxprog.com/files/SpaceInvaders.swf"><param name="movie" value="http://www.dxprog.com/files/SpaceInvaders.swf" /></object>
+
+<p>It is by no means a mind blowing or even polished game, but for just two hours I&#39;m not complaining. And I also had a hell of a lot of fun coding it which is the important part.</p>
+<p>I won&#39;t be a total dick and not give Chris any credit. In his defense he did create a vector renderer from scratch (I say create because technically he wasn&#39;t actually coding). His game&#39;s visuals are also far superior to mine, so be a dear and <a href="http://www.dxprog.com/files/asteroids.zip">check it out</a> as well (some Windows and DirectX are required).</p>
+</div></article></section></body></html>

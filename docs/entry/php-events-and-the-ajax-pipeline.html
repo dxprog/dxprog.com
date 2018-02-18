@@ -1,30 +1,34 @@
 <!DOCTYPE html>
-<html><head><title>PHP, Events, and the Ajax Pipeline</title></head><body><article><h2>PHP, Events, and the Ajax Pipeline</h2><time>October 1, 2013</time><div><p>Working at LinkedIn, I feel almost required to talk about coding on my blog, especially if I want to keep my <a href="http://i.imgur.com/8ALLwfP.jpg">Junior Woodchuck Engineer</a> sash.</p>
+<html><head><title>PHP, Events, and the Ajax Pipeline</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>PHP, Events, and the Ajax Pipeline</h2><time>October 1, 2013</time><div><p>Working at LinkedIn, I feel almost required to talk about coding on my blog, especially if I want to keep my <a href="http://i.imgur.com/8ALLwfP.jpg">Junior Woodchuck Engineer</a> sash.</p>
 <p>Some months ago, I was trying to beef up the user feedback that <a href="http://awwnime.redditbooru.com/">redditbooru</a> would give when making requests to the server. One thing I wanted to do was, during a reverse image lookup, have a continually updating status to the user. &quot;Retrieving image&quot;, &quot;Searching database&quot;, and then the final data. This required a couple of interesting things: implementing an event model in PHP, and the not-so-talked-about third readyState value in the XMLHttpRequest response: 3, or &quot;processing request&quot;.</p>
 <h2 id="php-eventing">PHP Eventing</h2>
 <p>Anybody who has coded JavaScript for more than thirty minutes will understand that it runs on a highly evented model. You attach a listener to an object with a function callback, the object fires and event, and the callback is called with data provided pertaining to the event in question. PHP, being a highly linear programming language, doesn&#39;t really have such a concept baked in. Being that I wanted something that could be easily reused through out an entire project, I came up with a stupid simple <a href="https://github.com/dxprog/reddit-booru/blob/master/lib/events.php">events library</a>. Pertaining to the internal event modelling, it exposes the following two methods:</p>
-<p>[code=php]public static function addEventListener($eventType, $callback);
-public static function fire($eventType, $data = null);[/code]</p>
+<pre><code class="lang-php">public static function addEventListener($eventType, $callback);
+public static function fire($eventType, $data = null);
+</code></pre>
 <p>These work essentially as they do in JavaScript: subscribe to an event with addEventListener and provide a callback. Fire an event with fire of that event type with whatever relevant information that goes with. addEventListener is constructed such that you can add multiple callbacks for a single event, much like the sugary goodness that jQuery provides to the DOM. One possible drawback of my implementation is that the event bus is essentially global, being that all the methods are static. This means you could have naming collisions on event types. Granted, this could easily be converted into an abstract class that any class could later inherit, providing this functionality.</p>
 <p>Here are a couple of quick production examples of <a href="https://github.com/dxprog/reddit-booru/blob/master/api/image.php#L215">event firing</a> and <a href="https://github.com/dxprog/reddit-booru/blob/master/controller/images.php#L199">event subscribing</a>. One half of the puzzle solved.</p>
 <h2 id="sending-and-parsing-evented-json">Sending and Parsing Evented JSON</h2>
 <p>As stated previously, on modern browsers, the XMLHttpRequest response has a third ready state of &quot;processing request&quot;. Essentially, this fires at certain points as the request is receiving data. We can use this to our advantage to send small status updates to the user as the backend performs numerous/long running tasks. Part of the events library are some calls to handle what I refer to as &quot;evented Ajax&quot;, though I&#39;m sure there&#39;s a real term for it. It has the following methods:</p>
-<p>[code=php]public static function beginAjaxEvent();
+<pre><code class="lang-php">public static function beginAjaxEvent();
 public static function endAjaxEvent();
-public static function sendAjaxEvent($eventType, $data);[/code]</p>
+public static function sendAjaxEvent($eventType, $data);
+</code></pre>
 <p>beginAjaxEvent and endAjaxEvent do essentially what you would expect: they prime the system for sending data out in this fashion and tidy everything up necessarily. sendAjaxEvent is where all the fun happens. I&#39;m going to go through this guy line by line.</p>
-<p>[code=php]public static function sendAjaxEvent($eventType, $data) {
+<pre><code class="lang-php">public static function sendAjaxEvent($eventType, $data) {
 $out = new stdClass;
 $out-&gt;eventType = $eventType;
 $out-&gt;data = $data;
-$out = json_encode($out);</p>
-<p>// Pad out the request to a minimum of 4K for Chrome
+$out = json_encode($out);
+
+// Pad out the request to a minimum of 4K for Chrome
 if (strlen($out) &lt; 4096) {
 $out = str_pad($out, 4096, &#39; &#39;);
 }
 echo $out;
 flush();
-}[/code]</p>
+}
+</code></pre>
 <p><strong>Line 3-7</strong> - pretty simple, preparing the data that will actually be sent to the browser as a JSON response.
 <strong>Line 8-11</strong> - An oddity I ran into with Chrome while developing this. Apparently, it will only fire a processing event if the data received is 4K or greater. So, to ensure that the event is fired, we pad the response out to 4K at minimum.
 <strong>Line 12-13</strong> - spit out the data and flush the buffer to the browser.</p>

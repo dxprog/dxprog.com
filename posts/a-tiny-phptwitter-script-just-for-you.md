@@ -9,7 +9,8 @@ tags:
 ---
 Was rather bored this afternoon and then I though to myself "Why not add Twitter functionality to my music page?" So, after some digging through Twitter APIs and some refreshers on HTTP Authentication, I wrote this tiny, beautiful little script.
 
-[code=php]
+```php
+
 // Return values
 define ("TWITTER_OK", true);
 define ("TWITTER_UNAUTHORIZED", -1);
@@ -45,6 +46,7 @@ function sendTweet ($status, $userName, $userPass)
 	return TWITTER_OK;
 		
 }
-[/code]
+
+```
 
 It is as simple as it looks. Enjoy!

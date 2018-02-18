@@ -22,7 +22,8 @@ The first thing to do, obviously, is set up the database tables. I've kept my se
 Most of these fields should be self-explanitory. The tracks table can expand or contract to include what ever metadata you want (I personally left out genre as I hardly ever use that). date_played will store the Unix timestamp of the last time the song was played. I personally like storing my timestamps without formatting as to forego the unnecessary strtotime () conversion. We'll use this later when we create the recently played list.
 
 About now I would begin to discuss how we're going to get this information into the database, but first we need to be able to get the information from the files. I've got two methods for this and it all really depends on your programming skills and what you have available on your server. The first, and most available option is through Actionscript. Let's jump to code.
-[code=actionscript]var tagLoader:Sound = new Sound();
+```actionscript
+var tagLoader:Sound = new Sound();
 tagLoader.load ("my_song.mp3");
 tagLoader.addEventListener (Event.ID3, tagsLoadedHandler)
 tagLoader.addEventListener (Event.COMPLETE, tagsLoadedHandler)
@@ -35,7 +36,8 @@ function tagsLoadedHandler (e:Event):void
 	var track:String = tagLoader.id3.track;
 	// Send to database
 	tagLoader.removeEventListener (Event.COMPLETE, tagsLoadedHandler);
-}[/code]
+}
+```
 [b]_Lines 1-2_[/b]
 Nothing terribly exciting. We set up our Sound object which will be loading the MP3 and getting ID3 information. Immediately after we load the MP3 file _my_song.mp3_ into our Sound object.
 [b]_Lines 3-4_[/b]

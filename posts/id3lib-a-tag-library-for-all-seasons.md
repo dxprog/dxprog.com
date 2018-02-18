@@ -17,7 +17,8 @@ As one may have derived from previous posts, I have a [project](http://labs.dxpr
 
 Each of these libraries works pretty similar, but to give you the general idea, I'll write out a simple program for each.
 
-[code=c++]#include <iostream>
+```c++
+#include <iostream>
 #include "id3lib.h"
 
 using namespace std;
@@ -31,7 +32,8 @@ void main () {
 		cout << "Album: " << id3.tag("TALB") << "n"; // Can retrieve any tag with this method
 		id3.saveAlbumArt ("album_art.jpg"); // Save any embedded picture
 	}
-}[/code]
+}
+```
 
 [code=c#]using System;
 using System.Collections.Generic;
@@ -52,7 +54,8 @@ namespace Id3LibNet_Test
     }
 }[/code]
 
-[code=php]include ("id3lib.php");
+```php
+include ("id3lib.php");
 
 $id3 = new ID3Lib ("my.mp3"); // Create the ID3Lib object
 if (!$id3->getErr()) { // Will be null if load was successful
@@ -61,7 +64,8 @@ if (!$id3->getErr()) { // Will be null if load was successful
 	$id3->savePicture ("album_art.jpg"); // Saves an embedded picture
 }
 else
-	echo ("There was an error opening the MP3: ".$id3->getErr());[/code]
+	echo ("There was an error opening the MP3: ".$id3->getErr());
+```
 
 Each library includes a set of methods/properties for the following common tags: title, album, artist, disc, track, year.
 

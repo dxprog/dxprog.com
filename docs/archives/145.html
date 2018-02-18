@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html><head><title>Archives - Page 145</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>PHP ID3Lib 1.0 Release</h2><time>November 6, 2010</time><div><p>Brand spanking new release of the PHP branch of ID3Lib!</p>
+<p>[ <a href="http://dxprog.com/files/id3lib_php.zip">Download</a> ]
+[ <a href="http://dxprog.com/docs/id3lib/">Documentation</a> ]</p>
+<p><strong>What&#39;s new:</strong></p>
+<ul>
+<li>Added support for ID3v1, older ID3v2</li>
+<li>Genre now returned on all tag versions</li>
+<li>Calculates song duration and average bit rate for constant (CBR) and variable (VBR) bit rate files</li>
+<li>Single object instantiation can read more than one file</li>
+<li>Much improved inline documentation (phpDoc style)</li>
+<li>General code clean-up, bug fixes and improved compatibility</li>
+</ul>
+<p><strong>Example</strong></p>
+<pre><code class="lang-php">
+include(&#39;id3lib.php&#39;);
+$songs = array(&#39;song1.mp3&#39;, &#39;song2.mp3&#39;, &#39;song3.mp3&#39;);
+$id3 = new ID3Lib();
+for ($i = 0, $count = count($songs); i &lt; $count; i++) {
+    $id3-&gt;readFile;
+    $min = floor($id3-&gt;length / 60);
+    $sec = $id3-&gt;length - ($min * 60);
+    $sec = strlen($sec) == 1 ? &#39;0&#39; . $sec : $sec;
+    echo &#39;Title: &#39;, $id3-&gt;title, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Artist: &#39;, $id3-&gt;artist, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Album: &#39;, $id3-&gt;album, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Track Number: &#39;, $id3-&gt;track, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Disc: &#39;, $id3-&gt;disc, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Year: &#39;, $id3-&gt;year, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Genre: &#39;, $id3-&gt;genre, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Length: &#39;, $min, &#39;:&#39;, $sec, &#39;&lt;br /&gt;&#39;;
+    echo &#39;Avg. Bit Rate: &#39;, $id3-&gt;bitrate, &#39;&lt;br /&gt;&#39;;
+    $id3-&gt;savePicture($i.&#39;_pic.jpg&#39;);
+}
+</code></pre>
+<p>If you have any comments/issues, let me know!</p>
+</div></article><article><h2>The Revenge of Bottomembly</h2><time>October 14, 2010</time><div><p>A few days ago I was out walking and reminiscing, as I am wont to do. While I was doing this, I  recalled some of my first web related programming projects, most notably YPNgine. Considering it was my first major PHP outing, I pulled off quite a feat. Writing a message board is no small task. However, there was one part in particular that I was mulling over: the censor. </p>
+<p>If you happen to be a former YPNer, you may recall seeing many references to &quot;bottomembly&quot;. Carrying over the censor find/replace list that had been used on phpBB before it, all instances of the character sequence &quot;ass&quot; were summarily replaced with &quot;bottom&quot;. Now I am being very choosy when I say &quot;character sequence&quot; and not &quot;word&quot; as the censor couldn&#39;t differentiate words.</p>
+<p>This oversight was brought to my attention my young programmer self struggled to figure out a solution. Here&#39;s what I wound up doing:</p>
+<p>[code=php]// Copyright (c) 2003 Matt Hackmann
+// Full copyright info in index.php</p>
+<p>function censor_post ($body)
+{</p>
+<pre><code>$query = &quot;SELECT * FROM bannedwords&quot;;
+$result = db_Query ($query);
+
+$body = &quot; &quot;.$body;
+
+$body = str_ireplace (&quot;assembly&quot;, &quot;ytrewq&quot;, $body);
+$body = str_ireplace (&quot;assum&quot;, &quot;asd;ljf&quot;, $body);
+$body = str_ireplace (&quot;glass&quot;, &quot;glss&quot;, $body);
+$body = str_ireplace (&quot;hello&quot;, &quot;hllo&quot;, $body);
+
+for ($i = 0; $i &lt; db_num_Rows ($result); $i++) {
+    $row = db_fetch_array ($result);
+    $body = str_ireplace ($row[&quot;blocked_word&quot;], &quot;&quot;, $body);
+}
+
+if ($body == &quot; &quot;)
+    $body = &quot;Censored&quot;;
+
+$body = str_replace (&quot;asd;ljf&quot;, &quot;assum&quot;, $body);
+$body = str_replace (&quot;ytrewq&quot;, &quot;assembly&quot;, $body);
+$body = str_replace (&quot;glss&quot;, &quot;glass&quot;, $body);
+$body = str_ireplace (&quot;hllo&quot;, &quot;hello&quot;, $body);
+
+return $body;
+</code></pre><p>}[/code]</p>
+<p>As you can see, I started hard coding in a list of safe words, replacing those instances with a random (or not so random) string of characters, run the censor and then convert those strings back to the safe words. This was a list I kept expanding on as they were found during normal conversation on the forum. I giggle as I look at this list and think of what the censor was doing to those words: bottomume, glbottom and hecko.</p>
+<p>It&#39;s just something that I, eight years later, have to look back on and chuckle about.</p>
+</div></article></section></body></html>

@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html><head><title>Archives - Page 136</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>Make it Open - YPNgine</h2><time>January 27, 2011</time><div><p><img src="http://images.dxprog.com/ypnlogo.png" alt="" title="YPN logo during the YPNgine era">
+YPNgine: <a href="http://dxprog.com/files/YPNgine.zip">Download</a></p>
+<p>Sometime in 2003 I became the administrator of YPN. Not entirely sure why, but there it was. As all the other admins left, so went their involvement in the future engine of YPN, partyfish. For reasons I cannot remember, I too stopped development of partyfish even though it was near complete.</p>
+<p>But, I didn&#39;t drop the idea of a new engine and leave YPN in the capable hands of sasq2 and phpBB. No, I began writing my own CMS: YPNgine. Even with just a handful of months of PHP experience, I&#39;d tasked myself to create a multi-user CMS with various levels of administration, a document library and fully functional forum that needed, at least to the users, all the functionality of the old phpBB. No small task indeed.</p>
+<p>But I pounded away at it no doubt learning many, many things along the way. I even <a href="http://dxprog.com/ypn/topic/ypengine-forums-broken-and-a-mysterious-mirror-or-something.html">opened</a> it up to a <a href="http://dxprog.com/ypn/topic/cant-sign-up-on-ypengine.html">public</a> <a href="http://dxprog.com/ypn/topic/ypngine-error.html">beta</a>, though I cannot for the life of my think of where this was hosted (somewhere on an FSF server, no doubt).</p>
+<p>Going through the changelog comments I left int the source files and performing a delta against the final post on <a href="http://dxprog.com/ypn/topic/ypngines-coming-the-goose-is-getting-fat.html">this</a> thread, YPNgine took somewhere in the range of two months to develop. I do remember quite keenly when I actually turned this thing live. The first week was nothing but bug reports and security issues. They all got squashed, but in the end between the issues and the requested features, I decided that the entire model I had built YPNgine around was unsustainable, but that&#39;s a story for a different day.</p>
+<p>I am actually writing this post because I am releasing all of the source code from the last &quot;build&quot; of YPNgine to the public. You can use that link at the top, or download it <a href="http://dxprog.com/files/YPNgine.zip">here</a>.</p>
+</div></article><article><h2>With the addition of search, the circle is complete</h2><time>January 22, 2011</time><div><p>Sometime in late 2002, I was welcomed on to the <a href="http://partyfish.sf.net/">partyfish</a> dev team. My first task: create the site wide search. Now, bear in mind that this was my first time really doing anything in PHP and search is quite a big thing. Ask Google. I&#39;m pretty sure they&#39;d back me up.</p>
+<p>Today, some eight years later, I have implemented site search into my website. Of course, it&#39;s running circles around my original code in terms of complexity, speed and even the amount of lines it&#39;s implemented in (340 v 70).</p>
+<p>Here are some of the fun things the new search can do:</p>
+<ul>
+<li>Searches through all content types and each type can display differently in search results</li>
+<li>All searches are weighted against where the terms were matched. The algorithm is such: (matches in title <em> 10) + (matched tags </em> 5) + matches in body</li>
+<li>As with all aspects of my site, the search has a RESTful interface so I could make an ajaxy instant search if I so desired</li>
+</ul>
+<p>Here are some good queries to show off what it can do:</p>
+<p><a href="http://dxprog.com/search/rock%20band/">Rock Band</a> - Example where weighting really helps
+<a href="http://dxprog.com/search/photoshop/">Photoshop</a> - Example of different document types</p>
+<p>btw, if you wanted to see the old partyfish search code, <a href="http://dxprog.com/files/search.txt">here you go.</a> The new search stuff will be added to the repository shortly and I&#39;ll be making that public very soon.</p>
+</div></article></section></body></html>

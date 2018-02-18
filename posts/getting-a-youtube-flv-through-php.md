@@ -28,7 +28,8 @@ Simple stuff, really. The contents of get_video_info are retrieved and stored in
 
 YouTube uses get_video to return where the actual video is stored. Now, I don't know all the nuances of this method, but as of this writing, it returns a 303 See other HTTP response code with the location header pointing to the actual, real address of the video file. We'll functionize that:
 
-[code=php]function ytGetVideoPath ($id)
+```php
+function ytGetVideoPath ($id)
 {
 	$info = ytGetInfo ($id);
 	$token = $info->token;
@@ -39,7 +40,8 @@ YouTube uses get_video to return where the actual video is stored. Now, I don't 
 		}
 	}
 	return false;
-}[/code]
+}
+```
 
 First thing this function does is grab the video information so that we can get the token. We then retrieve the headers of the video providing the video ID _(v)_ and the token _(t)_ as parameters to get_video. The _fmt_ parameter specifies the quality video you want, none being low, 18 being high, and 22 being HD. Using the [get_headers](http://us.php.net/manual/en/function.get-headers.php) function, we should be returned a 303 response code with the location header set to the video location. I can't guarantee that this is always the case, but it hasn't failed me yet.
 

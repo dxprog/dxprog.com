@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html><head><title>Display Time Code in After Effects with Expressions</title></head><body><article><h2>Display Time Code in After Effects with Expressions</h2><time>November 3, 2008</time><div><p>Whilst working on my current video project, I came across a need to display the current time code. Expressions are the answer, of course, so I came up with this.</p>
-<p>[code=javascript]txt = &quot;&quot;;
+<html><head><title>Display Time Code in After Effects with Expressions</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>Display Time Code in After Effects with Expressions</h2><time>November 3, 2008</time><div><p>Whilst working on my current video project, I came across a need to display the current time code. Expressions are the answer, of course, so I came up with this.</p>
+<pre><code class="lang-javascript">txt = &quot;&quot;;
 frames = timeToFrames(t = time + thisComp.displayStartTime, fps = 1.0 / thisComp.frameDuration, isDuration = false);
 f = frames % 30;
 s = Math.floor(frames / 30);
 m = Math.floor(s / 60) % 60; s %= 60;
 h = Math.floor(m / 60);
-if (f &lt; 10) f = &quot;0&quot; + f;
-if (s &lt; 10) s = &quot;0&quot; + s;
-if (m &lt; 10) m = &quot;0&quot; + m;
-if (h &lt; 10) h = &quot;0&quot; + h;
+if (f &amp;lt; 10) f = &quot;0&quot; + f;
+if (s &amp;lt; 10) s = &quot;0&quot; + s;
+if (m &amp;lt; 10) m = &quot;0&quot; + m;
+if (h &amp;lt; 10) h = &quot;0&quot; + h;
 txt = h + &quot;:&quot; + m + &quot;:&quot; + s + &quot;;&quot; + f;
-txt[/code]</p>
+txt
+</code></pre>
 <p>Simply attach this expression to the Source Text property of a text layer and viola!</p>
 </div></article></body></html>

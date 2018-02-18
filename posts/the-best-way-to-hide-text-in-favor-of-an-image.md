@@ -40,11 +40,13 @@ A quick description of what's going on:
 
 There you have it. Probably the best way to image replace text in a performant and browser friendly way (back to IE6, if I'm not mistaken). If you inspect the search icon up in the corner, you can see this code in action (not sure why the input box is off, but that's something for another day). Also, if you're into SASS, here's a handy mixin I made of the above:
 
-[code=css]@mixin image-text($background, $width, $height, $display: block) {
+```css
+@mixin image-text($background, $width, $height, $display: block) {
   overflow: hidden;
   width: $width;
   height: 0;
   padding-top: $height;
   display: $display;
   background: $background no-repeat;
-}[/code]
+}
+```

@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html><head><title>Calculate Moon Rise and Set in PHP</title></head><body><article><h2>Calculate Moon Rise and Set in PHP</h2><time>June 27, 2011</time><div><p>If you&#39;ve been paying attention to my <a href="http://twitter.com/dxprog">Twitter</a> account, you&#39;ve probably seen a reference or two about how I&#39;ve been calculating the positions of astronomical bodies. Well, today I release part of that to you.</p>
+<html><head><title>Calculate Moon Rise and Set in PHP</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>Calculate Moon Rise and Set in PHP</h2><time>June 27, 2011</time><div><p>If you&#39;ve been paying attention to my <a href="http://twitter.com/dxprog">Twitter</a> account, you&#39;ve probably seen a reference or two about how I&#39;ve been calculating the positions of astronomical bodies. Well, today I release part of that to you.</p>
 <p><strong>Download:</strong> <a href="http://pastebin.com/TYfssCph">Source</a></p>
 <p>The above code is pretty much a direct port of Keith Burnett&#39;s implementation <a href="http://bodmas.org/astronomy/riset.html">here</a>. Outside of porting, my only changes were some code clean up and having the timezone be calculated automatically for the longitude given. This means that you will always get back a time stamp that is local to the point of origin.</p>
 <p><strong>How to Use</strong>
-Moon::calculateMoonTimes(<em>month</em>, <em>day</em>, <em>year</em>, <em>latitude</em>, <em>longitude</em>);
-[code=php]date_default_timezone_set(&#39;America/Chicago&#39;);
+Moon::calculateMoonTimes(<em>month</em>, <em>day</em>, <em>year</em>, <em>latitude</em>, <em>longitude</em>);</p>
+<pre><code class="lang-php">date_default_timezone_set(&#39;America/Chicago&#39;);
 include(&#39;moon.php&#39;);
-print_r(Moon::calculateMoonTimes(6, 28, 2011, 36.754478, -96.110291));[/code]</p>
+print_r(Moon::calculateMoonTimes(6, 28, 2011, 36.754478, -96.110291));
+</code></pre>
 <p>The above code will output the following result:</p>
 <p>[code=output]stdClass Object ( [moonrise] =&gt; 1309246800 [moonset] =&gt; 1309300560 )[/code]</p>
 <p>Moonrise and moonset, as stated previously, are a Unix time stamp local to the latitude and longitude given.</p>

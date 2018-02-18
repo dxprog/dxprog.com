@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><title>Building a Web-based Media Player - Part 1</title></head><body><article><h2>Building a Web-based Media Player - Part 1</h2><time>August 31, 2008</time><div><p>For the past month I&#39;ve been tinkering with Flex and my little Linux server. One of the projects that grew out of this was a web media player with which I could listen to all my tunes wherever there happened to be some scraps of internet. This has been one of the coolest projects I&#39;ve worked on in some time. It successfully blends nearly all of my programming skills: PHP/MySQL, Javascript, XML, Flex/Actionscript 3.0, and some C++. I&#39;m going to write a series of tutorials walking through what I&#39;ve done in hopes of bringing this coolness to the masses. I&#39;m going to be fairly verbose covering subjects that any seasoned programmer can pretty much skip over. In the first installment I&#39;m going to cover creating the database and getting song information from the MP3s.[break]</p>
+<html><head><title>Building a Web-based Media Player - Part 1</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>Building a Web-based Media Player - Part 1</h2><time>August 31, 2008</time><div><p>For the past month I&#39;ve been tinkering with Flex and my little Linux server. One of the projects that grew out of this was a web media player with which I could listen to all my tunes wherever there happened to be some scraps of internet. This has been one of the coolest projects I&#39;ve worked on in some time. It successfully blends nearly all of my programming skills: PHP/MySQL, Javascript, XML, Flex/Actionscript 3.0, and some C++. I&#39;m going to write a series of tutorials walking through what I&#39;ve done in hopes of bringing this coolness to the masses. I&#39;m going to be fairly verbose covering subjects that any seasoned programmer can pretty much skip over. In the first installment I&#39;m going to cover creating the database and getting song information from the MP3s.[break]</p>
 <p>The first thing to do, obviously, is set up the database tables. I&#39;ve kept my setup fairly minimalistic having tables for artists, albums, and tracks. I plan to expand later to track playback habits and so forth, but these are all you need to make your player fully functional. I&#39;ve got my tables setup as follows:
 <strong>artists</strong>
 [list][item]id (int 4, primary key)[/item][item]name (varchar 100)[/item][/list]
@@ -8,12 +8,13 @@
 <strong>tracks</strong>
 [list][item]id (int 11, primary key)[/item][item]title (varchar 100)[/item][item]artist (int 4)[/item][item]album (int 4)[/item][item]track_num (int 3)[/item][item]play_count (int 5)[/item][item]date_played (int 11)[/item][/list]
 Most of these fields should be self-explanitory. The tracks table can expand or contract to include what ever metadata you want (I personally left out genre as I hardly ever use that). date_played will store the Unix timestamp of the last time the song was played. I personally like storing my timestamps without formatting as to forego the unnecessary strtotime () conversion. We&#39;ll use this later when we create the recently played list.</p>
-<p>About now I would begin to discuss how we&#39;re going to get this information into the database, but first we need to be able to get the information from the files. I&#39;ve got two methods for this and it all really depends on your programming skills and what you have available on your server. The first, and most available option is through Actionscript. Let&#39;s jump to code.
-[code=actionscript]var tagLoader:Sound = new Sound();
+<p>About now I would begin to discuss how we&#39;re going to get this information into the database, but first we need to be able to get the information from the files. I&#39;ve got two methods for this and it all really depends on your programming skills and what you have available on your server. The first, and most available option is through Actionscript. Let&#39;s jump to code.</p>
+<pre><code class="lang-actionscript">var tagLoader:Sound = new Sound();
 tagLoader.load (&quot;my_song.mp3&quot;);
 tagLoader.addEventListener (Event.ID3, tagsLoadedHandler)
-tagLoader.addEventListener (Event.COMPLETE, tagsLoadedHandler)</p>
-<p>function tagsLoadedHandler (e:Event):void
+tagLoader.addEventListener (Event.COMPLETE, tagsLoadedHandler)
+
+function tagsLoadedHandler (e:Event):void
 {
     var title:String = tagLoader.id3.title;
     var artist:String = tagLoader.id3.artist;
@@ -21,8 +22,9 @@ tagLoader.addEventListener (Event.COMPLETE, tagsLoadedHandler)</p>
     var track:String = tagLoader.id3.track;
     // Send to database
     tagLoader.removeEventListener (Event.COMPLETE, tagsLoadedHandler);
-}[/code]
-[b]<em>Lines 1-2</em>[/b]
+}
+</code></pre>
+<p>[b]<em>Lines 1-2</em>[/b]
 Nothing terribly exciting. We set up our Sound object which will be loading the MP3 and getting ID3 information. Immediately after we load the MP3 file _my<em>song.mp3</em> into our Sound object.
 [b]<em>Lines 3-4</em>[/b]
 We set up two event listeners so we can catch the data. The first fires once ID3 information has been retrieved. Depending on your MP3 file, this event won&#39;t always fire so we set up the COMPLETE event so that the code is run regardless. We&#39;ll be talking more about that in the next tutorial.

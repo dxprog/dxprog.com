@@ -1,12 +1,14 @@
 <!DOCTYPE html>
-<html><head><title>ID3Lib - A tag library for all seasons</title></head><body><article><h2>ID3Lib - A tag library for all seasons</h2><time>October 21, 2009</time><div><p><img src="http://images.dxprog.com/blog/id3lib.png" alt="" title="image"></p>
+<html><head><title>ID3Lib - A tag library for all seasons</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>ID3Lib - A tag library for all seasons</h2><time>October 21, 2009</time><div><p><img src="http://images.dxprog.com/blog/id3lib.png" alt="" title="image"></p>
 <p>ID3Lib [ <a href="http://dxprog.com/files/ID3Lib.zip">Download</a> ]</p>
 <p>As one may have derived from previous posts, I have a <a href="http://labs.dxprog.com/smp/">project</a> the uses MP3s quite heavily. As such, retrieving tag data from these is quite an important thing. Having recently migrated my personal server to Windows, I needed a non-Linux variant of my previous <a href="http://dxprog.com/entry/building-a-web-based-media-player---part-1/">tag read</a>. I thought that while I was at it I could add an additional feature, namely saving embedded album art. Unfortunately, I was unable to find any clear directions on how to do so using <a href="http://developer.kde.org/~wheeler/taglib.html">TagLib</a>, so I created my own library. Three different times. In three different languages. A C++ version, a .NET version and, finally, a PHP version.[break]</p>
 <p>Each of these libraries works pretty similar, but to give you the general idea, I&#39;ll write out a simple program for each.</p>
-<p>[code=c++]#include <iostream></p>
-<p>#include &quot;id3lib.h&quot;</p>
-<p>using namespace std;</p>
-<p>void main () {
+<pre><code class="lang-c++">#include &lt;iostream&gt;
+#include &quot;id3lib.h&quot;
+
+using namespace std;
+
+void main () {
     ID3Lib id3(&quot;my.mp3&quot;); // Create the object
     if (!id3)
         cout &lt;&lt; &quot;Unable to parse file&quot;;
@@ -15,7 +17,8 @@
         cout &lt;&lt; &quot;Album: &quot; &lt;&lt; id3.tag(&quot;TALB&quot;) &lt;&lt; &quot;n&quot;; // Can retrieve any tag with this method
         id3.saveAlbumArt (&quot;album_art.jpg&quot;); // Save any embedded picture
     }
-}[/code]</p>
+}
+</code></pre>
 <p>[code=c#]using System;
 using System.Collections.Generic;
 using System.Text;
@@ -33,15 +36,17 @@ using Id3Lib_Net;</p>
         }
     }
 }[/code]</p>
-<p>[code=php]include (&quot;id3lib.php&quot;);</p>
-<p>$id3 = new ID3Lib (&quot;my.mp3&quot;); // Create the ID3Lib object
+<pre><code class="lang-php">include (&quot;id3lib.php&quot;);
+
+$id3 = new ID3Lib (&quot;my.mp3&quot;); // Create the ID3Lib object
 if (!$id3-&gt;getErr()) { // Will be null if load was successful
     echo (&quot;Title: &quot;.$id3-&gt;title); // A shortcut for getting the title
     echo (&quot;Album: &quot;.$id3-&gt;tags-&gt;TALB); // All tags can be accessed this way
     $id3-&gt;savePicture (&quot;album_art.jpg&quot;); // Saves an embedded picture
 }
 else
-    echo (&quot;There was an error opening the MP3: &quot;.$id3-&gt;getErr());[/code]</p>
+    echo (&quot;There was an error opening the MP3: &quot;.$id3-&gt;getErr());
+</code></pre>
 <p>Each library includes a set of methods/properties for the following common tags: title, album, artist, disc, track, year.</p>
 <p>All three libraries are licensed under the GPLv3 and have the original source code, so you can do with them what you wish, though credit and a link back here is always nice :-).</p>
 <p>ID3Lib [ <a href="http://dxprog.com/files/ID3Lib.zip">Download</a> ]</p>

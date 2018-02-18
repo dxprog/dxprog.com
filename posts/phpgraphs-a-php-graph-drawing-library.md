@@ -11,12 +11,14 @@ tags:
 Over the past few days, I've been developing a library to help in drawing graphs for various stuff on the [music page](http://dxprog.com/entry/celebrating-one-year-of-the-music-page). I've built to to be a fairly complete solution that is both robust and simple to use. Today, I offer phpGraphs to the masses to do with as they please, [free of charge.](http://dxprog.com/files/phpGraphs_1.0.zip) Follow the break for a quick tutorial on how to use it.[break]
 phpGraphs requires PHP5 and the GD2 extension to be enabled. To install, simply copy the phpGraph.php to a place accessible to your script.
 Here's a small script that sets up the graph object an adds data:
-[code=php]include ("http://dxprog.com/phpGraphs.php");
+```php
+include ("http://dxprog.com/phpGraphs.php");
 
 $graph = new Graph ("My Graph", 640, 480);
 $dataSet = $graph->createDataSet ("Data Set 1");
 for ($i = 0; $i < 50; $i++)
-	$dataSet->add (rand () % 100);[/code]
+	$dataSet->add (rand () % 100);
+```
 
 **Line 2 - **Here, we include the phpGraph library. Pretty self-explanitory.
 **Line 4 - **We create our graph object in the variable $graph. The argument passed is the title that will be drawn at the top of the graph. The second two parameters are the width and height of the image, respectively.
@@ -48,7 +50,8 @@ _index - _setDataColor allows you to change the color of the lines, bars and sli
 Below is an example of a graph that has a custom color scheme:
 ![](http://dxprog.com/pics/phpGraphs_custom.png "A graph using custom colors")
 Expounding upon the example given above, here is how a complete script would look.
-[code=php]include ("http://dxprog.com/phpGraphs.php");
+```php
+include ("http://dxprog.com/phpGraphs.php");
 
 // Create the graph and add some data
 $graph = new Graph ("My Graph", 640, 480);
@@ -62,7 +65,8 @@ $img = $graph->drawLineGraph ("Iteration", "Value", false);
 // Add the appropriate headers so the browser recognizes this as an image
 header ("Content-type: image/png");
 imagepng ($img);
-imagedestroy ($img);[/code]
+imagedestroy ($img);
+```
 That's about all there is to it. If you find any bugs, have any feature requests, or are just having issues, feel free to leave a comment below and I'll be glad to help. Enjoy!
 
 [ [Download](http://dxprog.com/files/phpGraphs_1.0.zip) ]

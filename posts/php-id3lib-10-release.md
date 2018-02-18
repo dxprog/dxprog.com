@@ -23,7 +23,8 @@ Brand spanking new release of the PHP branch of ID3Lib!
 
 **Example**
 
-[code=php]
+```php
+
 include('id3lib.php');
 $songs = array('song1.mp3', 'song2.mp3', 'song3.mp3');
 $id3 = new ID3Lib();
@@ -43,6 +44,7 @@ for ($i = 0, $count = count($songs); i < $count; i++) {
 	echo 'Avg. Bit Rate: ', $id3->bitrate, '<br />';
 	$id3->savePicture($i.'_pic.jpg');
 }
-[/code]
+
+```
 
 If you have any comments/issues, let me know!

@@ -16,16 +16,20 @@ Demo: [ [Try it out](http://labs.dxprog.com/gis/) ]
 
 Sometime ago, I found myself wanting to be able to programatically perform a Google image search (it was for album art on the music page). As Google does not provide an API for backend scripting, I wrote a quick scraper that does the job quite nicely. Hit the break for info on how to use this.[break]
 
-[code=php]
+```php
+
 include ('gis.php');
 $results = googleImageSearch('chobits');
 print_r($results);
-[/code]
+
+```
 
 Here's the function prototype:
-[code=php]
+```php
+
 googleImageSearch($query, $page = 1, $size = GIS_ANY, $type = GIS_ANY);
-[/code]
+
+```
 
 This returns an array of stdObject with the following properties:
 [list][item]**resultLink** - Link to Google image result. This is the page that displays when you click a result through normal image search[/item][item]**source** - URL of the source image[/item][item]**title** - Title associated with the image[/item][item]**width** - Width of the image[/item][item]**height** - Height of the image[/item][item]**size** - Size of the image[/item][item]**type** - Format of the image (jpg, png, etc)[/item][item]**domain** - Domain of source image[/item][item]**thumb** - stdObject with information on Google's thumbnail of the image. Properties are:[/item][item]**thumb->src** - URL to the thumbnail[/item][item]**thumb->width** - Width of the thumbnail[/item][item]**thumb->height** - Height of the thumbnail[/item][/list]

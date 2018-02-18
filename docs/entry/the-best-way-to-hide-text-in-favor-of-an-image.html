@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><title>The Best Way to Hide Text in Favor of an Image</title></head><body><article><h2>The Best Way to Hide Text in Favor of an Image</h2><time>October 7, 2013</time><div><p>hashtag html5, hashtag css3!</p>
+<html><head><title>The Best Way to Hide Text in Favor of an Image</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>The Best Way to Hide Text in Favor of an Image</h2><time>October 7, 2013</time><div><p>hashtag html5, hashtag css3!</p>
 <p>I&#39;m saddened that the red squigglies went away after correcting my spelling of &quot;hashtag&quot;...</p>
 <p>Sometimes when you&#39;re coding a website, you&#39;ll have something in markup that is represented in text for accessibility, but needs to be graphical in presentation. Oftentimes, this will happen for a logo or an icon of some sort. The industry standard way of hiding the text but not the image is to use text-indent to move the text somewhere off the left side of the screen while setting a background.</p>
 <p>That last part is fine, the other part is not.</p>
@@ -21,12 +21,13 @@ background: url(BACKGROUND_IMAGE);
 <strong>Line 6</strong> - because our element height is 0, setting the overflow to hidden will hide the text content within
 <strong>Line 7</strong> - finally, set the background, probably a sprite or something</p>
 <p>There you have it. Probably the best way to image replace text in a performant and browser friendly way (back to IE6, if I&#39;m not mistaken). If you inspect the search icon up in the corner, you can see this code in action (not sure why the input box is off, but that&#39;s something for another day). Also, if you&#39;re into SASS, here&#39;s a handy mixin I made of the above:</p>
-<p>[code=css]@mixin image-text($background, $width, $height, $display: block) {
+<pre><code class="lang-css">@mixin image-text($background, $width, $height, $display: block) {
   overflow: hidden;
   width: $width;
   height: 0;
   padding-top: $height;
   display: $display;
   background: $background no-repeat;
-}[/code]</p>
+}
+</code></pre>
 </div></article></body></html>

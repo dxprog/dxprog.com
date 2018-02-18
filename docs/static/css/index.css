@@ -1,0 +1,32 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+article {
+  margin-bottom: 5rem;
+}
+
+article h2 {
+  font: 4.8rem/1.4 'Roboto', sans-serif;
+  margin-bottom: 1rem;
+}
+
+article time {
+  font: 2.4rem/1 'Roboto Light', 'Roboto', sans-serif;
+  display: block;
+  margin-bottom: 5rem;
+}
+
+article p {
+  font: 2.4rem/1.2 Georgia, sans-serif;
+  margin-bottom: 1rem;
+}
+
+article img {
+  max-width: 100%;
+}

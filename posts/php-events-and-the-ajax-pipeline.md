@@ -14,8 +14,10 @@ Some months ago, I was trying to beef up the user feedback that [redditbooru](ht
 
 Anybody who has coded JavaScript for more than thirty minutes will understand that it runs on a highly evented model. You attach a listener to an object with a function callback, the object fires and event, and the callback is called with data provided pertaining to the event in question. PHP, being a highly linear programming language, doesn't really have such a concept baked in. Being that I wanted something that could be easily reused through out an entire project, I came up with a stupid simple [events library](https://github.com/dxprog/reddit-booru/blob/master/lib/events.php). Pertaining to the internal event modelling, it exposes the following two methods:
 
-[code=php]public static function addEventListener($eventType, $callback);
-public static function fire($eventType, $data = null);[/code]
+```php
+public static function addEventListener($eventType, $callback);
+public static function fire($eventType, $data = null);
+```
 
 These work essentially as they do in JavaScript: subscribe to an event with addEventListener and provide a callback. Fire an event with fire of that event type with whatever relevant information that goes with. addEventListener is constructed such that you can add multiple callbacks for a single event, much like the sugary goodness that jQuery provides to the DOM. One possible drawback of my implementation is that the event bus is essentially global, being that all the methods are static. This means you could have naming collisions on event types. Granted, this could easily be converted into an abstract class that any class could later inherit, providing this functionality.
 
@@ -24,13 +26,16 @@ Here are a couple of quick production examples of [event firing](https://github.
 ## Sending and Parsing Evented JSON
 As stated previously, on modern browsers, the XMLHttpRequest response has a third ready state of "processing request". Essentially, this fires at certain points as the request is receiving data. We can use this to our advantage to send small status updates to the user as the backend performs numerous/long running tasks. Part of the events library are some calls to handle what I refer to as "evented Ajax", though I'm sure there's a real term for it. It has the following methods:
 
-[code=php]public static function beginAjaxEvent();
+```php
+public static function beginAjaxEvent();
 public static function endAjaxEvent();
-public static function sendAjaxEvent($eventType, $data);[/code]
+public static function sendAjaxEvent($eventType, $data);
+```
 
 beginAjaxEvent and endAjaxEvent do essentially what you would expect: they prime the system for sending data out in this fashion and tidy everything up necessarily. sendAjaxEvent is where all the fun happens. I'm going to go through this guy line by line.
 
-[code=php]public static function sendAjaxEvent($eventType, $data) {
+```php
+public static function sendAjaxEvent($eventType, $data) {
 $out = new stdClass;
 $out->eventType = $eventType;
 $out->data = $data;
@@ -42,7 +47,8 @@ $out = str_pad($out, 4096, ' ');
 }
 echo $out;
 flush();
-}[/code]
+}
+```
 
 **Line 3-7** - pretty simple, preparing the data that will actually be sent to the browser as a JSON response.
 **Line 8-11** - An oddity I ran into with Chrome while developing this. Apparently, it will only fire a processing event if the data received is 4K or greater. So, to ensure that the event is fired, we pad the response out to 4K at minimum.
