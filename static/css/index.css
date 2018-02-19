@@ -44,12 +44,23 @@ article img {
   bottom: 0;
 }
 
+.intro-bar:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(to bottom, rgba(255, 255, 255, .8), rgba(255, 255, 255, 0));
+  z-index: -1;
+}
+
 .intro-bar__photo {
-  width: 280px;
-  height: 280px;
+  max-width: 50%;
+  max-height: 50%;
   border: 3px solid #fff;
   display: block;
-  border-radius: 140px;
+  border-radius: 100%;
   margin-bottom: 5rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
 }
@@ -75,6 +86,42 @@ article img {
 .intro-bar__subhead {
   font: 2.4rem/1 'Roboto Light', 'Roboto', sans-serif;
   text-align: center;
+}
+
+.social-links {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  margin-top: 5rem;
+}
+
+.social-links__item {
+  margin-left: 2rem;
+}
+
+.social-links__item:first-child {
+  margin-left: 0;
+}
+
+.social-links__link {
+  display: block;
+  width: 32px;
+  height: 0;
+  padding: 32px 0 0;
+  overflow: hidden;
+  background: url(../images/social-icons.png) no-repeat;
+}
+
+.social-links__link--github {
+  background-position: -32px 0;
+}
+
+.social-links__link--twitter {
+  background-position: -64px 0;
+}
+
+.social-links__link--linkedin {
+  background-position: -96px 0;
 }
 
 .main .article-list {

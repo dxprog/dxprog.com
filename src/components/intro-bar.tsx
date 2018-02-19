@@ -13,17 +13,17 @@ export class IntroBar extends React.Component<undefined, undefined> {
         <h2 className="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2>
         <nav className="intro-bar__social-nav">
           <ul className="social-links">
-            <li className="social-link__item">
-              <a className="social-links__link social-links__link--rss">RSS Feed</a>
+            <li className="social-links__item">
+              <a className="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a>
             </li>
-            <li className="social-link__item">
-              <a className="social-links__link social-links__link--github">GitHub</a>
+            <li className="social-links__item">
+              <a className="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a>
             </li>
-            <li className="social-link__item">
-              <a className="social-links__link social-links__link--twitter">Twitter</a>
+            <li className="social-links__item">
+              <a className="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a>
             </li>
-            <li className="social-link__item">
-              <a className="social-links__link social-links__link--linkedin">LinkedIn Profile</a>
+            <li className="social-links__item">
+              <a className="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a>
             </li>
           </ul>
         </nav>
