@@ -7,6 +7,18 @@ html {
   font-size: 62.5%;
 }
 
+a {
+  color: #444;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:visited {
+  color: #666;
+}
+
 article {
   margin-bottom: 5rem;
 }
@@ -138,4 +150,22 @@ article img {
   margin-top: 10rem;
   margin-left: 480px;
   padding: 0 5rem;
+}
+
+.paging {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+
+.paging__link {
+  font: 2.4rem 'Roboto Light', 'Roboto', sans-serif;
+}
+
+.paging__link--next {
+  justify-self: flex-start;
+}
+
+.paging__link--previous {
+  justify-self: flex-end;
 }

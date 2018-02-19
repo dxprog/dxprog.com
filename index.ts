@@ -14,7 +14,8 @@ const pg = new SiteGenerator({
     new PostsRollupRenderer(5),
     PostRenderer,
     HomePageRenderer
-  ]
+  ],
+  baseUrl: 'http://staticr.dxprog.com/',
 });
 
 // pg.addReader(DxApiReader);

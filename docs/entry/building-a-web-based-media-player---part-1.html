@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><title>Building a Web-based Media Player - Part 1</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>Building a Web-based Media Player - Part 1</h2><time>August 31, 2008</time><div><p>For the past month I&#39;ve been tinkering with Flex and my little Linux server. One of the projects that grew out of this was a web media player with which I could listen to all my tunes wherever there happened to be some scraps of internet. This has been one of the coolest projects I&#39;ve worked on in some time. It successfully blends nearly all of my programming skills: PHP/MySQL, Javascript, XML, Flex/Actionscript 3.0, and some C++. I&#39;m going to write a series of tutorials walking through what I&#39;ve done in hopes of bringing this coolness to the masses. I&#39;m going to be fairly verbose covering subjects that any seasoned programmer can pretty much skip over. In the first installment I&#39;m going to cover creating the database and getting song information from the MP3s.[break]</p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Building a Web-based Media Player - Part 1</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><article><h2><a href="http://staticr.dxprog.com/entry/building-a-web-based-media-player---part-1">Building a Web-based Media Player - Part 1</a></h2><time>August 31, 2008</time><div><p>For the past month I&#39;ve been tinkering with Flex and my little Linux server. One of the projects that grew out of this was a web media player with which I could listen to all my tunes wherever there happened to be some scraps of internet. This has been one of the coolest projects I&#39;ve worked on in some time. It successfully blends nearly all of my programming skills: PHP/MySQL, Javascript, XML, Flex/Actionscript 3.0, and some C++. I&#39;m going to write a series of tutorials walking through what I&#39;ve done in hopes of bringing this coolness to the masses. I&#39;m going to be fairly verbose covering subjects that any seasoned programmer can pretty much skip over. In the first installment I&#39;m going to cover creating the database and getting song information from the MP3s.[break]</p>
 <p>The first thing to do, obviously, is set up the database tables. I&#39;ve kept my setup fairly minimalistic having tables for artists, albums, and tracks. I plan to expand later to track playback habits and so forth, but these are all you need to make your player fully functional. I&#39;ve got my tables setup as follows:
 <strong>artists</strong>
 [list][item]id (int 4, primary key)[/item][item]name (varchar 100)[/item][/list]
@@ -25,7 +25,7 @@ function tagsLoadedHandler (e:Event):void
 }
 </code></pre>
 <p>[b]<em>Lines 1-2</em>[/b]
-Nothing terribly exciting. We set up our Sound object which will be loading the MP3 and getting ID3 information. Immediately after we load the MP3 file _my<em>song.mp3</em> into our Sound object.
+Nothing terribly exciting. We set up our Sound object which will be loading the MP3 and getting ID3 information. Immediately after we load the MP3 file _my_song.mp3_ into our Sound object.
 [b]<em>Lines 3-4</em>[/b]
 We set up two event listeners so we can catch the data. The first fires once ID3 information has been retrieved. Depending on your MP3 file, this event won&#39;t always fire so we set up the COMPLETE event so that the code is run regardless. We&#39;ll be talking more about that in the next tutorial.
 [b]<em>Lines 8-12</em>[/b]
@@ -33,8 +33,8 @@ We store the song information for temporary storage until we send it all off to 
 [b]<em>Line 13</em>[/b]
 We remove the event listener on the COMPLETE event. In the probable case that the ID3 event was dispatched we want the COMPLETE event removed otherwise all this code will run again adding your song to the database twice. We don&#39;t want to pull and iTunes with duplicate song issues.</p>
 <p>Alright, that&#39;s the first, and slowest way to do things. I say slowest because it actually requires that the song be downloaded to your computer before it gets the information. This isn&#39;t bad if you&#39;re on a LAN connection, but it&#39;s not near as fast as using the server itself to get the information (which we&#39;ll be doing now).
-[code=c++]#include <taglib/tag.h></p>
-<p>#include <taglib/fileref.h></p>
+[code=c++]#include &lt;taglib/tag.h&gt;</p>
+<p>#include &lt;taglib/fileref.h&gt;</p>
 <p>using namespace std;</p>
 <p>void readID3 (char *fileName)
 {</p>

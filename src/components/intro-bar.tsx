@@ -1,11 +1,18 @@
 import * as React from 'react';
 import { ReactNode } from 'react';
+import { SiteGenerator } from 'staticr-site';
 
-export class IntroBar extends React.Component<undefined, undefined> {
+export class IIntroBarProps {
+  siteGenerator: SiteGenerator;
+}
+
+export class IntroBar extends React.Component<IIntroBarProps, undefined> {
+  public props: IIntroBarProps;
+
   render(): ReactNode {
     return (
       <section className="intro-bar">
-        <img src="static/images/me.jpg" alt="Matt Hackmann" className="intro-bar__photo" />
+        <img src={this.props.siteGenerator.generateUrl('static/images/me.jpg')} alt="Matt Hackmann" className="intro-bar__photo" />
         <h1 className="intro-bar__header">
           <span className="intro-bar__name intro-bar__name--first">Matt</span>
           <span className="intro-bar__name intro-bar__name--last">Hackmann</span>

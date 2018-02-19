@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html><head><title>Getting a YouTube FLV through PHP</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><article><h2>Getting a YouTube FLV through PHP</h2><time>October 4, 2009</time><div><p><img src="http://images.dxprog.com/blog/php_corner.png" alt="" title="PHP Corner">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Getting a YouTube FLV through PHP</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><article><h2><a href="http://staticr.dxprog.com/entry/getting-a-youtube-flv-through-php">Getting a YouTube FLV through PHP</a></h2><time>October 4, 2009</time><div><p><img src="http://images.dxprog.com/blog/php_corner.png" alt="" title="PHP Corner">
 Recently, while making some additions to the <a href="http://labs.dxprog.com/smp/">Music Page</a>, I came across the need to get the location of a YouTube FLV. Unfortunately, most of my googling turned up outdated results that no longer work. Fortunately, unlike a certain <a href="http://hulu.com/">other</a> site, it&#39;s not impossible. Below is a quick explanation of what I got to work. I&#39;ll be assuming that you know how to get your hands on the video ID (the &quot;v&quot; parameter in the query string).[break]</p>
 <p>There really is only one thing that&#39;s needed by YouTube to get the video file, and that&#39;s the video token. As far as I can tell, this is a time sensitive key that is generated for the user to prevent abuse on the YouTube servers. Luckily, this is pretty easy to obtain. The get_video_info page returns not only the token, but all sorts of other valuable information about the video, such as author, date uploaded, length in seconds, etc. Here&#39;s a small function that retrieves this information and returns it as an object:</p>
 <p>[code=php]function ytGetInfo ($id)
 {
-    $file = file_get_contents (&quot;<a href="http://www.youtube.com/get_video_info?&amp;video_id=$id">http://www.youtube.com/get_video_info?&amp;video_id=$id</a>&quot;);
+    $file = file_get_contents (&quot;<a href="http://www.youtube.com/get_video_info?&amp;video_id=$id&quot;)">http://www.youtube.com/get_video_info?&amp;video_id=$id&quot;)</a>;
     $a = explode (&quot;&amp;&quot;, urldecode ($file));
     foreach ($a as $i) {
         $e = explode (&quot;=&quot;, $i, 2);
