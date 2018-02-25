@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Archives - Page 65</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><section class="rollup-page"><section class="intro-bar"><img src="http://staticr.dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><section class="article-list"><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/ajax-and-the-user-experience">Ajax and the User Experience</a></h1><time class="post__published">November 12, 2009</time></header><div class="post__content"><p>The code running this website is well over a year old now and, as I&#39;ve gone back to upgrade/fix things, I&#39;ve noticed that it is clunky and highly inflexible. The implementation I&#39;ve used is actually very, very similar to what I used in YPNgine back in 2003; a switch statement calling functions from an included script based upon variables passed in the query string. Granted, there&#39;s going to be some degree of that in any implementation, but through some tinkering with the music page and interviewing with some of the developer&#39;s at Digg has led me to a new paradigm: a set RESTful API calls independent of all front end management.</p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Archives - Page 65</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><section class="rollup-page"><section class="intro-bar intro-bar--horizontal"><img src="http://staticr.dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><section class="article-list"><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/ajax-and-the-user-experience">Ajax and the User Experience</a></h1><time class="post__published">November 12, 2009</time></header><div class="post__content"><p>The code running this website is well over a year old now and, as I&#39;ve gone back to upgrade/fix things, I&#39;ve noticed that it is clunky and highly inflexible. The implementation I&#39;ve used is actually very, very similar to what I used in YPNgine back in 2003; a switch statement calling functions from an included script based upon variables passed in the query string. Granted, there&#39;s going to be some degree of that in any implementation, but through some tinkering with the music page and interviewing with some of the developer&#39;s at Digg has led me to a new paradigm: a set RESTful API calls independent of all front end management.</p>
 <p>Now, aside from the nice code separation and simplification of feature adds and maintainability this provides, it also opens up a new world to Ajax. Since all the data is accessible via query string, almost all the usual functionality that would normally call for separate pages can be added in without ever having to leave the landing page. In fact, I&#39;ve <a href="http://dxprog.dyndns.org/dxsite2">implemented this</a> functionality on the test server. As interesting as this may sound, it raises some interesting issues concerning usability and the user experience.</p>
 <p>The largest concern is that of site navigation or, more specifically, navigation history. In a normal site, every page you visit will be added to the site history, appending itself to the not only pages visited, but the forward and back buttons as needed. With Ajax, you have none of this. Were you to click a link to a story and have it loaded via Ajax, your browser history does not change. Pressing the back button will take you to the previous entered URL and not the previous page because, technically, you&#39;re still on the same page. The new page won&#39;t be placed in browsing history which could make finding back a particular story particularly difficult. And, finally, because the page never changes, neither does the URL in the address bar which could lead to confusion.</p>
 <p>Say you entered my site on the gallery page using the url <a href="http://dxprog.com/gallery">http://dxprog.com/gallery</a> and eventually found your way to to the June 2006 blog archives, specifically to a story about my <a href="http://dxprog.com/entry/tryin-to-survive/">life without a laptop</a>. Because the page never actually changes, the address bar will continue to read <a href="http://dxprog.com/gallery">http://dxprog.com/gallery</a> even though that content is no longer there. This would have made my retrieval of the URL for that story more difficult and, had the title not been permalinked, I wouldn&#39;t have been able to retrieve it at all.</p>
@@ -25,11 +25,12 @@ void main () {
     }
 }
 </code></pre>
-<p>[code=c#]using System;
+<pre><code class="lang-c#">using System;
 using System.Collections.Generic;
 using System.Text;
-using Id3Lib_Net;</p>
-<p>namespace Id3LibNet_Test
+using Id3Lib_Net;
+
+namespace Id3LibNet_Test
 {
     class Program
     {
@@ -41,7 +42,8 @@ using Id3Lib_Net;</p>
             t.savePicture (&quot;album_art.jpg&quot;);
         }
     }
-}[/code]</p>
+}
+</code></pre>
 <pre><code class="lang-php">include (&quot;id3lib.php&quot;);
 
 $id3 = new ID3Lib (&quot;my.mp3&quot;); // Create the ID3Lib object
@@ -60,16 +62,17 @@ else
 </div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/getting-a-youtube-flv-through-php">Getting a YouTube FLV through PHP</a></h1><time class="post__published">October 4, 2009</time></header><div class="post__content"><p><img src="http://images.dxprog.com/blog/php_corner.png" alt="" title="PHP Corner">
 Recently, while making some additions to the <a href="http://labs.dxprog.com/smp/">Music Page</a>, I came across the need to get the location of a YouTube FLV. Unfortunately, most of my googling turned up outdated results that no longer work. Fortunately, unlike a certain <a href="http://hulu.com/">other</a> site, it&#39;s not impossible. Below is a quick explanation of what I got to work. I&#39;ll be assuming that you know how to get your hands on the video ID (the &quot;v&quot; parameter in the query string).[break]</p>
 <p>There really is only one thing that&#39;s needed by YouTube to get the video file, and that&#39;s the video token. As far as I can tell, this is a time sensitive key that is generated for the user to prevent abuse on the YouTube servers. Luckily, this is pretty easy to obtain. The get_video_info page returns not only the token, but all sorts of other valuable information about the video, such as author, date uploaded, length in seconds, etc. Here&#39;s a small function that retrieves this information and returns it as an object:</p>
-<p>[code=php]function ytGetInfo ($id)
+<pre><code class="lang-php">function ytGetInfo ($id)
 {
-    $file = file_get_contents (&quot;<a href="http://www.youtube.com/get_video_info?&amp;video_id=$id&quot;)">http://www.youtube.com/get_video_info?&amp;video_id=$id&quot;)</a>;
+    $file = file_get_contents (&quot;http://www.youtube.com/get_video_info?&amp;video_id=$id&quot;);
     $a = explode (&quot;&amp;&quot;, urldecode ($file));
     foreach ($a as $i) {
         $e = explode (&quot;=&quot;, $i, 2);
         $ret-&gt;$e[0] = $e[1];
     }
     return $ret;
-}[/code]</p>
+}
+</code></pre>
 <p>Simple stuff, really. The contents of get_video_info are retrieved and stored in $file. This information comes URL encoded, so we first need to decode that. As with any URL string, each variable is separated by an ampersand (&amp;), so when calling <a href="http://us.php.net/manual/en/function.explode.php">explode</a>. That returns the variable/value pairs in an array ([0]=&gt;&quot;author=dxprog&quot;, [1]=&gt;&quot;token=asi940tnas&quot;, ...). Iterating through each of those, we then explode the var/value pairs and add them to our outgoing object. Now we have the token (amongst other info), so next will be retrieving the video file itself.</p>
 <p>YouTube uses get_video to return where the actual video is stored. Now, I don&#39;t know all the nuances of this method, but as of this writing, it returns a 303 See other HTTP response code with the location header pointing to the actual, real address of the video file. We&#39;ll functionize that:</p>
 <pre><code class="lang-php">function ytGetVideoPath ($id)
@@ -108,26 +111,31 @@ for ($i = 0; $i &lt; 50; $i++)
 <strong>Line 5 - </strong>This creates a new dataset with the name &quot;Data Set 1&quot;. It returns a pointer to the dataset object within the graph object. You can create an infinite amount of data sets, though there is a visual limitation I will discuss later.
 <strong>Line 6 - </strong>Calling the <em>add</em> function of the object returned on line 5 will add data to the set, in this case a random number from 0 to 100.
 phpGraphs has the ability to draw four different types of graph. They are: line, vertical bar, horizontal bar and pie. Following is an example of each graph type along with the function prototype.
-<img src="http://dxprog.com/pics/phpGraphs_line.png" alt="" title="Line Graph">
-[code=prototype]image drawLineGraph (xLabel, yLabel, [drawLegend = true], [divisions = 5]);[/code]
-<img src="http://dxprog.com/pics/phpGraphs_vbar.png" alt="" title="Vertical Bar Graph">
-[code=prototype]image drawVertBarGraph (yLabel, [drawLegend = true], [divisions = 5]);[/code]
-<img src="http://dxprog.com/pics/phpGraphs_hbar.png" alt="" title="Horizontal Bar Graph">
-[code=prototype]image drawHorzBarGraph (yLabel, [drawLegend = true], [divisions = 5]);[/code]
-<img src="http://dxprog.com/pics/phpGraphs_pie.png" alt="" title="Pie Graph">
-[code=prototype]image $graph-&gt;drawPieGraph ([drawLegend = true]);[/code]
-All of these are functions of the Graph object and aach returns a handle to a GD image that you can do with as you please. Some notes on the parameters:
+<img src="http://dxprog.com/pics/phpGraphs_line.png" alt="" title="Line Graph"></p>
+<pre><code class="lang-prototype">image drawLineGraph (xLabel, yLabel, [drawLegend = true], [divisions = 5]);
+</code></pre>
+<p><img src="http://dxprog.com/pics/phpGraphs_vbar.png" alt="" title="Vertical Bar Graph"></p>
+<pre><code class="lang-prototype">image drawVertBarGraph (yLabel, [drawLegend = true], [divisions = 5]);
+</code></pre>
+<p><img src="http://dxprog.com/pics/phpGraphs_hbar.png" alt="" title="Horizontal Bar Graph"></p>
+<pre><code class="lang-prototype">image drawHorzBarGraph (yLabel, [drawLegend = true], [divisions = 5]);
+</code></pre>
+<p><img src="http://dxprog.com/pics/phpGraphs_pie.png" alt="" title="Pie Graph"></p>
+<pre><code class="lang-prototype">image $graph-&gt;drawPieGraph ([drawLegend = true]);
+</code></pre>
+<p>All of these are functions of the Graph object and aach returns a handle to a GD image that you can do with as you please. Some notes on the parameters:
 _xLabel - _Label to be drawn on the X axis
 _yLabel - _Label to be drawn on the Y axis
 _showLegend - _Defines whether to show the legend or not. This is turned on by default. If the legend is disabled, the graph will enlarge to fill the image.
 _divisions - _ This says how many times to divide up the Y axis (X for horizontal bar graphs). The default is 5, which should work well in most cases.</p></p>
-<p><p>By default, phpGraphs has colors set for text, image background, data background, grid, and twelve colors for data sets. Now, as I mentioned above, you can have an infinite amount of data sets, but after the twelfth the color will be black as no colors are set beyond that. phpGraphs, however, gives you complete control over the colors you wish to use. The functions are as follows:</p>
-[code=prototype]Graph-&gt;setBgColor (r, g, b, [a = 0x00]);
+<p><p>By default, phpGraphs has colors set for text, image background, data background, grid, and twelve colors for data sets. Now, as I mentioned above, you can have an infinite amount of data sets, but after the twelfth the color will be black as no colors are set beyond that. phpGraphs, however, gives you complete control over the colors you wish to use. The functions are as follows:</p></p>
+<pre><code class="lang-prototype">Graph-&gt;setBgColor (r, g, b, [a = 0x00]);
 Graph-&gt;setDataBgColor (r, g, b, [a = 0x00]);
 Graph-&gt;setTextColor (r, g, b, [a = 0x00]);
 Graph-&gt;setGridColor (r, g, b, [a = 0x00]);
-Graph-&gt;setDataColor (index, r, g, b, [a = 0x00]);[/code]
-_r, g, b - _The red, green and blue values of the color. Valid value range is 0-255.
+Graph-&gt;setDataColor (index, r, g, b, [a = 0x00]);
+</code></pre>
+<p>_r, g, b - _The red, green and blue values of the color. Valid value range is 0-255.
 _a_ - Alpha of the color. Valid values are 0-127, with 0 being completely opaque and 127 being completely transparent.
 _index - _setDataColor allows you to change the color of the lines, bars and slices used for data. The index value specifies the data set number. Valid valus are 1-infinity.
 Below is an example of a graph that has a custom color scheme:

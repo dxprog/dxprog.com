@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>phpGraphs - A PHP Graph Drawing Library</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/phpgraphs-a-php-graph-drawing-library">phpGraphs - A PHP Graph Drawing Library</a></h1><time class="post__published">September 7, 2009</time></header><div class="post__content"><p><img src="http://images.dxprog.com/blog/phpgraphs.png" alt="" title="phpGraphs">
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>phpGraphs - A PHP Graph Drawing Library</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><section class="post-page"><section class="intro-bar intro-bar--horizontal"><img src="http://staticr.dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/phpgraphs-a-php-graph-drawing-library">phpGraphs - A PHP Graph Drawing Library</a></h1><time class="post__published">September 7, 2009</time></header><div class="post__content"><p><img src="http://images.dxprog.com/blog/phpgraphs.png" alt="" title="phpGraphs">
 Over the past few days, I&#39;ve been developing a library to help in drawing graphs for various stuff on the <a href="http://dxprog.com/entry/celebrating-one-year-of-the-music-page">music page</a>. I&#39;ve built to to be a fairly complete solution that is both robust and simple to use. Today, I offer phpGraphs to the masses to do with as they please, <a href="http://dxprog.com/files/phpGraphs_1.0.zip">free of charge.</a> Follow the break for a quick tutorial on how to use it.[break]
 phpGraphs requires PHP5 and the GD2 extension to be enabled. To install, simply copy the phpGraph.php to a place accessible to your script.
 Here&#39;s a small script that sets up the graph object an adds data:</p>
@@ -15,26 +15,31 @@ for ($i = 0; $i &lt; 50; $i++)
 <strong>Line 5 - </strong>This creates a new dataset with the name &quot;Data Set 1&quot;. It returns a pointer to the dataset object within the graph object. You can create an infinite amount of data sets, though there is a visual limitation I will discuss later.
 <strong>Line 6 - </strong>Calling the <em>add</em> function of the object returned on line 5 will add data to the set, in this case a random number from 0 to 100.
 phpGraphs has the ability to draw four different types of graph. They are: line, vertical bar, horizontal bar and pie. Following is an example of each graph type along with the function prototype.
-<img src="http://dxprog.com/pics/phpGraphs_line.png" alt="" title="Line Graph">
-[code=prototype]image drawLineGraph (xLabel, yLabel, [drawLegend = true], [divisions = 5]);[/code]
-<img src="http://dxprog.com/pics/phpGraphs_vbar.png" alt="" title="Vertical Bar Graph">
-[code=prototype]image drawVertBarGraph (yLabel, [drawLegend = true], [divisions = 5]);[/code]
-<img src="http://dxprog.com/pics/phpGraphs_hbar.png" alt="" title="Horizontal Bar Graph">
-[code=prototype]image drawHorzBarGraph (yLabel, [drawLegend = true], [divisions = 5]);[/code]
-<img src="http://dxprog.com/pics/phpGraphs_pie.png" alt="" title="Pie Graph">
-[code=prototype]image $graph-&gt;drawPieGraph ([drawLegend = true]);[/code]
-All of these are functions of the Graph object and aach returns a handle to a GD image that you can do with as you please. Some notes on the parameters:
+<img src="http://dxprog.com/pics/phpGraphs_line.png" alt="" title="Line Graph"></p>
+<pre><code class="lang-prototype">image drawLineGraph (xLabel, yLabel, [drawLegend = true], [divisions = 5]);
+</code></pre>
+<p><img src="http://dxprog.com/pics/phpGraphs_vbar.png" alt="" title="Vertical Bar Graph"></p>
+<pre><code class="lang-prototype">image drawVertBarGraph (yLabel, [drawLegend = true], [divisions = 5]);
+</code></pre>
+<p><img src="http://dxprog.com/pics/phpGraphs_hbar.png" alt="" title="Horizontal Bar Graph"></p>
+<pre><code class="lang-prototype">image drawHorzBarGraph (yLabel, [drawLegend = true], [divisions = 5]);
+</code></pre>
+<p><img src="http://dxprog.com/pics/phpGraphs_pie.png" alt="" title="Pie Graph"></p>
+<pre><code class="lang-prototype">image $graph-&gt;drawPieGraph ([drawLegend = true]);
+</code></pre>
+<p>All of these are functions of the Graph object and aach returns a handle to a GD image that you can do with as you please. Some notes on the parameters:
 _xLabel - _Label to be drawn on the X axis
 _yLabel - _Label to be drawn on the Y axis
 _showLegend - _Defines whether to show the legend or not. This is turned on by default. If the legend is disabled, the graph will enlarge to fill the image.
 _divisions - _ This says how many times to divide up the Y axis (X for horizontal bar graphs). The default is 5, which should work well in most cases.</p></p>
-<p><p>By default, phpGraphs has colors set for text, image background, data background, grid, and twelve colors for data sets. Now, as I mentioned above, you can have an infinite amount of data sets, but after the twelfth the color will be black as no colors are set beyond that. phpGraphs, however, gives you complete control over the colors you wish to use. The functions are as follows:</p>
-[code=prototype]Graph-&gt;setBgColor (r, g, b, [a = 0x00]);
+<p><p>By default, phpGraphs has colors set for text, image background, data background, grid, and twelve colors for data sets. Now, as I mentioned above, you can have an infinite amount of data sets, but after the twelfth the color will be black as no colors are set beyond that. phpGraphs, however, gives you complete control over the colors you wish to use. The functions are as follows:</p></p>
+<pre><code class="lang-prototype">Graph-&gt;setBgColor (r, g, b, [a = 0x00]);
 Graph-&gt;setDataBgColor (r, g, b, [a = 0x00]);
 Graph-&gt;setTextColor (r, g, b, [a = 0x00]);
 Graph-&gt;setGridColor (r, g, b, [a = 0x00]);
-Graph-&gt;setDataColor (index, r, g, b, [a = 0x00]);[/code]
-_r, g, b - _The red, green and blue values of the color. Valid value range is 0-255.
+Graph-&gt;setDataColor (index, r, g, b, [a = 0x00]);
+</code></pre>
+<p>_r, g, b - _The red, green and blue values of the color. Valid value range is 0-255.
 _a_ - Alpha of the color. Valid values are 0-127, with 0 being completely opaque and 127 being completely transparent.
 _index - _setDataColor allows you to change the color of the lines, bars and slices used for data. The index value specifies the data set number. Valid valus are 1-infinity.
 Below is an example of a graph that has a custom color scheme:
@@ -58,4 +63,4 @@ imagedestroy ($img);
 </code></pre>
 <p>That&#39;s about all there is to it. If you find any bugs, have any feature requests, or are just having issues, feel free to leave a comment below and I&#39;ll be glad to help. Enjoy!</p>
 <p>[ <a href="http://dxprog.com/files/phpGraphs_1.0.zip">Download</a> ]</p>
-</div></article></body></html>
+</div></article><footer class="footer"><p class="footer__copyright">Copyright © 2018 Matt Hackmann</p></footer></section></body></html>

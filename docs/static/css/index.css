@@ -33,12 +33,6 @@ a {
     font: 2.4rem/1.2 Georgia, serif;
     text-align: center; }
 
-.home-page .intro-bar {
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  width: 480px; }
-
 .home-page .article-list {
   width: auto;
   margin: 10rem 0 10rem 480px;
@@ -92,6 +86,33 @@ a {
   .intro-bar__subhead {
     font: 2.4rem/1 'Roboto Light', 'Roboto', sans-serif;
     text-align: center; }
+  .intro-bar--horizontal {
+    margin-bottom: 10rem;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
+    position: relative;
+    padding: 5rem 0; }
+    .intro-bar--horizontal:before {
+      z-index: 0;
+      opacity: .5; }
+    .intro-bar--horizontal:after {
+      content: ''; }
+    .intro-bar--horizontal .intro-bar__name,
+    .intro-bar--horizontal .intro-bar__subhead,
+    .intro-bar--horizontal .social-links {
+      z-index: 1; }
+    .intro-bar--horizontal .intro-bar__name {
+      display: inline; }
+      .intro-bar--horizontal .intro-bar__name--first {
+        padding-right: 1rem; }
+    .intro-bar--horizontal .intro-bar__photo {
+      display: none; }
+  .intro-bar--vertical {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 480px; }
 
 .social-links {
   display: flex;
@@ -138,7 +159,7 @@ a {
   .post__content h3 {
     font-size: 2.4rem; }
   .post__content p {
-    font: 2.4rem/1.2 Georgia, serif;
+    font: 2.4rem/1.4 Georgia, serif;
     margin-bottom: 3rem; }
   .post__content img {
     display: block;
@@ -146,29 +167,16 @@ a {
     max-width: calc(100% - 20rem);
     box-sizing: border-box;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25); }
-  .post__content ul {
+  .post__content ul,
+  .post__content ol {
     padding-left: 2.5rem;
     font: 2.4rem/1.2 Georgia, serif;
     margin: 2rem 0; }
-
-.rollup-page .intro-bar {
-  margin-bottom: 10rem;
-  background-attachment: fixed;
-  background-position: center;
-  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
-  position: relative;
-  padding: 5rem 0; }
-  .rollup-page .intro-bar:before {
-    z-index: 0;
-    opacity: .5; }
-  .rollup-page .intro-bar__name, .rollup-page .intro-bar__subhead,
-  .rollup-page .intro-bar .social-links {
-    z-index: 1; }
-  .rollup-page .intro-bar:after {
-    content: ''; }
-  .rollup-page .intro-bar__name {
-    display: inline; }
-    .rollup-page .intro-bar__name--first {
-      padding-right: 1rem; }
-  .rollup-page .intro-bar__photo {
-    display: none; }
+  .post__content blockquote {
+    background: #f1f1f1;
+    margin: 2rem;
+    padding: 3rem 3rem 1px;
+    font-size: 2rem; }
+  .post-page .post {
+    max-width: 1100px;
+    margin: 0 auto; }
