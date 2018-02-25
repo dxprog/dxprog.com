@@ -7,7 +7,7 @@ tags:
 ---
 Today I plan on cleaning the nuclear waste site that is my desk. But before I do that I figured I'd post a "before" picture along with an in-depth analysis of what's on/around it. So, here we go:
 
-[url=http://www.dxprog.com/pics/my_desk_dirty.jpg]![](http://www.dxprog.com/thumb.php?file=pics/my_desk_dirty.jpg&size=320" "My Dirty Desk")[/url]
+[![](http://www.dxprog.com/thumb.php?file=pics/my_desk_dirty.jpg&size=320" "My Dirty Desk")](http://www.dxprog.com/pics/my_desk_dirty.jpg)
 
 1) My laptop (under a couple of spindles of CDs, goodness knows what's on them)
 2) My DS (under a rejection letter from Capital One :-P)

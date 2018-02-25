@@ -47,11 +47,11 @@ For anybody who's never messed around with palettized file formats, this part wi
 ## Making a Simple Background
 We need to take a different approach for creating backgrounds that have icons and those that don't, though if you're feeling lazy you can use this method for all of them and MPSS will do it's best to make things look all pretty. Enough preamble, let's fire up GIMP. It'll take a while to start up the first time, but with some patience you should see something like this once it's done:
 
-[url=http://images.dxprog.com/blog/mpss_gimp.jpg]![](http://images.dxprog.com/blog/mpss_gimp.jpg "Kind of like this, but with less Toradora! Christmas wallpaper")[/url]
+[![](http://images.dxprog.com/blog/mpss_gimp.jpg "Kind of like this, but with less Toradora! Christmas wallpaper")](http://images.dxprog.com/blog/mpss_gimp.jpg)
 
 First you'll need to crop up your background image, so click File->Open, navigate to where you've saved the image you want and click open. It should now display in the main GIMP window. This is the image I will be using for this tutorial:
 
-[url=http://images.dxprog.com/blog/mpss_nagisa.jpg]![](http://images.dxprog.com/blog/mpss_nagisa.jpg "Thank you for donating your likeness, Nagisa!")[/url]
+[![](http://images.dxprog.com/blog/mpss_nagisa.jpg "Thank you for donating your likeness, Nagisa!")](http://images.dxprog.com/blog/mpss_nagisa.jpg)
 
 Now that you've got your image ready, it's time to crop. In the tool window, click the drop tool (or press Shift+C). You'll want to check "Fixed Aspect Ration" and make sure it's set to 240x160:
 
@@ -71,7 +71,7 @@ Our image is now ready for importing into MPSS! Here is what the final product l
 
 Before we can take the next step, however, we must save this. So click File->Save As. You'll want to save this as a BMP file, so select Windows BMP Bitmap from the format drop down:
 
-[url=http://images.dxprog.com/blog/]![](http://images.dxprog.com/blog/mpss_save.jpg "Save options")[/url]
+[![](http://images.dxprog.com/blog/mpss_save.jpg "Save options")](http://images.dxprog.com/blog/)
 
 Name your file appropriately (with a .bmp extension) and click save. You'll be nagged with a window asking if you want to save with run-length encoding. Leave this unchecked and press OK.
 

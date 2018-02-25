@@ -8,31 +8,31 @@ tags:
 Going to take a small break from the journal entries to dip into another vein of memories. A couple of coworkers of mine (well, one ex-coworker) were [waxing nostalgic](https://twitter.com/#!/Fulcan/status/161539757921402880) about our baby steps in the world of web design. It's pretty hideous stuff, to be sure. But, I will not muddle this entry with many words. Here is every version of my site that I still have code/screen caps for:
 
 ## 2002
-[url=http://images.dxprog.com/blog/redesign_2002.png]![](http://images.dxprog.com/blog/redesign_2002.png "I was into fish. Could you tell?")[/url][break]
+[![](http://images.dxprog.com/blog/redesign_2002.png "I was into fish. Could you tell?")](http://images.dxprog.com/blog/redesign_2002.png)[break]
 
 ## 2003
-[url=http://images.dxprog.com/blog/redesign_2003.png]![](http://images.dxprog.com/blog/redesign_2003.png "Yay for bright solids")[/url]
+[![](http://images.dxprog.com/blog/redesign_2003.png "Yay for bright solids")](http://images.dxprog.com/blog/redesign_2003.png)
 
 ## 2004
-[url=http://images.dxprog.com/blog/redesign_2004.png]![](http://images.dxprog.com/blog/redesign_2004.png "It's Tetra, really")[/url]
+[![](http://images.dxprog.com/blog/redesign_2004.png "It's Tetra, really")](http://images.dxprog.com/blog/redesign_2004.png)
 
 ## 2005
-[url=http://images.dxprog.com/blog/redesign_2005.png]![](http://images.dxprog.com/blog/redesign_2005.png "Da font! o_O")[/url]
+[![](http://images.dxprog.com/blog/redesign_2005.png "Da font! o_O")](http://images.dxprog.com/blog/redesign_2005.png)
 
 ## 2006
-[url=http://www.dxprog.com/pics/new_design.png]![](http://www.dxprog.com/pics/new_design.png "Me and my little vest")[/url]
+[![](http://www.dxprog.com/pics/new_design.png "Me and my little vest")](http://www.dxprog.com/pics/new_design.png)
 
 ## 2007 (Before starting college)
-[url=http://images.dxprog.com/blog/redesign_2006b.jp]![](http://images.dxprog.com/blog/redesign_2006b.jpg "Just... ugh")[/url]
+[![](http://images.dxprog.com/blog/redesign_2006b.jpg "Just... ugh")](http://images.dxprog.com/blog/redesign_2006b.jp)
 
 ## 2007 (After starting college)
-[url=http://images.dxprog.com/blog/redesign_2007.jpg]![](http://images.dxprog.com/blog/redesign_2007.jpg "Getting better")[/url]
+[![](http://images.dxprog.com/blog/redesign_2007.jpg "Getting better")](http://images.dxprog.com/blog/redesign_2007.jpg)
 
 ## 2008
-[url=http://images.dxprog.com/blog/redesign_2008.jpg]![](http://images.dxprog.com/blog/redesign_2008.jpg "Complete with Flash header")[/url]
+[![](http://images.dxprog.com/blog/redesign_2008.jpg "Complete with Flash header")](http://images.dxprog.com/blog/redesign_2008.jpg)
 
 ## 2009
-[url=http://images.dxprog.com/blog/redesign_2009.jpg]![](http://images.dxprog.com/blog/redesign_2009.jpg "Made in two days, just in time for my Griffin interview")[/url]
+[![](http://images.dxprog.com/blog/redesign_2009.jpg "Made in two days, just in time for my Griffin interview")](http://images.dxprog.com/blog/redesign_2009.jpg)
 
 ## The Future?
-[url=http://images.dxprog.com/blog/redesign_2012.jpg]![](http://images.dxprog.com/blog/redesign_2012.jpg "Now with more widescreen")[/url]
+[![](http://images.dxprog.com/blog/redesign_2012.jpg "Now with more widescreen")](http://images.dxprog.com/blog/redesign_2012.jpg)

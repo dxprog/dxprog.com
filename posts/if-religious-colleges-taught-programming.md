@@ -7,4 +7,4 @@ tags:
 - comic
 ---
 ...it might go a little something like this.
-[url=http://images.dxprog.com/Inheritance.png]![](http://images.dxprog.com/Inheritance.png "Apparently God, even with his infinite methods and properties, cannot walk on water or die for sins...")[/url]
+[![](http://images.dxprog.com/Inheritance.png "Apparently God, even with his infinite methods and properties, cannot walk on water or die for sins...")](http://images.dxprog.com/Inheritance.png)

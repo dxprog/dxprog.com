@@ -7,6 +7,7 @@ tags:
 - raspi
 ---
 [![youtube video](https://img.youtube.com/vi/R0EhqLACsw4/0.jpg)](https://www.youtube.com/watch?v=R0EhqLACsw4)
+
 Out of nowhere, a blog post!
 
 I'm currently in possession of my brother's frog whilst he gets his new life set up. I love the little guy (the frog, not my brother), so I'm okay with this. The only downside is that it does keep me attached to my place to care for him (again, the frog) at a time in my life where I can do whatever the hell I want whenever the hell I want.

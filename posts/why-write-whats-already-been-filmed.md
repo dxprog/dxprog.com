@@ -11,4 +11,4 @@ This Sunday, I'll be flying back out to Florida to encourage the fresh minds at 
 
 But, I don't really need to do any of this. After all, it's all been done before...
 
-[youtube=Lhfy7Bo9hng]
+[![youtube video](https://img.youtube.com/vi/Lhfy7Bo9hng/0.jpg)](https://www.youtube.com/watch?v=Lhfy7Bo9hng)

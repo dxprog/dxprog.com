@@ -12,4 +12,4 @@ tags:
 Now that that's out of the way I share yet another piece of my immense, unimaginable past. I'm not sure how many people here are familiar with the old show "Reading Rainbow" hosted by Lavar Burton, but this has got to be the best episode teh EVAR. I remember watching this when I was probably about 6-7 years old. Ouch :-P. Enjoy:
 
 UPDATE: YouTube has since removed those videos, but one part still seems to be up. I give that to you here:
-[youtube=cCsD5PRoX7I]
+[![youtube video](https://img.youtube.com/vi/cCsD5PRoX7I/0.jpg)](https://www.youtube.com/watch?v=cCsD5PRoX7I)

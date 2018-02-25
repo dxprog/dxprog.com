@@ -22,4 +22,4 @@ The second game I completed was [Pheonix Wright: Ace Attorney - Justice for All]
 
 Now that all that's out, I'll leave you with this piece of art I finished this afternoon. Cheerio!
 
-[url=http://www.dxprog.com/pics/Vaan.png]![](http://www.dxprog.com/pics/Vaan.png "I'm Basch fon Ransenburg!")[/url]
+[![](http://www.dxprog.com/pics/Vaan.png "I'm Basch fon Ransenburg!")](http://www.dxprog.com/pics/Vaan.png)

@@ -20,4 +20,4 @@ Without further ado, I bring to you the first Game Music Friday, the topic of ch
 [![youtube video](https://img.youtube.com/vi/UUy5NrTUjFI/0.jpg)](https://www.youtube.com/watch?v=UUy5NrTUjFI)
 
 **Fever Theme (brentalfloss)**
-[youtube=qQuvCFbsgRY]
+[![youtube video](https://img.youtube.com/vi/qQuvCFbsgRY/0.jpg)](https://www.youtube.com/watch?v=qQuvCFbsgRY)

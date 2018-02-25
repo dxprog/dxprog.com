@@ -32,7 +32,7 @@ You know... I can (almost) appreciate the thought here. But, how about bringing 
 **The king's declaration to the "people everywhere"**
 In a nutshell, this lyric has the kind from the previous stanza declaring to his subjects that Jesus is going to save the world.
 
-Well, let's think about this for a second. Wasn't Herod king at this point? Wasn't his first act upon hearing about Jesus to [b]_slaughter_[/b] all male children up to the age of two? Isn't turning this blind eye towards history the same thing as the holocaust deniers? And yet this song is not only accepted, but no doubt sang in buildings of worship. Amazing.
+Well, let's think about this for a second. Wasn't Herod king at this point? Wasn't his first act upon hearing about Jesus to **_slaughter_** all male children up to the age of two? Isn't turning this blind eye towards history the same thing as the holocaust deniers? And yet this song is not only accepted, but no doubt sang in buildings of worship. Amazing.
 
 Before you get all pissed off writing a nasty comment about how I "don't get it," I do understand the intention of the song. I'm just a snarky asshole and that's how I roll.
 

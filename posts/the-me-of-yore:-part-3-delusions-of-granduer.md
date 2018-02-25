@@ -7,17 +7,17 @@ tags:
 ---
 We're here again for more memories as jotted down by my barely pubescent self (for good or ill). Before that, though, a couple of birthday shout outs. Firstly, to my mom who turns old today (again). Second is to me, or rather dxprog. It was ten years ago that I chose the online moniker that I still use today. But, enough of that. Journal stuff.
 
-[quote]Fifth Entry
-July 29, 1999
-
-Well, I got my goggles today. They're neat. The lenses are yellow. But I didn't get to test them.[/quote]
+> Fifth Entry
+> July 29, 1999
+> 
+> Well, I got my goggles today. They're neat. The lenses are yellow. But I didn't get to test them.
 
 Because that was short, here's one more.
 
-[quote]Sixth Entry
-August 6, 1999
-
-The greatly anticipated moment has come and gone. WE'VE SEEN THE PHANTOM MENACE!! It was awesome! I've taken Jeff up as my Padawan Apprentice. He's excited. I've also tackled something new in T-Attack... x6 and x5! We went swimming again on Tuesday. I did a flip perfectly and NO ONE WAS WATCHING!!! So I kept trying. I was going to show mom after doing several 1 1/2 flips and the DAMN WHISTLE BLEW. My foots healed. A few days ago I got my first zit. So we got some zit cream. Got another letter from my pen pal. Still need to send my letter. Tomorrow my bros and I are secretly going to make breakfast. I made a kite last Sunday. Don't know if it flys yet though. I also did B-Day shopping for Stevie with mom. Time to wrap it up.[/quote]
+> Sixth Entry
+> August 6, 1999
+> 
+> The greatly anticipated moment has come and gone. WE'VE SEEN THE PHANTOM MENACE!! It was awesome! I've taken Jeff up as my Padawan Apprentice. He's excited. I've also tackled something new in T-Attack... x6 and x5! We went swimming again on Tuesday. I did a flip perfectly and NO ONE WAS WATCHING!!! So I kept trying. I was going to show mom after doing several 1 1/2 flips and the DAMN WHISTLE BLEW. My foots healed. A few days ago I got my first zit. So we got some zit cream. Got another letter from my pen pal. Still need to send my letter. Tomorrow my bros and I are secretly going to make breakfast. I made a kite last Sunday. Don't know if it flys yet though. I also did B-Day shopping for Stevie with mom. Time to wrap it up.
 
 Not much to say here, though it's funny how one's opinions of a movie can change in thirteen years. I don't hate Episode I, but I certainly do not think it's "awesome" anymore. That said, I can understand being excited for it as a kid.
 

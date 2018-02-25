@@ -8,7 +8,7 @@ tags:
 ---
 I've [blogged](http://dxprog.com/entry/celebrating-one-year-of-the-music-page) about it [before](http://dxprog.com/entry/a-year-of-music-now-with-interactive-graphs/), so I'll keep the introductions short: for the last three years I've been developing, on and off, a web based music player. The last time I talked about features was v3 and I'm now two versions up from that. In today's post, I'll highlight version 4.
 
-[url=http://images.dxprog.com/blog/dxmpv4.jpg]![](http://images.dxprog.com/blog/dxmpv4.jpg "More like a sandbox than a polished product")Click for larger view...[/url]
+[![](http://images.dxprog.com/blog/dxmpv4.jpg "More like a sandbox than a polished product")Click for larger view...](http://images.dxprog.com/blog/dxmpv4.jpg)
 
 As you can see, v4 was hardly polished. It fell victim to the "I want to add new features but I don't want to design for it" that v3 had towards the end of it's life (hint: it's the row of links towards the top). v4 was the first to go three column, based loosely off of what Microsoft was doing with the Zune player. The first column was for albums, second for whatever-the-fuck-I-wanted (songs, trending and latest in this case), and the third was the current playlist.
 

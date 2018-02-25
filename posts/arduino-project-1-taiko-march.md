@@ -11,19 +11,14 @@ I've been wanting an Arduino microcontroller for some time and last week I final
 
 To that end, I horked some code from a Taiko no Tatsujin clone I'd been writing a few years ago and tossed the output at the Arduino via serial data. Here's the result:
 
-[![youtube video](https://img.youtube.com/vi/NNB-FKYbRWY]
+[![youtube video](https://img.youtube.com/vi/NNB-FKYbRWY/0.jpg)](https://www.youtube.com/watch?v=NNB-FKYbRWY)
 
 Code is after the break![break]
 
 The sketch for this is stupid simple: take the number from serial, make that pin high. Wait a bit, turn it off. Rinse and repeat.
 
-[code=arduino/0.jpg)](https://www.youtube.com/watch?v=NNB-FKYbRWY]
+```arduino
 
-Code is after the break![break]
-
-The sketch for this is stupid simple: take the number from serial, make that pin high. Wait a bit, turn it off. Rinse and repeat.
-
-[code=arduino)
 int rxPin = 0;
 
 void setup() {
@@ -42,11 +37,13 @@ void loop() {
     digitalWrite(rxPin + 8, LOW);
   }
 }
-[/code]
+
+```
 
 All the magic happens in the C# application that funnels the data down to the Arduino. It reads the beatmap (a custom XML format with data scraped from an osu! beatmap) and times the whole thing out.
 
-[code=c#]
+```c#
+
 
 using System;
 using System.Collections.Generic;
@@ -199,4 +196,5 @@ namespace ArduinoTalk
 	}
 
 }
-[/code]
+
+```

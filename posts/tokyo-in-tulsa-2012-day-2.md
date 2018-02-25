@@ -11,7 +11,7 @@ Another long day, not so many photos, but it'll have to suffice.
 **Midna (Zelda - Twilight Princess)**
 ![](http://images.dxprog.com/blog/tnt2012_midna.jpg "Midna")
 
-[b]Wendee Lee signing stuff (voice of [Haruhi Suzumiya](http://dxprog.com/entry/haruhi-suzumiya/) amongst others)[/b]
+**Wendee Lee signing stuff (voice of [Haruhi Suzumiya](http://dxprog.com/entry/haruhi-suzumiya/) amongst others)**
 ![](http://images.dxprog.com/blog/tnt2012_wendee_lee.jpg "Midna")
 
 **Some Mandolorian Bounty Hunter**

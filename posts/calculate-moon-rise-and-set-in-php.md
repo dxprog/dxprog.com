@@ -24,6 +24,8 @@ print_r(Moon::calculateMoonTimes(6, 28, 2011, 36.754478, -96.110291));
 
 The above code will output the following result:
 
-[code=output]stdClass Object ( [moonrise] => 1309246800 [moonset] => 1309300560 )[/code]
+```output
+stdClass Object ( [moonrise] => 1309246800 [moonset] => 1309300560 )
+```
 
 Moonrise and moonset, as stated previously, are a Unix time stamp local to the latitude and longitude given.

@@ -10,4 +10,4 @@ I went digging through the darker recesses of my 1TB hard drive today and came a
 
 [![youtube video](https://img.youtube.com/vi/XmLLbaL-y8k/0.jpg)](https://www.youtube.com/watch?v=XmLLbaL-y8k)
 
-[youtube=cmskBiUTK38]
+[![youtube video](https://img.youtube.com/vi/cmskBiUTK38/0.jpg)](https://www.youtube.com/watch?v=cmskBiUTK38)

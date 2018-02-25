@@ -10,35 +10,35 @@ In lieu of the weekly accountability report, I shall begin documenting the event
 
 The ball that got this whole thing rolling was a simple email I received somewhere in mid-January. It was from a recruiter who thought that my skills might match a position they had open. Now, I've gotten several of these every month for the last couple years, to which I generally politely decline and proceed with my life (except that one time where I accepted and went to Winnercomm). The difference here was that this email was from LinkedIn and the job was also at LinkedIn, something far more awesome and legit than a random offer Kazhim. I immediately consulted one of my coworkers whom I shall refer to as "Kairu":
 
-[quote]**me:** Just got a job "feeler" to work for Linkedin
-**Kairu:** to work for linkedin?
-**me:** for
-**Kairu:** damn son
-**Kairu:** damn
-**me:** yeah...
-**Kairu:** welp, see ya later
-**Kairu:** where is it?
-**me:** Mountain View
-**me:** CA'
-**Kairu:** col?
-**Kairu:** ah
-**Kairu:** figured
-**me:** sme as google, iirc
-**me:** *same
-**Kairu:** going for an interview?
-**me:** I... I don't know. I wasn't expecting this
-**Kairu:** what did they say?
-**me:** I suspect it's a mass mailing, but still
-**me:** I forwarded it to you
-**Kairu:** Gondor has called for aid
-**Kairu:** Will you answer it?
-**Kairu:** It is indeed a mass mailing, but i would still respond. you never know what is down that path, and personally, i think you should check it out
-_--- time passes ---_
-**Kairu:** why arent you on the phone right now
-**me:** because I'm working?
-**Kairu:** well you aint working on getting a massive fucking promotion
-**me:** ...
-**Kairu:** :D[/quote]
+> **me:** Just got a job "feeler" to work for Linkedin
+> **Kairu:** to work for linkedin?
+> **me:** for
+> **Kairu:** damn son
+> **Kairu:** damn
+> **me:** yeah...
+> **Kairu:** welp, see ya later
+> **Kairu:** where is it?
+> **me:** Mountain View
+> **me:** CA'
+> **Kairu:** col?
+> **Kairu:** ah
+> **Kairu:** figured
+> **me:** sme as google, iirc
+> **me:** *same
+> **Kairu:** going for an interview?
+> **me:** I... I don't know. I wasn't expecting this
+> **Kairu:** what did they say?
+> **me:** I suspect it's a mass mailing, but still
+> **me:** I forwarded it to you
+> **Kairu:** Gondor has called for aid
+> **Kairu:** Will you answer it?
+> **Kairu:** It is indeed a mass mailing, but i would still respond. you never know what is down that path, and personally, i think you should check it out
+> _--- time passes ---_
+> **Kairu:** why arent you on the phone right now
+> **me:** because I'm working?
+> **Kairu:** well you aint working on getting a massive fucking promotion
+> **me:** ...
+> **Kairu:** :D
 
 As can be seen, I wasn't exactly leaping for joy. My feelings at the time were more that a huge fucking train had just rammed itself through the quiet temple that was my life. I honestly considered just ignoring the email entirely or declining as was my norm. Eventually, I came to the conclusion that nothing would come of anything and (with some egging from Kairu), I responded with interest in the position.
 

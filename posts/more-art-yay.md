@@ -8,4 +8,4 @@ tags:
 ---
 I completed a new piece of art today. I'm following in my FFXII series and bring you a new, better picture of Basch - man of awesomeness.
 
-[url=http://www.dxprog.com/pics/Basch.png]![](http://www.dxprog.com/pics/Basch.png "The REAL Basch fon Ransenburg")[/url]
+[![](http://www.dxprog.com/pics/Basch.png "The REAL Basch fon Ransenburg")](http://www.dxprog.com/pics/Basch.png)

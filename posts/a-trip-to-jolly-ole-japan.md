@@ -17,11 +17,33 @@ The mecca for all things otaku, we'll probably spend a goodly amount of time her
 ## Food
 Obviously, food is a huge fuckin' deal over there, and a huge fuckin' amount different than over here. Now, I myself am not a seafood fan, but on this occasion I'm going to make some exceptions. I'll try fish, I'll have one of my brothers film it in case the result is funny. We're already preparing for a bit called "Chris will eat it" wherein Chris will eat things that are.... unusual. Here's the "official" list:
 
-[list][item]Takoyaki[/item][item]Dancing squid[/item][item]Sea-horse on a stick[/item][item]Something with jellyfish[/item][item]Taiyaki[/item][item]Nikuman[/item][item]Sushi[/item][item]Tamago on a stick[/item][item]Honest to god ramen stall[/item][item]"Family" restaurant (or Denny's)[/item][item]Korean Barbecue[/item][item]KFC[/item][item]Kitkats[/item][item]Pepsi[/item][/list]
+- Takoyaki
+- Dancing squid
+- Sea-horse on a stick
+- Something with jellyfish
+- Taiyaki
+- Nikuman
+- Sushi
+- Tamago on a stick
+- Honest to god ramen stall
+- "Family" restaurant (or Denny's)
+- Korean Barbecue
+- KFC
+- Kitkats
+- Pepsi
+
 
 ## Cultural/Touristy Things
 Of course, we need to hit some more mainstream items as well. On the list are:
 
-[list][item]Fuckin' Sky Tree[/item][item]Rainbow Bridge[/item][item]Tokyo Big Sight[/item][item]Ueno Park[/item][item]A shrine[/item][item]A castle[/item][item]7-Eleven[/item][item]Karaoke[/item][/list]
+- Fuckin' Sky Tree
+- Rainbow Bridge
+- Tokyo Big Sight
+- Ueno Park
+- A shrine
+- A castle
+- 7-Eleven
+- Karaoke
+
 
 This is, more or less, the list we've been cultivating for the last several months and it'll be interesting to see what we hit, what we don't, and what we see that wasn't expected. Also, I plan on firing up the month of solid blogging again come June 1 (which means a blog post every day we're over there), so stay tuned for some fun stuff to come!

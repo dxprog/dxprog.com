@@ -8,4 +8,4 @@ tags:
 - video
 ---
 So, after my epic battles with Premiere and then three times uploading to YouTube, I've finally finished the video that completes my series of reviews. If you can excuse the rather poor writing and me tripping up over my words, you may find enjoyment in it. Either way, it's been fun writing these reviews and I look forward to the good stuff to come in 2010![break]
-[youtube=i6ha5fbLPY4]
+[![youtube video](https://img.youtube.com/vi/i6ha5fbLPY4/0.jpg)](https://www.youtube.com/watch?v=i6ha5fbLPY4)

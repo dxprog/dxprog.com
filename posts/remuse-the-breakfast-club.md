@@ -28,7 +28,7 @@ Andrew lives on the whims and decisions of his father whom he hates. He does thi
 **Brian (The Brain)**
 Brian's early bits in the movie are cringe worthy. He pipes up in other people's conversations with his own quips without measuring the atmosphere just to feel involved. I sadly identify with this all too well, especially in my youth. Also, his name isn't fair; it's an anagram of "brain".
 
-[b]John [Bender] (The Criminal)[/b]
+**John [Bender] (The Criminal)**
 God, I don't even know where to start with this one. John is by far the most complex and quite possibly the smartest and definitely the most biased of the group given his abusive upbringing. He's also the most entertaining with his lack of shits given attitude taken with everybody else. In a lot of respects, he reminded of Shawn Hunter from Boy Meets World.
 
 So, there is my horribly inadequate attempt at organizing my thoughts into words on this movie. I will end by saying that I was not entirely happy with the ending. I'm not a fan of open endings, not at all Sam-I-Am. Maybe in Hollywood's never ending quest for sequels, we'll get one for this.

@@ -10,7 +10,7 @@ As stated, taking a really relaxed pace this year. Today, I'd like to welcome St
 
 ## Worst Character
 ![](http://images.dxprog.com/blog/reviews12_hina.jpg "Hina Takanashi")
-[b]Chris - _Hina Takanashi (Listen to Me, Girls, I am Your Father)_[/b]
+**Chris - _Hina Takanashi (Listen to Me, Girls, I am Your Father)_**
 Holy gay sex, Batman, if I hated one character more than any in 2012, it was Hina Takanashi.
 
 Now, you may be wondering how I can find it within myself to hate a character who is a mere three years old. Kids are adorable, right? Not universally, because her character annoyed me to such a degree I could hardly bear it at times.
@@ -22,7 +22,7 @@ And that's another thing: this kid is far too rational when it comes to emotiona
 And for the love of God, will the other characters just stop giving her dick shaped food?[break]
 
 ![](http://images.dxprog.com/blog/reviews12_sako.jpg "Shuntarou Sako")
-[b]Matt - _Sako Shuntarou (Listen to Me, Girls, I am Your Father)_[/b]
+**Matt - _Sako Shuntarou (Listen to Me, Girls, I am Your Father)_**
 This character - a fat ass, creepy, pedophile guy - is about 50% of everything that was wrong with Papakiki (the other 50% being that the show was written like shit). The way he openly drools over prepubescent girls is not funny and not cute especially considering that two thirds of the female leads fall into this category. What's possibly even more outrageous than this is the fact that everybody around him are aware of the situation and don't seem to give enough shits to do anything about it.
 
 There are characters you love to hate. Benjamin Linus from LOST or [Joffrey from Game of Thrones](http://www.youtube.com/watch?v=qYNeT2nzEgA), for instance. Part of the intrigue of these characters is they're so awful that there is some sort of odd pleasure derived from hating on them.
@@ -31,13 +31,13 @@ This is not one of those cases and it fills my nerd core with rage.
 
 ## Best Character
 ![](http://images.dxprog.com/blog/reviews12_manabe.jpg "Manabe Yoshihisa")
-[b]Steve - _Manabe Yoshihisa (Kotoura-san)_[/b]
+**Steve - _Manabe Yoshihisa (Kotoura-san)_**
 Although ‘Kotoura-San' is a brand new anime, only just begun, Manabe has quickly shot to the top of my ‘Favorite Anime Character' list. He may be an extremely pervy guy (aren't we all?) but he's the only one who can accept Kotoura as a human, something so many people have failed to notice.
 
 Aside from all that, though, I think his most redeeming moment was when he called out that bitch, Miyori Horitani, for making Kotoura toss her cookies...or maybe it's just because I love it when bitches get what's coming to them...
 
 ![](http://images.dxprog.com/blog/reviews12_kanna.jpg "Kanna Tanigawa")
-[b]Chris - _Kanna Tanigawa (Ano Natsu de Matteru)_[/b]
+**Chris - _Kanna Tanigawa (Ano Natsu de Matteru)_**
 This topic was a bit difficult, as there were relatively few standout characters in 2012. But thinking back on everything I watched, I remembered: I really liked Kanna Tanigawa, now I'll tell you why.
 
 The main couple in Ano Natsu – Kaito and Boobs the alien – were both rather devoid of character; if I were to compare them to cereal, they would be Weetabix, or some shit. Cardboard, in other words, although I bare them no ill will.
@@ -51,7 +51,7 @@ So throughout the majority of the show, Kanna is hurting emotionally, and all be
 Kanna will always have a fan in me, until the bitter end.
 
 ![](http://images.dxprog.com/blog/reviews12_yamada.jpg "Yamada")
-[b]Matt - _Yamada (B Gata H Kei: Yamada's First Time)_[/b]
+**Matt - _Yamada (B Gata H Kei: Yamada's First Time)_**
 I wanted to limit all the main lists to shows that aired in 2012, but I've got to bend the rules slightly for this one. Yes, there were many, many cute characters from this year, and [awwnime bracket](http://cdn.awwni.me/bracket/bracket_round8.jpg?v6) winner Rikka Takanashi is certainly a lovable character who even gets some development later in her show, but there really weren't any real stand outs this year. So, I'm going to rewrite the rule to include shows localized and released in 2012.
 
 Enter the titular character from B Gata H Kei - Yamada's First Time.

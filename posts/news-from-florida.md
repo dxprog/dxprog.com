@@ -13,7 +13,7 @@ I guess I'll start with the beginning. I was born around 10ish on June 8th, 1986
 
 Last Monday, Sept. 17th, was a crazy, hectic day because I really hadn't packed much up to that point. About the only things I _had_ packed were my books and DVDs. That left this:
 
-[url=http://www.flickr.com/photos/dxprog/1420193247/]![](http://farm2.static.flickr.com/1115/1420193247_fa89023cc4.jpg?v=0 "image")[/url]
+[![](http://farm2.static.flickr.com/1115/1420193247_fa89023cc4.jpg?v=0 "image")](http://www.flickr.com/photos/dxprog/1420193247/)
 (be sure to follow the link. I've got region thingies set up on the flickr page)
 
 As you can see it was quite a hellish nightmare. But, I got everything packed and by that evening it looked more like this:

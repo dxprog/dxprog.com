@@ -11,7 +11,7 @@ So, I'm walking around the downtown area, an activity I've undertaken in an atte
 
 Anyways, I'm walking around enjoying the scenery and weather when I spot a giant billboard. On it is a man and his three young children. I was slightly touched by this nice picturesque scene... until I read the accompanying text:
 
-[quote]Our daddy will sell your home... GUARANTEED![/quote]
+> Our daddy will sell your home... GUARANTEED!
 
 In just a few words, this man went from upstanding role model of the American family to a parental pimp, whoring out his children to make a quick buck. Does anybody else find this kind of advertising appalling? 
 

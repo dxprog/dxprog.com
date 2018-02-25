@@ -7,7 +7,7 @@ tags:
 ---
 Many years ago, right before I graduated, some of my fellow graduates and myself were asked to impart any knowledge we'd gleaned from the previous two years upon a class full of freshmen. I said something to the following effect:
 
-[quote]The Internet. If you make something, put in on the Internet. I don't care where, I don't care how. Get yourself and your work out there. Spam it on Facebook, announce it on twitter. Make as much noise as you can because you never know who might be looking.[/quote]
+> The Internet. If you make something, put in on the Internet. I don't care where, I don't care how. Get yourself and your work out there. Spam it on Facebook, announce it on twitter. Make as much noise as you can because you never know who might be looking.
 
 
 My reasoning for such a bold statement is that twice during my tenure at Full Sail, I had been noticed by entirely random people for various personal projects I had done. One was from the head of the Madden series at EA when he ran across my [Rock Band drums thing](http://dxprog.com/entry/rock-band-drums-on-windows/), another from a company in Chicago who had run across my deviantArt profile (I actually made money off of that one). The point being, by making public everything I worked on, I was (almost) passively setting up a portfolio of work that could be stumbled across by anybody in the world at any time.

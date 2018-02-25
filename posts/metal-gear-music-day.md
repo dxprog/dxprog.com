@@ -14,4 +14,4 @@ I missed a week again, but here I am performing my civic duty whilst on vacation
 [![youtube video](https://img.youtube.com/vi/bkHxpk7EEks/0.jpg)](https://www.youtube.com/watch?v=bkHxpk7EEks)
 
 **Metal Gear Solid on Ocarina** ([docjazz4](http://www.youtube.com/user/docjazz4))
-[youtube=lpSCBeeRPfA]
+[![youtube video](https://img.youtube.com/vi/lpSCBeeRPfA/0.jpg)](https://www.youtube.com/watch?v=lpSCBeeRPfA)

@@ -20,14 +20,16 @@ When you text-indent something -9999px offscreen, you're really fucking up the i
 
 Disclaimer: I can't take any credit for any of this. I picked it up from my pal Mickael Lucchini during my first tenure at Griffin. However, I have yet to see this trick used or mentioned anywhere else on the internet, so it needs to be shared.
 
-[code=css].image-text {
+```css
+.image-text {
 display: [block|inline-block];
 height: 0;
 padding-top: 10px;
 width: 10px;
 overflow: hidden;
 background: url(BACKGROUND_IMAGE);
-}[/code]
+}
+```
 
 A quick description of what's going on:
 

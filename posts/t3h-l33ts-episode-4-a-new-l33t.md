@@ -16,6 +16,6 @@ A brand spanking new episode of t3h l33ts is out! Inside we discuss everything f
 Show Links:
 [Mister Chief Paper Craft](http://digg.com/gaming/Master_Chief_Paper_Craft_)
 
-If youve got any comments, questions or just want a shout out, send us an e-mail at [T3hL33ts@gmail.com](mailto:T3hL33ts@gmail.com).
+If youve got any comments, questions or just want a shout out, send us an e-mail at [url=mailto:T3hL33ts@gmail.com]T3hL33ts@gmail.com[/url].
 
 Enjoy :-)

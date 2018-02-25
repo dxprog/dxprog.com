@@ -26,4 +26,4 @@ As far as work goes, it's pretty much usual. I'm cashier mostly, but since I rec
 
 Well, I'll close this blog post with a little piece of my art featuring Basch, my favorite character from FFXII:
 
-[url=http://www.dxprog.com/pics/basch001.jpg]![](http://www.dxprog.com/pics/basch001.jpg "Basch - He'll kick your ass")[/url]
+[![](http://www.dxprog.com/pics/basch001.jpg "Basch - He'll kick your ass")](http://www.dxprog.com/pics/basch001.jpg)

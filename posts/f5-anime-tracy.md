@@ -6,4 +6,4 @@ tags:
 - comic
 - digital double
 ---
-[url=http://www.dxprog.com/f5/comics/05062006.png]![](http://www.dxprog.com/thumb.php?file=f5/comics/05062006.png&size=350 "image")[/url]
+[![](http://www.dxprog.com/thumb.php?file=f5/comics/05062006.png&size=350 "image")](http://www.dxprog.com/f5/comics/05062006.png)

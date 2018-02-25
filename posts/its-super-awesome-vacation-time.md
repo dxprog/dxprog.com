@@ -16,4 +16,4 @@ In other news, I have begun and am about half way through animating a real Flash
 
 Well, that's about everything. I'll leave you with my MGP final project which I never actually posted on here. Enjoy
 
-[youtube=0JIccRK5PUA]
+[![youtube video](https://img.youtube.com/vi/0JIccRK5PUA/0.jpg)](https://www.youtube.com/watch?v=0JIccRK5PUA)

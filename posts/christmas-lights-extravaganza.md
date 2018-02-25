@@ -11,11 +11,9 @@ tags:
 ---
 I've been sitting on this one for a while now. I'm sure everybody's seen the video, but I've been meaning to do a technical writeup. In case you haven't seen the video and have no idea what I'm talking about: I made a computer controlled lights setup. You can watch it below:
 
-[![youtube video](https://img.youtube.com/vi/ufCdZ3xzuUY]
+[![youtube video](https://img.youtube.com/vi/ufCdZ3xzuUY/0.jpg)](https://www.youtube.com/watch?v=ufCdZ3xzuUY)
 
-Okay, now that we have that out of the way, follow the break for the technical goodies.[break/0.jpg)](https://www.youtube.com/watch?v=ufCdZ3xzuUY]
-
-Okay, now that we have that out of the way, follow the break for the technical goodies.[break)
+Okay, now that we have that out of the way, follow the break for the technical goodies.[break]
 
 ## Layout
 

@@ -17,4 +17,4 @@ One of the areas we spent the most time in was the dealers floor. Just about any
 There were some video games, including an NES championship tournament, but it was a side to everything else going on. There were rooms showing animes, people talking about how to improve your AMV/drawings, all sorts of crazy stuff. We wound up the night by sitting in on the "Weakest Geek" game show. It was kind of like Double Dare (sans the mess) and a quiz show with the Who Wants to be a Millionaire music playing in the background the entire time. The biggest part of this game was the "Box" game wherein a picture of an action figure would be shown and the player would then proceed to try to find said action figure in a fish tank filled with _more_ action figures and packing peanuts. It was all rather entertaining to watch and the crew running the show was pretty cool.
 
 I'm going to wrap this post up with a video I took while I was there (and later added music to).
-[youtube=I712oSEjZIM]
+[![youtube video](https://img.youtube.com/vi/I712oSEjZIM/0.jpg)](https://www.youtube.com/watch?v=I712oSEjZIM)

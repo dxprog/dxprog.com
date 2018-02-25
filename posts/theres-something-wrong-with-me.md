@@ -9,7 +9,7 @@ tags:
 ---
 Because I completed yet _another_ work of art!
 
-[url=http://www.dxprog.com/pics/Ashe.png]![](http://www.dxprog.com/pics/Ashe.png "Lady Ashe")[/url]
+[![](http://www.dxprog.com/pics/Ashe.png "Lady Ashe")](http://www.dxprog.com/pics/Ashe.png)
 
 Overall I'm pretty pleased with it. It's a far sight better than the original pencil art I had. However, the top part of the body seems to be a bit too small compared to everythiong else. But, considering I don't draw girls very often I'll give myself a break. I suppose it's one of those things I'll need to work on eventually.
 

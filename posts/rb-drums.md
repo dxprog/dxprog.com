@@ -13,4 +13,4 @@ Here's a simple little program I whipped up to use the Rock Bad drums as a MIDI 
 Note: I'm not providing any support for this program. It's up for those who want a MIDI solution.
 [Download](http://dxprog.com/files/RB_Drums.zip)
 
-[b]EDIT: Since it appears my program is complete crap, I now redirect you to somebody who's developed a much better piece of software (and probably spent much longer than fifteen minutes developing it). [Enjoy!](http://andrewrudson.com/main.php)[/b]
+**EDIT: Since it appears my program is complete crap, I now redirect you to somebody who's developed a much better piece of software (and probably spent much longer than fifteen minutes developing it). [Enjoy!](http://andrewrudson.com/main.php)**

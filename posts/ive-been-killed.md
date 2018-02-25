@@ -6,7 +6,7 @@ tags:
 - comic
 - square headed
 ---
-[url=http://squareheaded.smackjeeves.com/comics/429172/sigh-here-we-go-again/]![](http://www.dxprog.com/pics/bumpers/square_headed.png "image")[/url]
+[![](http://www.dxprog.com/pics/bumpers/square_headed.png "image")](http://squareheaded.smackjeeves.com/comics/429172/sigh-here-we-go-again/)
 
 This is how I want to die. To be murdered by my favorite villain from my favorite game would totally make my day... as long as I'm already old or something. Be sure to check out [Square Headed](http://squareheaded.smackjeeves.com/comics/). It updates on Thursdays, but is currently updated three days a week while in story arc mode.
 

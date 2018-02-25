@@ -7,4 +7,4 @@ tags:
 ---
 After finishing up last night's post, I decided to give that NES another try. The one thing I hadn't tried was the ever popular "blow on the cartridge" trick. It was the one thing that worked. I then proceeded to make a whole video of me playing it in the glitched up state...
 
-[youtube=n9mHXBIk91w]
+[![youtube video](https://img.youtube.com/vi/n9mHXBIk91w/0.jpg)](https://www.youtube.com/watch?v=n9mHXBIk91w)

@@ -16,19 +16,25 @@ Well, you may have garnered from [posts past](http://dxprog.com/entry/2010-revie
 
 This is where the parallel to NES emulators come: I have to reconstruct the functions, logic, etc. that the RealLive system has in JavaScript and HTML. However, whereas emulating a 6502 is just a series of super basic functions (add the accumulator to the X register and jump if the carry flag was set), this is a whole new level of complexity. It's more akin to writing a C compiler, really. Take this for example:
 
-[code=Kepago]strS[1900] += strS[1900][/code]
+```Kepago
+strS[1900] += strS[1900]
+```
 
 Now, in human terms this is pretty simple: add the value of strS[1900] to itself. However, getting a computer to understand this behaviour is something quite different. After a little googling, this is apparently an operation called lexical analysis. My solution is actually a two step process:
 
 1. A PHP script parses the decompiled source code and converts the above into a JSON format like so:
 
-[code=JSON]{"action":"assign","name":"strS[1900]","value":"strS[1901]","operation":"+=","ln":18487}[/code]
+```JSON
+{"action":"assign","name":"strS[1900]","value":"strS[1901]","operation":"+=","ln":18487}
+```
 
 Name is what's on the left hand side of the equation, operation is the operator and value is the right hand side of the operation.
 
 2.  Now. that format was setup before I realized that true language parsing was going to be required, so at this point my JavaScript is reconstructing the original equation from those variables. It passes these off to a function called "evaluateExpression" which figures out what's a string, variable, function, number, operator, etc. and remaps everything so that it points to internal functions and variables. This string would then look like this:
 
-[code=JavaScript]variables["strS[1900]"] += variables["strS[1900]"][/code]
+```JavaScript
+variables["strS[1900]"] += variables["strS[1900]"]
+```
 
 This string is then run through _eval_ and is parsed by JS natively (allowing me to cop out of writing the really difficult stuff).
 

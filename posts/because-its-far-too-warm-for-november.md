@@ -7,4 +7,4 @@ tags:
 - art
 - manga
 ---
-[url=http://fc02.deviantart.net/fs71/i/2010/313/1/e/hanako_in_winter_by_dxprog-d32j89f.jpg]![](http://images.dxprog.com/blog/BlogHanakoWinter.jpg "How do you avoid drawing limbs? Wrap 'em in a cape/blanket/coat thing!")[/url]
+[![](http://images.dxprog.com/blog/BlogHanakoWinter.jpg "How do you avoid drawing limbs? Wrap 'em in a cape/blanket/coat thing!")](http://fc02.deviantart.net/fs71/i/2010/313/1/e/hanako_in_winter_by_dxprog-d32j89f.jpg)

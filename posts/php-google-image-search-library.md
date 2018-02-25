@@ -32,12 +32,31 @@ googleImageSearch($query, $page = 1, $size = GIS_ANY, $type = GIS_ANY);
 ```
 
 This returns an array of stdObject with the following properties:
-[list][item]**resultLink** - Link to Google image result. This is the page that displays when you click a result through normal image search[/item][item]**source** - URL of the source image[/item][item]**title** - Title associated with the image[/item][item]**width** - Width of the image[/item][item]**height** - Height of the image[/item][item]**size** - Size of the image[/item][item]**type** - Format of the image (jpg, png, etc)[/item][item]**domain** - Domain of source image[/item][item]**thumb** - stdObject with information on Google's thumbnail of the image. Properties are:[/item][item]**thumb->src** - URL to the thumbnail[/item][item]**thumb->width** - Width of the thumbnail[/item][item]**thumb->height** - Height of the thumbnail[/item][/list]
+- **resultLink** - Link to Google image result. This is the page that displays when you click a result through normal image search
+- **source** - URL of the source image
+- **title** - Title associated with the image
+- **width** - Width of the image
+- **height** - Height of the image
+- **size** - Size of the image
+- **type** - Format of the image (jpg, png, etc)
+- **domain** - Domain of source image
+- **thumb** - stdObject with information on Google's thumbnail of the image. Properties are:
+- **thumb->src** - URL to the thumbnail
+- **thumb->width** - Width of the thumbnail
+- **thumb->height** - Height of the thumbnail
+
 
 Size constants are (all fairly self-explanatory):
-[list][item]GIS_LARGE[/item][item]GIS_MEDIUM[/item][item]GIS_SMALL[/item][/list]
+- GIS_LARGE
+- GIS_MEDIUM
+- GIS_SMALL
+
 
 And constants for type:
-[list][item]GIS_FACE[/item][item]GIS_PHOTO[/item][item]GIS_CLIPART[/item][item]GIS_LINEART[/item][/list]
+- GIS_FACE
+- GIS_PHOTO
+- GIS_CLIPART
+- GIS_LINEART
+
 
 If you have any comments, questions or issues with this code, just leave a comment below and I'll do my best to help you!

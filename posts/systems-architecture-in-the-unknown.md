@@ -18,14 +18,22 @@ Outside of writing some standard libs, the first thing to get running was the in
 
 Say you have 16 different sources you need to get data for once per minute. Currently, you have 16 async ops queued. Now, when each of those resolves, you're getting 100 posts back from reddit and each of those items is going to need to be acted on, either to create a new post entry or update stats about an old one. Okay, 1600 async ops. If the post is new you're going to need to do the following:
 
-[list][item]need to make an entry in MySQL with all the post data. asyncOps += 1[/item]
-[item]determine where the source data is being hosted. If it's an image, cool. Go to step 4[/item]
-[item]if it's not an image and, say, an album on imgur, we need to resolve that to a list of images. asyncOps += 1[/item]
-[item]we know what images to get, so now we need to retrieve them. this can be done either by external request or a cached version in a mongo store. Either way, asyncOps += numberOfImages[/item]
-[item]once the image has downloaded, cached (which can add yet another asyncOp), and processed, we need to create a row for it in MySQL. asyncOps += 1[/item]
-[item]once the above operation has comeback with an image ID, we need to save a local copy of the image for serving (asyncOps += 1) and also save a copy to an Amazon S3 store for archival (asyncOp += 1)[/item]
-[item]assuming all of that was successful, we need to associate the image to the post, creating yet another row in another table. asyncOps += 1[/item]
-[item]assuming all of the above was successful, an object is created from the post and image data and stored in mongo for consumption by the frontend. asyncOps += 1[/item][/list]
+- need to make an entry in MySQL with all the post data. asyncOps += 1
+
+- determine where the source data is being hosted. If it's an image, cool. Go to step 4
+
+- if it's not an image and, say, an album on imgur, we need to resolve that to a list of images. asyncOps += 1
+
+- we know what images to get, so now we need to retrieve them. this can be done either by external request or a cached version in a mongo store. Either way, asyncOps += numberOfImages
+
+- once the image has downloaded, cached (which can add yet another asyncOp), and processed, we need to create a row for it in MySQL. asyncOps += 1
+
+- once the above operation has comeback with an image ID, we need to save a local copy of the image for serving (asyncOps += 1) and also save a copy to an Amazon S3 store for archival (asyncOp += 1)
+
+- assuming all of that was successful, we need to associate the image to the post, creating yet another row in another table. asyncOps += 1
+
+- assuming all of the above was successful, an object is created from the post and image data and stored in mongo for consumption by the frontend. asyncOps += 1
+
 
 So, at an absolute minimum, that's 7 asynchronous operations per new post. Remember, there could very well be 1600 of these, all that need to be resolved within a minute and the whole operation starts all over again. But, when you have so many waiting operations, things start to fall through the cracks; HTTP calls stop resolving, MySQL calls are either never made or just never heard from again. It's a bad situation. To get around that problem, I cobbled together a queue system. Reddit requests and post creation/updates are tossed in a big array which is processed every tenth of a second. Added to that, every time an async request is made, a counter is incremented so that the queue system will stop processing once there are so many active async operations. Were I to set that number to one, effectively I've just gone back to synchronous code. I initially set the limiter to 100, though due to a problem I will discuss in just a moment, brought it down to 50. And even then, there are issues. But, for the most part, everything updates within the 1 minute time period and hums along nicely. Until...
 
@@ -34,11 +42,16 @@ Say you have a program that analyzes images on a per pixel basis. That requires 
 
 At this point, I'm at a loss as to how to proceed on that issue. There are a few options:
 
-[list][item]Decrease the queue limiter again[/item]
-[item]Add a similar queue to the image processor so that it only runs[/item]
-[item]Rearchitect the indexer to run as individual processes and then have a master program spawn a handful of them as needed[/item]
-[item]Write an image processor in some respectable language (C++) that does all the image processing[/item]
-[item]Go back to PHP[/item][/list]
+- Decrease the queue limiter again
+
+- Add a similar queue to the image processor so that it only runs
+
+- Rearchitect the indexer to run as individual processes and then have a master program spawn a handful of them as needed
+
+- Write an image processor in some respectable language (C++) that does all the image processing
+
+- Go back to PHP
+
 
 ## mongodb - I don't even need to say anything else
 I've been slowly testing the waters with mongo. The concept is interesting, and the promise of running at "web scale" is certainly alluring. However, mongo's been getting all sorts of bad press and the golden child of the NoSQL era seems to be losing popularity. Still, for my need for having denormalized data, the query mechanism that mongo provides, and a (perceived) notion that it's supposed to be very good in a read heavy environment, I thought I'd give it a try. Hell, I was even going to see if I could avoid the need for memcache. However, because the front end exclusively relies on this dataset, it needs to reflect the actual database very closely. But, as I found out when testing the image search endpoint, for a given set of image IDs coming back from MySQL, one image was missing from mongo's store causing javascript's equivalent of a null pointer exception. Confused, I checked the number of items in MySQL versus the number in mongo.

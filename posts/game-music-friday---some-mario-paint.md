@@ -18,4 +18,4 @@ Back in August of 1992, Nintendo released unto the world the little gem known as
 [![youtube video](https://img.youtube.com/vi/l0JAPu_7A88/0.jpg)](https://www.youtube.com/watch?v=l0JAPu_7A88)
 
 **Super Mario Bros 3** ([bill283](http://www.youtube.com/user/bill283))
-[youtube=o07UXkR2Bcw]
+[![youtube video](https://img.youtube.com/vi/o07UXkR2Bcw/0.jpg)](https://www.youtube.com/watch?v=o07UXkR2Bcw)

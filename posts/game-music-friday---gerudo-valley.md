@@ -18,4 +18,4 @@ One of the first video game songs I remember really enjoying was Gerudo Valley f
 [![youtube video](https://img.youtube.com/vi/tz_je6_QnWs/0.jpg)](https://www.youtube.com/watch?v=tz_je6_QnWs)
 
 **Guitar Hero - The Legend of Zelda - Gerudo Valley** ([bubblebubbletea](http://www.youtube.com/user/bubblebubbletea))
-[youtube=q1FYse6VJ2M]
+[![youtube video](https://img.youtube.com/vi/q1FYse6VJ2M/0.jpg)](https://www.youtube.com/watch?v=q1FYse6VJ2M)

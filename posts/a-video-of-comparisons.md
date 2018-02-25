@@ -10,4 +10,4 @@ As promised yesterday, I got that comparison video pulled together. Had to subsc
 
 But enough rambling, here's the video. I apologize for the ending. It's just a thing.
 
-[youtube=v9a1NAJBcTY]
+[![youtube video](https://img.youtube.com/vi/v9a1NAJBcTY/0.jpg)](https://www.youtube.com/watch?v=v9a1NAJBcTY)

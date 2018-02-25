@@ -20,4 +20,4 @@ But, enough of the schmaltzy stuff. Before you can watch the video you must see 
 
 And, now, for the coup de gracie. Enjoy!
 
-[youtube=2FcS9z_JVv8]
+[![youtube video](https://img.youtube.com/vi/2FcS9z_JVv8/0.jpg)](https://www.youtube.com/watch?v=2FcS9z_JVv8)

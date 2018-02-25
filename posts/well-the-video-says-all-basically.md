@@ -6,4 +6,4 @@ tags:
 - drivers license
 - video
 ---
-[youtube=43KI7DX1cf0]
+[![youtube video](https://img.youtube.com/vi/43KI7DX1cf0/0.jpg)](https://www.youtube.com/watch?v=43KI7DX1cf0)

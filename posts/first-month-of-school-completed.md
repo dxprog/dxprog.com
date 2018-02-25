@@ -13,10 +13,10 @@ It's been nearly a month since I last posted anything of relevance. A lot had ha
 **Art History**
 Art history was interesting if nothing else. We got see all sorts of art from various periods of time starting with the cave men and their wall paintings. My favorite eras were definitely the Renaissance and Baroque. It is rare to find an artist that skilled these days. The Greeks were awesome as well with all their master marble working. The only problem with them, however, is their crazy preoccupation with penises. I could've done without that, thank you very much. We also took a trip to the Orlando Museum of Art. Some pretty interesting stuff their from ancient artifacts up to Andy Warhols. But, the best part of the whole thing was when we had to make our own pieces of art emulating other styles and then have them displayed in front of the whole class. A lot of good laughs shared there. Here's my pieces:
 
-[url=http://www.dxprog.com/pics/arthistory.jpg]![](http://www.dxprog.com/pics/arthistory.jpg "image")[/url]
+[![](http://www.dxprog.com/pics/arthistory.jpg "image")](http://www.dxprog.com/pics/arthistory.jpg)
 For this we were supposed to do a cave painting using a movie as the theme. Fifty points to the person who can correctly name the movie.
 
-[url=http://www.dxprog.com/pics/MHackmann.jpg]![](http://www.dxprog.com/pics/MHackmann.jpg "image")[/url]
+[![](http://www.dxprog.com/pics/MHackmann.jpg "image")](http://www.dxprog.com/pics/MHackmann.jpg)
 I was shooting for cubism but wound up pulling a weird combo of things, namely cubism, abstract, and pop art. I like it, though.
 
 **English Comp**

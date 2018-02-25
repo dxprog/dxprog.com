@@ -19,8 +19,8 @@ I'll do a write up about the whole experience and the psychological state it's l
 ![](http://images.dxprog.com/blog/tnt2012_badge_front.jpg "Front")
 ![](http://images.dxprog.com/blog/tnt2012_badge_back.jpg "Back")
 
-[b]Chris, dressed as [Okabe Rintarou, aka Mad Scientist Hououin Kyouma](http://dxprog.com/entry/2011-dxprog-anime-awards-a-bit-of-character/)[/b]
+**Chris, dressed as [Okabe Rintarou, aka Mad Scientist Hououin Kyouma](http://dxprog.com/entry/2011-dxprog-anime-awards-a-bit-of-character/)**
 ![](http://images.dxprog.com/blog/tnt2012_chris_kyouma.jpg "ITSOCOOL")
 
-[b]Chris and Caitlin Glass (voice of Miria from [Baccano](http://dxprog.com/entry/best-of-anime-awards-finale/)[/b]
+**Chris and Caitlin Glass (voice of Miria from [Baccano](http://dxprog.com/entry/best-of-anime-awards-finale/)**
 ![](http://images.dxprog.com/blog/tnt2012_chris_caitlyn.jpg "Nothing witty here")

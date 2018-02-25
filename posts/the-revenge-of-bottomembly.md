@@ -12,7 +12,8 @@ If you happen to be a former YPNer, you may recall seeing many references to "bo
 
 This oversight was brought to my attention my young programmer self struggled to figure out a solution. Here's what I wound up doing:
 
-[code=php]// Copyright (c) 2003 Matt Hackmann
+```php
+// Copyright (c) 2003 Matt Hackmann
 // Full copyright info in index.php
 
 function censor_post ($body)
@@ -43,7 +44,8 @@ function censor_post ($body)
 	
 	return $body;
 
-}[/code]
+}
+```
 
 As you can see, I started hard coding in a list of safe words, replacing those instances with a random (or not so random) string of characters, run the censor and then convert those strings back to the safe words. This was a list I kept expanding on as they were found during normal conversation on the forum. I giggle as I look at this list and think of what the censor was doing to those words: bottomume, glbottom and hecko.
 

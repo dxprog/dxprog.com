@@ -35,7 +35,8 @@ void main () {
 }
 ```
 
-[code=c#]using System;
+```c#
+using System;
 using System.Collections.Generic;
 using System.Text;
 using Id3Lib_Net;
@@ -52,7 +53,8 @@ namespace Id3LibNet_Test
 			t.savePicture ("album_art.jpg");
         }
     }
-}[/code]
+}
+```
 
 ```php
 include ("id3lib.php");

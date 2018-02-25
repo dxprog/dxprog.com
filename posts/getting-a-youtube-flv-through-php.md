@@ -13,7 +13,8 @@ Recently, while making some additions to the [Music Page](http://labs.dxprog.com
 
 There really is only one thing that's needed by YouTube to get the video file, and that's the video token. As far as I can tell, this is a time sensitive key that is generated for the user to prevent abuse on the YouTube servers. Luckily, this is pretty easy to obtain. The get_video_info page returns not only the token, but all sorts of other valuable information about the video, such as author, date uploaded, length in seconds, etc. Here's a small function that retrieves this information and returns it as an object:
 
-[code=php]function ytGetInfo ($id)
+```php
+function ytGetInfo ($id)
 {
 	$file = file_get_contents ("http://www.youtube.com/get_video_info?&video_id=$id");
 	$a = explode ("&", urldecode ($file));
@@ -22,7 +23,8 @@ There really is only one thing that's needed by YouTube to get the video file, a
 		$ret->$e[0] = $e[1];
 	}
 	return $ret;
-}[/code]
+}
+```
 
 Simple stuff, really. The contents of get_video_info are retrieved and stored in $file. This information comes URL encoded, so we first need to decode that. As with any URL string, each variable is separated by an ampersand (&), so when calling [explode](http://us.php.net/manual/en/function.explode.php). That returns the variable/value pairs in an array ([0]=>"author=dxprog", [1]=>"token=asi940tnas", ...). Iterating through each of those, we then explode the var/value pairs and add them to our outgoing object. Now we have the token (amongst other info), so next will be retrieving the video file itself.
 

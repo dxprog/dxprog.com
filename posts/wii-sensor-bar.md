@@ -8,4 +8,4 @@ tags:
 ---
 Here's a quick video we shot explaining how the Wii's sensor bar works:
 
-[youtube=JTGSkYRDpWY]
+[![youtube video](https://img.youtube.com/vi/JTGSkYRDpWY/0.jpg)](https://www.youtube.com/watch?v=JTGSkYRDpWY)

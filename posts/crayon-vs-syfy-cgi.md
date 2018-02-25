@@ -9,7 +9,7 @@ tags:
 ---
 Received this message on Facebook from a buddy of mine today:
 
-[quote]Did you see (and I am NOT making this up) OCTOSHARK on SCI-FI last night.  I mean the (so called) special effects were anything but!  You with a crayon and a piece of paper drawing the title creature could have made a scarier one.[/quote]
+> Did you see (and I am NOT making this up) OCTOSHARK on SCI-FI last night.  I mean the (so called) special effects were anything but!  You with a crayon and a piece of paper drawing the title creature could have made a scarier one.
 
 I'm never one to turn down a challenge like that, so I give you the terror of the deep, Sharktopus!
 

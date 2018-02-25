@@ -60,7 +60,7 @@ Overall, Higurashi is one of the best anime I've seen, and it certainly ranks in
 
 ## Trigun
 ![](http://images.dxprog.com/blog/reviews09_trigun.jpg "Trigun")
-[b][Matt](http://dxprog.com/entry/two-years-of-anime-part-2/#break)[/b]
+**[Matt](http://dxprog.com/entry/two-years-of-anime-part-2/#break)**
 I watched Trigun as the result of a deal with one of my many, many brothers. The stage is set on some distant planet with an old west style theme. The story is told from the perspective of a couple of girls working for an insurance claims department as they follow the world reknowned outlaw, Vash the Stampede. It feels like Trigun tries to tackle too many issues at once, attempting to be episodic while having a larger story arc. The further the show goes on, the more things fall apart, but I'll cut it some slack as the manga went into hiatus in the middle of animation. All in all, it's good but not great. **6/10**
 
 **Jeff**

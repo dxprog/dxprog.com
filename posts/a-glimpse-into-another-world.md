@@ -8,4 +8,4 @@ tags:
 ---
 I have plans to feature certain things from my Minecraft server's world, but today you get this.
 
-[youtube=wG8qSITj4mw]
+[![youtube video](https://img.youtube.com/vi/wG8qSITj4mw/0.jpg)](https://www.youtube.com/watch?v=wG8qSITj4mw)
