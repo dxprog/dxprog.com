@@ -1,0 +1,22 @@
+.article-list {
+  width: 1100px;
+  margin: 0 auto;
+}
+
+.paging {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 5rem;
+
+  &__link {
+    font: 2.4rem 'Roboto Light', 'Roboto', sans-serif;
+
+    &--next {
+      justify-self: flex-start;
+    }
+
+    &--previous {
+      justify-self: flex-end;
+    }
+  }
+}

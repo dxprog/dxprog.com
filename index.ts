@@ -1,3 +1,6 @@
+import * as bluebird from 'bluebird';
+import * as fs from 'fs-extra';
+import * as sass from 'node-sass';
 import {
   SiteGenerator,
   Renderers } from 'staticr-site';
@@ -7,20 +10,29 @@ import { DxApiReader } from './src/readers/dxapi-reader';
 import { HomePageRenderer } from './src/renderers/home-page-renderer';
 
 const { PostsRollupRenderer, PostRenderer } = Renderers;
+const sassRenderAsync = bluebird.promisify(sass.render);
+const outputDir = path.join(process.cwd(), 'docs/');
+const staticDir = path.join(process.cwd(), 'static');
 
 const pg = new SiteGenerator({
-  outputDir: path.join(process.cwd(), 'docs/'),
+  outputDir,
   renderers: [
     new PostsRollupRenderer(5),
     PostRenderer,
     HomePageRenderer
   ],
-  baseUrl: 'http://staticr.dxprog.com/',
+  baseUrl: 'http://dev.dxprog.com/dxprog.github.io/docs/',
 });
 
 // pg.addReader(DxApiReader);
-pg.writer.addStaticContent('static', path.resolve(process.cwd(), 'static'));
+pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
+pg.writer.addStaticContent('static/images', path.join(staticDir, 'images'));
 
-pg.build().then((result: any) => {
-  console.log('done');
-});
+pg.build()
+  .then(() => sassRenderAsync({ file: path.join(staticDir, 'scss/app.scss') }))
+  .then((cssOut: sass.Result) => {
+    return fs.writeFile(path.join(outputDir, 'static/css/index.css'), cssOut.css.toString('utf-8'));
+  })
+  .then((result: any) => {
+    console.log('done');
+  });
