@@ -17,10 +17,7 @@ Without further ado, I bring to you the first Game Music Friday, the topic of ch
 [![youtube video](https://img.youtube.com/vi/knloGmZMENo/0.jpg)](https://www.youtube.com/watch?v=knloGmZMENo)
 
 **NES Title Theme (Ju768/Su Mao)**
-[![youtube video](https://img.youtube.com/vi/UUy5NrTUjFI]
+[![youtube video](https://img.youtube.com/vi/UUy5NrTUjFI/0.jpg)](https://www.youtube.com/watch?v=UUy5NrTUjFI)
 
 **Fever Theme (brentalfloss)**
-[youtube=qQuvCFbsgRY/0.jpg)](https://www.youtube.com/watch?v=UUy5NrTUjFI]
-
-**Fever Theme (brentalfloss)**
-[youtube=qQuvCFbsgRY)
+[youtube=qQuvCFbsgRY]

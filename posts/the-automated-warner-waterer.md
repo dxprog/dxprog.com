@@ -6,19 +6,12 @@ tags:
 - coding
 - raspi
 ---
-[![youtube video](https://img.youtube.com/vi/R0EhqLACsw4]
-
+[![youtube video](https://img.youtube.com/vi/R0EhqLACsw4/0.jpg)](https://www.youtube.com/watch?v=R0EhqLACsw4)
 Out of nowhere, a blog post!
 
 I'm currently in possession of my brother's frog whilst he gets his new life set up. I love the little guy (the frog, not my brother), so I'm okay with this. The only downside is that it does keep me attached to my place to care for him (again, the frog) at a time in my life where I can do whatever the hell I want whenever the hell I want.
 
-To that last point, I booked a rather spur of the moment trip to visit good ol' [devbus/0.jpg)](https://www.youtube.com/watch?v=R0EhqLACsw4]
-
-Out of nowhere, a blog post!
-
-I'm currently in possession of my brother's frog whilst he gets his new life set up. I love the little guy (the frog, not my brother), so I'm okay with this. The only downside is that it does keep me attached to my place to care for him (again, the frog) at a time in my life where I can do whatever the hell I want whenever the hell I want.
-
-To that last point, I booked a rather spur of the moment trip to visit good ol' [devbus)(http://dxprog.com/comic/dark-over-light/) over the long weekend. Now, the frog (who from hereon out will be referred to as "Warner") can live with some neglect, particularly on the food side of things. I'll only be gone four days, which should be fine. Still, he should be kept moist regularly and that's been weighing on my soul.
+To that last point, I booked a rather spur of the moment trip to visit good ol' [devbus](http://dxprog.com/comic/dark-over-light/) over the long weekend. Now, the frog (who from hereon out will be referred to as "Warner") can live with some neglect, particularly on the food side of things. I'll only be gone four days, which should be fine. Still, he should be kept moist regularly and that's been weighing on my soul.
 
 Enter the Automated Warner Waterer! (Or, "aww" for short)
 

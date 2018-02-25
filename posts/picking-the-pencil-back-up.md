@@ -8,11 +8,9 @@ tags:
 ---
 Not for any *noble* reasons, I assure you. But, certainly you've seen these commercials at one point in your life:
 
-[![youtube video](https://img.youtube.com/vi/gueUrgf5mPs]
+[![youtube video](https://img.youtube.com/vi/gueUrgf5mPs/0.jpg)](https://www.youtube.com/watch?v=gueUrgf5mPs)
 
-Alright, [General Specific/0.jpg)](https://www.youtube.com/watch?v=gueUrgf5mPs]
-
-Alright, [General Specific)(http://www.youtube.com/watch?v=RUMSzogqM_Y). The words uttered through your clenched teeth have moved me to pursue a career in art. I'll call that number.
+Alright, [General Specific](http://www.youtube.com/watch?v=RUMSzogqM_Y). The words uttered through your clenched teeth have moved me to pursue a career in art. I'll call that number.
 
 **INTERNET MAGIC!**
 

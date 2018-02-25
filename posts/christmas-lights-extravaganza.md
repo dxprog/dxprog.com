@@ -13,17 +13,13 @@ I've been sitting on this one for a while now. I'm sure everybody's seen the vid
 
 [![youtube video](https://img.youtube.com/vi/ufCdZ3xzuUY]
 
-Okay, now that we have that out of the way, follow the break for the technical goodies.[break]
+Okay, now that we have that out of the way, follow the break for the technical goodies.[break/0.jpg)](https://www.youtube.com/watch?v=ufCdZ3xzuUY]
+
+Okay, now that we have that out of the way, follow the break for the technical goodies.[break)
 
 ## Layout
 
-Certainly I mentioned it [some time ago/0.jpg)](https://www.youtube.com/watch?v=ufCdZ3xzuUY]
-
-Okay, now that we have that out of the way, follow the break for the technical goodies.[break]
-
-## Layout
-
-Certainly I mentioned it [some time ago)(http://dxprog.com/entry/arduino-project-1-taiko-march/), but at the heart of this project is an Arduino Uno. Actually, there are two hearts in this case. The other one is a Raspberry Pi, the $35 micro computer. Both of these pieces perform very different roles, but before I delve into that, have a shoddily drawn "schematic" on how all the parts are connected:
+Certainly I mentioned it [some time ago](http://dxprog.com/entry/arduino-project-1-taiko-march/), but at the heart of this project is an Arduino Uno. Actually, there are two hearts in this case. The other one is a Raspberry Pi, the $35 micro computer. Both of these pieces perform very different roles, but before I delve into that, have a shoddily drawn "schematic" on how all the parts are connected:
 
 ![](http://images.dxprog.com/blog/tree_lights_schematic.jpg "Grossly simplified")
 

@@ -8,4 +8,4 @@ tags:
 ---
 I meant to say east coast...
 
-[![youtube video](https://img.youtube.com/vi/Uh5Td-O6N7c/0.jpg)](https://www.youtube.com/watch?v=Uh5Td-O6N7c)
+[youtube=Uh5Td-O6N7c]
