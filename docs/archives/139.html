@@ -1,119 +1,39 @@
 <!DOCTYPE html>
-<html><head><title>Archives - Page 139</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>MP Skin Studio Tutorial</h2><time>December 28, 2010</time><div><p>It&#39;s been several years since I originally released MP Skin Studio (MPSS) for the GBAMPv2, so revisiting it is interesting. Any kind of original documentation that resided on Lik-sang where I oriinally released MPSS is now gone (thanks, Sony) so, I&#39;m here to provide a real tutorial as there seems to be interest for the old skinner that I didn&#39;t realize still existed. So, here is the official MP Skin Studio tutorial, brought to you by dxprog. I&#39;ll go through the entire process making a real skin as I go.[break]</p>
-<p>What you&#39;ll need:
-MP Skin Studio [ <a href="http://dxprog.com/docs/MPSkinStudio.zip">download</a> ]
-The GIMP [ <a href="http://www.gimp.org/downloads/">download</a> ] (or any other imaging software that can create 256 color bitmaps). This tutorial will be written with GIMP in mind
-VisualBasic runtimes [ <a href="http://www.microsoft.com/downloads/en/details.aspx?FamilyID=7b9ba261-7a9c-43e7-9117-f673077ffb3c&amp;displaylang=en">download</a> ] - Only needed if you get some DLL missing errors when running MP Skin Studio.</p>
-<h2 id="step-1-creating-your-images">Step 1 - Creating Your Images</h2>
-<p>The first thing you&#39;ll need to do before even opening MPSS is to create all the images for your skin. Here&#39;s a list of everything there is to create:</p>
-<p><strong>Backgrounds - 240x160</strong>
-There are four different backgrounds:</p>
-<ul>
-<li>main</li>
-<li>file</li>
-<li>e-book</li>
-<li>music
-All background are 256 color images. More on this in a bit.</li>
-</ul>
-<p><strong>Main icons - 64x64</strong>
-There are six different icons that go on the main screen. They are:</p>
-<ul>
-<li>movie</li>
-<li>music</li>
-<li>picture</li>
-<li>game</li>
-<li>e-book</li>
-<li>help/setup
-These icons share the same 256 color palette as the background images. Again, more later.</li>
-</ul>
-<p><strong>File icons - 16x16</strong>
-There are two small icons used for the file screen, one for directories and one for going back a level. These share the same 256 color palette as the file background.</p>
-<p>So, after you&#39;ve gathered up all your images (assuming you&#39;re not creating them from scratch, which I won&#39;t be), we&#39;ll need to take them into GIMP for cropping and color reduction, which I will now explain :)</p>
-<p><strong>256 colors? Palettized? What now?</strong>
-For anybody who&#39;s never messed around with palettized file formats, this part will be the most annoying. Without going into too much technical detail, the GBA can only display so many colors at a given time to save on space and speed up render times. This means take our images, which could have a possible 38,400 colors and reduce them down to 256. This is where the GIMP comes in.</p>
-<h2 id="making-a-simple-background">Making a Simple Background</h2>
-<p>We need to take a different approach for creating backgrounds that have icons and those that don&#39;t, though if you&#39;re feeling lazy you can use this method for all of them and MPSS will do it&#39;s best to make things look all pretty. Enough preamble, let&#39;s fire up GIMP. It&#39;ll take a while to start up the first time, but with some patience you should see something like this once it&#39;s done:</p>
-<p>[url=<a href="http://images.dxprog.com/blog/mpss_gimp.jpg]![](http://images.dxprog.com/blog/mpss_gimp.jpg">http://images.dxprog.com/blog/mpss_gimp.jpg]![](http://images.dxprog.com/blog/mpss_gimp.jpg</a> &quot;Kind of like this, but with less Toradora! Christmas wallpaper&quot;)[/url]</p>
-<p>First you&#39;ll need to crop up your background image, so click File-&gt;Open, navigate to where you&#39;ve saved the image you want and click open. It should now display in the main GIMP window. This is the image I will be using for this tutorial:</p>
-<p>[url=<a href="http://images.dxprog.com/blog/mpss_nagisa.jpg]![](http://images.dxprog.com/blog/mpss_nagisa.jpg">http://images.dxprog.com/blog/mpss_nagisa.jpg]![](http://images.dxprog.com/blog/mpss_nagisa.jpg</a> &quot;Thank you for donating your likeness, Nagisa!&quot;)[/url]</p>
-<p>Now that you&#39;ve got your image ready, it&#39;s time to crop. In the tool window, click the drop tool (or press Shift+C). You&#39;ll want to check &quot;Fixed Aspect Ration&quot; and make sure it&#39;s set to 240x160:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_crop_tool.jpg" alt="" title="Crop tool settings"></p>
-<p>Select the area you want to crop your background to and press enter. Now we need to resize the image to 240x160. To do that, click Image-&gt;Scale Image using 240x160 as your size:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_resize.jpg" alt="" title="Resizing the image"></p>
-<p>Now we&#39;re ready to convert this to 256 colors. Click Image-&gt;Mode-&gt;Indexed. Make sure &quot;Generate optimum palette&quot; is checked and set to 256 colors. You can mess around with dithering if you like to test different results, but I usually leave it off (personal preference). Here&#39;s what the settings window should look like:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_palette.jpg" alt="" title="Reducing the colors"></p>
-<p>Our image is now ready for importing into MPSS! Here is what the final product looks like:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_final.jpg" alt="" title="All ready to go"></p>
-<p>Before we can take the next step, however, we must save this. So click File-&gt;Save As. You&#39;ll want to save this as a BMP file, so select Windows BMP Bitmap from the format drop down:</p>
-<p>[url=<a href="http://images.dxprog.com/blog/]![](http://images.dxprog.com/blog/mpss_save.jpg">http://images.dxprog.com/blog/]![](http://images.dxprog.com/blog/mpss_save.jpg</a> &quot;Save options&quot;)[/url]</p>
-<p>Name your file appropriately (with a .bmp extension) and click save. You&#39;ll be nagged with a window asking if you want to save with run-length encoding. Leave this unchecked and press OK.</p>
-<p>As I mentioned earlier, you can create all your backgrounds this way, but to get the icons looking all nice we&#39;ll need to go a step further. First, let&#39;s create some icons.</p>
-<h2 id="creating-an-icon">Creating an Icon</h2>
-<p>The steps to create an icon are very similar. In fact, it&#39;s just changing a couple of values. So, here they are:</p>
-<p>Cropping: set your ratio to 1:1 instead of 240:160
-Scaling: Depending on which icon, you&#39;ll use 64x64 or 16x16 when scaling your image (see above reference for which icons use what size).
-Transparency: If you would like an icon to have a transparent part, you&#39;ll need to select a color will be the transparent color and paint any areas you want transparent with that color (I use the pencil tool with a 1 pixel brush). I usually use an unsightly green, like so:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_ushio.jpg" alt="" title="A demonstration of transparency"></p>
-<p>Done!</p>
-<h2 id="making-a-background-w-icons">Making a Background w/ Icons</h2>
-<p>Here is where things can get a little tedius. This step needs to be performed BEFORE you set your image to 256 colors. With your background and icons all open, start copying all of your icons to your background image on new layers. Here&#39;s how we do that. On your icon, select the entire canvas by press Ctl+A and the press Ctl+C to copy. Now, move over to your background image and press Ctl+V. Your icon should appear in the middle of the screen. We want this on a new layer, so now click the New Layer button in the layers window:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_layers.jpg" alt="" title="Click new layer after pasting"></p>
-<p>Note - It doesn&#39;t matter where your icons are placed, just as long as they&#39;re there.</p>
-<p>Once you&#39;ve gotten all your icons pasted over, reduce the colors as before. Your icons and background are now using the same palette and will look all pretty for your skin. Now we need to save out all of our images. First, start with the background. Hide all of the icon layers by click the little eyeball icon next to it in the layers window:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_visibility.jpg" alt="" title="The eyeballs turn layers on/off"></p>
-<p>Once you&#39;ve hidden these, save the background image as above. Now to do all the icons. Turn all your icons back on in the layers window reversing what we did before. Now, right click on the layer with your icon and click &quot;Alpha to Selection.&quot; Click Ctl+C to copy the icon to the clipboard. Now click File-&gt;Create-&gt;From Clipboard. Your icon should show up. Sadly, the palette information isn&#39;t carried over in the copy, so you&#39;ll need to switch the mode to indexed again. Now save your icon as a BMP as before.</p>
-<p>After all your icons and backgrounds have been sized, palettized and saved, we&#39;re ready to put it all together in MPSS!</p>
-<h2 id="pulling-it-all-together">Pulling it all together</h2>
-<p>Now that all the graphics have been prepared, we&#39;re ready to pull it all together in MP Skin Studio. So, open it up and you&#39;ll be greeted with the following screen:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_startup.jpg" alt="" title="MP Skin Studio"></p>
-<p><strong>The Main Screen</strong>
-Since the main screen covers most all areas of MPSS&#39; functionality, we&#39;ll start there and fill in where needed. First thing we&#39;ll do is load up our background. To do this, click the large black square in the center of the window and you will be prompted to select your background image. Pick the image you made for the main screen and it will display in the black area we just clicked:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_background.jpg" alt="" title="The background loaded"></p>
-<p>Done! Now we&#39;ll load up all our icons. These are all lined up on the right side of the screen under the &quot;Icons&quot; text (surprised?). These aren&#39;t set right now, so they appear as white squares. Above each square is the name of each icon (movie, music, etc). To load an icon image, <strong>right-click</strong> the icon you want to load and select your bitmap from the resulting dialog box:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_icon.jpg" alt="" title="Icon loaded"></p>
-<p>Now, as can be noted by the tell-tale ugly green color, this icon was intended to have transparency, so we need to tell MPSS that this color is supposed to be transparent. To do this, select the color dropper tool:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_dropper.jpg" alt="" title="The dropper tool"></p>
-<p>Now, <strong>right-click</strong> the color you wish to be transparent on your icon. This color will now be replaced with a color checker background indicating transparency:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_transparency.jpg" alt="" title="Transparency in an icon"></p>
-<p>Rinse and repeat this step for all of your icons. Note that you do not need to set an image for any icon if you wish. That said, I&#39;m going to use only the one icon for this demonstration. Now that we&#39;ve loaded all of our icons, it&#39;s time to place them on the screen. To do this, click and drag an icon to the position you&#39;d like it be on the background:</p>
-<p><img src="http://images.dxprog.com/blog/mpss_position.jpg" alt="" title="Positioning an icon"></p>
-<p>The &quot;location&quot; label underneath the background image will update with the current X and Y coordinate to allow you more precision. Again, rinse and repeat this process for all icons. Any icon you do not place will default to position 0, 0. There a couple things to note before we move on:</p>
-<ul>
-<li>Icon text: this allows your skin to display (or not) the captions that appear underneath the icons:</li>
-</ul>
-<p><img src="http://images.dxprog.com/blog/mpss_text.jpg" alt="" title="Toggling text"></p>
-<ul>
-<li>Bounding box: this is an editor feature. Enable this will draw a box around all of the icons to help in positioning them:</li>
-</ul>
-<p><img src="http://images.dxprog.com/blog/mpss_box.jpg" alt="" title="Icon with bounding box drawn"></p>
-<p>Now that we&#39;ve finished the icons, it&#39;s time to set font colors. You&#39;ll find this area in the bottom left of the window. There are three different font colors to set. They are:</p>
-<ul>
-<li>Menu text: this is the text that appears on the main and file screens.</li>
-<li>Highlighted text: Highlighted versions of the above text items.</li>
-<li>E-book/help text: Text that appears for e-books and in the help section.</li>
-</ul>
-<p>To set the font color, simply click the color block to the right of the item you want to change. Select your color from the color picker dialog and click OK. Done!</p>
-<p><strong>Odds and Ends</strong>
-All the other screens utilize what we&#39;ve just done for the main screen, but I&#39;ll run through them real quick. To switch to a different screen, click on one of the gray pills at the top that read &quot;Main&quot;, &quot;File&quot;, &quot;E-Book&quot; and &quot;Music&quot;. You&#39;ll notice that as you click through these, the background image will change. To set the background image for a screen, just click on the large box as we did above. Even though they&#39;re still displayed, there are no large icons associated with these other screens with the exception of the file icons.</p>
-<p>After you&#39;ve set the &quot;File&quot; background image, you can load in your file icons. To do this, right click on the white box to the right of &quot;Folder&quot; or &quot;Back&quot; underneath &quot;File Icons&quot; and load in your icon. Setting icon transparency works the same as it does for large icons, using the dropper tool and right-clicking the color you wish to be transparent.</p>
-<p><strong>Saving Up</strong>
-Once you&#39;ve gotten all your graphics loaded, positioned and such we&#39;re ready to save our skin. Click File-&gt;Save BACKIMG. Be sure to name your file BACKIMG.ext where ext can be whatever you want. If you&#39;ve chosen to leave out some backgrounds or icons you may receive a warning. Just click OK and it&#39;ll save anyways. You&#39;re now ready to put your skin onto your GBAMP or M3!</p>
-<h2 id="errata">Errata</h2>
-<p>During the writing of this tutorial I&#39;ve encountered more than a few bugs. As I originally wrote this software six years ago, I can&#39;t offer much in the way of support in terms of fixing them (I&#39;m missing at least one source file :(). However, I will list what I discovered:</p>
-<ul>
-<li>Having the bounding box enabled prevents you from loading in a new background. Just disable it and all is good.</li>
-<li>Changing an icon&#39;s transparent color more than once will result in errouneous display.</li>
-<li>If you open/create a skin that has all icons and then try to save a skin that is missing some icons, the missing icons will be replaced with the ones from the previous skin. You can clear this by deleting all the files in PROGRAM_FOLDER\temp where PROGRAM_FOLDER is where you&#39;ve extracted MPSS.</li>
-</ul>
-<p>If you find any other issues, please e-mail me at matt@dxprog.com. If there&#39;s enough demand, I might find my way to rewriting this piece of software, but no promises.</p>
-<p>Happy skinning!</p>
-</div></article><article><h2>Lunchtime Thoughts - A Christmas Carol is the Perfection of INCEPTION</h2><time>December 22, 2010</time><div><p>I was watching a Christmas Carol with my family the other night (the Patrick Stewart version for those curious) and I came across an interesting realization: Scrooge is experiencing Inception. Let&#39;s suspend our disbelief for a second.</p>
-<p><strong>Requirements for Inception</strong> - As the movie states, the dreamer must be three layers deep for Inception to work. This requirement is met if one considers each ghost of Christmas it&#39;s own layer (past, present, future). Of course, this requires a particular level of sedation. Scrooge complains of indigestion, so his food could easily have been drugged. By whom? Marley, of course. His ghostly face appeared on the knocker of Scrooge&#39;s house, so we know he&#39;d already been there.</p>
-<p><strong>The time required</strong> - At the end of the story, Scrooge is surprised that the spirits managed to do everything in one night. He easily satisfies that thought with a &quot;Oh, they&#39;re spirits. They can do whatever they like.&quot; Inception tells us that a dream is several times faster than real time and each level of dream adds to that. This allows for an exponential amount of time especially as Scrooge was three layers in.</p>
-<p><strong>The setup</strong> - Everything up till now is good, but here&#39;s where things get tricky. One would think that the layers of dreaming would go in the order presented in the story: past, preset, future. However, careful observation of the time each layer tells us that the opposite is true. Past takes the longest, so it has to be the last level of dream with present and future going up the chain. There is a complication that this brings: in future (first layer of dream) Scrooge remembers present and past. There are two possible explanations:</p>
-<p><strong>1.</strong> Most probable - Scrooge, upon entering the future, is immediately put to sleep. Upon entering in present, the same happens. This kicks him automatically to the third layer where everything can play out working backwards.</p>
-<p><strong>2.</strong> Scrooge is actually experiencing all three dreams at the same time, each layer&#39;s experiences adding to the previous in real time. Since the bottom layers play out much faster then the previous, all the information required would be in place for the story to play out as seen.</p>
-<p><strong>Whodunnit?</strong> - Given we assume all of the above is true, who is the person that started the whole thing? Who is the architect. A simple question - Jacob Marley. He&#39;s already a ghost, let&#39;s face it, but his closeness to Scrooge puts him at an advantage to know all the key points to hit upon.</p>
-<p>So, there you have it. It seems Christopher Nolan&#39;s seemingly original idea was actually conceived by literary genius Charles Dickens in the 19th century.</p>
-<p>Or perhaps I just have too much time on my hands...</p>
-</div></article></section></body></html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Archives - Page 139</title><link rel="stylesheet" type="text/css" href="http://dev.dxprog.com/dxprog.github.io/docs/static/css/index.css"/></head><body><section class="rollup-page"><section class="intro-bar"><img src="http://dev.dxprog.com/dxprog.github.io/docs/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><section class="article-list"><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/returning-to-my-roots">Returning to my Roots</a></h1><time class="post__published">July 14, 2008</time></header><div class="post__content">They say all good things must come to an end. Such is true for my one week of summer vacation. It was brief, yet enjoyable. Got to celebrate my birthday with my family, eat grilled food and lots of potato salad, and also take the usual trip to Tulsa. It's a pity that it was so short, but I'm complaining too much. The school is giving me a bachelor's degree in less than two years, so this time next year I'll be out of school. But that's a story for another day.
+
+As you may [recall](http://www.dxprog.com/entry/its-super-awesome-vacation-time/), last month began my two month long journey through the wonders of Flash. Last month focused primarily on Flash as it pertains to design, teaching us the interface, motion tweens, and just a hint of ActionScript. This month, however, is dedicated to nothing but ActionScript. To demonstrate these "newly acquired skills" our final project consists of making a game.
+
+Now, I put "newly acquired" in quotes for a reason. For anybody who's frequented this blog long enough you should know by now that I am, or at least used to be, heavy into coding. Because of this I have an unfair advantage over the rest of the class in this regard and as such I am taking my project to ridiculous extents (far above the scope of the course). The nice thing, though, is that the instructor actually acknowledges the fact that I am as proficient as I am, so much so that I took the place of the lab instructor for one day (whilst the real one was waiting in line for his iPhone 3G). Being able to talk to the instructor about geeky stuff as equals is a nice departure. But, enough ego stroking, about the actual project itself.
+
+I chose to challenge myself and create essentially a dumbed down clone of Street Fighter, but be completely extensible through external configuration files. The first thing I avoided was the use of graphics inside Flash itself opting instead to load sprite sheets from external sources. Everything is configured through XML sheets that define how a character should react, define where animations are within a sprite sheet, stages, etc. Amazingly, I've achieved most of this and all very, very quickly. The biggest problem I foresee is the addition of enemy AI, but I've got ideas on how to achieve this as well. Overall, though, I'm loving being back at the helm of the coding ship. I'd forgotten how much of a thrill can be derived from hours of typing if statements and nested for loops. Damn, it's good to be back.</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/metal-gear-music-day">Metal Gear Music Day!</a></h1><time class="post__published">July 4, 2008</time></header><div class="post__content"><p>I missed a week again, but here I am performing my civic duty whilst on vacation. Today, the music of choice is Metal Gear Solid. I recently just finished the first one and as soon as I return from vacation will begin work on MGS2. If you have a PS2 and have not plaed any of these games I highly recommend picking up the recently released <a href="http://www.amazon.com/Metal-Gear-Solid-Essential-Collection/dp/B001383L36/ref=pd_bbs_sr_1?ie=UTF8&amp;s=videogames&amp;qid=1215198554&amp;sr=8-1">Essential Collection</a> as I did. Three games for thirty bucks is a really good deal for excellent games such as these. But anyways, on to the music.[break]</p>
+<p><strong>Metal Gear Solid Guitar Classical</strong> (<a href="http://www.youtube.com/user/bleehl">Bleehl</a>)
+[![youtube video](<a href="https://img.youtube.com/vi/3ltL01DJJpI]">https://img.youtube.com/vi/3ltL01DJJpI]</a></p>
+<p><strong>Metal Gear Solid 2</strong> ([NightShader1/0.jpg)](<a href="https://www.youtube.com/watch?v=3ltL01DJJpI]">https://www.youtube.com/watch?v=3ltL01DJJpI]</a></p>
+<p><strong>Metal Gear Solid 2</strong> ([NightShader1)(<a href="http://www.youtube.com/user/nightshader1)">http://www.youtube.com/user/nightshader1)</a>)
+[![youtube video](<a href="https://img.youtube.com/vi/bkHxpk7EEks]">https://img.youtube.com/vi/bkHxpk7EEks]</a></p>
+<p><strong>Metal Gear Solid on Ocarina</strong> ([docjazz4/0.jpg)](<a href="https://www.youtube.com/watch?v=bkHxpk7EEks]">https://www.youtube.com/watch?v=bkHxpk7EEks]</a></p>
+<p><strong>Metal Gear Solid on Ocarina</strong> (<a href="https://www.youtube.com/watch?v=lpSCBeeRPfA">docjazz4)(http://www.youtube.com/user/docjazz4))
+[<img src="https://img.youtube.com/vi/lpSCBeeRPfA/0.jpg" alt="youtube video"></a></p>
+</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/metal-gear-music-day">Metal Gear Music Day!</a></h1><time class="post__published">July 4, 2008</time></header><div class="post__content">I missed a week again, but here I am performing my civic duty whilst on vacation. Today, the music of choice is Metal Gear Solid. I recently just finished the first one and as soon as I return from vacation will begin work on MGS2. If you have a PS2 and have not plaed any of these games I highly recommend picking up the recently released [Essential Collection](http://www.amazon.com/Metal-Gear-Solid-Essential-Collection/dp/B001383L36/ref=pd_bbs_sr_1?ie=UTF8&s=videogames&qid=1215198554&sr=8-1) as I did. Three games for thirty bucks is a really good deal for excellent games such as these. But anyways, on to the music.[break]
+
+**Metal Gear Solid Guitar Classical** ([Bleehl](http://www.youtube.com/user/bleehl))
+[![youtube video](https://img.youtube.com/vi/3ltL01DJJpI/0.jpg)](https://www.youtube.com/watch?v=3ltL01DJJpI)
+
+**Metal Gear Solid 2** ([NightShader1](http://www.youtube.com/user/nightshader1))
+[![youtube video](https://img.youtube.com/vi/bkHxpk7EEks/0.jpg)](https://www.youtube.com/watch?v=bkHxpk7EEks)
+
+**Metal Gear Solid on Ocarina** ([docjazz4](http://www.youtube.com/user/docjazz4))
+[youtube=lpSCBeeRPfA]</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/its-super-awesome-vacation-time">It&#x27;s Super Awesome Vacation Time!</a></h1><time class="post__published">June 25, 2008</time></header><div class="post__content"><p>Summer is here, and with it vacation. Unfortunately for us Full Sailors, we only get about a week of summer vacation (I get ten days because all my classes let out early). However, that&#39;s not to say I&#39;m not going to take advantage of the time off. Quite the contrary. Tomorrow I will be heading back to the good old midwest and chill with my folks. It&#39;s been over half a year since I&#39;ve seen them, so I&#39;m definitely looking forward to going back. I&#39;m especially looking forward to potato salad. Mmmmmm....</p>
+<p>Interestingly enough, tomorrow is also one year from my graduation. It hardly seems like I&#39;ve been here for nine months, but there it is. It probably helps that I&#39;m usually pretty busy and that most of this is pretty fun. Though, I will admit, Flash was pretty boring. Don&#39;t get me wrong, I enjoyed working on my projects, but they were small enough that I finished pretty quickly. And the last half of the course was a beginners guide to programming, something that I really don&#39;t need. So, while I did try to do more advanced things than what the project originally called for, there wasn&#39;t a whole lot of room to flex my muscles, as it were. You can check out my final project <a href="http://66.192.104.111/~mhackmann/ffm/project2">here</a>. Yes, it is an homage to <a href="http://www.egoraptor.net/">egoraptor&#39;s</a> series of awesomeness (who I had the great pleasure of helping recently). My other class this month was 3D modelling. That class was a lot of fun. The teacher was cool, the project was fun; I just enjoyed the entire class. I&#39;ll have my final project up on YouTube sometime soon.</p>
+<p>In other news, I have begun and am about half way through animating a real Flash cartoon, one which will be entitled Phoenix Awesome. I hope to have it up on Newgrounds sometime over break.</p>
+<p>Well, that&#39;s about everything. I&#39;ll leave you with my MGP final project which I never actually posted on here. Enjoy</p>
+<p><a href="https://www.youtube.com/watch?v=0JIccRK5PUA"><img src="https://img.youtube.com/vi/0JIccRK5PUA/0.jpg" alt="youtube video"></a></p>
+</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/its-super-awesome-vacation-time">It&#x27;s Super Awesome Vacation Time!</a></h1><time class="post__published">June 25, 2008</time></header><div class="post__content">Summer is here, and with it vacation. Unfortunately for us Full Sailors, we only get about a week of summer vacation (I get ten days because all my classes let out early). However, that's not to say I'm not going to take advantage of the time off. Quite the contrary. Tomorrow I will be heading back to the good old midwest and chill with my folks. It's been over half a year since I've seen them, so I'm definitely looking forward to going back. I'm especially looking forward to potato salad. Mmmmmm....
+
+Interestingly enough, tomorrow is also one year from my graduation. It hardly seems like I've been here for nine months, but there it is. It probably helps that I'm usually pretty busy and that most of this is pretty fun. Though, I will admit, Flash was pretty boring. Don't get me wrong, I enjoyed working on my projects, but they were small enough that I finished pretty quickly. And the last half of the course was a beginners guide to programming, something that I really don't need. So, while I did try to do more advanced things than what the project originally called for, there wasn't a whole lot of room to flex my muscles, as it were. You can check out my final project [here](http://66.192.104.111/~mhackmann/ffm/project2). Yes, it is an homage to [egoraptor's](http://www.egoraptor.net/) series of awesomeness (who I had the great pleasure of helping recently). My other class this month was 3D modelling. That class was a lot of fun. The teacher was cool, the project was fun; I just enjoyed the entire class. I'll have my final project up on YouTube sometime soon.
+
+In other news, I have begun and am about half way through animating a real Flash cartoon, one which will be entitled Phoenix Awesome. I hope to have it up on Newgrounds sometime over break.
+
+Well, that's about everything. I'll leave you with my MGP final project which I never actually posted on here. Enjoy
+
+[youtube=0JIccRK5PUA]</div></article><div class="paging"><a href="http://dev.dxprog.com/dxprog.github.io/docs/archives/140.html" class="paging__link paging__link--next">Earlier Posts</a><a href="http://dev.dxprog.com/dxprog.github.io/docs/archives/138.html" class="paging__link paging__link--previous">Later Posts</a></div></section><footer class="footer"><p class="footer__copyright">Copyright © 2018 Matt Hackmann</p></footer></section></body></html>

@@ -21,7 +21,7 @@ const pg = new SiteGenerator({
     PostRenderer,
     HomePageRenderer
   ],
-  baseUrl: 'http://dev.dxprog.com/dxprog.github.io/docs/',
+  baseUrl: 'http://staticr.dxprog.com/',
 });
 
 // pg.addReader(DxApiReader);

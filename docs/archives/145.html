@@ -1,71 +1,129 @@
 <!DOCTYPE html>
-<html><head><title>Archives - Page 145</title><link rel="stylesheet" type="text/css" href="static/css/index.css"/></head><body><section class="article-list"><article><h2>PHP ID3Lib 1.0 Release</h2><time>November 6, 2010</time><div><p>Brand spanking new release of the PHP branch of ID3Lib!</p>
-<p>[ <a href="http://dxprog.com/files/id3lib_php.zip">Download</a> ]
-[ <a href="http://dxprog.com/docs/id3lib/">Documentation</a> ]</p>
-<p><strong>What&#39;s new:</strong></p>
-<ul>
-<li>Added support for ID3v1, older ID3v2</li>
-<li>Genre now returned on all tag versions</li>
-<li>Calculates song duration and average bit rate for constant (CBR) and variable (VBR) bit rate files</li>
-<li>Single object instantiation can read more than one file</li>
-<li>Much improved inline documentation (phpDoc style)</li>
-<li>General code clean-up, bug fixes and improved compatibility</li>
-</ul>
-<p><strong>Example</strong></p>
-<pre><code class="lang-php">
-include(&#39;id3lib.php&#39;);
-$songs = array(&#39;song1.mp3&#39;, &#39;song2.mp3&#39;, &#39;song3.mp3&#39;);
-$id3 = new ID3Lib();
-for ($i = 0, $count = count($songs); i &lt; $count; i++) {
-    $id3-&gt;readFile;
-    $min = floor($id3-&gt;length / 60);
-    $sec = $id3-&gt;length - ($min * 60);
-    $sec = strlen($sec) == 1 ? &#39;0&#39; . $sec : $sec;
-    echo &#39;Title: &#39;, $id3-&gt;title, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Artist: &#39;, $id3-&gt;artist, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Album: &#39;, $id3-&gt;album, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Track Number: &#39;, $id3-&gt;track, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Disc: &#39;, $id3-&gt;disc, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Year: &#39;, $id3-&gt;year, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Genre: &#39;, $id3-&gt;genre, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Length: &#39;, $min, &#39;:&#39;, $sec, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Avg. Bit Rate: &#39;, $id3-&gt;bitrate, &#39;&lt;br /&gt;&#39;;
-    $id3-&gt;savePicture($i.&#39;_pic.jpg&#39;);
-}
-</code></pre>
-<p>If you have any comments/issues, let me know!</p>
-</div></article><article><h2>The Revenge of Bottomembly</h2><time>October 14, 2010</time><div><p>A few days ago I was out walking and reminiscing, as I am wont to do. While I was doing this, I  recalled some of my first web related programming projects, most notably YPNgine. Considering it was my first major PHP outing, I pulled off quite a feat. Writing a message board is no small task. However, there was one part in particular that I was mulling over: the censor. </p>
-<p>If you happen to be a former YPNer, you may recall seeing many references to &quot;bottomembly&quot;. Carrying over the censor find/replace list that had been used on phpBB before it, all instances of the character sequence &quot;ass&quot; were summarily replaced with &quot;bottom&quot;. Now I am being very choosy when I say &quot;character sequence&quot; and not &quot;word&quot; as the censor couldn&#39;t differentiate words.</p>
-<p>This oversight was brought to my attention my young programmer self struggled to figure out a solution. Here&#39;s what I wound up doing:</p>
-<p>[code=php]// Copyright (c) 2003 Matt Hackmann
-// Full copyright info in index.php</p>
-<p>function censor_post ($body)
-{</p>
-<pre><code>$query = &quot;SELECT * FROM bannedwords&quot;;
-$result = db_Query ($query);
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Archives - Page 145</title><link rel="stylesheet" type="text/css" href="http://dev.dxprog.com/dxprog.github.io/docs/static/css/index.css"/></head><body><section class="rollup-page"><section class="intro-bar"><img src="http://dev.dxprog.com/dxprog.github.io/docs/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><section class="article-list"><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/video-games-live-something-for-everybody">Video Games Live - Something for Everybody</a></h1><time class="post__published">January 31, 2008</time></header><div class="post__content">![](http://www.dxprog.com/pics/bumpers/VGL.png "image")
 
-$body = &quot; &quot;.$body;
+I had the great fortune of being able to attend a [Video Games Live](http://www.videogameslive.com/) (VGL) concert. For the uninitiated, VGL is a concert where game music is played. Some people may think it's nerdy, however, but I see it as something that can be appreciated by gamers and non-gamers alike.
 
-$body = str_ireplace (&quot;assembly&quot;, &quot;ytrewq&quot;, $body);
-$body = str_ireplace (&quot;assum&quot;, &quot;asd;ljf&quot;, $body);
-$body = str_ireplace (&quot;glass&quot;, &quot;glss&quot;, $body);
-$body = str_ireplace (&quot;hello&quot;, &quot;hllo&quot;, $body);
+People see the words "video game music" and probably automatically think of the bleeps and bloops (more accurately, triangle and square waves) of the Atari and NES days of yore. These may not have sounded great, but because of the limitations more effort was placed on making themes easily recognizable and pronounced (i.e. Mario, Zelda, Metroid). However, since the days of the SNES, video game music has been approached more like a movie score. At the forefront of this movement was Nobuo Uematsu and his work in the Final Fantasy series.
 
-for ($i = 0; $i &lt; db_num_Rows ($result); $i++) {
-    $row = db_fetch_array ($result);
-    $body = str_ireplace ($row[&quot;blocked_word&quot;], &quot;&quot;, $body);
-}
+Final Fantasy serves as an excellent demonstration of the similarities between game and movie music. Final Fantasy VI, and SNES game mind you, has one of the best scores of any game. Each character has their own theme, or leitmotif, and these themes are woven throughout every piece of music in the game. The same went for FFX, though the motifs weren't character specific, but specific to certain cultural elements. Star Wars takes this kind of approach: the Empire has a theme, the Force has a theme, etc. It's this kind of music that has the ability to evoke emotions in the listener and, at its core, that's what music is all about.
 
-if ($body == &quot; &quot;)
-    $body = &quot;Censored&quot;;
+Of course, not all game scores are orchestral. Koji Kondo dabbles in a little bit of everything, and there are rock and techno type stuff out there. I lean towards the orchestral myself because I find it to be more powerful. I will admit that most of my childhood was spent listening the classical music and [John Williams](http://en.wikipedia.org/wiki/John_Williams) and as such I have a soft spot for this kind of music, but I know die hard fans of vastly different genres who appreciate the vocals of Halo or the trumpet heavy Zelda. Even my mom, a dedicated 80s gal, enjoys much of my game music library.
 
-$body = str_replace (&quot;asd;ljf&quot;, &quot;assum&quot;, $body);
-$body = str_replace (&quot;ytrewq&quot;, &quot;assembly&quot;, $body);
-$body = str_replace (&quot;glss&quot;, &quot;glass&quot;, $body);
-$body = str_ireplace (&quot;hllo&quot;, &quot;hello&quot;, $body);
+So, there you have it. The conception that game music is various beeps and just for nerds is a complete fallacy. Video game music these days can be just as powerful, if not more so, than latest blockbuster. At that, it can be appreciated by all walks of life. And I think it should be.
 
-return $body;
-</code></pre><p>}[/code]</p>
-<p>As you can see, I started hard coding in a list of safe words, replacing those instances with a random (or not so random) string of characters, run the censor and then convert those strings back to the safe words. This was a list I kept expanding on as they were found during normal conversation on the forum. I giggle as I look at this list and think of what the censor was doing to those words: bottomume, glbottom and hecko.</p>
-<p>It&#39;s just something that I, eight years later, have to look back on and chuckle about.</p>
-</div></article></section></body></html>
+Oh, the concert was [awesome](http://www.youtube.com/watch?v=9npt7JaVmLI) (I scream before the rest of the crowd at about 0:31).
+
+(Like the bumper at the top? I'm going to start including these in more of my posts as a design challenge for myself.)</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/wherein-the-author-imparts-upon-his-audience-the-ongoings-of-his-life">Wherein the Author Imparts Upon His Audience the Ongoings of His Life</a></h1><time class="post__published">January 22, 2008</time></header><div class="post__content"><p>It&#39;s been some time since I have updated this blog. So I take leave of my busy life, if only for a moment, to fill you, the reader, in on the various happenings and goings on. (Okay, that&#39;s enough eighteen hundreds talk).</p>
+<p>So, Christmas has come and gone (as it always does) and I am now back into the thick of school. Luckily, I don&#39;t have all sucky courses this month. No, I only have one. However, let&#39;s put the good news before the bad, shall we?</p>
+<p><strong>ADG</strong>
+Advanced Computer Graphics, or ADG, is probably the second best course I&#39;ve had thus far (<a href="http://www.dxprog.com/entry/into-the-christmas-swing-amongst-other-things/">NOS</a> being number one). ADG is, more or less, a Photoshop/Illustrator class. DCG was also this to a slight degree, but more emphasis was placed on the actual design as opposed to technical issues. Now, however, we&#39;re in the thick of opacity masks, and layer styles, and blah, blah, blah. Actually, believe it or not, I&#39;ve become more comfortable in Illustrator than I am in Photoshop. The pen tool, simply put, is the most brilliant thing since aged cheese. But don&#39;t take my word for it, take my art:</p>
+<p>[gallery=NES]<img src="http://img00.deviantart.net/244b/i/2008/021/2/e/nes_vector_illustration_by_dxprog.jpg" alt="" title="An NES created using nothing but vector shapes"><img src="http://img09.deviantart.net/07b2/i/2008/021/3/1/nes_advertisment_by_dxprog.jpg" alt="" title="Using the image from before and placing it into an ad.">[/gallery]</p>
+<p>It should be duly noted that the NES is not, in fact, a photograph. Nor was it some fancy job I did in Photoshop. No, it was done completely in Illustrator and, vector graphics being what they are, is infinitely scalable. The advertisement, however, is not. Oh, and speaking of which, I realize that the NES is pushing twenty-three.</p>
+<p>My other course is geometry and I will leave you simply with this: proofs can burn in Hell.</p>
+<p>One thing I&#39;d like to say real quick: iPod Touch is the best PDA ever created. I know. I own one. Damn you Apple, damn you.</p>
+<p>My site is still riding on a wave of hits from the Rock Band drums thing way back when, but I&#39;ve had another surge in popularity thanks to <a href="http://andrewrudson.com/main.php">this guy</a>. He&#39;s created one nicely polished drum kit app and has kindly linked back to my page. It&#39;d be wrong for me not to return the favor.</p>
+<p>Finally, while I&#39;m throwing out links, be sure to check out the newly revamped <a href="http://www.game-boyz.net/">Game Boyz</a>. While you&#39;re at it, why don&#39;t you sign up on the forums and tell my bro how awesome the comic is.</p>
+<p>Well, that should appease the masses for the well being. I write these posts in hope that somebody is reading them, however, even if it just serves as a chronicle of my life for me to read later, then so be it. It&#39;s deep tomes of history have already provided me with hours of cringing agony. May it continue to do so in this grand a glorious new year.</p>
+</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/wherein-the-author-imparts-upon-his-audience-the-ongoings-of-his-life">Wherein the Author Imparts Upon His Audience the Ongoings of His Life</a></h1><time class="post__published">January 22, 2008</time></header><div class="post__content">It's been some time since I have updated this blog. So I take leave of my busy life, if only for a moment, to fill you, the reader, in on the various happenings and goings on. (Okay, that's enough eighteen hundreds talk).
+
+So, Christmas has come and gone (as it always does) and I am now back into the thick of school. Luckily, I don't have all sucky courses this month. No, I only have one. However, let's put the good news before the bad, shall we?
+
+**ADG**
+Advanced Computer Graphics, or ADG, is probably the second best course I've had thus far ([NOS](http://www.dxprog.com/entry/into-the-christmas-swing-amongst-other-things/) being number one). ADG is, more or less, a Photoshop/Illustrator class. DCG was also this to a slight degree, but more emphasis was placed on the actual design as opposed to technical issues. Now, however, we're in the thick of opacity masks, and layer styles, and blah, blah, blah. Actually, believe it or not, I've become more comfortable in Illustrator than I am in Photoshop. The pen tool, simply put, is the most brilliant thing since aged cheese. But don't take my word for it, take my art:
+
+[gallery=NES]![](http://img00.deviantart.net/244b/i/2008/021/2/e/nes_vector_illustration_by_dxprog.jpg "An NES created using nothing but vector shapes")![](http://img09.deviantart.net/07b2/i/2008/021/3/1/nes_advertisment_by_dxprog.jpg "Using the image from before and placing it into an ad.")[/gallery]
+
+It should be duly noted that the NES is not, in fact, a photograph. Nor was it some fancy job I did in Photoshop. No, it was done completely in Illustrator and, vector graphics being what they are, is infinitely scalable. The advertisement, however, is not. Oh, and speaking of which, I realize that the NES is pushing twenty-three.
+
+My other course is geometry and I will leave you simply with this: proofs can burn in Hell.
+
+One thing I'd like to say real quick: iPod Touch is the best PDA ever created. I know. I own one. Damn you Apple, damn you.
+
+My site is still riding on a wave of hits from the Rock Band drums thing way back when, but I've had another surge in popularity thanks to [this guy](http://andrewrudson.com/main.php). He's created one nicely polished drum kit app and has kindly linked back to my page. It'd be wrong for me not to return the favor.
+
+Finally, while I'm throwing out links, be sure to check out the newly revamped [Game Boyz](http://www.game-boyz.net/). While you're at it, why don't you sign up on the forums and tell my bro how awesome the comic is.
+
+Well, that should appease the masses for the well being. I write these posts in hope that somebody is reading them, however, even if it just serves as a chronicle of my life for me to read later, then so be it. It's deep tomes of history have already provided me with hours of cringing agony. May it continue to do so in this grand a glorious new year.</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/2007-a-year-in-gaming">2007 - A Year in Gaming</a></h1><time class="post__published">December 30, 2007</time></header><div class="post__content">2007 was, indeed, a monumental year in gaming. So many triple A titles, ninety-nine percent of which were released in the holiday season making it very expensive for those who wanted to stay on top. Today I'm going to take a look back at gaming in 2007 (the games I have played, at least).
+
+## Wii
+**Wario Ware: Smooth Moves**
+This was my first foray into the world that is Wario Ware and, as such, cannot compare it to previous entries in the series. For the uninformed, Wario Ware is a collection of micro games, meaning each little game has one goal and you have about five (or less) seconds to complete said goal. The folks at Nintendo got incredibly inventive and this game shows off the abilities of the Wiimote excellently. As far as looks go there isn't anything jaw dropping, but the art direction can be hilarious at times and it certainly fits in with the zany, face paced style of the game. I only wish there were some better multiplayer options especially since this is a great party game (especially when over zealous players put their hand through a ceiling fan).
+8/10 Stars
+
+**Super Paper Mario**
+Previous entries in the Paper Mario series have been more RPGish in that battles were turn based and you traversed the world in three dimensions. Super Paper Mario takes a more unique approach, cleverly blending old school platforming with RPG elements. There is, of course, the flip element to the game which makes you look at everything in a whole new perspective (forgive the pun). About the only caveat to this game would be the mansion level, but the clever puzzles mixed with awesome writing make this a must have game for the Wii.
+8/10 Stars
+
+**Super Mario Galaxy**
+I will admit, I do not own this nor have I played it much. However, in my time with it I can see how it has gotten such high praise. The visuals alone are simply beautiful, I'd say the best looking of any game made this year. The music is a joy to listen to with many motifs going back to the days of Mario 3 and some Mario 64 selections as well. Most of it is orchestrated which makes it all the better. The best thing is, these are only the icing on an extremely delicious cake. The game play is simply fantastic. Gravity plays a huge role in the mechanics of this game and you had best be keeping that in mind whilst traversing the spherical levels. There's really not much to say about this game aside from that it's everything a Mario game should be.
+10/10 Stars
+
+## Xbox 360
+**Crackdown**
+This is probably the must underrated game of the year. If you bought this game just for the Halo 3 beta, raise your hand. (raises hand) If that's the only reason you bought this game and never even played it, then you should be ashamed of yourself. I was originally going to pass on Crackdown and the Halo 3 beta, but after playing the demo I realized that it (Crackdown) was a really cool game. I've never played a sandbox game before and just the ability to go wherever and do whatever I wanted was awesome enough. Throw in being able to leap tall buildings in a single bound and run faster than your mom and you've got one sweet game. The ending does suck, but story isn't the most prominent aspect so I'll let it slide. I spent many a good hour with this game.
+7/10 Stars
+
+**Eternal Sonata**
+Eternal Sonata was supposed to be the Final Fantasy for Xbox 360, at least in my eyes. It was simply gorgeous and it had an awesome battle system, however it is missing the one crucial element that a good RPG needs: story. I haven't played very far into this game because, quite frankly, I don't care about the characters. In games such as Final Fantasy VI or X there was enough story to keep me going to find out what happened. The problem with ES is that no real story has been setup after a few hours of play. There's been a little bit of character exposition, but not much compelling me to play through.
+6/10 Stars
+
+**Halo 3**
+By far the most hyped game of the year, luckily it delivers. There really isn't much of a difference from the previous games, but enough of an evolution for me to say that it is the best looking, best playing Halo out there. Multiplayer still rocks, they brought back the assault rifle, and the addition of multiplayer match replays is very sweet. If you are a 360 owner and haven't bought this yet, you need to do some deep soul searching and then go and buy it.
+8/10 Stars
+
+**Rock Band**
+Rock Band, aka Drum Hero or the Real Guitar Hero III, is by far the best rhythm game ever. Guitar Hero was awesome, but there's not much room left for innovation in that game outside of new songs. I don't know if this is what Harmonix was thinking or not, but they definitely upped the ante with Rock Band. Guitar is more or less the same, same for vocals if you've played Sing Star or Karaoke Revolution, but the drums is an entirely different beast. Getting all your limbs to work separately from each other can be a challenge, albeit a very satisfying one once you get the hang of it. In terms of song selection, there should be something for everyone especially with new downloadable tracks coming every week. The only thing about Rock Band is that, as the name suggests, you really have to play it with other people. Playing the solo tour is fun and all, but the multiplayer is where it's at. Paying attention to our band mates and saving them (or vice versa) adds an extra element to the game. The most awesome part, though, is when your singer can't sing. It can be hilarious and horrible... all at the same time.
+10/10 Stars
+
+## Nintendo DS
+**Phoenix Wright: Justice for All**
+The Phoenix Wright series was already fairly well established by the time I got to it. I originally a half ass purchase as a game to play on my flight to Orlando in May. It turned out to be one of the best things I bought this year. Phoenix Wright was like an interactive Encyclopedia Brown story, only with killing and stuff. The stories are so intriguing that it is hard to put them down, and when you do finish you are saddened because the awesome ride you were just on ended. Graphically there's not much to see, though the artwork is nice. If you're into thinking type games you should definitely pick this one up.
+9/10 Stars
+
+**The Legend of Zelda: The Phantom Hourglass**
+Zelda's first foray onto the Nintendo DS brought some radical changes to gameplay; namely, a game controlled entirely by the stylus. As bad as that may seem it works amazingly well. The game's visuals and sound are near identical to its predecessor, the Wind Waker. Despite all this, I felt the game was somewhat lacking and felt very scaled down. Granted, this is a protable release and the target audience was newcomers, but it still took away some of that Zelda feel. However, they still could've made some better music for the dungeons.
+7/10 Stars
+
+## Portal
+Just yesterday I picked up a copy of the Orange Box. Five games for fifty dollars is simply too good of a deal to pass up. At this point in time I have only installed/played/completed Portal. Portal is, by far, one of the most awesome games I've played in some time. The concept is insanely clever and forces you to think in a vastly different way. The writing is top notch and there were several things that I laughed out loud at. My only problem is that the game was far too short. I completed it in a few hours. Luckily there are advanced maps to complete yet and hopefully some stuff made by the community that I can get later.
+9/10 Stars
+
+If I had to pick one of these as my number one game of 2007 I would have to go with Rock Band. The drums are simply awesome and having a whole bunch of people doing co-op play makes for an awesome time. I would have to say Mario Galaxy would come in at a close second. It's awesome on too many fronts not to give honorable mention.
+
+Well, there you have it. 2008 alredy looks to be promising with Brawl coming up right off the bat. Hopefully we'll see the same amount o quality games, but maybe released over a longer period of time. Happy New Year and keep gaming.</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://dev.dxprog.com/dxprog.github.io/docs/entry/2007-a-year-in-gaming">2007 - A Year in Gaming</a></h1><time class="post__published">December 30, 2007</time></header><div class="post__content"><p>2007 was, indeed, a monumental year in gaming. So many triple A titles, ninety-nine percent of which were released in the holiday season making it very expensive for those who wanted to stay on top. Today I&#39;m going to take a look back at gaming in 2007 (the games I have played, at least).</p>
+<h2 id="wii">Wii</h2>
+<p><strong>Wario Ware: Smooth Moves</strong>
+This was my first foray into the world that is Wario Ware and, as such, cannot compare it to previous entries in the series. For the uninformed, Wario Ware is a collection of micro games, meaning each little game has one goal and you have about five (or less) seconds to complete said goal. The folks at Nintendo got incredibly inventive and this game shows off the abilities of the Wiimote excellently. As far as looks go there isn&#39;t anything jaw dropping, but the art direction can be hilarious at times and it certainly fits in with the zany, face paced style of the game. I only wish there were some better multiplayer options especially since this is a great party game (especially when over zealous players put their hand through a ceiling fan).
+8/10 Stars</p>
+<p><strong>Super Paper Mario</strong>
+Previous entries in the Paper Mario series have been more RPGish in that battles were turn based and you traversed the world in three dimensions. Super Paper Mario takes a more unique approach, cleverly blending old school platforming with RPG elements. There is, of course, the flip element to the game which makes you look at everything in a whole new perspective (forgive the pun). About the only caveat to this game would be the mansion level, but the clever puzzles mixed with awesome writing make this a must have game for the Wii.
+8/10 Stars</p>
+<p><strong>Super Mario Galaxy</strong>
+I will admit, I do not own this nor have I played it much. However, in my time with it I can see how it has gotten such high praise. The visuals alone are simply beautiful, I&#39;d say the best looking of any game made this year. The music is a joy to listen to with many motifs going back to the days of Mario 3 and some Mario 64 selections as well. Most of it is orchestrated which makes it all the better. The best thing is, these are only the icing on an extremely delicious cake. The game play is simply fantastic. Gravity plays a huge role in the mechanics of this game and you had best be keeping that in mind whilst traversing the spherical levels. There&#39;s really not much to say about this game aside from that it&#39;s everything a Mario game should be.
+10/10 Stars</p>
+<h2 id="xbox-360">Xbox 360</h2>
+<p><strong>Crackdown</strong>
+This is probably the must underrated game of the year. If you bought this game just for the Halo 3 beta, raise your hand. (raises hand) If that&#39;s the only reason you bought this game and never even played it, then you should be ashamed of yourself. I was originally going to pass on Crackdown and the Halo 3 beta, but after playing the demo I realized that it (Crackdown) was a really cool game. I&#39;ve never played a sandbox game before and just the ability to go wherever and do whatever I wanted was awesome enough. Throw in being able to leap tall buildings in a single bound and run faster than your mom and you&#39;ve got one sweet game. The ending does suck, but story isn&#39;t the most prominent aspect so I&#39;ll let it slide. I spent many a good hour with this game.
+7/10 Stars</p>
+<p><strong>Eternal Sonata</strong>
+Eternal Sonata was supposed to be the Final Fantasy for Xbox 360, at least in my eyes. It was simply gorgeous and it had an awesome battle system, however it is missing the one crucial element that a good RPG needs: story. I haven&#39;t played very far into this game because, quite frankly, I don&#39;t care about the characters. In games such as Final Fantasy VI or X there was enough story to keep me going to find out what happened. The problem with ES is that no real story has been setup after a few hours of play. There&#39;s been a little bit of character exposition, but not much compelling me to play through.
+6/10 Stars</p>
+<p><strong>Halo 3</strong>
+By far the most hyped game of the year, luckily it delivers. There really isn&#39;t much of a difference from the previous games, but enough of an evolution for me to say that it is the best looking, best playing Halo out there. Multiplayer still rocks, they brought back the assault rifle, and the addition of multiplayer match replays is very sweet. If you are a 360 owner and haven&#39;t bought this yet, you need to do some deep soul searching and then go and buy it.
+8/10 Stars</p>
+<p><strong>Rock Band</strong>
+Rock Band, aka Drum Hero or the Real Guitar Hero III, is by far the best rhythm game ever. Guitar Hero was awesome, but there&#39;s not much room left for innovation in that game outside of new songs. I don&#39;t know if this is what Harmonix was thinking or not, but they definitely upped the ante with Rock Band. Guitar is more or less the same, same for vocals if you&#39;ve played Sing Star or Karaoke Revolution, but the drums is an entirely different beast. Getting all your limbs to work separately from each other can be a challenge, albeit a very satisfying one once you get the hang of it. In terms of song selection, there should be something for everyone especially with new downloadable tracks coming every week. The only thing about Rock Band is that, as the name suggests, you really have to play it with other people. Playing the solo tour is fun and all, but the multiplayer is where it&#39;s at. Paying attention to our band mates and saving them (or vice versa) adds an extra element to the game. The most awesome part, though, is when your singer can&#39;t sing. It can be hilarious and horrible... all at the same time.
+10/10 Stars</p>
+<h2 id="nintendo-ds">Nintendo DS</h2>
+<p><strong>Phoenix Wright: Justice for All</strong>
+The Phoenix Wright series was already fairly well established by the time I got to it. I originally a half ass purchase as a game to play on my flight to Orlando in May. It turned out to be one of the best things I bought this year. Phoenix Wright was like an interactive Encyclopedia Brown story, only with killing and stuff. The stories are so intriguing that it is hard to put them down, and when you do finish you are saddened because the awesome ride you were just on ended. Graphically there&#39;s not much to see, though the artwork is nice. If you&#39;re into thinking type games you should definitely pick this one up.
+9/10 Stars</p>
+<p><strong>The Legend of Zelda: The Phantom Hourglass</strong>
+Zelda&#39;s first foray onto the Nintendo DS brought some radical changes to gameplay; namely, a game controlled entirely by the stylus. As bad as that may seem it works amazingly well. The game&#39;s visuals and sound are near identical to its predecessor, the Wind Waker. Despite all this, I felt the game was somewhat lacking and felt very scaled down. Granted, this is a protable release and the target audience was newcomers, but it still took away some of that Zelda feel. However, they still could&#39;ve made some better music for the dungeons.
+7/10 Stars</p>
+<h2 id="portal">Portal</h2>
+<p>Just yesterday I picked up a copy of the Orange Box. Five games for fifty dollars is simply too good of a deal to pass up. At this point in time I have only installed/played/completed Portal. Portal is, by far, one of the most awesome games I&#39;ve played in some time. The concept is insanely clever and forces you to think in a vastly different way. The writing is top notch and there were several things that I laughed out loud at. My only problem is that the game was far too short. I completed it in a few hours. Luckily there are advanced maps to complete yet and hopefully some stuff made by the community that I can get later.
+9/10 Stars</p>
+<p>If I had to pick one of these as my number one game of 2007 I would have to go with Rock Band. The drums are simply awesome and having a whole bunch of people doing co-op play makes for an awesome time. I would have to say Mario Galaxy would come in at a close second. It&#39;s awesome on too many fronts not to give honorable mention.</p>
+<p>Well, there you have it. 2008 alredy looks to be promising with Brawl coming up right off the bat. Hopefully we&#39;ll see the same amount o quality games, but maybe released over a longer period of time. Happy New Year and keep gaming.</p>
+</div></article><div class="paging"><a href="http://dev.dxprog.com/dxprog.github.io/docs/archives/146.html" class="paging__link paging__link--next">Earlier Posts</a><a href="http://dev.dxprog.com/dxprog.github.io/docs/archives/144.html" class="paging__link paging__link--previous">Later Posts</a></div></section><footer class="footer"><p class="footer__copyright">Copyright © 2018 Matt Hackmann</p></footer></section></body></html>
