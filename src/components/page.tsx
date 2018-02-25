@@ -10,19 +10,26 @@ import { IntroBar } from './intro-bar';
 
 const { PostsRollup } = Components;
 
-export interface IHomePageProps {
+export interface IPageProps {
   posts: Array<IPost>;
   siteGenerator: SiteGenerator;
+  classNamespace: string;
+  previousPage?: number;
+  nextPage?: number;
 }
 
-export class HomePage extends React.Component<IHomePageProps, undefined> {
-  public props: IHomePageProps;
+export class Page extends React.Component<IPageProps, undefined> {
+  public props: IPageProps;
 
   render(): ReactNode {
     return (
-      <section className="home-page">
+      <section className={this.props.classNamespace}>
         <IntroBar siteGenerator={this.props.siteGenerator} />
-        <PostsRollup posts={this.props.posts.slice(0, 5)} siteGenerator={this.props.siteGenerator} nextPage={2} />
+        <PostsRollup
+          posts={this.props.posts}
+          siteGenerator={this.props.siteGenerator}
+          previousPage={this.props.previousPage}
+          nextPage={this.props.nextPage} />
         <Footer />
       </section>
     );

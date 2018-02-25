@@ -1,4 +1,11 @@
 .home-page {
+  .intro-bar {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 480px;
+  }
+
   .article-list {
     width: auto;
     margin: 10rem 0 10rem 480px;

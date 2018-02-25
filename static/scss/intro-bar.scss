@@ -1,14 +1,10 @@
 .intro-bar {
   background: url(../images/sidebar.jpg) no-repeat;
   background-size: cover;
-  width: 480px;
   display: flex;
   flex-direction: column;
   align-items: center;
   padding-top: 10rem;
-  position: fixed;
-  top: 0;
-  bottom: 0;
 
   // Background "lightener"
   &:before {

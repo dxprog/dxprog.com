@@ -6,10 +6,10 @@ import {
   Renderers } from 'staticr-site';
 import * as path from 'path';
 
-import { DxApiReader } from './src/readers/dxapi-reader';
 import { HomePageRenderer } from './src/renderers/home-page-renderer';
+import { RollupPageRenderer } from './src/renderers/rollup-page-renderer';
 
-const { PostsRollupRenderer, PostRenderer } = Renderers;
+const { PostRenderer } = Renderers;
 const sassRenderAsync = bluebird.promisify(sass.render);
 const outputDir = path.join(process.cwd(), 'docs/');
 const staticDir = path.join(process.cwd(), 'static');
@@ -17,7 +17,7 @@ const staticDir = path.join(process.cwd(), 'static');
 const pg = new SiteGenerator({
   outputDir,
   renderers: [
-    new PostsRollupRenderer(5),
+    RollupPageRenderer,
     PostRenderer,
     HomePageRenderer
   ],

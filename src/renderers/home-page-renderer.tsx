@@ -6,7 +6,7 @@ import {  IPost,
           Renderers,
         SiteGenerator } from 'staticr-site';
 
-import { HomePage } from '../components/home-page';
+import { Page } from '../components/page';
 
 const POSTS_PER_PAGE = 5;
 
@@ -24,7 +24,13 @@ export const HomePageRenderer: IRenderer = {
       {
         title: 'Home',
         path: 'index',
-        pageComponent: <HomePage posts={sortedPosts} siteGenerator={siteGenerator} />
+        pageComponent: (
+          <Page
+            posts={sortedPosts.slice(0, 5)}
+            siteGenerator={siteGenerator}
+            nextPage={2}
+            classNamespace="home-page" />
+        )
       }
     ]);
   }
