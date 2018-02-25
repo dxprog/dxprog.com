@@ -5,6 +5,7 @@ import {
 import * as React from 'react';
 import { ReactNode } from 'react';
 
+import { Footer } from './footer';
 import { IntroBar } from './intro-bar';
 
 const { PostsRollup } = Components;
@@ -19,9 +20,10 @@ export class HomePage extends React.Component<IHomePageProps, undefined> {
 
   render(): ReactNode {
     return (
-      <section className="main">
+      <section className="home-page">
         <IntroBar siteGenerator={this.props.siteGenerator} />
         <PostsRollup posts={this.props.posts.slice(0, 5)} siteGenerator={this.props.siteGenerator} nextPage={2} />
+        <Footer />
       </section>
     );
   }
