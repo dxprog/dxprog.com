@@ -7,9 +7,9 @@ import {
 import * as path from 'path';
 
 import { HomePageRenderer } from './src/renderers/home-page-renderer';
+import { PostPageRenderer } from './src/renderers/post-page-renderer';
 import { RollupPageRenderer } from './src/renderers/rollup-page-renderer';
 
-const { PostRenderer } = Renderers;
 const sassRenderAsync = bluebird.promisify(sass.render);
 const outputDir = path.join(process.cwd(), 'docs/');
 const staticDir = path.join(process.cwd(), 'static');
@@ -18,13 +18,12 @@ const pg = new SiteGenerator({
   outputDir,
   renderers: [
     RollupPageRenderer,
-    PostRenderer,
+    PostPageRenderer,
     HomePageRenderer
   ],
   baseUrl: 'http://staticr.dxprog.com/',
 });
 
-// pg.addReader(DxApiReader);
 pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
 pg.writer.addStaticContent('static/images', path.join(staticDir, 'images'));
 

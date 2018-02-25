@@ -2,16 +2,28 @@ import * as React from 'react';
 import { ReactNode } from 'react';
 import { SiteGenerator } from 'staticr-site';
 
-export class IIntroBarProps {
+export enum IntroBarOrientation {
+  Vertical = 'vertical',
+  Horizontal = 'horizontal'
+}
+
+export interface IIntroBarProps {
   siteGenerator: SiteGenerator;
+  orientation?: IntroBarOrientation;
 }
 
 export class IntroBar extends React.Component<IIntroBarProps, undefined> {
   public props: IIntroBarProps;
+  private orientation: IntroBarOrientation;
+
+  constructor(...args: any[]) {
+    super(...args);
+    this.orientation = this.props.orientation || IntroBarOrientation.Vertical;
+  }
 
   render(): ReactNode {
     return (
-      <section className="intro-bar">
+      <section className={`intro-bar intro-bar--${this.orientation}`}>
         <img src={this.props.siteGenerator.generateUrl('static/images/me.jpg')} alt="Matt Hackmann" className="intro-bar__photo" />
         <h1 className="intro-bar__header">
           <span className="intro-bar__name intro-bar__name--first">Matt</span>

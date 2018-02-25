@@ -1,11 +1,13 @@
 import * as React from 'react';
 import { ReactElement } from 'react';
-import {  IPost,
-          IRenderer,
-          IRenderedPage,
-          Renderers,
-        SiteGenerator } from 'staticr-site';
+import {
+  IPost,
+  IRenderer,
+  IRenderedPage,
+  Renderers,
+  SiteGenerator } from 'staticr-site';
 
+import { IntroBarOrientation } from '../components/intro-bar';
 import { Page } from '../components/page';
 
 const POSTS_PER_PAGE = 5;
@@ -29,6 +31,7 @@ export const HomePageRenderer: IRenderer = {
             posts={sortedPosts.slice(0, 5)}
             siteGenerator={siteGenerator}
             nextPage={2}
+            introBarOrientation={IntroBarOrientation.Vertical}
             classNamespace="home-page" />
         )
       }

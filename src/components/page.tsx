@@ -6,7 +6,9 @@ import * as React from 'react';
 import { ReactNode } from 'react';
 
 import { Footer } from './footer';
-import { IntroBar } from './intro-bar';
+import {
+  IntroBar,
+  IntroBarOrientation } from './intro-bar';
 
 const { PostsRollup } = Components;
 
@@ -16,6 +18,7 @@ export interface IPageProps {
   classNamespace: string;
   previousPage?: number;
   nextPage?: number;
+  introBarOrientation: IntroBarOrientation;
 }
 
 export class Page extends React.Component<IPageProps, undefined> {
@@ -24,7 +27,7 @@ export class Page extends React.Component<IPageProps, undefined> {
   render(): ReactNode {
     return (
       <section className={this.props.classNamespace}>
-        <IntroBar siteGenerator={this.props.siteGenerator} />
+        <IntroBar siteGenerator={this.props.siteGenerator} orientation={this.props.introBarOrientation} />
         <PostsRollup
           posts={this.props.posts}
           siteGenerator={this.props.siteGenerator}

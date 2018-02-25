@@ -61,6 +61,51 @@
     font: 2.4rem/1 'Roboto Light', 'Roboto', sans-serif;
     text-align: center;
   }
+
+  // Horizontal variant
+  &--horizontal {
+    margin-bottom: 10rem;
+    background-attachment: fixed;
+    background-position: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
+    position: relative;
+    padding: 5rem 0;
+
+    &:before {
+      z-index: 0;
+      opacity: .5;
+    }
+
+    &:after {
+      content: '';
+    }
+
+    .intro-bar__name,
+    .intro-bar__subhead,
+    .social-links {
+      z-index: 1;
+    }
+
+    .intro-bar__name {
+      display: inline;
+      &--first {
+        padding-right: 1rem;
+      }
+    }
+
+    .intro-bar__photo {
+      display: none;
+    }
+  }
+
+  // Vertical variant
+  &--vertical {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    width: 480px;
+  }
+
 }
 
 .social-links {
