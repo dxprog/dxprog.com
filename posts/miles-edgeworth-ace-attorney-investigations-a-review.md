@@ -7,6 +7,8 @@ tags:
 - games
 - phoenix wright
 - reviews
+redirect_from:
+- entry/miles-edgeworth-ace-attorney-investigations-a-review/
 ---
 ![](http://images.dxprog.com/blog/edgeworth_review_10.jpg "Miles Edgeworth - Ace Attorney Investigations")
 I don't make it a secret that I have [thoroughly](http://dxprog.com/entry/two-years-of-video-game-reviews/) [enjoyed](http://www.newgrounds.com/portal/view/452291) the [Ace Attorney.](http://dxprog.com/entry/comic---pheonix-wright:-animal-attorney/) [series](http://dxprog.com/entry/stuff-and-nonsense/). There's so much to enjoy about them; the crazy cast of characters, the edge of your seat stories and the twists they take out of seemingly nowhere. Be it Mr. Wright himself or his vest wearing successor, Apollo Justice, there's no doubt that these are incredibly addictive, quality games. However, there was one character that we as fans had always wanted to play as, but were only given the opportunity briefly; the egotistic, pompous and slightly emo Miles Edgeworth. Well, Capcom heard the cries of the fans and bestowed upon us Miles Edgeworth: Ace Attorney Investigations.[break]

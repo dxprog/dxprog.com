@@ -4,6 +4,8 @@ slug: i-guess-ill-write-about-anime
 date: 2016-11-14T13:06:34-06:00
 tags:
 - general
+redirect_from:
+- entry/i-guess-ill-write-about-anime/
 ---
 I dunno. Running out of ideas to write about that aren't heavy, heavy topics. So, instead I'll write little blips about the anime shows I've sampled this season.
 

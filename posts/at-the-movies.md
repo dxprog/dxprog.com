@@ -5,6 +5,8 @@ date: 2011-06-13T21:58:25-05:00
 tags:
 - daily
 - movies
+redirect_from:
+- entry/at-the-movies/
 ---
 My apartment sits literally five minutes walking distance from a cheap, first-run theater. As such, I have made use of it quite a bit in my one month of living here. I thought, perhaps, I could give some quick thoughts on the movies I have watched there.
 

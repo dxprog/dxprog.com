@@ -4,6 +4,8 @@ slug: a-thought
 date: 2015-11-13T11:30:31-06:00
 tags:
 - whatever
+redirect_from:
+- entry/a-thought/
 ---
 I don't like talking about things in the political or socio-economic realm. I abhor it, even. A couple reasons, A) I'm bad at it, B) it requires an emotional component that I don't have enough of. That said, I'm going to make a societal rant.
 

@@ -6,6 +6,8 @@ tags:
 - anime
 - clannad
 - review
+redirect_from:
+- entry/clannd-the-motion-picture-the-review/
 ---
 ![](http://images.dxprog.com/blog/clannad_movie.jpg "Nice try Toei..")
 

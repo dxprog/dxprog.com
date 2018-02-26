@@ -6,6 +6,8 @@ tags:
 - job
 - pictures
 - video idea
+redirect_from:
+- entry/update-from-progland/
 ---
 Ah, well it seems I have stuff to talk about again. First of all I've got an idea for a simple short film which I will probably be filming as soon as I finish the script. But until I can get a trailer up, you'll have to live with this poster:
 ![](http://www.dxprog.com/pics/ramboella.jpg "image")

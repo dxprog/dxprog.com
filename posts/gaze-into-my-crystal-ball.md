@@ -6,6 +6,8 @@ tags:
 - daily
 - e3
 - games
+redirect_from:
+- entry/gaze-into-my-crystal-ball/
 ---
 ![](http://images.dxprog.com/blog/e3mas_2011.jpg "Looking a tad old there, Miyamoto-san")
 

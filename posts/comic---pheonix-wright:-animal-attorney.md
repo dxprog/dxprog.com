@@ -6,6 +6,8 @@ tags:
 - animal crossing
 - comic
 - phoenix wright
+redirect_from:
+- entry/comic---pheonix-wright:-animal-attorney/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/198235/)
 

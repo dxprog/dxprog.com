@@ -6,6 +6,8 @@ tags:
 - ged
 - moving
 - web programming
+redirect_from:
+- entry/general-update/
 ---
 It's been a few days since I last posted anything. I'm sure you're all thinking because we're moving. Well, sadly, that guy who was so interested seems more interested in renting, not buying (stinks :-P).
 

@@ -5,6 +5,8 @@ date: 2006-12-31T16:00:09-06:00
 tags:
 - christmas
 - random
+redirect_from:
+- entry/christmas-and-a-book-plug/
 ---
 Firstly, I am not dead and as such I hope that everybody had a good Christmas. Secondly, I want to say that the comics should resume as usual in the coming week. And finally, I want to make a plug for my new book:
 

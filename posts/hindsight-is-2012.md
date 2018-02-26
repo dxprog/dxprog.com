@@ -5,6 +5,8 @@ date: 2012-12-31T10:12:02-06:00
 tags:
 - general
 - year end
+redirect_from:
+- entry/hindsight-is-2012/
 ---
 ![](http://images.dxprog.com/blog/lifeday.jpg "Wookiee Christmas, errbody")
 

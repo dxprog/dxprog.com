@@ -5,6 +5,8 @@ date: 2013-01-02T11:01:52-06:00
 tags:
 - anime
 - review
+redirect_from:
+- entry/the-anime-reviewaganza-musical-triflings/
 ---
 As has been customary for four years now, I and some of my brothers have put into words our feelings of the Japanimation things we watched this year. The categories are changed up slightly from last year, but remain more or less the same. But, enough intro, here's Chris and I's favorite tunes of the year.
 

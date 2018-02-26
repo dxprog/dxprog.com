@@ -5,6 +5,8 @@ date: 2005-08-12T12:57:27-05:00
 tags:
 - coding
 - moving
+redirect_from:
+- entry/new-house/
 ---
 The parents have signed the papers for our new house and to get our current one slapped on the market. Today, day one of house-on-the-market-dom, an investor came by to look at the place. As I write this we have no idea what his thoughts are, but the fact that it's only been a day is promising.
 

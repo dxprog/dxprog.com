@@ -5,6 +5,8 @@ date: 2006-04-21T22:10:32-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/new-webcomic-by-yours-truly/
 ---
 It's something I've been hankering to do for quite some time now (ever since I started reading [CAD](http://www.cad-comic.com/), really). Jeff's been making them for some time now (he should be posting them on this blog at some point) and Chris has had his Hackfam's for years. So now I bring to you F5, the "adventures" of two programmers:
 

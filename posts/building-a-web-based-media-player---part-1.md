@@ -9,6 +9,8 @@ tags:
 - flash
 - media player
 - tutorial
+redirect_from:
+- entry/building-a-web-based-media-player---part-1/
 ---
 For the past month I've been tinkering with Flex and my little Linux server. One of the projects that grew out of this was a web media player with which I could listen to all my tunes wherever there happened to be some scraps of internet. This has been one of the coolest projects I've worked on in some time. It successfully blends nearly all of my programming skills: PHP/MySQL, Javascript, XML, Flex/Actionscript 3.0, and some C++. I'm going to write a series of tutorials walking through what I've done in hopes of bringing this coolness to the masses. I'm going to be fairly verbose covering subjects that any seasoned programmer can pretty much skip over. In the first installment I'm going to cover creating the database and getting song information from the MP3s.[break]
 

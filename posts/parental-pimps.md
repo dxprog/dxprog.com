@@ -4,6 +4,8 @@ slug: parental-pimps
 date: 2010-04-22T23:25:14-05:00
 tags:
 - rants
+redirect_from:
+- entry/parental-pimps/
 ---
 ![](http://images.dxprog.com/blog/parental_pimp.jpg "Daddy Pimp - A Staple of Every 50s Household")
 

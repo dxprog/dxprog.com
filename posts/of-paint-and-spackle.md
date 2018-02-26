@@ -5,6 +5,8 @@ date: 2005-06-26T20:00:56-05:00
 tags:
 - aol
 - rennovation
+redirect_from:
+- entry/of-paint-and-spackle/
 ---
 Yesteray began day one of the house rennovating project. I was out helping mom with little kids but I plan on staying next Saturday to be the Supervisor from Hell(R) :-D. Some sanding and spackle jobs done by the teens who are pulling this off was... well, not professional. And while I don't expect them to be perfect, painting over screws and nails is not acceptable.
 

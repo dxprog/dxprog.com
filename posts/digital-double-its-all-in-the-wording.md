@@ -5,6 +5,8 @@ date: 2006-12-08T02:30:52-06:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-its-all-in-the-wording/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/88042/)
 

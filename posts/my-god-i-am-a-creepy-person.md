@@ -4,6 +4,8 @@ slug: my-god-i-am-a-creepy-person
 date: 2014-02-16T01:07:30-06:00
 tags:
 - general
+redirect_from:
+- entry/my-god-i-am-a-creepy-person/
 ---
 I have this personal website, which essentially means I am my own little mini NSA. If I wanted to, for example, find out if a person I have very few details on were to visit here, I'd be able to find that out. Let's say, for example, I know what probable day they'd view this blog, what page they'd be coming from, and approximately where they live.
 

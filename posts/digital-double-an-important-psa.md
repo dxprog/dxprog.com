@@ -5,6 +5,8 @@ date: 2007-02-13T22:13:45-06:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-an-important-psa/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/114789/)
 

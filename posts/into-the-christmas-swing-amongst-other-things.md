@@ -7,6 +7,8 @@ tags:
 - christmas
 - graphic design
 - school
+redirect_from:
+- entry/into-the-christmas-swing-amongst-other-things/
 ---
 We're almost down to one month before Christmas. THis means many different things to many different people. For some it means shopping, others getting together with others. For me, it means Christmas music. [A lot of Christmas music](http://www.last.fm/user/dxprog/charts/?charttype=recenttracks). Of course, it also means that I'll be able to go see my folks again which is always sweet. And let's not forget the tantalizing aroma of sweet Christmas presents under the tree. And, speaking of aroma, and possibly the most important part of Christmas, the cookies. But, I suppose we must get through Thanksgiving first, which for me means being thankful for my brand new copy of Rock Band that I will be playing on that day.
 

@@ -5,6 +5,8 @@ date: 2013-06-13T10:58:00-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/breezing-through-odaiba/
 ---
 There should be a post before this talking about how we walked to Odaiba via the Rainbow Bridge, but that'll be sometime later. As for today, here is the picture log of our trip there.
 

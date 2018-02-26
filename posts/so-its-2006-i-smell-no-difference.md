@@ -8,6 +8,8 @@ tags:
 - ds
 - games
 - work
+redirect_from:
+- entry/so-its-2006-i-smell-no-difference/
 ---
 Ah, the new year has arrived and with it a job change for me. That's right I achieved my life long dream and got a part time job at the Sizzler! No, really. I am now a cashier at Wal-mart. I originally wanted to be a cart pusher because cashier was something I wanted to be even less. There was a bit of confusion for a while because I told Debbie (schedule lady) I didn't really like cashiering and I'd rather be a cart pusher. My guess is she misunderstood, got it reversed and set things in motion for me to become a cashier (they even changed my job code to cart pusher so they could change it to cashier which had me even more confused). But tonight was my first night working the register (being watched, of course) and it wasn't as bad as I thought it'd be. I have tomorrow and Tuesday off so that makes things even sweeter.
 

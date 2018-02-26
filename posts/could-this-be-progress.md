@@ -6,6 +6,8 @@ tags:
 - art
 - digital double
 - mange
+redirect_from:
+- entry/could-this-be-progress/
 ---
 Some moons ago, I had a little comic entitled [Digital Double](http://digitaldouble.smackjeeves.com/). It was terrible, but I found myself reading through it again one day not too long ago for whatever reason. One comic in particular intrigued me as I was attempting to [take a stab](http://digitaldouble.smackjeeves.com/comics/54170/anime-tracy/) at "anime style", an in joke to a couple of sudden character design changes I'd made. Here is the panel in question:
 

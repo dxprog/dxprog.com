@@ -5,6 +5,8 @@ date: 2010-12-22T13:26:26-06:00
 tags:
 - christmas
 - random
+redirect_from:
+- entry/lunchtime-thoughts-a-christmas-carol-is-the-perfection-of-inception/
 ---
 I was watching a Christmas Carol with my family the other night (the Patrick Stewart version for those curious) and I came across an interesting realization: Scrooge is experiencing Inception. Let's suspend our disbelief for a second.
 

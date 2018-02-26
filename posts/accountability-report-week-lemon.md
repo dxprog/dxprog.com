@@ -4,6 +4,8 @@ slug: accountability-report-week-lemon
 date: 2013-02-10T10:44:32-06:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-week-lemon/
 ---
 I've lost count and these haven't been weekly.
 

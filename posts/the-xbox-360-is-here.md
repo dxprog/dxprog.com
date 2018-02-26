@@ -6,6 +6,8 @@ tags:
 - laptop
 - work
 - xbox 360
+redirect_from:
+- entry/the-xbox-360-is-here/
 ---
 Because I work at Wal-Mart now I get to witness all sorts of interesting things: people putting peanuts (yes, the food) on layaway, burly guys throwing canning jars all over the place, etc. etc. But yesterday was probably the most interesting, if not incredibly stupid, thing I've seen yet: people waiting hours and hours to get their hands on a freakin' game system. Not only that but they would pull pillows and blankets off the shelves to lay on... and then we gave them free soda and cookies! But anyways, I was also able to see the supply before just about anybody else in the store (working so near the security cage ihas it's nice points ;-)).
 

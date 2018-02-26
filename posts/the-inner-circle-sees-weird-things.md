@@ -7,6 +7,8 @@ tags:
 - photoshop
 - random
 - skype
+redirect_from:
+- entry/the-inner-circle-sees-weird-things/
 ---
 I live a fairly open online presence. This whole Facebook debacle has nary phased me as the whole point I post things on there is for selfless promotion and narcissistic reasons. I want people to read those things. But, there are a couple things I hand out to only an elite few people: my phone number and the privilege of Skyping me. This latter one is especially fun for me.
 

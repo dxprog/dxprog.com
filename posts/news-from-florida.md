@@ -6,6 +6,8 @@ tags:
 - beach
 - florida
 - moving
+redirect_from:
+- entry/news-from-florida/
 ---
 Before I delve into the juicy, gory details I will warn anybody who's unfortunate enough to be on dial-up: there's going to be pictures. Lots of them. Be patient.
 

@@ -4,6 +4,8 @@ slug: for-the-sailors
 date: 2006-04-10T09:45:11-05:00
 tags:
 - lame attempt at humor
+redirect_from:
+- entry/for-the-sailors/
 ---
 Do you have a filty mouth? Should your mouth perpetually have a bar of soap strapped to it? Well then you're reading the right column. Hi, I'm Dr. Matt.
 

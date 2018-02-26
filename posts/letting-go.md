@@ -4,6 +4,8 @@ slug: letting-go
 date: 2012-11-26T06:25:30-06:00
 tags:
 - general
+redirect_from:
+- entry/letting-go/
 ---
 My room has always been a mess and myself a bit of a slob. By Aunt May's reckoning, [this is the way of brilliant man.](http://www.quotefully.com/movie/Spider-Man+(2002)/Aunt+May#conversation_0392e37e994611e090c812313b10052d) I think it takes an even _more_ brilliant man to realize that his shit hole of a room needs a thorough cleaning. And it takes an even more brilliant man than that to never let his shit hole get to shit hole state. I'm not brilliant enough to get to that point, but I did clean my room today. And then I realized - there's only so much cleaning that can be done when there's no place left for all the shit in said shit hole. That's when difficult decisions need to be made.
 

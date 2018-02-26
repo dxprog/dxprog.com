@@ -6,6 +6,8 @@ tags:
 - anime
 - music
 - video
+redirect_from:
+- entry/because-it-provided-ample-opportunity-for-practice/
 ---
 I've done some odd things to other people's work for my own pleasure. Editing parts I don't like out of songs comes to mind (I've done this on more than one occasion). However, the latest target of my artistic raping is the live action video for Ningyo Hime, the Chobits closer and a song I much enjoy. While I do enjoy Japan's animated fare quite a lot, I am of the mind that they really suck at live action. The video of this song suffers from a lack of vision and direction, but more importantly it looks like it was shot on an old Sony HandyCam. I sought to "correct" this issue by using it as practice for color correction. After dropping the frame rate to 24 - down from a too smooth looking 29.97 - and slaughtering the blue color channel, this is what came out:
 

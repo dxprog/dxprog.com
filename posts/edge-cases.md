@@ -4,6 +4,8 @@ slug: edge-cases
 date: 2013-10-04T11:48:00-05:00
 tags:
 - daily
+redirect_from:
+- entry/edge-cases/
 ---
 I'm grasping at straws on what I should post, especially given that I have thirty minutes to write something. I thought I was doing well by actually *having* a post whereas my dear sweet mother had not, but a quick check reveals [that she's on top of her game](http://mom28kids.com/2013/10/oh-crap-i-have-to-write-another-post/), probably with quality.
 

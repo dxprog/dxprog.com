@@ -7,6 +7,8 @@ tags:
 - digital double
 - four swords adventures
 - zelda
+redirect_from:
+- entry/f5-home-life-in-four-swords-adventures/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54188/)
 

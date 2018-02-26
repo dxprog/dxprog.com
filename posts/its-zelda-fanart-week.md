@@ -6,6 +6,8 @@ tags:
 - art
 - twilight princess
 - zelda
+redirect_from:
+- entry/its-zelda-fanart-week/
 ---
 I need to do more drawing to help beef up my skills. As such I have set up a little exercise for myself: select a theme each week and do a drawing every day. This week's theme, as the title suggests, is Zelda. Specifically, Twilight Princess. So I bring you my first "masterpeice":
 

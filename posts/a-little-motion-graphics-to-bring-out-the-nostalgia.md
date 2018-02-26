@@ -7,6 +7,8 @@ tags:
 - design
 - school
 - video
+redirect_from:
+- entry/a-little-motion-graphics-to-bring-out-the-nostalgia/
 ---
 I've wrapped up my first month of motion graphics (MGR), and with it I finished my sixth month of school. Hard to believe it's already been half a year. Time does fly when you're having fun. But that's hardly why we're here.
 

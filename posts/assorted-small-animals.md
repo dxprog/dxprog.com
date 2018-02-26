@@ -6,6 +6,8 @@ tags:
 - mario
 - moving
 - random
+redirect_from:
+- entry/assorted-small-animals/
 ---
 Today marks the beginning of the new bowling season. Even though I'll only be able to bowl twice I'm still excited. I've been bowling twice in the last couple of weeks and did really well, all games over average and two over two hundred. I could even have some beers if I wanted. T'will be an awesome time to be sure.
 

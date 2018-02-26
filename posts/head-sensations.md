@@ -4,6 +4,8 @@ slug: head-sensations
 date: 2014-03-20T17:30:00-05:00
 tags:
 - general
+redirect_from:
+- entry/head-sensations/
 ---
 I'd been considering writing a blog post on this subject for some time, but balked because it seemed an odd thing to talk about. But, after the topic came up at lunch not long ago, I figured why not. Besides, I need to post something this month as I've not missed posting at least one thing per month since August 2010. Gotta keep the streak alive.
 

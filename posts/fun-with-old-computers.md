@@ -4,6 +4,8 @@ slug: fun-with-old-computers
 date: 2008-07-30T01:52:30-05:00
 tags:
 - computers
+redirect_from:
+- entry/fun-with-old-computers/
 ---
 Every once in a while I get a hankering for a hands on type project. Back in May that project was the [Xbox mod](http://www.dxprog.com/entry/xbox-modding--an-epic-fight-an-epic-win/). This time around it was to build myself a new server after the last one I'd been using overheated while I was away on vacation and the air conditioning was off (at least, that's my guess on the diagnosis). Of course, I would have liked to build something from scratch, but college funds being what they are that isn't always the most viable option. Instead, I took a trip up the the local TriftKo (yes, they spell it with a "K") and picked up the cheapest (and at that time, only) computer they had. I really had no idea what kind of computer it was (though, I made a really close guess based on the ports on the back), but that didn't matter for my needs, namely, to run a web and file server.
 

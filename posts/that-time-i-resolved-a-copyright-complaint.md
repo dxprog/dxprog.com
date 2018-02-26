@@ -4,6 +4,8 @@ slug: that-time-i-resolved-a-copyright-complaint
 date: 2016-11-17T13:03:09-06:00
 tags:
 - general
+redirect_from:
+- entry/that-time-i-resolved-a-copyright-complaint/
 ---
 Hot on the heels of [yesterday's post](http://dxprog.com/entry/that-time-i-got-to-file-a-copyright-claim/), I received an email from the company that produces the Ben Heck show. They were, of course, wondering what was up with the copyright claim and apologized since the production company switched between when the video was originally posted and now. The dude's name was Matt, so you know this is an an individual to be trusted.
 

@@ -5,6 +5,8 @@ date: 2012-07-15T01:15:44-05:00
 tags:
 - daily
 - food
+redirect_from:
+- entry/eventualities/
 ---
 A while back, shortly before my leaving Griffin, my French coworker brought a bunch of stuff that was eating up space in his house and pawned it off to the rest of us. There was no exchange of money, but many [lunch battles](http://labs.dxprog.com/lunch/) were had.
 

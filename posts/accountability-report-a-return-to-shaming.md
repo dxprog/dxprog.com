@@ -4,6 +4,8 @@ slug: accountability-report-a-return-to-shaming
 date: 2013-05-14T10:43:10-05:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-a-return-to-shaming/
 ---
 ![](http://images.dxprog.com/blog/alcatraz.jpg "The feeling is similar")
 

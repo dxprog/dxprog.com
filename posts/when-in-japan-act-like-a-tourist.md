@@ -5,6 +5,8 @@ date: 2013-06-04T04:44:37-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/when-in-japan-act-like-a-tourist/
 ---
 Today I pen this post in Sublime from the start, so even if I close the window, my post will be saved.
 

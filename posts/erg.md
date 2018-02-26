@@ -6,6 +6,8 @@ tags:
 - games
 - pirate
 - web design
+redirect_from:
+- entry/erg/
 ---
 Well, I got my games today (after an eternity of waiting) and surprise, surprise they're pirated copies :-@. I'm hoping I can get a refund and if I can't get that I hope at least that these games won't fritz on me immediatly. But, my ALttP cart (which I learned is also pirated) hasn't gone nutzy on me yet, so maybe if I'm lucky I'll still be playing these when I'm 50 :-P.
 

@@ -6,6 +6,8 @@ tags:
 - anime
 - coding
 - jslive
+redirect_from:
+- entry/jslive-progress-report-and-screenshots/
 ---
 After Friday's more [technical post](http://dxprog.com/entry/its-like-nes-emulator-dev-all-over), today I strive to show actual progress on what I've deemed to call JsLive.
 

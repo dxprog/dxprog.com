@@ -5,6 +5,8 @@ date: 2010-12-31T17:27:33-06:00
 tags:
 - graphs
 - music
+redirect_from:
+- entry/a-year-of-music-now-with-interactive-graphs/
 ---
 <p>I have a webpage that allows me to listen to my music wherever I am. Anybody who has perused this blog for more than five minutes is acutely aware of this. One thing I did in August '09 was to add play stat tracking in so I could see what had been listened to when. Now that this functionality has been in for a full calendar, I've culled all the data to present a bunch of pure CSS graphs filled with 2010's listening habits.</p>[break]
 		<style type="text/css">

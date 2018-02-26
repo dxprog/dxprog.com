@@ -6,6 +6,8 @@ tags:
 - code
 - id3lib
 - php
+redirect_from:
+- entry/php-id3lib-10-release/
 ---
 Brand spanking new release of the PHP branch of ID3Lib!
 

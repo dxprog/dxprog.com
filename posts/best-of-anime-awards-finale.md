@@ -5,6 +5,8 @@ date: 2011-12-31T19:10:28-06:00
 tags:
 - anime
 - reviews
+redirect_from:
+- entry/best-of-anime-awards-finale/
 ---
 Here we are at the final day of the year and our little anime awards show. So, here they are and we'll see you on the other side!
 

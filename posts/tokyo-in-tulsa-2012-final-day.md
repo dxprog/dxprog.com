@@ -5,6 +5,8 @@ date: 2012-07-22T17:28:37-05:00
 tags:
 - con
 - daily
+redirect_from:
+- entry/tokyo-in-tulsa-2012-final-day/
 ---
 Another convention has come and gone, again with me feeling that I'm just too old and too male for these kind of outings (and possibly the content around which it focuses). But that's a musing for a future post.
 

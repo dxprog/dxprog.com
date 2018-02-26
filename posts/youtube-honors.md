@@ -6,6 +6,8 @@ tags:
 - video
 - werd al
 - youtube
+redirect_from:
+- entry/youtube-honors/
 ---
 Okay, it's not for my **own** video, but I did post it (a process that took many, many long hours).
 

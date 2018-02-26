@@ -4,6 +4,8 @@ slug: re-as-you-leave-home-a-letter-to-my-son
 date: 2011-05-13T00:00:00-05:00
 tags:
 - general
+redirect_from:
+- entry/re-as-you-leave-home-a-letter-to-my-son/
 ---
 Dear Mom (and Family),
 

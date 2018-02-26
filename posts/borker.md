@@ -4,6 +4,8 @@ slug: borker
 date: 2006-10-02T02:14:51-05:00
 tags:
 - computers
+redirect_from:
+- entry/borker/
 ---
 I seem to have broken the post form when I made it "spam proof". I'll have that fixed in a day or two.
 

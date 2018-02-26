@@ -4,6 +4,8 @@ slug: useless-justification
 date: 2012-07-27T15:50:34-05:00
 tags:
 - daily
+redirect_from:
+- entry/useless-justification/
 ---
 ![](http://images.dxprog.com/blog/the_bed.jpg "My dojo of solitude")
 

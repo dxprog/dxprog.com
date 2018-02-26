@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - weird al
+redirect_from:
+- entry/digital-double-all-spammers-go-to-hell/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/65166/)
 

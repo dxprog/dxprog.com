@@ -5,6 +5,8 @@ date: 2011-06-02T18:13:14-05:00
 tags:
 - daily
 - random
+redirect_from:
+- entry/the-balding-truth/
 ---
 So, I was watching a video today and the pre-roll ad was for some hair restoration product/service (don't recall which). At some point, one of the testimonials was all about how much more confidence this guy had now that he wasn't balding. And I'm all like... you really rely on your hair to instill confidence? Perhaps it's just me, but I've never understood what was so terrible about balding.
 

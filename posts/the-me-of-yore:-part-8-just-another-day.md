@@ -4,6 +4,8 @@ slug: the-me-of-yore:-part-8-just-another-day
 date: 2012-02-20T23:33:02-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore:-part-8-just-another-day/
 ---
 We're getting down to the bottom of this barrel I have unearthed, a fact I lament because it has made for very simple upkeep of this blog. I'm not sure I can go back to writing original content...
 

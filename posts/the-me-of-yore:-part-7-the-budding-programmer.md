@@ -4,6 +4,8 @@ slug: the-me-of-yore:-part-7-the-budding-programmer
 date: 2012-02-19T00:06:41-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore:-part-7-the-budding-programmer/
 ---
 The first entry is so short that I have to wonder why I even bothered, but the second entry... yes, the second entry is something special. Something that makes me laugh a pained laugh.
 

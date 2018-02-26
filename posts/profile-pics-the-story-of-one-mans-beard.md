@@ -6,6 +6,8 @@ tags:
 - beard
 - facebook
 - photos
+redirect_from:
+- entry/profile-pics-the-story-of-one-mans-beard/
 ---
 I recently decided that it was time to update my profile picture across the various sites I frequent. This is something I do, on average, every 6-8 months or more (I didn't really bother to calculate the actual average). Looking through my past profile pics on Facebook, I noticed something interesting: they convey a visual history of my beard. My beard is certainly deserving of its own blog post, so I will regale its tale here for the masses!
 

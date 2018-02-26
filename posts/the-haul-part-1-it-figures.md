@@ -5,6 +5,8 @@ date: 2013-06-09T06:55:48-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/the-haul-part-1-it-figures/
 ---
 After a bunch of bullshit at immigration/customs and a grueling walk home from the train station, I am now nestled back into the comfort of my own home... as much comfort as can be derived when even "home" is still slightly foreign. But, crashing on my couch onto a pile of pillows in a room that's not tiny is a good feeling.
 

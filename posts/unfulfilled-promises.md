@@ -4,6 +4,8 @@ slug: unfulfilled-promises
 date: 2011-06-01T22:24:47-05:00
 tags:
 - daily
+redirect_from:
+- entry/unfulfilled-promises/
 ---
 So, I have here this blog that I have so lovingly hand crafted in a glorified ASCII text editor. Some thousands of dollars of marketable man hours all of them for free, all of them for me. So, in an attempt to get my money's worth out of all my hard word, I will attempt a blog post every day in June.
 

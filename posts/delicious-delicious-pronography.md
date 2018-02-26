@@ -5,6 +5,8 @@ date: 2013-10-10T11:53:30-05:00
 tags:
 - daily
 - food
+redirect_from:
+- entry/delicious-delicious-pronography/
 ---
 In a winning move for me, I have blogged on a day mia madre hasn't. To celebrate, I call for PUMPKIN MUFFINS!!
 

@@ -6,6 +6,8 @@ tags:
 - daily
 - food
 - pictures
+redirect_from:
+- entry/in-pursuit-of-deliciousness/
 ---
 So, contrary to what one might believe, my at home eatings do not consist solely of hot pockets and ramen noodles (contrary to what my [mother's blog](http://mom28kids.com/2011/06/matts-big-birthday-bash/) might lead you to believe). Being that I actually have culinary skills, I've made some pretty bitchin' things. There was the [potato salad](http://dxprog.com/entry/a-letter-to-my-dearest-mother), of course, but here are some other things that have graced my table and stomach.
 

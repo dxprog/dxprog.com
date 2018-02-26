@@ -7,6 +7,8 @@ tags:
 - final fantasy
 - galo
 - xbox 360
+redirect_from:
+- entry/let-the-good-times-roll/
 ---
 Today is my second day of being unemployed. It's a somewhat bittersweet feeling. It's awesome not to have to have the nightmares of work hanging over my head, but on the flipside I won't be able to hang around with all the pals I made over the last year and a half. Not to mention the seemingly endless supply of money is non-existant now. Oh well.
 

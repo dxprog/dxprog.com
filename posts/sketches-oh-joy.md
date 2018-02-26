@@ -5,6 +5,8 @@ date: 2006-07-04T15:22:12-05:00
 tags:
 - art
 - sketches
+redirect_from:
+- entry/sketches-oh-joy/
 ---
 No laptop and as such I am forced to put up more random selections of my artwork.
 

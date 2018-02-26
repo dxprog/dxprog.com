@@ -5,6 +5,8 @@ date: 2005-09-28T23:06:01-05:00
 tags:
 - moving
 - web programming
+redirect_from:
+- entry/all-moved-in/
 ---
 Well, after a hellish last week we are all moved into our new house (when I say "all moved in" that means we live here, that doesn't necessarily mean we're all unpacked :-P). It's wonderful. Our room is almost double the size of what we had and the backyard is superb (we've been out at least twice everyday since we moved last Wednesday). Of course, there's been a few problems but all have now been worked out.
 

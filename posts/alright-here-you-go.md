@@ -6,6 +6,8 @@ tags:
 - daily
 - mograph
 - video
+redirect_from:
+- entry/alright-here-you-go/
 ---
 Shaving it a little close today...
 

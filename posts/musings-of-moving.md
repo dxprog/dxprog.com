@@ -4,6 +4,8 @@ slug: musings-of-moving
 date: 2007-09-16T06:04:42-05:00
 tags:
 - moving
+redirect_from:
+- entry/musings-of-moving/
 ---
 It is currently September 16th, 5:30AM CDT. Temperature is in the mid-sixties with some cloud cover. I'm sitting here asking myself what the hell am I doing up at five in the morning? There's a myriad of ways I could answer that question but the one that seems to fit the bill the most is anxiety... and heartburn (one too many sausage calizones) . Today marks only two days left until I set out on my cross-country trip to begin my new life.
 

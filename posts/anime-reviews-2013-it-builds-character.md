@@ -5,6 +5,8 @@ date: 2014-01-18T10:17:50-06:00
 tags:
 - anime
 - reviews
+redirect_from:
+- entry/anime-reviews-2013-it-builds-character/
 ---
 We're leisurely sauntering towards the finish line this year. Will we make it to the end? Maybe. But, as for today, here are the best/worst characters of 2013.
 

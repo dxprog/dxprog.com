@@ -7,6 +7,8 @@ tags:
 - general
 - redditbooru
 - webdev
+redirect_from:
+- entry/redditbooru-v2-postmortem/
 ---
 Back in January, I wrote a rather [frustrated post](http://dxprog.com/entry/systems-architecture-in-the-unknown/) about rewriting RedditBooru on a new tech stack and how everything sucked. Six months (almost to the day) after that post, I finally launched the second major revision of the site. That launch was not without a whole bunch of drama.
 

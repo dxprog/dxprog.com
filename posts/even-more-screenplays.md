@@ -4,6 +4,8 @@ slug: even-more-screenplays
 date: 2013-10-13T10:55:58-05:00
 tags:
 - daily
+redirect_from:
+- entry/even-more-screenplays/
 ---
 I was going to make a post going over statistics of the redditbooru CDN (I myself am not aware of the numbers), but seeing as how awstats is still churning through my 1GB log file and I need to be at the theater in half an hour if I want to see Gravity, you'll have to settle for another screenplay I wrote ten years ago.
 

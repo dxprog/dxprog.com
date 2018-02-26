@@ -6,6 +6,8 @@ tags:
 - coding
 - games
 - wii
+redirect_from:
+- entry/a-revolution-is-on-our-doorstep/
 ---
 Today, with any luck, we'll get a whole mess of new info from Nintendo on the Revolution. Of course, I'll be at work :-P. But, the whole reason I post this (aside from the fact that I'm a Nintendo fan boy) is because of a [little cartoon](http://www.ifilm.com/ifilmdetail/2686716?htv=12) my bro found. Actually, that last part is very true. On a side note, the soundtrack is awesome!
 

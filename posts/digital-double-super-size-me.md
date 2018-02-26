@@ -5,6 +5,8 @@ date: 2006-09-18T02:31:34-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-super-size-me/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/63395/)
 

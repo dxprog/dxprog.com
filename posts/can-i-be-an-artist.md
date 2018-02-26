@@ -5,6 +5,8 @@ date: 2013-08-02T11:20:39-05:00
 tags:
 - art
 - general
+redirect_from:
+- entry/can-i-be-an-artist/
 ---
 Some time ago, I did that stupid [art instruction school test](http://dxprog.com/entry/picking-the-pencil-back-up/), just acting like a jack ass because I can't help but feel that there's something skeezy going on there. Well, nearly one month later, I get this back:
 

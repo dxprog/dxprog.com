@@ -4,6 +4,8 @@ slug: want-to-have-some-fun
 date: 2007-08-25T18:08:52-05:00
 tags:
 - random
+redirect_from:
+- entry/want-to-have-some-fun/
 ---
 Five steps for instant fun!
 1. Go to your local Wal-Mart

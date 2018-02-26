@@ -4,6 +4,8 @@ slug: days-of-future-past
 date: 2013-12-21T11:39:50-06:00
 tags:
 - general
+redirect_from:
+- entry/days-of-future-past/
 ---
 I don't entirely recall why, but last year I sent my one-year-in-the-future self a note with what I predicted would be my life in 2013. Yesterday, I received that letter.
 

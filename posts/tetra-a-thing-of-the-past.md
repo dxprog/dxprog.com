@@ -5,6 +5,8 @@ date: 2005-08-15T02:02:06-05:00
 tags:
 - coding
 - tetra
+redirect_from:
+- entry/tetra-a-thing-of-the-past/
 ---
 Yeah, seems like a crazy proposition considering how much time and effort I've stuffed into it, but I may be moving on to something new. I've been seeing a lot about Ajax, some fancy JScript/XML stuff that basically eliminates page loading, and I may take a shot at basing my new engine around this. Of course, it's just an idea at the moment.
 

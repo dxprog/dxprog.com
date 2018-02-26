@@ -7,6 +7,8 @@ tags:
 - javascript
 - jslive
 - kanon
+redirect_from:
+- entry/jslive-a-video-of-buggy-fail/
 ---
 [![youtube video](https://img.youtube.com/vi/fZuAdDLlib8/0.jpg)](https://www.youtube.com/watch?v=fZuAdDLlib8)
 

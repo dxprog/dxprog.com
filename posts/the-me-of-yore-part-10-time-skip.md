@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-10-time-skip
 date: 2012-04-08T22:37:12-05:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-10-time-skip/
 ---
 After digging through some boxes, I have recovered my journal and with it my free source of blogging material. I shan't waste time here, so let's jump right into my stupidity and outlandish claims!
 

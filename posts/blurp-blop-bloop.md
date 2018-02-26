@@ -4,6 +4,8 @@ slug: blurp-blop-bloop
 date: 2016-11-09T11:41:06-06:00
 tags:
 - general
+redirect_from:
+- entry/blurp-blop-bloop/
 ---
 We'll not consider what today means. Instead, here's a non-edited, slightly stoned, 100% stream of consciousness that was typed over the course of two minutes starting... NOW!
 

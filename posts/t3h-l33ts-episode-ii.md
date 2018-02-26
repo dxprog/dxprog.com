@@ -7,6 +7,8 @@ tags:
 - podcast
 - teh leets
 - wii
+redirect_from:
+- entry/t3h-l33ts-episode-ii/
 ---
 Whoo! It's Episode II! Oh, barf, that was terrible :-P
 

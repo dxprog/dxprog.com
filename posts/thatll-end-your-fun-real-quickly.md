@@ -4,6 +4,8 @@ slug: thatll-end-your-fun-real-quickly
 date: 2014-09-05T01:48:11-05:00
 tags:
 - daily
+redirect_from:
+- entry/thatll-end-your-fun-real-quickly/
 ---
 Deciding that my Taco Bell supper was too much to weigh on my conscience, I decided that a late night bike ride was the thing to do. This after dark guilt ride is something that happens entirely too frequently. But, that's beside the point.
 

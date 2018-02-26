@@ -6,6 +6,8 @@ tags:
 - anime
 - con
 - daily
+redirect_from:
+- entry/weekend-swag/
 ---
 As promised, here are pictures of the swag I purchased over the weekend.
 

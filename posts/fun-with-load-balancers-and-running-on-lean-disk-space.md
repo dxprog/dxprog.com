@@ -4,6 +4,8 @@ slug: fun-with-load-balancers-and-running-on-lean-disk-space
 date: 2015-03-29T09:30:33-05:00
 tags:
 - coding
+redirect_from:
+- entry/fun-with-load-balancers-and-running-on-lean-disk-space/
 ---
 A while back, I spun up a new server and threw a load balancer on top of it and my existing server. The primary reason at the time was to allow cdn.awwni.me to continue to run while Linode performed some mandatory maintenance on the original server (we'll call it "Chitoge"). The size of that directory at the time was somewhere around 100GB; my new server (we'll call that one "Taiga") has something like 20GB of total space. Obviously, I couldn't clone from Chitoge to Taiga, so I got a little clever. Using some fun around the hosts file, the nginx site config, and a small [PHP script](https://github.com/dxprog/rbcdn), when a file can't be found locally, it'd be retrieved from the Amazon S3 store I use as long term backup. S3 is slow, though, so I later changed it to pull directly from Chitoge. This helped both with speed and didn't count against traffic since internal network traffic is free. In a bout of laziness, instead of opening a connection to that server via IP and hand massaging the 'Host' header of the request (or mounting some sort of file share), I just host overrode cdn.awwni.me on Taiga to point to Chitoge. Everything worked great.
 

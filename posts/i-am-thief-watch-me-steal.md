@@ -4,6 +4,8 @@ slug: i-am-thief-watch-me-steal
 date: 2015-02-05T08:12:39-06:00
 tags:
 - general
+redirect_from:
+- entry/i-am-thief-watch-me-steal/
 ---
 Taking a page from the [tiny little blog posts](http://mom28kids.com/2015/02/february-five-4/) my mom is doing right now, I'm going to steal that idea.
 

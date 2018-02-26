@@ -6,6 +6,8 @@ tags:
 - anime
 - general
 - school
+redirect_from:
+- entry/perhaps-some-dusting-is-required/
 ---
 It's been quite some time since I last graced the interwebs with my esoteric writings. Much has happened since then and, on the flip side, much _hasn't_ happened since then. Hell I don't even remember what the last thing I wrote _was_. But, no matter. That's why God invented tabbed browsing.
 

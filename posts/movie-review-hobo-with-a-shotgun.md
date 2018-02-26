@@ -5,6 +5,8 @@ date: 2013-02-11T02:32:00-06:00
 tags:
 - movie
 - review
+redirect_from:
+- entry/movie-review-hobo-with-a-shotgun/
 ---
 There's no reason to reiterate the fact that I created a [site where people can recommend movies for me to watch](http://whatshouldmattwatch.com/). You've probably heard all about it already. The first movie for me to watch off this list was [Hobo with a Shotgun](http://en.wikipedia.org/wiki/Hobo_With_A_Shotgun), suggested by my French buddy Mickael.
 

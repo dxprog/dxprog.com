@@ -7,6 +7,8 @@ tags:
 - chris
 - jeff
 - reviews
+redirect_from:
+- entry/a-collab-of-reviews-part-1/
 ---
 We are at, again, the end of another year. As I am wont to do, I watched anime again and I am here to review it for you, my fine reading populace. However, my anime watchings is not something I do alone with a bucket of Haagan Daas in hand. I watch it while downing manly drinks and filling myself with sugar in the company of a couple of my many brothers. So, this year, I'm turning this series of reviews into a family affair. Since they missed out last year, we'll also be touching on some stuff I've already reviewed. Enjoy!
 

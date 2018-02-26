@@ -4,6 +4,8 @@ slug: accountability-report-those-who-did-it-know-their-blame
 date: 2013-08-11T02:38:58-05:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-those-who-did-it-know-their-blame/
 ---
 I still write "weekly" as a tag for these posts, but we all know the accuracy of that. I should retroactively change it to read "lies". But, that's enough self-deprecation for now.
 

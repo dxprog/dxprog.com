@@ -6,6 +6,8 @@ tags:
 - food
 - letter to mom
 - rant
+redirect_from:
+- entry/a-letter-to-my-dearest-mother/
 ---
 ![](http://images.dxprog.com/blog/letter_to_mom.jpg "A Letter to Mom")
 

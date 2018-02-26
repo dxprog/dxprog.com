@@ -6,6 +6,8 @@ tags:
 -  anime
 -  mario
 - art
+redirect_from:
+- entry/art-battle-fighting-small-children-for-my-ego/
 ---
 I'm moving in mid-May, apartment has been procured and packing has begun. Now that all that's out of the way, let's focus on more important things.
 

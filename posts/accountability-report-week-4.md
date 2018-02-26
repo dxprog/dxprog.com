@@ -4,6 +4,8 @@ slug: accountability-report-week-4
 date: 2013-01-27T02:35:09-06:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-week-4/
 ---
 Missed last week because... well, just because I felt like it.
 

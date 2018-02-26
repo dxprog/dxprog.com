@@ -5,6 +5,8 @@ date: 2006-04-22T13:20:24-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/l4m0r-the-hedgehog/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54098/)
 

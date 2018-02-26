@@ -6,6 +6,8 @@ tags:
 - comic
 - crackdown
 - halo
+redirect_from:
+- entry/comic---cracked-up/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/197437/)
 

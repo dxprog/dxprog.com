@@ -6,6 +6,8 @@ tags:
 - art
 - crayon
 - spam
+redirect_from:
+- entry/a-box-of-crayons-will-rid-the-spam/
 ---
 Snail mail spam is a pet peeve of mine, especially those damned credit card offers. My mom tipped me off some years ago that one can curb these offers by using their own self-addressed stamped envelopes against them to have oneself removed from their mailing list.
 

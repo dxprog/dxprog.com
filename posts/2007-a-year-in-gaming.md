@@ -8,6 +8,8 @@ tags:
 - review
 - wii
 - xbox 360
+redirect_from:
+- entry/2007-a-year-in-gaming/
 ---
 2007 was, indeed, a monumental year in gaming. So many triple A titles, ninety-nine percent of which were released in the holiday season making it very expensive for those who wanted to stay on top. Today I'm going to take a look back at gaming in 2007 (the games I have played, at least).
 

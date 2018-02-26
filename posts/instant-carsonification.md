@@ -5,6 +5,8 @@ date: 2010-12-03T23:41:52-06:00
 tags:
 - coding
 - javascript
+redirect_from:
+- entry/instant-carsonification/
 ---
 ![](http://images.dxprog.com/blog/carsonification.jpg "Haha! Obsolescence.")
 

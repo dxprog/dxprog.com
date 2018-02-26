@@ -6,6 +6,8 @@ tags:
 - cart pushing
 - laptop
 - work
+redirect_from:
+- entry/cart-pushing-sucks/
 ---
 Yeah, that's right. It isn't in my nature to swear, but I hate cart pushing. The last two nights layaway has been dead enough that they've sent me out to push carts in the parking lot. I pushed carts in freezing weather for one and a half hours without a hat or gloves on Sunday and for an hour yesterday. Luckily I was smart enough to bring the hat and gloves then. I tell you though, if Wal-Mart calls me back in January and says they want me to be a cart pusher I will turn it down. There is no way in heck I would do that as my main job. There, now it's out :-P.
 

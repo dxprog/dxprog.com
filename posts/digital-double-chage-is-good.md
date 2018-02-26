@@ -6,6 +6,8 @@ tags:
 - animal crossing
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-chage-is-good/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54191/)
 

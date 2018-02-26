@@ -4,6 +4,8 @@ slug: its-time-for-name-that-star
 date: 2006-05-16T02:56:26-05:00
 tags:
 - random
+redirect_from:
+- entry/its-time-for-name-that-star/
 ---
 While digging through the site of an unamed famous celebrity, I found this interesting picture:
 

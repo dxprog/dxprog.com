@@ -5,6 +5,8 @@ date: 2011-02-03T21:52:39-06:00
 tags:
 - snow
 - video
+redirect_from:
+- entry/snowpocalypse-2011-coffee-noodles/
 ---
 ![](http://images.dxprog.com/blog/snowpocalypse2011.jpg "Day 3")
 I'm sorry.

@@ -5,6 +5,8 @@ date: 2012-07-05T23:24:01-05:00
 tags:
 - code
 - daily
+redirect_from:
+- entry/todays-post-is-garbage/
 ---
 Today, I was having an argument with my brother about multidimensional arrays and coordinate systems. The specifics are a bit complex to go over here, but at its core, he wasn't mentally picture the structure of an array correctly and so was reading his array's wrong causing them to display as if they were rotated 90 degrees.
 

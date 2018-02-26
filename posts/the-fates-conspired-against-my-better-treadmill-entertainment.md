@@ -5,6 +5,8 @@ date: 2013-10-08T11:27:01-05:00
 tags:
 - daily
 - rant
+redirect_from:
+- entry/the-fates-conspired-against-my-better-treadmill-entertainment/
 ---
 This evening, I went out to grab my mail and, as I was walking that way, noticed that the gym was empty. Having not done my biking the last couple days as should have happened, I decided that a quick jog on the treadmill would be beneficial (especially since the scale is tipping down again).
 

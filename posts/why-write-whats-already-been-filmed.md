@@ -4,6 +4,8 @@ slug: why-write-whats-already-been-filmed
 date: 2013-10-16T10:34:35-05:00
 tags:
 - daily
+redirect_from:
+- entry/why-write-whats-already-been-filmed/
 ---
 Due to a bout of crazy sleep, I missed yesterday. Whatever, MOM!
 

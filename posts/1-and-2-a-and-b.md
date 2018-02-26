@@ -4,6 +4,8 @@ slug: 1-and-2-a-and-b
 date: 2016-11-11T08:38:02-06:00
 tags:
 - general
+redirect_from:
+- entry/1-and-2-a-and-b/
 ---
 The last couple years or so, I've been on a big Alan Parsons Project kick. This no doubt stemmed from my dad getting me a compilation album for Christmas. Since, I've purchased most of the albums on LP and have listened to them quite often. The aforementioned compilation set gets frequent playback in the car, which means I'm listening to it a lot because the Bay's commute traffic is awful.
 

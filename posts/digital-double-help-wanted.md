@@ -5,6 +5,8 @@ date: 2006-12-15T00:01:17-06:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-help-wanted/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/90251/)
 

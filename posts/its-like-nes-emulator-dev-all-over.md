@@ -7,6 +7,8 @@ tags:
 - coding
 - javascript
 - jslive
+redirect_from:
+- entry/its-like-nes-emulator-dev-all-over/
 ---
 ![](http://images.dxprog.com/blog/jslive.jpg "Yes, my pretties. You will soon be mine!")
 

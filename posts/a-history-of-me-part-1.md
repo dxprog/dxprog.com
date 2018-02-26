@@ -7,6 +7,8 @@ tags:
 - coding
 - tetra
 - ypn
+redirect_from:
+- entry/a-history-of-me-part-1/
 ---
 For lack of anything else to write I will begin a series of autobiographical articles about me (ego bloating time ;-)). Before I start that, though, I'll give a quick rundown of the week. I rebuilt our shelves this week: painted them white and added some proper braces. Looks pretty good. I also, more or less, finished the docs module which is nice. Now I can start work on the various game stuff I want to do (hooray :-D!).
 

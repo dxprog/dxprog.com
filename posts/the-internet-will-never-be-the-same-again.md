@@ -6,6 +6,8 @@ tags:
 - apple
 - podcast. teh leets
 - wii
+redirect_from:
+- entry/the-internet-will-never-be-the-same-again/
 ---
 I am proud to announce something that will change the face of the internet as we know it.... or not so much. Anyhoo, I bring you ["T3h L33ts"](http://www.dxprog.com/l33ts), the official dxprog/linkman2004 podcast! Whoooo! It hasn't been listed on iTunes yet, but it will. Iiitt wiilllll. Here's the topics we discussed in [Episode I](http://www.dxprog.com/l33ts/podcasts/l33ts1.mp3) (excluding off-topic stuff):
 

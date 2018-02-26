@@ -6,6 +6,8 @@ tags:
 - christmas
 - music page
 - video
+redirect_from:
+- entry/hear-the-sultry-sounds-of-dxpro/
 ---
 I was minding my own business last night, doing some programming and listening to music via my music page (this part is key). All of a sudden, the song I'm listening to cuts out and I hear [this](http://dxmp.s3.amazonaws.com/songs/futurepoop.mp3). Unfortunately, due to the design of my music listening system, my living room stereo is controllable from anywhere, hence this was made possible.
 

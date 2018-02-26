@@ -5,6 +5,8 @@ date: 2012-07-30T10:46:14-05:00
 tags:
 - art
 - daily
+redirect_from:
+- entry/those-that-didnt-make-the-cut/
 ---
 With only two more blog posts to go and only having missed one day, I'm digging into cheap content to fill this space. Perhaps it'd be more challenging to actually create new content for an entire month, but I'm too lazy for that.
 

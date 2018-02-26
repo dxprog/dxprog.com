@@ -5,6 +5,8 @@ date: 2007-01-05T01:46:28-06:00
 tags:
 - bowling
 - digital double comic
+redirect_from:
+- entry/digital-double-bowling-for-pain/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/98063/)
 

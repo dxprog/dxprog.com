@@ -7,6 +7,8 @@ tags:
 - flash
 - phoenix wright
 - video
+redirect_from:
+- entry/ahora-con-más-español/
 ---
 Tossing your works out onto the internets for everybody to see comes with a few interesting points. Without knowing it, you can be featured in a [Brazilian magazine](http://dxprog.com/entry/holy-crap/), offered employment at a [large game company](http://dxprog.com/entry/welcome-to-the-brawl-of-the-century/#comments) and now have one's work translated and dubbed into another language:
 

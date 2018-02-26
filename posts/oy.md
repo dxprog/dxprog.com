@@ -9,6 +9,8 @@ tags:
 - tetra
 - twilight princess
 - zelda
+redirect_from:
+- entry/oy/
 ---
 I'm currently bogged down by a bunch of various projects and am having some trouble getting myself motivated to complete them. The biggest is, yet again, Tetra. I'm also starting some GBA dev and trying to get ACPD3 finished.
 

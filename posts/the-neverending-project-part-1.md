@@ -5,6 +5,8 @@ date: 2011-10-12T22:20:17-05:00
 tags:
 - coding
 - music
+redirect_from:
+- entry/the-neverending-project-part-1/
 ---
 I've [blogged](http://dxprog.com/entry/celebrating-one-year-of-the-music-page) about it [before](http://dxprog.com/entry/a-year-of-music-now-with-interactive-graphs/), so I'll keep the introductions short: for the last three years I've been developing, on and off, a web based music player. The last time I talked about features was v3 and I'm now two versions up from that. In today's post, I'll highlight version 4.
 

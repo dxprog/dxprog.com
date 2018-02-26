@@ -6,6 +6,8 @@ tags:
 - bracket
 - daily
 - design
+redirect_from:
+- entry/the-lazy-approach-to-design/
 ---
 It's getting to be that time of year again when I begin making preparations for the annual awwnime bracket. Unlike last year, where I split the bracket up into [boys](http://dxprog.com/entry/2013-anime-boys-bracket-a-postmortem/) and [girls](http://dxprog.com/entry/the-anime-bracket-my-other-fulltime-job/), I'm going to head off any "well, this character identifies as..." issues off at the pass and go back to a single bracket. And with the new bracket comes yet another tweaking of the design.
 

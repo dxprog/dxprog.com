@@ -5,6 +5,8 @@ date: 2006-10-30T12:49:29-06:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/ugh/
 ---
 Well, it seems my hosting service people had a server crash and loaded everything from backup... without telling anyone. The sick bastards. Sigh...
 

@@ -7,6 +7,8 @@ tags:
 - dragon ball z
 - naruto
 - reviews
+redirect_from:
+- entry/two-years-of-anime-part-2/
 ---
 Here we are at part 2 of the Matt's Grand Anime Review. Today I focus mainly on shounen/action genres.
 ## Dragon Ball Z

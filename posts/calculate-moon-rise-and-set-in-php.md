@@ -7,6 +7,8 @@ tags:
 - code
 - daily
 - release
+redirect_from:
+- entry/calculate-moon-rise-and-set-in-php/
 ---
 If you've been paying attention to my [Twitter](http://twitter.com/dxprog) account, you've probably seen a reference or two about how I've been calculating the positions of astronomical bodies. Well, today I release part of that to you.
 

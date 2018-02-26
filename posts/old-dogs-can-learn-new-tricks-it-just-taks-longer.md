@@ -4,6 +4,8 @@ slug: old-dogs-can-learn-new-tricks-it-just-taks-longer
 date: 2014-09-03T11:34:23-05:00
 tags:
 - daily
+redirect_from:
+- entry/old-dogs-can-learn-new-tricks-it-just-taks-longer/
 ---
 As I sit here whiling away the time trying to put the finishing touches on my [Awwnime Bracket app](https://www.youtube.com/watch?v=PoghOn8Abs8), I realize that the infernal clock ticks away at the minutes, much as it always does. Of course, not that any of this matters since my server is still running in Central time and the dates will be messed up anyways.
 

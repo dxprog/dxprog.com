@@ -5,6 +5,8 @@ date: 2011-06-19T20:53:18-05:00
 tags:
 - daily
 - general
+redirect_from:
+- entry/a-bit-of-genericism/
 ---
 Been kind of a shitty week and I'm all out of witty at the moment.therefor, I shall just kind of give a general life update.
 

@@ -9,6 +9,8 @@ tags:
 - rants
 - walking
 - work
+redirect_from:
+- entry/a-glorious-celebration/
 ---
 I should hardly have to mention anymore my glorious walk for free vacation time. The graph has been sitting there up at the top of my blog page slowly counting up to the grand total of 750,000. And today, one week before deadline, I have hit that total. This little exercise has added quite a bit to my life, from friendly competition with co-workers to some much needed think time. Now, to celebrate this achievement, I give you some more photos of my journeys.[break]
 

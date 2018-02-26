@@ -5,6 +5,8 @@ date: 2006-08-06T23:28:34-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-the-plagiarist-family-circus/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54193/)
 

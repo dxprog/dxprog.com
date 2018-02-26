@@ -4,6 +4,8 @@ slug: redesign-the-reason
 date: 2007-10-27T16:28:47-05:00
 tags:
 - web design
+redirect_from:
+- entry/redesign-the-reason/
 ---
 As I write this I am taking a hiatus from, once again, coming up with a new design for my blog. The major question I'm sure that's on everybody's minds is "Why do you redesign your blog so often?" After pondering this question myself I have come to the conclusion that I just enjoy coming up with new designs. This in turn begs the question why go live with every new design? Why not just create the designs on the side and leave the live version alone? Because I end up liking what I've just created more than what's currently implemented. 
 

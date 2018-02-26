@@ -5,6 +5,8 @@ date: 2011-06-25T23:31:57-05:00
 tags:
 - daily
 - video
+redirect_from:
+- entry/apologies-are-profuse-and-many/
 ---
 My bros and I took a walk in the blazing heat down our usual nature trail today. I thought it might be a nifty idea to make a video on my iPad along the way. That was far as the idea went and this is what we made. I apologize to you, to Peter Jackson and to Mr. Tolkein.
 

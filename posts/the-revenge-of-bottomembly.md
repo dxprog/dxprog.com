@@ -5,6 +5,8 @@ date: 2010-10-14T22:09:05-05:00
 tags:
 - code
 - ypn
+redirect_from:
+- entry/the-revenge-of-bottomembly/
 ---
 A few days ago I was out walking and reminiscing, as I am wont to do. While I was doing this, I  recalled some of my first web related programming projects, most notably YPNgine. Considering it was my first major PHP outing, I pulled off quite a feat. Writing a message board is no small task. However, there was one part in particular that I was mulling over: the censor. 
 

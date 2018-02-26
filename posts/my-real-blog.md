@@ -7,6 +7,8 @@ tags:
 - coding
 - tattack
 - tetra
+redirect_from:
+- entry/my-real-blog/
 ---
 Here it is, Tetra Blog (beta)! Coming down the road are a few more styles, and the ability to add sidebars. These can be any Tetra sidebar so I'm going to be rigging up an RSS feed reader sometime in the near future. That combined with the <echoy effect>Universal Document Module</echoy effect> will make Tetra quite a nicely rounded little CMS :-). And for anybody who'd make a rebuttal to that last statement, Tetra is mainly for personal sites or small groups (like YPN), so SHUT UP! ;-).
 

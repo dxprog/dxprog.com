@@ -7,6 +7,8 @@ tags:
 - graduation
 - job
 - school
+redirect_from:
+- entry/the-search-for-spock-where-the-value-of-spock--job/
 ---
 So, I've been out of school for nearly two months now. Of course, it took them this long to get me my [diploma](http://www.flickr.com/photos/dxprog/3843402434/sizes/l/). Now, I am usually a fairly patient person, but there is one exception to that rule: mail order. Waiting for this diploma was like ordering something from Amazon and then having to wait two years for it to get here. But, it's here now and all is right with the world.
 

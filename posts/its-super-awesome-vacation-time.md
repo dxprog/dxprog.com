@@ -7,6 +7,8 @@ tags:
 - motion graphics
 - school
 - video
+redirect_from:
+- entry/its-super-awesome-vacation-time/
 ---
 Summer is here, and with it vacation. Unfortunately for us Full Sailors, we only get about a week of summer vacation (I get ten days because all my classes let out early). However, that's not to say I'm not going to take advantage of the time off. Quite the contrary. Tomorrow I will be heading back to the good old midwest and chill with my folks. It's been over half a year since I've seen them, so I'm definitely looking forward to going back. I'm especially looking forward to potato salad. Mmmmmm....
 

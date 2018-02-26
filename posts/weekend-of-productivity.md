@@ -4,6 +4,8 @@ slug: weekend-of-productivity
 date: 2012-11-19T02:35:22-06:00
 tags:
 - general
+redirect_from:
+- entry/weekend-of-productivity/
 ---
 Being single has its upsides. It means I get to such things as lounge around doing _jack shit_ on the days I'm not dancing for the man. I decided to buck that trend this weekend, though, and actually accomplished quite a bit. All of it started with my decision _not_ to hop in line for a Wii U early.
 

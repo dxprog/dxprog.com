@@ -6,6 +6,8 @@ tags:
 - gba
 - mp skin studio
 - tutorial
+redirect_from:
+- entry/mp-skin-studio-tutorial/
 ---
 It's been several years since I originally released MP Skin Studio (MPSS) for the GBAMPv2, so revisiting it is interesting. Any kind of original documentation that resided on Lik-sang where I oriinally released MPSS is now gone (thanks, Sony) so, I'm here to provide a real tutorial as there seems to be interest for the old skinner that I didn't realize still existed. So, here is the official MP Skin Studio tutorial, brought to you by dxprog. I'll go through the entire process making a real skin as I go.[break]
 

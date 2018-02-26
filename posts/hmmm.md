@@ -4,6 +4,8 @@ slug: hmmm
 date: 2006-08-03T23:49:11-05:00
 tags:
 - short
+redirect_from:
+- entry/hmmm/
 ---
 The page has been blank lately due to some sad coding on my part. I'll get it changed around at some point :-P.
 

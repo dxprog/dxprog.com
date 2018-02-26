@@ -5,6 +5,8 @@ date: 2011-06-20T00:00:00-05:00
 tags:
 - art
 - daily
+redirect_from:
+- entry/procrastinatorium/
 ---
 Some time ago I put up my list of [New Year's](http://dxprog.com/entry/2011-to-do-what-must-be-done) resolutions. On the whole, I'm not doing terrible. I'm exercising more, I've gotten an apartment and I promptly gave up in Final Fantasy X-2, a decision we all agree is better for my sanity. On the art front, however, things are less than stellar; I can probably count on two hands the amount of times I've set pencil to paper to do anything. I blame it all on this one piece I've bee "working on" since February.
 

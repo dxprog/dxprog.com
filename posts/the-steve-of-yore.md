@@ -5,6 +5,8 @@ date: 2012-04-23T23:53:27-05:00
 tags:
 - emabaressment
 - jounral
+redirect_from:
+- entry/the-steve-of-yore/
 ---
 I was thumbing through my journal, sizing up the content that is to come. I reach the end, there are a few blank pages, and then I see this:
 

@@ -5,6 +5,8 @@ date: 2013-01-09T10:53:50-06:00
 tags:
 - anime
 - review
+redirect_from:
+- entry/the-anime-reviewaganza-bests-worsts-and-beyond/
 ---
 Taking a bit slower pace on rolling these out this year, but here's another page of anime reviews.
 

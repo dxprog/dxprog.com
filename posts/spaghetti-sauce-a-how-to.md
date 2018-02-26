@@ -6,6 +6,8 @@ tags:
 - daily
 - food
 - pictures
+redirect_from:
+- entry/spaghetti-sauce-a-how-to/
 ---
 I don't usually brag, but I make the Best Fucking Spaghetti Sauce in the world (BFSS for short). Today, I am going to pass on my tried and true formula to you, my adoring Internet audience.
 

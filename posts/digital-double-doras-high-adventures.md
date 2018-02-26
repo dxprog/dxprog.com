@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - dora the explorer
+redirect_from:
+- entry/digital-double-doras-high-adventures/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/78302/)
 

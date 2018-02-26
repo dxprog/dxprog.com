@@ -5,6 +5,8 @@ date: 2012-07-09T13:32:12-05:00
 tags:
 - daily
 - lunch
+redirect_from:
+- entry/lunch-musings-november-11-2011/
 ---
 I was walking on my lunch break as I oft do and I saw sign with "11-1-11" scribbled on the back. This reminded me of the big stink that nerds raised last year on 11-11-11 and how it was the "last binary date of our generation".
 

@@ -6,6 +6,8 @@ tags:
 - comic
 - devusb
 - digital double
+redirect_from:
+- entry/f5-dark-over-light/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54167/)
 

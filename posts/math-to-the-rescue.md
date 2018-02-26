@@ -5,6 +5,8 @@ date: 2013-11-07T10:24:18-06:00
 tags:
 - bracket
 - general
+redirect_from:
+- entry/math-to-the-rescue/
 ---
 The bracket, which I have mentioned so many times by this point, continues to be an entirely intriguing project. Brackets in general are a very math heavy thing, full of all sorts of logistical and statistical related calculations. Setting up a bracket per [standard sports seeding](http://en.wikipedia.org/wiki/Seed_(sports)) was a bit of a fun nut to crack by itself. However, the interesting problems have been the ones relating to issues cropping up while the bracket's running.
 

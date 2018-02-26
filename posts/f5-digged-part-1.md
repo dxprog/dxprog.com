@@ -6,6 +6,8 @@ tags:
 - comic
 - digg
 - digital double
+redirect_from:
+- entry/f5-digged-part-1/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54172/)
 

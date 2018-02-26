@@ -5,6 +5,8 @@ date: 2011-03-05T17:14:57-06:00
 tags:
 - pictures
 - work
+redirect_from:
+- entry/gnm-the-grande-finale/
 ---
 As some of you may be aware, my time at Griffin New Media and the glamorous world of [television](http://www.facebook.com/l.php?u=http%3A%2F%2Fwww.newson6.com%2FGlobal%2Fcategory.asp%3FC%3D121535%26autoStart%3Dtrue%26topVideoCatNo%3Ddefault%26clipId%3D5412940%26flvUri%26partnerclipid&h=1598d) is over. I will be moving on to bigger and better things at Winnercomm, doing web work for the Outdoor Channel it seems. At least it comes with a significant raise and the title of "web developer."
 

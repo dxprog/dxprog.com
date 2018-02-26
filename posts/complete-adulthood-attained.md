@@ -7,6 +7,8 @@ tags:
 - kathleen
 - recap
 - work
+redirect_from:
+- entry/complete-adulthood-attained/
 ---
 I can no longer in anyway be considered a minor. Now that I'm 21 there's nothing I can't do... except run for president... and pull social security... and get AARP. Okay, some milestones left. I plan on celebrating the situation by getting some Mike's Hard Lemonade tonight after work and doing some celebrating.
 

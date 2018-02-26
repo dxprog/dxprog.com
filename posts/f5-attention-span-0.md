@@ -5,6 +5,8 @@ date: 2006-06-01T23:45:04-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/f5-attention-span-0/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54178/)
 

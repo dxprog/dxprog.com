@@ -4,6 +4,8 @@ slug: accountability-report-tardiness-is-the-in-thing
 date: 2013-03-12T11:05:36-05:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-tardiness-is-the-in-thing/
 ---
 So, I'm late again. That's cool, I had my reasons.
 

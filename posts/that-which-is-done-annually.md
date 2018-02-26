@@ -5,6 +5,8 @@ date: 2014-01-03T08:56:33-06:00
 tags:
 - general
 - year end
+redirect_from:
+- entry/that-which-is-done-annually/
 ---
 As is per normal for me, it's time again to reexamine myself and birth a new Matt Hackmann with the new year. It's funny how this has become a thing because I used to be vehemently against "New Year's Resolutions", taking that stance that a person should be able enact change at any time of the year. But, moreso than that, it's a barometer to measure how well those changes actually went. Anybody who knows a little bit about statistics knows that you need to monitor trends over time to get the most accurate data. All that said, let's see how I did against last year's list.
 

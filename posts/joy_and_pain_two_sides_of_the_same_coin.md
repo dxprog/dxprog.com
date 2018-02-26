@@ -6,6 +6,8 @@ tags:
 - concert
 - weird al
 - work
+redirect_from:
+- entry/joy_and_pain_two_sides_of_the_same_coin/
 ---
 I do not go to work today. This is something to be joyous about. However, it was not meant to be this way. Thanks to my wonderful shoes, which have been possesed by the very soul of Satan himself, my foot is in pain. It sucks. Actually, it's sad more than it sucks for today was supposed to be the last Saturday I ever work at Wal-Mart.
 

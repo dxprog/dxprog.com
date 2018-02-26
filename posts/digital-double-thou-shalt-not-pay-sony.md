@@ -10,6 +10,8 @@ tags:
 - guitar hero
 - ps2
 - sony
+redirect_from:
+- entry/digital-double-thou-shalt-not-pay-sony/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/60602/)
 

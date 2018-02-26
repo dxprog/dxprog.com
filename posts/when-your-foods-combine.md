@@ -5,6 +5,8 @@ date: 2012-07-08T17:47:28-05:00
 tags:
 - daily
 - food
+redirect_from:
+- entry/when-your-foods-combine/
 ---
 [reddit](http://reddit.com) is a great place to kill time with somewhat similarly like-minded people. It's a great place for comedy, feels, and elitism. As it turns out, it's also a great place for crazy awesome food ideas such as [pizza cupcakes](http://imgur.com/a/avjMU).
 

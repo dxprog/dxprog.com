@@ -7,6 +7,8 @@ tags:
 - drivers license
 - video
 - work
+redirect_from:
+- entry/my-life/
 ---
 It's been a while since I've last blogged mainly because a) I forgot and b) I was in a deep blue funk. But now I'm feeling quite chipper for two reasons: a) I'm going back to cashiering again in May, b) I've been selected to join the [ACC](http://www.animalcrossingcommunity.com/) Site Improvement Committee. For anybody who's paid attention, ACPD has been one of my major ongoing projects for the last two years. Now that I am officially connected to the site I'll be able to push it more and perhaps replace their existing flash editor with [ACPD Online](http://www.dxprog.com/acpd/).
 

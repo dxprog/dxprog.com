@@ -9,6 +9,8 @@ tags:
 - game
 - manga
 - tnt
+redirect_from:
+- entry/tokyo-in-tulsa-2012-day-1/
 ---
 It's running late, I have a meatloaf in the oven, and there's a crap ton of pictures to insert here. So my comments shall be saved for a later date.
 

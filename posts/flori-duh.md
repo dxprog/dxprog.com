@@ -10,6 +10,8 @@ tags:
 - guitar hero
 - web design
 - work
+redirect_from:
+- entry/flori-duh/
 ---
 No offense to the state, just a little thing Dave Berry is always pointing out (you can't spell Florida without the "duh"). If I haven't mentioned the fact that Dave Berry is one of the funniest columnists alive, I will do so now and tell you to go out and get some of his books. The Guide to Guys and Money Secrets are my personal favorites. But, this all really has nothing to do with this blog post so I will move along.
 

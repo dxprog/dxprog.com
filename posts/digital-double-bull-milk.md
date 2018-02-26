@@ -5,6 +5,8 @@ date: 2007-01-19T01:41:00-06:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-bull-milk/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/102936/)
 

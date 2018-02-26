@@ -7,6 +7,8 @@ tags:
 - code
 - daily
 - javascript
+redirect_from:
+- entry/racing-the-clock-for-a-code-release/
 ---
 Pushing it a bit close tonight, but that's what happens when you go to a once in a lifetime screening of the extended cut of Two Towers in the theater and it's nearly four hours long. But, whatever.
 

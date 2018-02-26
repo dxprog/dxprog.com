@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - work
+redirect_from:
+- entry/digital-double-this-calls-for-some-booze/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/75988/)
 

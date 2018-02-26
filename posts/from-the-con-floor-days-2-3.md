@@ -6,6 +6,8 @@ tags:
 -  anime
 -  photos
 - convention
+redirect_from:
+- entry/from-the-con-floor-days-2-3/
 ---
 So, Tokyo in Tulsa has come to a close for the year, ending the fourth convention I've been to and the first where I've actually cosplayed at. Yes, I've teased you all long enough. Feast your eyes on the 100% sexiness below:
 

@@ -7,6 +7,8 @@ tags:
 - rock band
 - windows
 - xbox 360
+redirect_from:
+- entry/rb-drums/
 ---
 Here's a simple little program I whipped up to use the Rock Bad drums as a MIDI controller. I'll have a video up sometime later. NOTE - You'll need the [.NET 2.0 Framework](http://www.microsoft.com/downloads/details.aspx?FamilyID=0856EACB-4362-4B0D-8EDD-AAB15C5E04F5&displaylang=en).
 

@@ -4,6 +4,8 @@ slug: this-is-what-i-think-about-whilst-driving-to-work
 date: 2010-09-10T23:07:09-05:00
 tags:
 - rant
+redirect_from:
+- entry/this-is-what-i-think-about-whilst-driving-to-work/
 ---
 On my daily commute to work I encounter three intersections (four if you include that weird three way, round the corner thing). Of these intersections, two have lights. One of these is at the cross roads of a highway, with light poles hanging out over the streets on all four corners. The other one... well, it's messed up.
 

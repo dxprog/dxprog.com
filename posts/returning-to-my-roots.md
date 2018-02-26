@@ -7,6 +7,8 @@ tags:
 - flash
 - school
 - vacation
+redirect_from:
+- entry/returning-to-my-roots/
 ---
 They say all good things must come to an end. Such is true for my one week of summer vacation. It was brief, yet enjoyable. Got to celebrate my birthday with my family, eat grilled food and lots of potato salad, and also take the usual trip to Tulsa. It's a pity that it was so short, but I'm complaining too much. The school is giving me a bachelor's degree in less than two years, so this time next year I'll be out of school. But that's a story for another day.
 

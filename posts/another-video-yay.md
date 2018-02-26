@@ -4,6 +4,8 @@ slug: another-video-yay
 date: 2006-08-16T04:16:41-05:00
 tags:
 - video
+redirect_from:
+- entry/another-video-yay/
 ---
 I seem to use "yay!" a lot in my titles. Oh well, yay!
 

@@ -6,6 +6,8 @@ tags:
 - site news
 - web design
 - web programming
+redirect_from:
+- entry/up-next-on-dxprogcom/
 ---
 It is the eve of the beginning of my PHP/MySQL class. Of course, we should all know by now that CMS programming is child's play for me. However, seeing as my final project for this class _is_ a CMS with front end, I'm taking this opportunity to redesign stuff, and by stuff I mean everthing (even beyond the site itself). Some things to expect from the next iteration:
 

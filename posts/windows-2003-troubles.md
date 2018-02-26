@@ -4,6 +4,8 @@ slug: windows-2003-troubles
 date: 2005-10-30T11:11:48-06:00
 tags:
 - windows
+redirect_from:
+- entry/windows-2003-troubles/
 ---
 Well, yesterday was a great day... NOT! Somehow, and I've yet been able to figure out why, my password got reset. Now I figure it's one of four scenerios:
 

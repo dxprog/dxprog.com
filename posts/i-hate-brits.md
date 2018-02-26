@@ -6,6 +6,8 @@ tags:
 - brits
 - games
 - pokemon
+redirect_from:
+- entry/i-hate-brits/
 ---
 The title has absolutely no bearing on the subject matter of this post, but I thought I'd throw it out there. Everytime they say "biscuit" instead of cookie I think to myself "Stupid, buscuiting Brits!". But I digress.
 

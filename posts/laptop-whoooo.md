@@ -6,6 +6,8 @@ tags:
 - laptop
 - layaway
 - work
+redirect_from:
+- entry/laptop-whoooo/
 ---
 Ah.... I sit in the living room in a nice comfy chair as I write this. Yes.. I got my laptop out this morning. I stayed up all night to do it, but I did it and DANGif it isn't a darn nice feeling :-). I've got a bunch of junk I'm going to need to uninstall (currently there are 14 icons down on the system tray :-P). But at least I've got a processor/RAM combo that can handle a bunch of stuff :-D.
 

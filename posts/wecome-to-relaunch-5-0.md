@@ -5,6 +5,8 @@ date: 2007-12-20T19:08:21-06:00
 tags:
 - christmas
 - site news
+redirect_from:
+- entry/wecome-to-relaunch-5-0/
 ---
 Not sure if that version number is correct or not, but it seems about right.
 

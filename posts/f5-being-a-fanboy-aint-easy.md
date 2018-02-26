@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - pixar
+redirect_from:
+- entry/f5-being-a-fanboy-aint-easy/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54180/)
 

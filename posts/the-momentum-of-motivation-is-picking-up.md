@@ -6,6 +6,8 @@ tags:
 - drivers license
 - ged
 - ics
+redirect_from:
+- entry/the-momentum-of-motivation-is-picking-up/
 ---
 I really need to quit with the "..." in the title :-P.
 

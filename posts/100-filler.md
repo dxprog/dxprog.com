@@ -4,6 +4,8 @@ slug: 100-filler
 date: 2012-07-19T21:46:07-05:00
 tags:
 - daily
+redirect_from:
+- entry/100-filler/
 ---
 ![](http://images.dxprog.com/blog/international_travel.jpg "You're already hearing the theme in your head...")
 

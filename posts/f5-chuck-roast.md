@@ -6,6 +6,8 @@ tags:
 - brits
 - comic
 - digital double
+redirect_from:
+- entry/f5-chuck-roast/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54166/)
 

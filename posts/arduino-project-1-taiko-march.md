@@ -6,6 +6,8 @@ tags:
 - arduino
 - code
 - game
+redirect_from:
+- entry/arduino-project-1-taiko-march/
 ---
 I've been wanting an Arduino microcontroller for some time and last week I finally broke down and bought one. I've been dicking around with some simple projects, but on of the things that I've been eagerly looking forward to doing is a computer controlled Christmas lights setup. There are some selfish reasons, I'll admit, like winning the company Christmas decorations contest. But, I digress.
 

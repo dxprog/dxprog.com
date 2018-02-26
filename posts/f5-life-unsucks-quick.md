@@ -5,6 +5,8 @@ date: 2006-07-11T13:31:50-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/f5-life-unsucks-quick/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54185/)
 

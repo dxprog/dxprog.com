@@ -6,6 +6,8 @@ tags:
 - php
 - web dev
 - wordpress
+redirect_from:
+- entry/wordpress-related-posts-script/
 ---
 At my job, I currently have three Wordpress sites under my watchful eye. On one, I was tasked with creating a related posts feature. Now, there are certainly enough plug-ins that will do just that, but none of them worked how I wanted to or were generally more complex than necessary. So, I whipped up this little script:
 

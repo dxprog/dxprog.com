@@ -6,6 +6,8 @@ tags:
 - comic
 - computers
 - digital double
+redirect_from:
+- entry/digital-double-show-me-the-magic/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/99154/)
 

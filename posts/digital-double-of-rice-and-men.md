@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - spider-man
+redirect_from:
+- entry/digital-double-of-rice-and-men/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/125061/)
 

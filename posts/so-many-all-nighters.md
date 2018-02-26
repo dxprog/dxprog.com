@@ -7,6 +7,8 @@ tags:
 - art
 - christmas
 - school
+redirect_from:
+- entry/so-many-all-nighters/
 ---
 It's true; I have pulled an insane amount of all nighters this year and here I am doing it once again. I am currently at Orlando International where I await the departure of my flight at 6:23am, a little less than six hours from now. I was hoping to walk in here, dump off my luggage, and get through security right off the bat. However, good old Northwest Airlines has, yet again, left me with an unmanned counter. So, I am stuck with my twenty pound bag of clothing and vigilantly watching for the first signs of life at the counter.
 

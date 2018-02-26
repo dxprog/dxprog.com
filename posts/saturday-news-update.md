@@ -6,6 +6,8 @@ tags:
 - college
 - florida
 - full sail
+redirect_from:
+- entry/saturday-news-update/
 ---
 Firstly, [pictures](http://www.flickr.com/photos/dxprog/). More importantly, however, I need to quit with this "firstly", "nextly", "that other thingly".
 

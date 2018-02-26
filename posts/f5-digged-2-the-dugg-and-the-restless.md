@@ -6,6 +6,8 @@ tags:
 - comic
 - digg
 - digital double
+redirect_from:
+- entry/f5-digged-2-the-dugg-and-the-restless/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54173/)
 

@@ -4,6 +4,8 @@ slug: theres-nothing-quite-as-refreshing-as-a-swift-kick-to-the-balls
 date: 2007-05-22T15:30:35-05:00
 tags:
 - deviantart
+redirect_from:
+- entry/theres-nothing-quite-as-refreshing-as-a-swift-kick-to-the-balls/
 ---
 That's a hell of a title right there. I haven't really put it out anywhere, but I've had a [deviantArt](http://dxprog.deviantart.com/) account for some time now. Like, almost a year. I put up some of my Matt (Digital Double) redesigns and promptly forgot about it. Well, since I've been drawing all this stuff lately I've been posting again and garnering some attention. Attention like this:
 

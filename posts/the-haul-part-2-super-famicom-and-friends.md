@@ -5,6 +5,8 @@ date: 2013-06-15T23:12:07-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/the-haul-part-2-super-famicom-and-friends/
 ---
 There was really only one thing on my "must buy" list going into Japan, and that was the Japanese Super Nintendo, or Super Famicom. I don't know if it's been said on this blog, but I love the shit out of Ninty's 16-bit era. So much goodness packed into such small computing power. None of this generic brown and grey shooter bullshit, just unadulterated awesomeness.
 

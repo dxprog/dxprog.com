@@ -7,6 +7,8 @@ tags:
 - art
 - ecd
 - school
+redirect_from:
+- entry/first-month-of-school-completed/
 ---
 It's been nearly a month since I last posted anything of relevance. A lot had happened since then. I've completed my first month of school and, as such, my first set of classes. Now I won't pretend to understand I know how a traditional college works but I do know that Full Sail's approach is much different (and, in my opinion, much more sensical). Every month we have two courses that we attend for four weeks. These are broken down into, generally, five eight-hour days per week with few breaks in between save major holidays. This is how we pull off a four year degree in only twenty-one months. These five day weeks are broken down into one subject being done three days and the other two. This month I was lucky enough to only have four days of school per week but all I did were gen ed classes, namely art history and english composition.
 

@@ -6,6 +6,8 @@ tags:
 - brits
 - comic
 - dora the explorer
+redirect_from:
+- entry/a-trio-of-comics/
 ---
 Alright, here's the links to all the latest comics:
 

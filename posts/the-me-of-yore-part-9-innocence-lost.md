@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-9-innocence-lost
 date: 2012-02-26T23:10:23-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-9-innocence-lost/
 ---
 I've got a couple of short ones today. It seems that the newer these journal entries get, the more programming centric they become as I slowly lose myself to the abyss.
 

@@ -4,6 +4,8 @@ slug: metal-gear-music-day
 date: 2008-07-04T14:19:40-05:00
 tags:
 - game music frday
+redirect_from:
+- entry/metal-gear-music-day/
 ---
 I missed a week again, but here I am performing my civic duty whilst on vacation. Today, the music of choice is Metal Gear Solid. I recently just finished the first one and as soon as I return from vacation will begin work on MGS2. If you have a PS2 and have not plaed any of these games I highly recommend picking up the recently released [Essential Collection](http://www.amazon.com/Metal-Gear-Solid-Essential-Collection/dp/B001383L36/ref=pd_bbs_sr_1?ie=UTF8&s=videogames&qid=1215198554&sr=8-1) as I did. Three games for thirty bucks is a really good deal for excellent games such as these. But anyways, on to the music.[break]
 

@@ -7,6 +7,8 @@ tags:
 - music
 - video
 - zelda
+redirect_from:
+- entry/various-shit/
 ---
 Firstly, today's [comic](http://digitaldouble.smackjeeves.com/comics/72069/).
 

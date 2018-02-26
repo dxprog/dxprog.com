@@ -7,6 +7,8 @@ tags:
 - christmas
 - coding
 - work
+redirect_from:
+- entry/so-sweet-yet-so-short/
 ---
 Before I delve into this stuff I just want to say I hope you all had a good Christmas :-).
 

@@ -5,6 +5,8 @@ date: 2007-03-07T14:21:41-06:00
 tags:
 - halo
 - video
+redirect_from:
+- entry/and-now-for-something-completely-different/
 ---
 Just because I haven't been updating the comic lately doesn't mean I haven't been doing anything. I've been doing plenty of highly constructive stuff, such as making inane parodies like the on you're about to see. Enjoy!
 

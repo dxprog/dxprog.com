@@ -7,6 +7,8 @@ tags:
 - code
 - php
 - release
+redirect_from:
+- entry/php-google-image-search-library/
 ---
 Github Repository: [Fork It!](https://github.com/dxprog/PHPGIS)
 Code: [ [Download](http://dxprog.com/files/gis.zip) ]

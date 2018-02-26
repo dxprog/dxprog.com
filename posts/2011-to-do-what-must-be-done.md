@@ -7,6 +7,8 @@ tags:
 - general
 - haruhi
 - new year
+redirect_from:
+- entry/2011-to-do-what-must-be-done/
 ---
 ![](http://images.dxprog.com/blog/newyear11.jpg "Celebrating the Year of the Rabbit")
 The Chinese zodiac says that this year is the year of the rabbit. Finally, reason for me to stuff a picture of Haruhi and cast sporting bunny outfits at the top of a post. But, this isn't what I'm here to discuss.

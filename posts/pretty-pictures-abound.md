@@ -6,6 +6,8 @@ tags:
 - anime
 - art
 - manga
+redirect_from:
+- entry/pretty-pictures-abound/
 ---
 In the downtime during my ever continuing quest for employment, I've taken up a few extra hobbies to keep from going completely bored. [Some](http://labs.dxprog.com/twitstats/) are more [relevent](http://dxprog.com/entry/phpgraphs-a-php-graph-drawing-library/) to my future line of work, while others are simply for my enjoyment.
 

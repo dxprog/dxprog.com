@@ -5,6 +5,8 @@ date: 2012-10-15T00:00:00-05:00
 tags:
 - general
 - unjacked
+redirect_from:
+- entry/unjacked-day-6/
 ---
 Still struggling with straight lines...
 ![](http://images.dxprog.com/blog/unjacked_day6.jpg "Mmm... text")[break]

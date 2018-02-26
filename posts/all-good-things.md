@@ -5,6 +5,8 @@ date: 2009-05-28T04:35:50-05:00
 tags:
 - full sail
 - school
+redirect_from:
+- entry/all-good-things/
 ---
 It seems that ignoring the blog is the fashionable thing for me to do, as of late. It's not entirely intentional, there's just really nothing to talk about. Sometimes, while I'm attempting to force myself into a state of unconsciousness, I'll think of these things I'd love to post ranting about this, that, or the other. However, rarely do I actually act upon these impulses and the dust continues to gather.
 

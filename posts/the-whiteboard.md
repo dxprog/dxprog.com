@@ -4,6 +4,8 @@ slug: the-whiteboard
 date: 2012-07-12T22:42:25-05:00
 tags:
 - daily
+redirect_from:
+- entry/the-whiteboard/
 ---
 Above my second monitor and slightly to the right is my brain's physical scratch disk, aka my whiteboard. It's there for ideas I don't want to forget or for figuring stuff out.
 

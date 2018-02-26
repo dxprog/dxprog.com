@@ -5,6 +5,8 @@ date: 2011-01-31T00:00:00-06:00
 tags:
 - snow
 - star wars
+redirect_from:
+- entry/snowpocalypse-2011-beware-the-wampas/
 ---
 ![](http://images.dxprog.com/blog/snowpocalypse2011.jpg "At dawn, we ride!")
 

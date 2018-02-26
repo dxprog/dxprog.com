@@ -4,6 +4,8 @@ slug: novels-novels-novels
 date: 2013-10-03T22:07:43-05:00
 tags:
 - daily
+redirect_from:
+- entry/novels-novels-novels/
 ---
 I thought I'd post today about what novels I am currently reading.  I’ll also include the read-alouds I'm doing with the four hundred college kids since I am actually reading those.
 

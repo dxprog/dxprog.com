@@ -4,6 +4,8 @@ slug: assorted-sample-cheeses
 date: 2007-11-03T22:53:42-05:00
 tags:
 - random
+redirect_from:
+- entry/assorted-sample-cheeses/
 ---
 Today's randomness is brought to you by Florida University. Remember, you can't have Florida University without FU.
 

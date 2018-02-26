@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-11-lying-to-myself
 date: 2012-04-15T23:12:27-05:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-11-lying-to-myself/
 ---
 As I begin the scribblings of the next comic, I'll fill in the gap with a bit more journal. Incidentally, I'm running out of these; this is the last entry in book two of three.
 

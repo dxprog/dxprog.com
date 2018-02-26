@@ -6,6 +6,8 @@ tags:
 - daily
 - japan
 - video
+redirect_from:
+- entry/chris-will-eat-it-croquet-bread/
 ---
 It's another exciting episode of Chris Will Eat It! Also, the last episode!
 

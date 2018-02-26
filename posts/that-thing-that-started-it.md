@@ -5,6 +5,8 @@ date: 2011-06-16T21:29:45-05:00
 tags:
 - daily
 - video
+redirect_from:
+- entry/that-thing-that-started-it/
 ---
 I am once again at a bit of a loss as to what I should post, so today I'm going to dig something up from WAY BACK WHEN. 2002, to be precise, when my bros and I made our first little film. Fun fact: the fat kid in the commercial - my brother Chris - is very not fat now.
 

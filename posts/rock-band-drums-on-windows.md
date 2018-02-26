@@ -8,6 +8,8 @@ tags:
 - video
 - windows
 - xbox 360
+redirect_from:
+- entry/rock-band-drums-on-windows/
 ---
 Everything I had posted here before is now outdated (and more than likely was when I came up with this). The latest Xinput driver from Microsoft supports the Harmonix controllers out of the box (people who think I'm fake probably already had this). You can get the 32-bit version [here](http://www.microsoft.com/downloads/details.aspx?FamilyID=0e989b12-576b-42f2-b7c1-2a17ce25188b&DisplayLang=en) and the 64-bit version [here.](http://www.microsoft.com/downloads/info.aspx?na=47&p=1&SrcDisplayLang=en&SrcCategoryId=&SrcFamilyId=0e989b12-576b-42f2-b7c1-2a17ce25188b&u=details.aspx%3ffamilyid%3dD6289D8D-2478-4BF1-984C-56FFB828BA4E%26displaylang%3den)
 

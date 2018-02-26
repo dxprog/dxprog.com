@@ -4,6 +4,8 @@ slug: whatever-happened-to-childrens-educational-programming
 date: 2011-03-25T23:35:13-05:00
 tags:
 - rant
+redirect_from:
+- entry/whatever-happened-to-childrens-educational-programming/
 ---
 I'm pretty sure we can all agree that children's television nowadays pretty much sucks across the board, doubly so for anything that even tries to enter the realm of things educational. Why is it that if you're going to try to teach a kid something it has to be packaged in a brightly colored, make-the-kids-talk-to-the-TV-like-they're-actually-doing-something-and-then-proceed-to-talk-down-to-them package (Say MAP! What? I can't hear you? You gotta speak SPANISH, dipshit!). Well, I tell you what. Back in my day, we had AWESOME educational TV! Allow me a meander down memory lane...[break]
 

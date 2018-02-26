@@ -7,6 +7,8 @@ tags:
 - digital double
 - the matrix
 - work
+redirect_from:
+- entry/digital-double-reloaded/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/127572/)
 

@@ -4,6 +4,8 @@ slug: weekly-accountability-report-week-2-meh
 date: 2013-01-14T12:34:06-06:00
 tags:
 - weekly
+redirect_from:
+- entry/weekly-accountability-report-week-2-meh/
 ---
 Here we are at yet another completed week within this new year and with it a report of how I managed to uphold the standards of which I set myself to.
 

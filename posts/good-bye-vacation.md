@@ -6,6 +6,8 @@ tags:
 - job
 - school
 - soapbox
+redirect_from:
+- entry/good-bye-vacation/
 ---
 A wise man once said all good things must come to an end. So it is true for me as my week long Thanksgiving vacation is over effective 8:00AM EST tomorrow morning. However, I will certainly say that it has been a rather interesting week for me.
 

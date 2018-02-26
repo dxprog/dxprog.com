@@ -6,6 +6,8 @@ tags:
 - cats
 - flash
 - video
+redirect_from:
+- entry/the-flashes/
 ---
 You've seen [Metal Gear Awesome 2](http://www.newgrounds.com/portal/view/426712), and other wonderful things [Newgrounds](http://www.newgrounds.com/). But, now, [egoraptor](http://www.egoraptor.com/) has a new adversary! Lo and behold the glory that is MY FLASH!
 

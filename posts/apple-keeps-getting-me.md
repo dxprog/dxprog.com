@@ -9,6 +9,8 @@ tags:
 - halo
 - pictures
 - sketches
+redirect_from:
+- entry/apple-keeps-getting-me/
 ---
 I do not consider myself an Apple zealot, but I'll have to admit that they make very nice hardware. I'm completely loving my Mac Book Pro. It's doubley more awesome that my Mac mini in almost every respect. Clock speed, RAM, hard drive space, video, you name it this thing is better. And it's portable. And it gets blazing hot when it's doing heavy processing, hotter than the surface of the sun I'd say.
 

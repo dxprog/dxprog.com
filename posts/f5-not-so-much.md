@@ -6,6 +6,8 @@ tags:
 - art
 - comic
 - digital double
+redirect_from:
+- entry/f5-not-so-much/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54169/)
 

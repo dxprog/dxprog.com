@@ -5,6 +5,8 @@ date: 2009-12-26T14:39:41-06:00
 tags:
 - anime
 - reviews
+redirect_from:
+- entry/two-years-of-anime-part-1/
 ---
 Here begins three articles of anime reviews. Yes, I know I said two in the previous post, but after creating the list I realized it would be more prudent to split this into three. This also allows me to kind of categorize things and I'll kick the list off with cute and romantic comedies. Another thing to note is that my criteria have changed. The movies and video games were all things _released_ in 2008-2009. These are all things I _watched_ in those years. So, without further ado, here is part one of my anime reviews.
 ## Midori Days

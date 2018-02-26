@@ -6,6 +6,8 @@ tags:
 - cashiering
 - coding
 - work
+redirect_from:
+- entry/its-official-i-check-people-out-for-a-living/
 ---
 And checking out hot babes is fun ;-). No, really. Yesterday my job code was officially changed to cashier so now, uhh.... it's official :-P. Today was my first 8 hour day doing cashier and what what a day it was. Standing in one spot and constantly leaning over to reach people's stuff takes a nasty toll on your back. And when you've been waiting 40 minutes for the managers to send you home it's even worse :-P. But, overall, I quite enjoy the job (a lot of button pushing ;-)). Tomorrow I work six hours and then, hallelujah, I'm off Monday and Tuesday :-D.
 

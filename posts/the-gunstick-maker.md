@@ -5,6 +5,8 @@ date: 2013-10-14T10:53:08-05:00
 tags:
 - creative writing
 - daily
+redirect_from:
+- entry/the-gunstick-maker/
 ---
 War.
 

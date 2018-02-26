@@ -5,6 +5,8 @@ date: 2013-08-18T06:38:24-05:00
 tags:
 - disney
 - review
+redirect_from:
+- entry/retroreview-beauty-and-the-beast/
 ---
 ![](http://i.imgur.com/yYvkSe7.jpg "Beauty and the Beast")
 

@@ -7,6 +7,8 @@ tags:
 - php
 - tutorial
 - youtube
+redirect_from:
+- entry/getting-a-youtube-flv-through-php/
 ---
 ![](http://images.dxprog.com/blog/php_corner.png "PHP Corner")
 Recently, while making some additions to the [Music Page](http://labs.dxprog.com/smp/), I came across the need to get the location of a YouTube FLV. Unfortunately, most of my googling turned up outdated results that no longer work. Fortunately, unlike a certain [other](http://hulu.com/) site, it's not impossible. Below is a quick explanation of what I got to work. I'll be assuming that you know how to get your hands on the video ID (the "v" parameter in the query string).[break]

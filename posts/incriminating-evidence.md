@@ -5,6 +5,8 @@ date: 2010-12-09T23:18:56-06:00
 tags:
 - heist
 - train
+redirect_from:
+- entry/incriminating-evidence/
 ---
 I do not have a strong love for my home city of Bartlesville. The citizens are a near fifty/fifty split of rich assholes and white trash (at least, that's what it seems), there are no decent places to shop and there are no good hang out spots. However, we are home to one thing of true magnificence: the [AT&SF No. 940](http://www.bartlesvillelocomotive.org/).
 

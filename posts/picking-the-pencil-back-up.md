@@ -5,6 +5,8 @@ date: 2013-06-20T10:47:00-05:00
 tags:
 - art
 - daily
+redirect_from:
+- entry/picking-the-pencil-back-up/
 ---
 Not for any *noble* reasons, I assure you. But, certainly you've seen these commercials at one point in your life:
 

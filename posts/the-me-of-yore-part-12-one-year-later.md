@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-12-one-year-later
 date: 2012-04-19T01:05:28-05:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-12-one-year-later/
 ---
 One last journal to go. This one seems to all be written in cursive (much to my dismay). But, we shall begin.
 

@@ -5,6 +5,8 @@ date: 2013-02-26T05:52:20-06:00
 tags:
 - movie
 - review
+redirect_from:
+- entry/movie-review-american-graffiti/
 ---
 ![](http://i.imgur.com/3ZAfLYl.jpg "American Graffiti")
 

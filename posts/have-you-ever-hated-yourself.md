@@ -5,6 +5,8 @@ date: 2007-09-02T01:49:37-05:00
 tags:
 - nostalgia
 - ypn
+redirect_from:
+- entry/have-you-ever-hated-yourself/
 ---
 Sounds like the title of one of the many things I see copied and pasted onto a MySpace bulletin. Before anybody cries foul, I don't hate myself. I'm a very content person and more or less happy with who I am. And beside, I'm going to a kick ass school (one month from yesterday) so life is pretty sweet.
 

@@ -5,6 +5,8 @@ date: 2013-06-22T09:08:09-05:00
 tags:
 - daily
 - musing
+redirect_from:
+- entry/i-intend-to-live-forever/
 ---
 I missed a day of blogging (again), so sue me. But, allow me to get philosophical for just a moment.
 

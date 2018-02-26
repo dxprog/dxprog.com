@@ -4,6 +4,8 @@ slug: the-curse-of-punctuality
 date: 2013-06-01T01:03:12-05:00
 tags:
 - daily
+redirect_from:
+- entry/the-curse-of-punctuality/
 ---
 I am currently sitting in the airport, sulking in a chair across from the very open and lively airline counter with which I would check in my stuff. Through this line I passed and was at the counter rejected because I was trying to check in too early. My flight doesn't leave for another nine hours, but I like to be early.
 

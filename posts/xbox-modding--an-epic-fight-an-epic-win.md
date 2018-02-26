@@ -7,6 +7,8 @@ tags:
 - modding
 - xbox
 - xbox media center
+redirect_from:
+- entry/xbox-modding--an-epic-fight-an-epic-win/
 ---
 The internet has and continues to change the way society operates. The biggest thing the internet has going for it is instant availability for anything you could ever want. Be it from news, to sports, to knowledge, whatever, it's out there and waiting to be accessed whenever your heart desires. It's no surprise that this on demand media is killing the mediums of old: radio, newspapers, magazines, etc. However, the one that seems to be taking a hit the most, recently, is television. Why wait for a show to come on when you can just watch it on the internet whenever you want? Okay, this isn't really about the philosophies of the internet, but it seemed a nice segue into a recent project of mine.
 

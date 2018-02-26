@@ -5,6 +5,8 @@ date: 2010-02-27T19:56:02-06:00
 tags:
 - anime
 - rant
+redirect_from:
+- entry/a-nerdy-rant-about-nerds/
 ---
 As some of you who [follow me](http://twitter.com/dxprog) on Twitter may have [noticed](http://twitter.com/dxprog/status/9488096354), I recently crafted a small bit for inclusion in the write in portion of Anime News Network's [Hey, Answerman!](http://www.animenewsnetwork.com/answerman) column. Unfortunately, I was snubbed there and didn't have my writings brought to a larger than usual mass, but as I was planning on ranting about that topic on my blog anyways, I shall put it here regardless. (Damn you, Answerman!!!)
 

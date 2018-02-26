@@ -6,6 +6,8 @@ tags:
 - concert
 - games
 - music
+redirect_from:
+- entry/video-games-live-something-for-everybody/
 ---
 ![](http://www.dxprog.com/pics/bumpers/VGL.png "image")
 

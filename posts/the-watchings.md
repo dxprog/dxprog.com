@@ -4,6 +4,8 @@ slug: the-watchings
 date: 2013-10-09T22:43:31-05:00
 tags:
 - general
+redirect_from:
+- entry/the-watchings/
 ---
 I have nothing better to talk about than the things I am watching, either actively or are just stuck in the middle of. So, whatever.
 

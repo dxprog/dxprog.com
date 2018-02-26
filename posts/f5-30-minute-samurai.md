@@ -5,6 +5,8 @@ date: 2006-05-29T14:01:00-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/f5-30-minute-samurai/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54177/)
 

@@ -4,6 +4,8 @@ slug: its-the-art-train
 date: 2007-08-10T06:51:26-05:00
 tags:
 - art
+redirect_from:
+- entry/its-the-art-train/
 ---
 I'm not dead, I swear. Okay, it's only been a few days. I did make a [comic](http://digitaldouble.smackjeeves.com/comics/202494/) for Monday, though I hate it. Art's not bad, but... ugh.
 

@@ -4,6 +4,8 @@ slug: the-me-of-yore:-part-3-delusions-of-granduer
 date: 2012-01-24T23:30:46-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore:-part-3-delusions-of-granduer/
 ---
 We're here again for more memories as jotted down by my barely pubescent self (for good or ill). Before that, though, a couple of birthday shout outs. Firstly, to my mom who turns old today (again). Second is to me, or rather dxprog. It was ten years ago that I chose the online moniker that I still use today. But, enough of that. Journal stuff.
 

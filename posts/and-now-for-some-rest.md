@@ -5,6 +5,8 @@ date: 2012-07-24T15:58:06-05:00
 tags:
 - daily
 - six flags
+redirect_from:
+- entry/and-now-for-some-rest/
 ---
 Continuing (and ending) my crazy weekend blitz, my dad and two oldest brothers went on a trek to Six Flags in Dallas. I and a band of coworkers had ventured out in May and I enjoyed myself enough to vow to go again (soon). A few days later while I was Skyping family, my dad was waxing nostalgic about his times at Six Flags. I decided that was reason enough to gather everybody up for a grande trip.
 

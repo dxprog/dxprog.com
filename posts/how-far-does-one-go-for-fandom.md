@@ -4,6 +4,8 @@ slug: how-far-does-one-go-for-fandom
 date: 2011-06-29T00:00:00-05:00
 tags:
 - daily
+redirect_from:
+- entry/how-far-does-one-go-for-fandom/
 ---
 Over the last three weeks, I was finally able to experience the entire Lord of the Rings trilogy in theaters. And not only that, but these were the extended versions. To say that I finally feel fulfilled as a human being would be outrageous - but it was enjoyable all the same.
 

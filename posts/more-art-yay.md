@@ -5,6 +5,8 @@ date: 2007-05-18T22:46:27-05:00
 tags:
 - art
 - final fantasy
+redirect_from:
+- entry/more-art-yay/
 ---
 I completed a new piece of art today. I'm following in my FFXII series and bring you a new, better picture of Basch - man of awesomeness.
 

@@ -5,6 +5,8 @@ date: 2013-01-23T11:25:29-06:00
 tags:
 - anime
 - review
+redirect_from:
+- entry/the-anime-reviewaganza-fresh-blood/
 ---
 As stated, taking a really relaxed pace this year. Today, I'd like to welcome Steve - yet another of my many, many brothers - to our little band of reviews. Today we'll be delving into the characters that did and didn't do it for us.
 

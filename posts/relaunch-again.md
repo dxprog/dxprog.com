@@ -5,6 +5,8 @@ date: 2010-12-15T00:00:00-06:00
 tags:
 - site
 - web dev
+redirect_from:
+- entry/relaunch-again/
 ---
 After many, many months of development and fretting over design, I've finally completed the latest iteration of dxprog.com! There's quite a bundle of changes in this version both under the hood and... over it? Here are the highlights:
 

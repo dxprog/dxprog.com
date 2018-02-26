@@ -6,6 +6,8 @@ tags:
 - graduation
 - job
 - school
+redirect_from:
+- entry/welcome-to-esoteria/
 ---
 I find myself at the end of my college life, living back in good ol' Oklahoma and completely bored out of my skull. Of course, there is on the near horizon the promise of employment, which should take up the next forty years of my natural life. I should relish these moments as I will not have a moment like this in some time... especially if a wife and kids are part of my ultimate master plan. But, I suppose itemization is in order.
 

@@ -7,6 +7,8 @@ tags:
 -  mange
 -  meme
 - comic
+redirect_from:
+- entry/a-love-hina-adventure/
 ---
 Couldn't pass up the opportunity to jump the this meme's bandwagon.
 

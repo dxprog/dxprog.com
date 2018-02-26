@@ -7,6 +7,8 @@ tags:
 - digital double
 - joystiq
 - zelda
+redirect_from:
+- entry/digital-double-updates/
 ---
 [Link in Love](http://digitaldouble.smackjeeves.com/comics/116184/)
 

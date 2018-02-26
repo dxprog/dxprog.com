@@ -4,6 +4,8 @@ slug: too-much-time-on-my-hands
 date: 2011-07-10T21:54:17-05:00
 tags:
 - video
+redirect_from:
+- entry/too-much-time-on-my-hands/
 ---
 Cherry (off brand) Pop Tarts - $1.50
 Three packages of Skittles - $3

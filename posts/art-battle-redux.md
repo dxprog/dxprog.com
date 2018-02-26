@@ -7,6 +7,8 @@ tags:
 - art
 - battle
 - zelda
+redirect_from:
+- entry/art-battle-redux/
 ---
 A few months back, my two youngest bros and myself had a little [art battle](http://dxprog.com/entry/art-battle-fighting-small-children-for-my-ego/) which I summarily won quite handily. This weekend, as I was visiting my folks, we held another one. Same premise: each person chooses a picture, all three must draw said picture to the best of their ability. All laying around my iPad, the battle began.
 

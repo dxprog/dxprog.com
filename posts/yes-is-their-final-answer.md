@@ -8,6 +8,8 @@ tags:
 - ged
 - job
 - moving
+redirect_from:
+- entry/yes-is-their-final-answer/
 ---
 It seems like the biggest problem to us getting out of our house is no problem. The people who are buying our house have basically set everything in stone and so now our house and the house we're getting will all have "Sold" signs. So now the packing begins (our room'll be a nightmare :-P) and in probably about two weeks we'll be in our house :-D. btw, here's some info on our [new house](http://remax.realtor.com/Prop/1048630457?lnksrc=00045&gate=remax).
 

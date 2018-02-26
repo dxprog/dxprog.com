@@ -11,6 +11,8 @@ tags:
 - twitter
 - web
 - web design
+redirect_from:
+- entry/updates-and-what-not/
 ---
 It seems that since I began school this blog has gotten more and more deserted. I was reading through old entries last night and I feel that things may be beginning to get empty. So, here I am once again poring forth my soul into the void that is known as the internet.
 

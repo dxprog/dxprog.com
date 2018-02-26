@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - halo
+redirect_from:
+- entry/digital-double-some-things-arent-meant-to-be/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/84150/)
 

@@ -7,6 +7,8 @@ tags:
 - mario
 - video
 - zelda
+redirect_from:
+- entry/quantum-shorts-video-game/
 ---
 Holy crackers, another video! Got my HDs on for this one (SD cards are freaking cheap!). Focus was still a bit of an issue and I didn't have the advantage of sunlight and I'm not sure how to white balance this camera, but I like the writing better in this one. Or maybe it's worse. Being a one man video army is tough.
 

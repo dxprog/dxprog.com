@@ -4,6 +4,8 @@ slug: return-of-the-daily-blogging
 date: 2012-07-01T00:34:22-05:00
 tags:
 - daily
+redirect_from:
+- entry/return-of-the-daily-blogging/
 ---
 In the sixth month of the prior year, I endeavored to blog once per day for the entire month. Seeing how this blog is currently collecting figurative dust, I feel like I should try this again. Some days shall be easier than others as the [anime convention](http://tokyointulsa.com/) happens this month. Additionally, I shall be taking a trip to Dallas with my dad and brothers to partake in the excitingness that is Six Flags over Texas. I quite enjoy the thrill of rollar coasters, I do.
 

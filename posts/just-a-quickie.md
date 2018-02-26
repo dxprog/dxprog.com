@@ -4,6 +4,8 @@ slug: just-a-quickie
 date: 2016-11-19T13:26:16-06:00
 tags:
 - general
+redirect_from:
+- entry/just-a-quickie/
 ---
 Just got out of a showing of Dr. Strange, a showing I opted for 3D over standard 2D. I don't regret my choice. It was a sweet movie with crazy effects and magic and some good old Marvel humor.
 

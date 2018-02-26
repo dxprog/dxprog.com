@@ -6,6 +6,8 @@ tags:
 - games
 - nes emulator
 - rants
+redirect_from:
+- entry/awesome-video-of-errata/
 ---
 [![youtube video](https://img.youtube.com/vi/B3Vh--awqmQ/0.jpg)](https://www.youtube.com/watch?v=B3Vh--awqmQ)
 

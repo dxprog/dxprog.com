@@ -11,6 +11,8 @@ tags:
 - phoenix wright
 - super paper mario
 - wii
+redirect_from:
+- entry/stuff-and-nonsense/
 ---
 The list of things I have to do to prepare for college is getting shorter. Currently I'm working on picking out a roommate and after that we'll work on finding an apartment. Then I'll need to secure funds and come September 20th[ish] I'll be moving my stuff out there. So nothing new on that front, I'll move on to other things. Actually, I lied. I got a call from them the other day making sure I wanted to take the Digital Arts and Design degree because they think I'd be happier in Animation (I promptly said I'd be happy _anywhere_ in that school). But I had actually been thinking of double majoring in either DAD and film or animation and the more I think about it animation and art as a whole has always been a big love of mine so I'm giving that some serious thought.
 

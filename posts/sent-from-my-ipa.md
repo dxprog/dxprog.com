@@ -5,6 +5,8 @@ date: 2011-06-05T16:29:12-05:00
 tags:
 - apple
 - daily
+redirect_from:
+- entry/sent-from-my-ipa/
 ---
 I'd been wanting one since the first one came out, but today I finally bought a stupid iPad. The ordeal went down like this:
 

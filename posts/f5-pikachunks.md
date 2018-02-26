@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - pokemon
+redirect_from:
+- entry/f5-pikachunks/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54176/)
 

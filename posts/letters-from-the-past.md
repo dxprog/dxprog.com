@@ -4,6 +4,8 @@ slug: letters-from-the-past
 date: 2014-12-21T11:09:11-06:00
 tags:
 - general
+redirect_from:
+- entry/letters-from-the-past/
 ---
 Shortly after writing [this post last year](http://dxprog.com/entry/days-of-future-past/), I sent my future self (me now) another email with my hopes and predictions for the future. Today I have received that email:
 

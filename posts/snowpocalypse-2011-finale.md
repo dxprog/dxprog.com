@@ -4,6 +4,8 @@ slug: snowpocalypse-2011-finale
 date: 2011-02-06T12:01:26-06:00
 tags:
 - snow
+redirect_from:
+- entry/snowpocalypse-2011-finale/
 ---
 ![](http://images.dxprog.com/blog/snowpocalypse2011.jpg "The End is Nigh")
 

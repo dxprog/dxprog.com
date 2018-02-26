@@ -7,6 +7,8 @@ tags:
 - digital double
 - halo
 - metroid
+redirect_from:
+- entry/digital-double-a-match-made-in-space-apocolypse-date/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/55608/)
 

@@ -8,6 +8,8 @@ tags:
 - comic
 - design
 - school
+redirect_from:
+- entry/wherein-the-author-imparts-upon-his-audience-the-ongoings-of-his-life/
 ---
 It's been some time since I have updated this blog. So I take leave of my busy life, if only for a moment, to fill you, the reader, in on the various happenings and goings on. (Okay, that's enough eighteen hundreds talk).
 

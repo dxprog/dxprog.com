@@ -12,6 +12,8 @@ tags:
 - nes emulator
 - podcast
 - work
+redirect_from:
+- entry/screw-blogger/
 ---
 After writing a beautiful, heartfelt post on Blogger and having it lost because it was never able to upload the stupid thing, I am now using Wordpress. It's completely in house (i.e. on my server) and shouldn't have any of these inane issues. Now, on to that heartfelt entry :-).
 

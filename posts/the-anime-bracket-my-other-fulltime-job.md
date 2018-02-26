@@ -5,6 +5,8 @@ date: 2013-10-28T22:21:12-05:00
 tags:
 - bracket
 - daily
+redirect_from:
+- entry/the-anime-bracket-my-other-fulltime-job/
 ---
 Last Saturday, the [2013 Awwnime Girls Bracket](http://bracket.awwni.me/) opened for business for the second year. The first phase of the brackets always sucks because it means a lot of tedious labor for me.
 

@@ -4,6 +4,8 @@ slug: i-am-the-master-of-timing
 date: 2011-09-01T12:31:19-05:00
 tags:
 - random
+redirect_from:
+- entry/i-am-the-master-of-timing/
 ---
 So, how'd you like that month of non-blogging? I didn't think I could do it, but it turned out to be not so difficult. Yay me! Now that that's out of the way, let me weave you a tale.
 

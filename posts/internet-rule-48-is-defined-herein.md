@@ -6,6 +6,8 @@ tags:
 - art
 - internet
 - rants
+redirect_from:
+- entry/internet-rule-48-is-defined-herein/
 ---
 If you've been around the internet as much as I have you'll probably know that it has it's own set of rules. Of these rules, #34 is most famous. Rule #34 states:
 

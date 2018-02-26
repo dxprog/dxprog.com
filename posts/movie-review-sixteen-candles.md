@@ -5,6 +5,8 @@ date: 2013-02-14T09:37:20-06:00
 tags:
 - movie
 - review
+redirect_from:
+- entry/movie-review-sixteen-candles/
 ---
 ![](http://images.dxprog.com/blog/sixteen_candles.jpg "Sixteen Candles")
 

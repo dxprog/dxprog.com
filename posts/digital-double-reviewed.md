@@ -4,6 +4,8 @@ slug: digital-double-reviewed
 date: 2007-04-01T02:13:30-05:00
 tags:
 - digital double
+redirect_from:
+- entry/digital-double-reviewed/
 ---
 Well, it seems the fine folks over at SmackJeeves have decided to review my comic. In a nutshell, they lauded the artwork and design (which I thought sucked) and criticised the writing (which I also thought sucked). Here's the full review: [http://smacktalk.smackjeeves.com/04-digitaldouble](http://smacktalk.smackjeeves.com/04-digitaldouble). Now for my take on things.
 

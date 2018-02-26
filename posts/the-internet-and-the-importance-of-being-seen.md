@@ -4,6 +4,8 @@ slug: the-internet-and-the-importance-of-being-seen
 date: 2013-04-17T10:33:21-05:00
 tags:
 - general
+redirect_from:
+- entry/the-internet-and-the-importance-of-being-seen/
 ---
 Many years ago, right before I graduated, some of my fellow graduates and myself were asked to impart any knowledge we'd gleaned from the previous two years upon a class full of freshmen. I said something to the following effect:
 

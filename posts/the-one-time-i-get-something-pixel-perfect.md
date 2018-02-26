@@ -4,6 +4,8 @@ slug: the-one-time-i-get-something-pixel-perfect
 date: 2013-10-18T11:50:16-05:00
 tags:
 - daily
+redirect_from:
+- entry/the-one-time-i-get-something-pixel-perfect/
 ---
 Was flipping through old comps and ran across the initial comp for the current version of the music page:
 

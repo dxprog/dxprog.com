@@ -4,6 +4,8 @@ slug: pokemon-diamond---a-review
 date: 2007-08-14T18:17:30-05:00
 tags:
 - pokemon
+redirect_from:
+- entry/pokemon-diamond---a-review/
 ---
 I hated Pokemon when it was cool to own five million pounds of various Pokemon related merch. I always thought it was dumb, Japanesey, and over-hyped. Things that over merchandise always piss me off. But that is not the point of this article. I'm just giving my prior stance.
 

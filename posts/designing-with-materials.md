@@ -4,6 +4,8 @@ slug: designing-with-materials
 date: 2014-09-09T01:03:29-05:00
 tags:
 - daily
+redirect_from:
+- entry/designing-with-materials/
 ---
 So, I found my bike pump. Turns out I stashed it in the back of my car at some point. Probably that time I drove down to San Mateo to bike into work (as I'll be doing very early tomorrow morning).
 

@@ -5,6 +5,8 @@ date: 2007-03-03T01:16:07-06:00
 tags:
 - apple. os x
 - windows
+redirect_from:
+- entry/a-word-on-the-state-of-apple/
 ---
 As you may or may not know I am currently the owner of a new Mac Mini (Core Duo FTW!). Despite the fact that Windows is easily installed thanks to the magic of Boot Camp, I've been working in OS X mostly. I feel I've been using it long enough to give my opinion:
 

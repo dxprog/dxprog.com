@@ -6,6 +6,8 @@ tags:
 - daily
 - game
 - review
+redirect_from:
+- entry/star-trek-25th-anniversary-a-retro-game-review/
 ---
 ![](http://i.imgur.com/FpwwiU7.jpg "Bask in the glory")
 

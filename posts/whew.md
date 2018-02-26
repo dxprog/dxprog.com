@@ -5,6 +5,8 @@ date: 2005-06-05T16:16:49-05:00
 tags:
 - acpd
 - coding
+redirect_from:
+- entry/whew/
 ---
 Just got finished going through a rigorous exercise course with the babies and now I'm beat. Good time to write a blog entry ;-).
 

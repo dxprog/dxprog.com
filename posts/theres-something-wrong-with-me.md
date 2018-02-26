@@ -6,6 +6,8 @@ tags:
 - art
 - college
 - final fantasy
+redirect_from:
+- entry/theres-something-wrong-with-me/
 ---
 Because I completed yet _another_ work of art!
 

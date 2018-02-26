@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - ms paint
+redirect_from:
+- entry/f5-the-ms-paint-chronicles/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54184/)
 

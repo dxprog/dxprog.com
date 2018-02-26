@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - star wars
+redirect_from:
+- entry/f5-smokey-krispies-2/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54171/)
 

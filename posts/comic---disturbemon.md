@@ -5,6 +5,8 @@ date: 2007-07-27T22:32:21-05:00
 tags:
 - comic
 - pokemon
+redirect_from:
+- entry/comic---disturbemon/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics)
 

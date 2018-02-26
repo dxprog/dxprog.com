@@ -4,6 +4,8 @@ slug: return-of-the-daily-blog
 date: 2014-09-02T01:30:44-05:00
 tags:
 - daily
+redirect_from:
+- entry/return-of-the-daily-blog/
 ---
 As has been a semi-recurring thing for the last couple years, I will be attempting to jot my thoughts down once per day on this little corner of the internet I've carved for myself. Not sure what I'll say at this point, but it may be more serious and brain dumpy than the usual fluff affair. Or it may not be, I dunno.
 

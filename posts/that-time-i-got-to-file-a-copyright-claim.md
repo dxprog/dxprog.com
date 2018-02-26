@@ -4,6 +4,8 @@ slug: that-time-i-got-to-file-a-copyright-claim
 date: 2016-11-16T09:59:20-06:00
 tags:
 - general
+redirect_from:
+- entry/that-time-i-got-to-file-a-copyright-claim/
 ---
 About nine years ago, I went to college. While I was there, I did things with Adobe programs. One of those things was a [vectored NES](http://dxprog.com/entry/wherein-the-author-imparts-upon-his-audience-the-ongoings-of-his-life/). That version is actually the second of two attempts for that class. My original was based off of an [image I'd found on google search](https://i0.wp.com/www.old-computers.com/museum/photos/nintendo_nes_1s.jpg) and it was fucking awful.
 

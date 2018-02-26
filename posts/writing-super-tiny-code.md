@@ -6,6 +6,8 @@ tags:
 - coding
 - daily
 - php
+redirect_from:
+- entry/writing-super-tiny-code/
 ---
 About a month or so ago, there was a contest thread on reddit whose objective was to write a PHP function to score a bowling game in as few characters as possible. A comma delimited string of frames would be passed in to the function and the score of said string would be returned.
 

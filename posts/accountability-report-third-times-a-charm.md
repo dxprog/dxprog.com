@@ -4,6 +4,8 @@ slug: accountability-report-third-times-a-charm
 date: 2013-03-28T10:18:55-05:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-third-times-a-charm/
 ---
 I just entered the word "weekly" in the tags field for this post. Not only is this a lie, but it's also a farce. Granted, it could have been closer to truth if I had clicked the submit button on of the previous two times I sat down to pen this block of text. But, I don't like to dwell on the past. It's set in stone and cannot be changed. All I can do is look forward and make that as awesome as I can.
 

@@ -4,6 +4,8 @@ slug: how-do-you-feel
 date: 2013-04-22T10:00:00-05:00
 tags:
 - general
+redirect_from:
+- entry/how-do-you-feel/
 ---
 With the eve of my big move fast approaching, I have been saying my farewells and with it comes a phrase that is becoming quite tiresome.
 

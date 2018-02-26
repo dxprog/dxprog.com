@@ -6,6 +6,8 @@ tags:
 - code
 - daily
 - tetris attack
+redirect_from:
+- entry/how-many-times-can-one-man-code-the-same-thing/
 ---
 I mentioned some [days ago](http://dxprog.com/entry/the-gauntlet-i-have-thrown-it/) my intent to create Tetris Attack clone worthy of its source material for the iPad. This got me to realizing that I've coded this particular game to some varying level to completion five times now, six if you include the yet to be written iPad version.
 

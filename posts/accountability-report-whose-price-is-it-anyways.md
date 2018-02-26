@@ -4,6 +4,8 @@ slug: accountability-report-whose-price-is-it-anyways
 date: 2013-02-18T10:42:16-06:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-whose-price-is-it-anyways/
 ---
 Across from my desk at work are mounted three TVs. I get to watch the Price is Right in the morning and Let's Make a Deal in the afternoon. Both shows are highly similar in format and hosted by Whose Line veterans, but Deal seems to be where all the weirdos go what with all their costumes and what such.
 

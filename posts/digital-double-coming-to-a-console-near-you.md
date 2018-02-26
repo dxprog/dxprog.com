@@ -5,6 +5,8 @@ date: 2006-09-11T00:04:01-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-coming-to-a-console-near-you/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/61440/)
 

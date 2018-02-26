@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - final fantasy
+redirect_from:
+- entry/digital-double-the-nativity-crystal-chronicles-edition/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/66183/)
 

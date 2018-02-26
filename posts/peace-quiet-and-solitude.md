@@ -6,6 +6,8 @@ tags:
 - coding
 - general
 - web dev
+redirect_from:
+- entry/peace-quiet-and-solitude/
 ---
 I am in the realizing that it's been nearly a month since I last blogged anything, granted this comes on the heels of an unusually active period for me. But, hey. Nothing terribly exciting has happened, so there it is.
 

@@ -4,6 +4,8 @@ slug: stoned-my-experiences-with-marijuana
 date: 2015-03-23T01:40:01-05:00
 tags:
 - general
+redirect_from:
+- entry/stoned-my-experiences-with-marijuana/
 ---
 I also considered naming this “The Post My Mother Doesn’t Want to Read”, but that’d be about when I killed that kid in kindergarten. Maybe some other day…
 

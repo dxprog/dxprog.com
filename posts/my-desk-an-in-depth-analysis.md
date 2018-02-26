@@ -4,6 +4,8 @@ slug: my-desk-an-in-depth-analysis
 date: 2006-04-19T11:04:30-05:00
 tags:
 - random
+redirect_from:
+- entry/my-desk-an-in-depth-analysis/
 ---
 Today I plan on cleaning the nuclear waste site that is my desk. But before I do that I figured I'd post a "before" picture along with an in-depth analysis of what's on/around it. So, here we go:
 

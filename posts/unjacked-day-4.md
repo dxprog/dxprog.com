@@ -5,6 +5,8 @@ date: 2012-10-12T07:32:10-05:00
 tags:
 - general
 - unjacked
+redirect_from:
+- entry/unjacked-day-4/
 ---
 I had no eraser...
 

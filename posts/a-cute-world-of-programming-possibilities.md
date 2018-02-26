@@ -5,6 +5,8 @@ date: 2012-11-03T11:52:13-05:00
 tags:
 - anime
 - coding
+redirect_from:
+- entry/a-cute-world-of-programming-possibilities/
 ---
 ![](http://images.dxprog.com/blog/awwnime.jpg "Yay for fancy headers")
 

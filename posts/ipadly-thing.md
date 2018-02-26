@@ -6,6 +6,8 @@ tags:
 - apple
 - daily
 - iPad
+redirect_from:
+- entry/ipadly-thing/
 ---
 As I sit here, hogging my little brother's bed, typing out a blog post on my own personal PADD, I realize that I do not really know what it is that I want to say. So, I shall talk about the device itself and my opinions on it seeing as I've now owned the thing going on a week.
 

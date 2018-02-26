@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-1
 date: 2012-01-18T23:31:42-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-1/
 ---
 We're back from the SOPA/PIPA blackout and will now engage in digging through the ancient depths of my past.
 

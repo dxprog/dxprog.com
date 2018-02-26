@@ -5,6 +5,8 @@ date: 2013-06-06T07:19:30-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/there-once-was-a-man-who-asked-me-about-full-anime-body-pillows/
 ---
 Turns out that man [was my boss](http://dxprog.com/about/#question_6277), who asked before I even knew he was a being alive. And, while I have no more to add to the subject, I offer you this picture:
 

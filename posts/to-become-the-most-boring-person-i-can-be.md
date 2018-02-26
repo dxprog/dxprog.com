@@ -5,6 +5,8 @@ date: 2014-04-05T02:15:58-05:00
 tags:
 - general
 - mundane
+redirect_from:
+- entry/to-become-the-most-boring-person-i-can-be/
 ---
 This blog has once again fallen into dusty shambles. So, I'm going to kick in another post-a-day type experiment... starting tomorrow.
 

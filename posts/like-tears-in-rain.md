@@ -4,6 +4,8 @@ slug: like-tears-in-rain
 date: 2013-10-19T11:12:56-05:00
 tags:
 - daily
+redirect_from:
+- entry/like-tears-in-rain/
 ---
 In trying to come up with a topic for today's post, I decided I'd post about the entertainment I've purchased and have yet to see to completion. It's become a bad habit for sure.
 

@@ -5,6 +5,8 @@ date: 2016-09-01T04:01:32-05:00
 tags:
 - coding
 - raspi
+redirect_from:
+- entry/the-automated-warner-waterer/
 ---
 [![youtube video](https://img.youtube.com/vi/R0EhqLACsw4/0.jpg)](https://www.youtube.com/watch?v=R0EhqLACsw4)
 

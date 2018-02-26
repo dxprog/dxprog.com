@@ -5,6 +5,8 @@ date: 2006-08-11T02:57:07-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-the-plagiarist-peanuts/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54194/)
 

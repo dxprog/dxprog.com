@@ -6,6 +6,8 @@ tags:
 - general
 - jamaica
 - japan
+redirect_from:
+- entry/ja-a-tale-of-two-countries/
 ---
 2013 marked my first foray into the joys of international travel, doing it not once but twice. In an interesting twist of fate, both of those countries started with the letters "JA" (the only two in the world, even). They are worlds apart, however, both in physical distance and atmosphere/culture. Let's do a pros/cons.
 

@@ -6,6 +6,8 @@ tags:
 - coding
 - phpgraphs
 - web dev
+redirect_from:
+- entry/phpgraphs-a-php-graph-drawing-library/
 ---
 ![](http://images.dxprog.com/blog/phpgraphs.png "phpGraphs")
 Over the past few days, I've been developing a library to help in drawing graphs for various stuff on the [music page](http://dxprog.com/entry/celebrating-one-year-of-the-music-page). I've built to to be a fairly complete solution that is both robust and simple to use. Today, I offer phpGraphs to the masses to do with as they please, [free of charge.](http://dxprog.com/files/phpGraphs_1.0.zip) Follow the break for a quick tutorial on how to use it.[break]

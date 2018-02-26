@@ -4,6 +4,8 @@ slug: those-damn-backgrounds
 date: 2014-09-09T11:06:29-05:00
 tags:
 - daily
+redirect_from:
+- entry/those-damn-backgrounds/
 ---
 As I was talking about yesterday, today I gave the card pattern a shot with regards to the past bracket page. As for the cards themselves, I'm really pleased.
 

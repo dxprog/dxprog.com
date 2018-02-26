@@ -7,6 +7,8 @@ tags:
 - html5
 - web dev
 - work
+redirect_from:
+- entry/walking-for-cash/
 ---
 As I'd briefly [touched upon](http://dxprog.com/entry/parental-pimps/) in an earlier post, my place of employ is currently having a little fitness competition: can you walk 10,000 steps a day for 75 days? If you reach the grand and glorious total of 750,000, you are awarded two free days of vacation. Everybody was provided with company branded pedometers to keep track of our steppings and left to our devices.
 

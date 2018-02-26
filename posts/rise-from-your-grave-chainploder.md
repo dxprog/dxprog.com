@@ -6,6 +6,8 @@ tags:
 - challenge
 - coding
 - flash
+redirect_from:
+- entry/rise-from-your-grave-chainploder/
 ---
 I was poking around my giant hard drive a couple days ago, looking at a bunch of old programming projects I'd done. Some of these had some pretty cool concepts behind them but, for whatever reason, I never completed them. So, in a series of blog posts shamelessly ripping a line of dialog from Altered Beast, I will present to you some of the cooler of these projects - complete with all their original source code. Today's highlight is Chainploder.[break]
 

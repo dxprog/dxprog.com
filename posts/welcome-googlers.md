@@ -4,6 +4,8 @@ slug: welcome-googlers
 date: 2007-07-21T16:55:31-05:00
 tags:
 - random
+redirect_from:
+- entry/welcome-googlers/
 ---
 The following are google searches that have turned up my site. Asshole mode... ENGAGED!
 

@@ -4,6 +4,8 @@ slug: numbrs
 date: 2007-05-02T03:04:42-05:00
 tags:
 - random
+redirect_from:
+- entry/numbrs/
 ---
 Just remember, children, today's episode of Digg is brought to you by the numbers 09-F9-11-02-9D-74-E3-5B-D8-41-56-C5-63-56-88-C0.
 

@@ -5,6 +5,8 @@ date: 2016-11-05T00:12:52-05:00
 tags:
 - cnc
 - general
+redirect_from:
+- entry/cnc-create-nice-creations/
 ---
 ... or [computer numerical control](https://en.wikipedia.org/wiki/Numerical_control).
 

@@ -6,6 +6,8 @@ tags:
 - apple
 - daily
 - review
+redirect_from:
+- entry/os-x-six-years-later/
 ---
 About six and a half years ago, I wrote a [review of my opinions on OS X](http://dxprog.com/entry/a-word-on-the-state-of-apple/), then version 10.3 (Tiger). At some point, I dropped trying to struggle through using OS X and moved back to Windows. But, now that I find myself in a work environment that uses Apple's operating system and have been using it on a daily basis for three or four months (I initially was working on my RedHat machine), it's time to revisit this. I've changed as a computer user, and the version number has incremented five times, so surely the outcome is different. Despite my hatred for Apple's attitude as a company, I will try to make this as objective as possible.
 

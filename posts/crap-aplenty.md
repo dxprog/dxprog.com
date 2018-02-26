@@ -7,6 +7,8 @@ tags:
 - lord of the rings
 - moving
 - tetris attack
+redirect_from:
+- entry/crap-aplenty/
 ---
 I've said it before and I will say it again: Titles are not my strong point. Especially when I know I'm just going to ramble about random stuff.
 

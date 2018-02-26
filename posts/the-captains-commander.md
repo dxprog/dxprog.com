@@ -5,6 +5,8 @@ date: 2012-09-16T10:34:00-05:00
 tags:
 - star wars
 - writing
+redirect_from:
+- entry/the-captains-commander/
 ---
 I enjoy writing sometimes. From my annual Christmas letter to [dating site write ups](http://dxprog.com/entry/my-ideal-first-date/), I enjoy flexing my prose muscles.
 

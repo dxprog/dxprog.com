@@ -5,6 +5,8 @@ date: 2006-07-24T00:29:33-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-b-comic/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54190/)
 

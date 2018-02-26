@@ -5,6 +5,8 @@ date: 2011-06-27T21:11:09-05:00
 tags:
 - daily
 - reviews
+redirect_from:
+- entry/alpocalypse-a-review/
 ---
 Reviewing music isn't really my style, but Weird Al can certainly be the exception to that rule. He may not have impacted my life quite like [this guy](http://www.popmatters.com/pm/feature/144057-hail-yankovic-or-how-i-learned-to-stop-worrying-and-love-being-weird), but through all the various genre swings I've gone through in my life, Al has always been there. He's in a very exclusive club that will get an [in-store album purchase](http://dxprog.com/entry/i-dont-even-know-what-to-write-about-anymore/) from me.
 

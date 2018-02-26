@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - ebay
+redirect_from:
+- entry/digital-double-return-of-the-mad-ebayer/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/63958/)
 

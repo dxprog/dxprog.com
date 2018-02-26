@@ -8,6 +8,8 @@ tags:
 - minish cap
 - twilight princess
 - zelda
+redirect_from:
+- entry/days-like-this-dont-come-too-often/
 ---
 Indeed, they don't. To start my day off I was awakened with the news that my copy of Zelda: The Minish Cap came. And on top of that I also got my first trial issue of Nintendo Power. Of course, this was all dampened by the news that American School sent me Geometry. Fun....
 

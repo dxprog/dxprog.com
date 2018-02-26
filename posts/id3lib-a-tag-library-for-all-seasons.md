@@ -8,6 +8,8 @@ tags:
 - coding
 - id3lib
 - php
+redirect_from:
+- entry/id3lib-a-tag-library-for-all-seasons/
 ---
 ![](http://images.dxprog.com/blog/id3lib.png "image")
 

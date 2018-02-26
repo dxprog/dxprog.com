@@ -6,6 +6,8 @@ tags:
 - comic
 - ddr
 - digital double
+redirect_from:
+- entry/f5-ddr-nasal-mix/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54181/)
 

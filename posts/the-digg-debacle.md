@@ -8,6 +8,8 @@ tags:
 - job
 - san francisco
 - web dev
+redirect_from:
+- entry/the-digg-debacle/
 ---
 To say my October was an interesting one would be like saying that the sun is hot or that I'm sick and tired of hearing about Twilight. There were numerous things that made it interesting, from my going to the Tulsa State Fair to sitting teaching myself HTML 5. However, the highlight of that month was my trip to San Francisco to interview with Digg.[break]
 

@@ -5,6 +5,8 @@ date: 2005-09-14T18:21:51-05:00
 tags:
 - bowling
 - moving
+redirect_from:
+- entry/the-moving-begins/
 ---
 Our realtor called today and apparently we should've been packing a week ago because now we're left with exactly one week to pack! So, I've been going through my stuff today (nuked a few CDs :-D) and getting ready.
 

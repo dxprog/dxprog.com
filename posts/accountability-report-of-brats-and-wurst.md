@@ -4,6 +4,8 @@ slug: accountability-report-of-brats-and-wurst
 date: 2013-02-24T03:18:11-06:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-of-brats-and-wurst/
 ---
 Best way to prepare bratwurst: boil in a one part beer, two parts water mixture for about ten minutes. Once that's done, toss them in a pan or on the grill to brown them (with onions is a nice touch). It's that easy and they're fuckin' delicious!
 

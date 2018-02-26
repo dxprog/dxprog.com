@@ -6,6 +6,8 @@ tags:
 - comic
 - computers
 - digital double
+redirect_from:
+- entry/f5-screwed-priorities/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54160/)
 

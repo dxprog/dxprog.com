@@ -5,6 +5,8 @@ date: 2005-09-15T18:28:40-05:00
 tags:
 - moving
 - pictures
+redirect_from:
+- entry/pictures-yay/
 ---
 We went through our grand tour of the house today (second for me) and I was able to snap some pictures. So, here they are:
 

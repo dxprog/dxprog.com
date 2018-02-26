@@ -4,6 +4,8 @@ slug: hobbies-hobbies-hobbies
 date: 2016-11-03T11:28:07-05:00
 tags:
 - general
+redirect_from:
+- entry/hobbies-hobbies-hobbies/
 ---
 In the last several months, I seem to have gotten into this kick of trying out hobbies. Not sure if it's some middle age crisis thing or what, but it's been an interesting journey.
 

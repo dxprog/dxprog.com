@@ -4,6 +4,8 @@ slug: the-fabric-unravels
 date: 2016-11-15T13:09:44-06:00
 tags:
 - general
+redirect_from:
+- entry/the-fabric-unravels/
 ---
 I don't know what to write about.
 

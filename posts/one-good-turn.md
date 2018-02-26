@@ -4,6 +4,8 @@ slug: one-good-turn
 date: 2015-02-14T11:00:33-06:00
 tags:
 - daily
+redirect_from:
+- entry/one-good-turn/
 ---
 In my previous post, I mentioned the little "micro list" thing my mom is currently doing on her blog. Among these was a [favorites list](http://mom28kids.com/2015/02/february-five-favorites-edition/). Noticing that she had added a row for video games, I snarkily suggested she should have "favorite TNG character". To her credit, she devoted the [entire next post](http://mom28kids.com/2015/02/february-five-12/) to the topic of Next Generation. It's moments like these when I consciously consider the fact that my mom has a bit of a nerdy streak which is pretty cool.
 

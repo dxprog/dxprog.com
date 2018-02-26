@@ -6,6 +6,8 @@ tags:
 - 3d
 - motion graphics
 - video
+redirect_from:
+- entry/mograph---now-with-more-3d/
 ---
 Over the last couple of months I've been served a delicious helping of 3D stuffs at school. This was, of course, overshadowed by the awesomeness that was Flash. But I digress. At the end of this month our final 3D project wound up in an awesome culmination of 3D animation and my favorite motion program, After Effects. The result? See for yourself.
 

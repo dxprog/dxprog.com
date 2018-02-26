@@ -5,6 +5,8 @@ date: 2013-06-19T10:41:11-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/a-gay-romp-across-the-rainbow-bridge/
 ---
 No, you pervert, not *that* kind of gay! Seriously, you are all queer folk (yes, you pervert, *that* kind of queer).
 

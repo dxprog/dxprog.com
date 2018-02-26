@@ -6,6 +6,8 @@ tags:
 - anime
 - convention
 - photos
+redirect_from:
+- entry/from-the-con-floor-day-1/
 ---
 Today was the first of our three day long anime convention that is Tokyo in Tulsa. Before you ask, I did not cosplay today. That will be for tomorrow, the largest and busiest day of the con. So far, this year has far and away kicked the pants off of TnT last year. The panels have been better so far (thank you, Todd Haberkorn; you are truly hilarious) and the fact that they acquired the convention center over the cramped hotel has made it much nicer, though it's still cramped. Good times were had and I hope tomorrow will go even better.
 

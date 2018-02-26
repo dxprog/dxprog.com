@@ -6,6 +6,8 @@ tags:
 - comic
 - guitar hero
 - star trek
+redirect_from:
+- entry/comic---guitar-warrior-iii/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/199065/)
 

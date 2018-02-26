@@ -6,6 +6,8 @@ tags:
 - anime
 - art
 - manga
+redirect_from:
+- entry/its-artastic/
 ---
 There was one week a month or so ago when I churned out a crap ton of art. Then I stopped. Not sure why, but here are some of the fruits of that (and other) endeavors.
 

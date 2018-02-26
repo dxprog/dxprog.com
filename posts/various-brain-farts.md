@@ -5,6 +5,8 @@ date: 2006-06-25T00:24:47-05:00
 tags:
 - art
 - sketches
+redirect_from:
+- entry/various-brain-farts/
 ---
 Since my laptop is in the shop I've started to do some sketching  in my free time (when I'm not playing Mario & Luigi 2, that is). Here's some of my stuff:
 

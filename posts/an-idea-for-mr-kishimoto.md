@@ -7,5 +7,7 @@ tags:
 - comic
 - manga
 - naruto
+redirect_from:
+- entry/an-idea-for-mr-kishimoto/
 ---
 ![](http://images.dxprog.com/Naruto-Comic.jpg "Please, for the love of God. End it already!")

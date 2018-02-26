@@ -5,6 +5,8 @@ date: 2013-06-12T10:18:00-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/a-trip-to-asakusa-shrine/
 ---
 ...or six. We actually went there every night of the trip, including the night we flew in. It was a little over a mile walk to, but was interesting enough that we would cap every day off with it. It helped that there was a Taito Game Station in the area as well as a restaurant that we frequented a couple times.
 

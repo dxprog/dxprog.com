@@ -5,6 +5,8 @@ date: 2007-05-05T22:39:33-05:00
 tags:
 - florida
 - pictures
+redirect_from:
+- entry/aloha-from-orlando/
 ---
 Well, I am now in the sunshine state's most famous city: Orlando. I'm about 10-15 minutes from Universal, and hopefully, not too far from the school. I was going to do a blog update in Memphis but their WiFi was broken. Kind of funny because they were advertising it to the nines.
 

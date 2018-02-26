@@ -5,6 +5,8 @@ date: 2009-11-12T06:00:58-06:00
 tags:
 - ajax
 - web dev
+redirect_from:
+- entry/ajax-and-the-user-experience/
 ---
 The code running this website is well over a year old now and, as I've gone back to upgrade/fix things, I've noticed that it is clunky and highly inflexible. The implementation I've used is actually very, very similar to what I used in YPNgine back in 2003; a switch statement calling functions from an included script based upon variables passed in the query string. Granted, there's going to be some degree of that in any implementation, but through some tinkering with the music page and interviewing with some of the developer's at Digg has led me to a new paradigm: a set RESTful API calls independent of all front end management.
 

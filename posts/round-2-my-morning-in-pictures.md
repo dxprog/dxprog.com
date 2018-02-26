@@ -4,6 +4,8 @@ slug: round-2-my-morning-in-pictures
 date: 2011-01-28T11:44:48-06:00
 tags:
 - car
+redirect_from:
+- entry/round-2-my-morning-in-pictures/
 ---
 ![](http://images.dxprog.com/blog/car1.jpg "Not again...")
 ![](http://images.dxprog.com/blog/car2.jpg "The entire back window is now in this box")

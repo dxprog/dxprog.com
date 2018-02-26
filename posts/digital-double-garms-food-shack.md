@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - star wars
+redirect_from:
+- entry/digital-double-garms-food-shack/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/76869/)
 

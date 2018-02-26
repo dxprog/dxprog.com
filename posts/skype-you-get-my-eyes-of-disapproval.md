@@ -6,6 +6,8 @@ tags:
 - rant
 - security
 - skype
+redirect_from:
+- entry/skype-you-get-my-eyes-of-disapproval/
 ---
 First of all, arm yourselves with knowledge: [ARM](http://xkcd.com/936/)
 

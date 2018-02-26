@@ -6,6 +6,8 @@ tags:
 - comic
 - cookies
 - digital double
+redirect_from:
+- entry/digital-double-well-here-you-go/
 ---
 [Friday's Comic](http://digitaldouble.smackjeeves.com/comics/85312/)
 [Today's Comic](http://digitaldouble.smackjeeves.com/comics/86749/)

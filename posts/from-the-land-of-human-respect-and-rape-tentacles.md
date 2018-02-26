@@ -5,6 +5,8 @@ date: 2013-06-02T03:38:55-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/from-the-land-of-human-respect-and-rape-tentacles/
 ---
 It's an odd dichotomy to be sure.
 

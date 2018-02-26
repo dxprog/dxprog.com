@@ -5,6 +5,8 @@ date: 2013-10-23T11:26:38-05:00
 tags:
 - comic
 - daily
+redirect_from:
+- entry/dead-comic-ideas/
 ---
 I'm still reeling from the whole Florida trip thing, so instead of focusing on that, I'll post some old comic sketches that never got complete. Despite not having words, I still know the scripts and could complete these.
 

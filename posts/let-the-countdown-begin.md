@@ -8,6 +8,8 @@ tags:
 - ds
 - games
 - work
+redirect_from:
+- entry/let-the-countdown-begin/
 ---
 It is once again my weekend (yay!). Work the last few days hasn't been nearly as bad as it had been, but still icky all the same. This morning was rather interesting, however. The district manager came to pay a visit today and the place was abuzz making sure everything was neat, organized, etc. It's kind of like what most college kids do when their parents come over: let things slide till the man shows up.
 

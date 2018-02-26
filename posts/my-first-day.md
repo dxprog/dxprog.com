@@ -5,6 +5,8 @@ date: 2005-11-04T20:36:37-06:00
 tags:
 - layaway
 - work
+redirect_from:
+- entry/my-first-day/
 ---
 Well, I made it through my first day working in Lawaway. Overall I think it went pretty well (except all the women's underwear I had to handle :-P). However, it'll be nice when I can go in there and know what to do instead of hanging around more seasoned coworkers and have them coach me through everything. 
 

@@ -5,6 +5,8 @@ date: 2011-12-29T00:00:00-06:00
 tags:
 - anime
 - review
+redirect_from:
+- entry/2011-best-of-anime-awards/
 ---
 It's that time of year again. That is, the end of the year and the beginning of another. As has become a normal thing for my website, I am here doing reviews of anime series I watched during the year. However, I will be changing it up a bit and instead of reviewing everything, things will be done in a categorized award fashion. Joining me again this year are my brothers Jeff and Chris. So, without further ado, let's begin!
 

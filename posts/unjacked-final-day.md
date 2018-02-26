@@ -5,6 +5,8 @@ date: 2012-10-28T11:19:40-05:00
 tags:
 - general
 - unjacked
+redirect_from:
+- entry/unjacked-final-day/
 ---
 It shouldn't take nearly two weeks to scan a picture and transcribe it, but it did. So what?
 

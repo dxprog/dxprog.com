@@ -4,6 +4,8 @@ slug: 2014-microretrospectives-programming
 date: 2015-01-04T10:34:20-06:00
 tags:
 - general
+redirect_from:
+- entry/2014-microretrospectives-programming/
 ---
 Getting back to that thing I was doing, today I'll cover last year's coding efforts. And what efforts those were. Actually, I think 2014 might be my most active year ever. Just going by GitHub, I totaled over 670 commits. Of course, that doesn't include anything I did at work (and there was certainly a lot of that). So what exactly happened last year?
 

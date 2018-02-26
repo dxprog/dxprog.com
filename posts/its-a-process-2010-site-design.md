@@ -6,6 +6,8 @@ tags:
 - daily
 - design
 - site
+redirect_from:
+- entry/its-a-process-2010-site-design/
 ---
 I was digging through my old sketch books looking for shitty drawings to post (they will be coming) when I ran across my initial design sketches for this site's current design. Seeing as I plan on rolling out the _new_ site within the next few days, I thought it'd be more timely to post those instead.
 

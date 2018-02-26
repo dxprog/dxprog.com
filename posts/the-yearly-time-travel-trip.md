@@ -4,6 +4,8 @@ slug: the-yearly-time-travel-trip
 date: 2015-12-20T07:00:00-06:00
 tags:
 - general
+redirect_from:
+- entry/the-yearly-time-travel-trip/
 ---
 As has now become a yearly tradition, words from my past self to my present day self arrived this 21st of December. Here is what I had to say.
 

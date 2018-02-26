@@ -4,6 +4,8 @@ slug: more-billboard-fun
 date: 2010-05-03T20:29:59-05:00
 tags:
 - rant billboard
+redirect_from:
+- entry/more-billboard-fun/
 ---
 ![](http://images.dxprog.com/blog/monopoly_billboard.jpg "Hell - A tiny ass hole in the ground")
 

@@ -4,6 +4,8 @@ slug: 11-years-ago
 date: 2016-11-06T01:47:32-05:00
 tags:
 - general
+redirect_from:
+- entry/11-years-ago/
 ---
 Eleven years ago (to the day, I believe), I began my term at Walmart, back when it was still spelled with a dash. At that time, I took this picture:
 

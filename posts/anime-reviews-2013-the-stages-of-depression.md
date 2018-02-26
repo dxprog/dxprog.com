@@ -5,6 +5,8 @@ date: 2014-01-01T02:58:39-06:00
 tags:
 - anime
 - reviews
+redirect_from:
+- entry/anime-reviews-2013-the-stages-of-depression/
 ---
 Back again with a mishmash of categories.
 

@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-4
 date: 2012-02-05T01:25:44-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-4/
 ---
 It's been a bit since I added a journal entry. There should be no reason for this, especially since the content is already written and all I have to do is transcribe them. However, these two aren't quite as happy go lucky (and the entry that occurred between them was even less than happy, but at some point was lost to the annals of time). I have no comment on these, so will just present them.
 

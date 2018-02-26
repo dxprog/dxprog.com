@@ -6,6 +6,8 @@ tags:
 - coding
 - contest
 - php
+redirect_from:
+- entry/another-code-battle-royale/
 ---
 My brother and I are programmers. This must be discreetly understood or no good will come of the story I am about to regale. Every [once and again](http://dxprog.com/entry/a-coding-compo/), we'll embark on a coding competition. Last time was a game, this time a chat client. My weapon of choice was various web languages (PHP and JS for the programatic stuff) and his was C++. Arguably, I had an advantage.
 

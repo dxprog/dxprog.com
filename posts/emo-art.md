@@ -5,6 +5,8 @@ date: 2007-06-14T02:57:09-05:00
 tags:
 - art
 - deviantart
+redirect_from:
+- entry/emo-art/
 ---
 More artwork for your truly. This piece is more "experiemental". Screwing around with space and color (or lack thereof). It's very emo.
 

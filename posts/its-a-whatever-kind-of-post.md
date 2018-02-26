@@ -4,6 +4,8 @@ slug: its-a-whatever-kind-of-post
 date: 2016-11-07T11:19:06-06:00
 tags:
 - general
+redirect_from:
+- entry/its-a-whatever-kind-of-post/
 ---
 I don't have anything particular to say, this evening. I've just returned from a team bonding exercise, aka going out to bar and having drinks and conversation.
 

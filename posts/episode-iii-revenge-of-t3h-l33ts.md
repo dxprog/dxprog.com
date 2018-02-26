@@ -5,6 +5,8 @@ date: 2006-05-04T02:12:57-05:00
 tags:
 - podcast
 - teh leets
+redirect_from:
+- entry/episode-iii-revenge-of-t3h-l33ts/
 ---
 After too long we are proud to bring you the third installment of T3h L33ts. In this episode we mainly ramble on about our thoughts on E3, which starts next Wednesday. Also, we bring you, for the very first time, our "Picks of the Week". As promised, [here's the link](http://www.werkema.com/software/spacemonger.html) for SpaceMonger. Awesome program, I highly recommend downloading it (or else).
 

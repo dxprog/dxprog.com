@@ -8,6 +8,8 @@ tags:
 - coding
 - drivers license
 - work
+redirect_from:
+- entry/well-today-is-the-end-of-the-beginning/
 ---
 Eh? Whatever :-P
 

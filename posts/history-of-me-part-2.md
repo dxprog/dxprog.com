@@ -8,6 +8,8 @@ tags:
 - games
 - nes
 - snes
+redirect_from:
+- entry/history-of-me-part-2/
 ---
 Just a quick low-down before I launch into more Matt lore. We've started ripping up carpet in the house and using the hardwood floors underneath. I've also decided that I'll be writing a platform game as my next project.
 

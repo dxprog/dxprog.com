@@ -6,6 +6,8 @@ tags:
 - anime
 - jeff
 - reviews
+redirect_from:
+- entry/2010-reviews-finale/
 ---
 Well, here is the final installment of the 2010 anime review. Sadly, my bros are now college students and, given the have homework and what have you, you're left with mostly just my reviews. But, there it is.
 

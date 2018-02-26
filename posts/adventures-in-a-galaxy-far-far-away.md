@@ -6,6 +6,8 @@ tags:
 - general
 - past
 - star wars
+redirect_from:
+- entry/adventures-in-a-galaxy-far-far-away/
 ---
 ![](http://images.dxprog.com/blog/books_sw.jpg "The Jedi Archives, last bastion of knowledge in a crumbling universe.")
 

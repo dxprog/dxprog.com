@@ -4,6 +4,8 @@ slug: my-ideal-first-date
 date: 2011-11-19T12:51:10-06:00
 tags:
 - general
+redirect_from:
+- entry/my-ideal-first-date/
 ---
 So, I was talking with an a college buddy of mine and he's all trying to get me to join the dating site "Plenty Of Fish". I went along with it for kicks and giggles, mostly just porting over info from my OkCupid profile (which I also maintain primarily for kicks and giggles). However, one question on there set my writing mind ablaze: "First date?". Now, this field was optional, but I really wanted to paint a picture for this one. Below is what I wrote:
 

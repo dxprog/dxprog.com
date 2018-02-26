@@ -5,6 +5,8 @@ date: 2007-06-11T03:55:03-05:00
 tags:
 - art
 - star wars
+redirect_from:
+- entry/mace-art/
 ---
 I decided to take pepper spary to a new level and make art out of it. Okay, never mind.
 

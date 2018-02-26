@@ -7,6 +7,8 @@ tags:
 - ds
 - games
 - new super mario bros
+redirect_from:
+- entry/ddr-mania/
 ---
 Well, I didn't think I'd be the one to be sucked in by this, but I'm now hooked on DDR (Mario style). Actually, it's an incredibly satisfying game once you really get going. Not only are you burning calories faster than Bill Clinton could put them on, but it's also insanely fun at the same time. Yeah... get DDR... lose weight... have fun...
 

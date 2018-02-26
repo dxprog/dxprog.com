@@ -5,6 +5,8 @@ date: 2009-07-12T00:02:29-05:00
 tags:
 - coding
 - site news
+redirect_from:
+- entry/graduating-to-a-new-look/
 ---
 Welcome, one and all, to the brand new and totally spiffy dxprog.com! I'm sure I say it every time I do this, but this iteration is by far the most advanced version of the site to date. I can pretty much wrap up all the updates in a nutshell by saying I've had a lot of fun throwing in all sorts of jQuery and Ajaxy stuff, but I'll itemize.
 

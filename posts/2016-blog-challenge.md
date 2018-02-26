@@ -4,6 +4,8 @@ slug: 2016-blog-challenge
 date: 2016-11-02T07:41:14-05:00
 tags:
 - general
+redirect_from:
+- entry/2016-blog-challenge/
 ---
 I doubt that title's even gonna render correctly...
 

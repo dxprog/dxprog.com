@@ -5,6 +5,8 @@ date: 2012-06-05T00:48:27-05:00
 tags:
 - general
 - past
+redirect_from:
+- entry/a-reminiscing-walk-through-literature/
 ---
 ![](http://images.dxprog.com/blog/books_bb.jpg "It was a super cheap gift, to be fair...")
 

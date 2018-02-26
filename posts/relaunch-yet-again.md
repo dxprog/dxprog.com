@@ -5,6 +5,8 @@ date: 2012-07-29T01:57:54-05:00
 tags:
 - daily
 - site
+redirect_from:
+- entry/relaunch-yet-again/
 ---
 Oops, I did it again. I have redesigned and relaunched this website. Granted, I managed to go nearly two years without touching it. That's amazing.
 

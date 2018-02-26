@@ -7,6 +7,8 @@ tags:
 - release
 - web
 - ypn
+redirect_from:
+- entry/make-it-open-ypngine/
 ---
 ![](http://images.dxprog.com/ypnlogo.png "YPN logo during the YPNgine era")
 YPNgine: [Download](http://dxprog.com/files/YPNgine.zip)

@@ -7,6 +7,8 @@ tags:
 - pixar
 - reviews
 - star trek
+redirect_from:
+- entry/two-years-of-reviews/
 ---
 The year is beginning to wind down and Christmas is just around the corner. I've consumed quite a lot of media this year, from my newfound addiction to anime and the usual domestic shows and video games. Over the next couple of weeks, I'm going to review what I considered to be the best of the best in each genre. Today, I'll start off with movies. I'm going to fudge a little bit and include movies released last year as well, otherwise this would be a really short list.
 ## The Incredible Hulk (2008)

@@ -7,6 +7,8 @@ tags:
 - pathfinder
 - photos
 - walking
+redirect_from:
+- entry/its-naturiffic/
 ---
 Punny titles aside, I have made [more](http://dxprog.com/entry/more-billboard-fun/) than [one](http://dxprog.com/entry/walking-for-cash/) [allusion](http://dxprog.com/entry/parental-pimps/) to my walking sessions. Currently my graph is telling me that I had a pretty crappy week last week, but that's not what we're here to discuss.
 

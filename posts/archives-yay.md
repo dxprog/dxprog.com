@@ -9,6 +9,8 @@ tags:
 - ged
 - halo
 - work
+redirect_from:
+- entry/archives-yay/
 ---
 The last real missing piece of the redesign is now in place. Just take a look to your right and you'll see what I mean. To save having a really short post I suppose I can give a general update on what's going on.
 

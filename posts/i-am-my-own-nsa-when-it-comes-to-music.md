@@ -6,6 +6,8 @@ tags:
 - daily
 - music
 - stats
+redirect_from:
+- entry/i-am-my-own-nsa-when-it-comes-to-music/
 ---
 <p>It's time yet again to put on my <a href="http://www.youtube.com/watch?v=w3a52kemJcY" target="_blank">Data Analysis Cosby</a> hat and churn out some fun graphs based upon the listening habits of those using my ever present <a href="https://github.com/dxprog/DxCMS" target="_blank">music page</a> (a misnomer since it's done video for a long time now). Unlike <a href="http://dxprog.com/entry/the-battle-for-musical-listening-supremacy/">last time</a> where I just compared myself to my brother Chris (the other heavy user of the product), today are just some general stats of when music is played and how much we're listening to. Steve (yet another brother) has become quite active with this, and as such is pretty high on the charts as well.
 

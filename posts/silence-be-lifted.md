@@ -9,6 +9,8 @@ tags:
 - ged
 - os x
 - windows
+redirect_from:
+- entry/silence-be-lifted/
 ---
 I've been holding out on this news for quite some time now, but since everything seems to be falling into place like a well played game of Tetris I will let all the cats and their friends out of the preverbial bag.
 

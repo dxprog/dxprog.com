@@ -7,6 +7,8 @@ tags:
 - music
 - video game friday
 - zelda
+redirect_from:
+- entry/game-music-friday---gerudo-valley/
 ---
 ![](http://www.dxprog.com/pics/bumpers/gmf_gerudo.png "image")
 One of the first video game songs I remember really enjoying was Gerudo Valley from Zelda: Ocarina of Time for the Nintendo 64. Back when I had a crappy computer and little hard drive space, I would listen to MIDI files and Gerudo Valley was one of the few songs that had a pretty [good version](http://www.vgmusic.com/music/console/nintendo/n64/Z64gerud.mid) out there. Of course, now that disk space isn't an issue, I've moved on to MP3s. However, I still find myself listening to more [remixes](http://www.ocremix.org/remix/OCR00109/) than the actual original itself (because, let's face it, the N64 instrument library sucked). But, anyways, here are this weeks Gerudo Valley music picks.[break]

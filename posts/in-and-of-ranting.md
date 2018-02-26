@@ -7,6 +7,8 @@ tags:
 - grammar
 - myspace
 - rants
+redirect_from:
+- entry/in-and-of-ranting/
 ---
 Since there's not much to write about that's happening in my life at this current point in time I will instead rant on a cornucopia of things. Note - these rants are very, very biased.
 

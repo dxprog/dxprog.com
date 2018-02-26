@@ -4,6 +4,8 @@ slug: its-my-birthday-and-i-can-do-what-i-want
 date: 2013-06-08T11:52:53-05:00
 tags:
 - daily
+redirect_from:
+- entry/its-my-birthday-and-i-can-do-what-i-want/
 ---
 And I choose to sleep.
 

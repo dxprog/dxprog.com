@@ -6,6 +6,8 @@ tags:
 - reading rainbow
 - star trek
 - video
+redirect_from:
+- entry/retro-coolness-and-a-comic/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/92848/)
 

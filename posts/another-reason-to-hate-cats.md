@@ -6,6 +6,8 @@ tags:
 - allergies
 - cats
 - nes emulator
+redirect_from:
+- entry/another-reason-to-hate-cats/
 ---
 Now it may be a fairly unkown fact about me, but I can't stand cats. Mainly, if for any reason, it is because at our old house there were cats that made a permanent residence there. And when the males went around marking their territory, it wasn't pretty.
 

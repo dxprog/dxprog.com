@@ -5,6 +5,8 @@ date: 2006-06-27T15:09:58-05:00
 tags:
 - art
 - wacom
+redirect_from:
+- entry/more-art/
 ---
 These are a couple of digital paintings I did the day the music (aka, my laptop) died. These were done completely with my tablet, no pencil art or scanning involved.
 

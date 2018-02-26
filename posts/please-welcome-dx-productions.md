@@ -6,6 +6,8 @@ tags:
 - motion graphics
 - school
 - video
+redirect_from:
+- entry/please-welcome-dx-productions/
 ---
 ![](http://www.dxprog.com/pics/bumpers/Dx_Productions.png "image")
 

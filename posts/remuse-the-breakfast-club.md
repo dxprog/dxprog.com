@@ -5,6 +5,8 @@ date: 2013-04-06T11:31:25-05:00
 tags:
 - movie
 - review
+redirect_from:
+- entry/remuse-the-breakfast-club/
 ---
 ![](http://i.imgur.com/3JSJ2Y9.jpg "The Breakfast Club")
 

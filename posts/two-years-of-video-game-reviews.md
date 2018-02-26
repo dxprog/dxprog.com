@@ -9,6 +9,8 @@ tags:
 - video games
 - wii
 - xbox 360
+redirect_from:
+- entry/two-years-of-video-game-reviews/
 ---
 It is time now for the second wave of '08/'09 reviews with today's column covering video games.
 ## Star Wars: The Force Unleashed (2008, Xbox 360)

@@ -5,6 +5,8 @@ date: 2012-01-15T15:24:17-06:00
 tags:
 - coding
 - php
+redirect_from:
+- entry/a-tale-of-two-bot/
 ---
 ![](http://images.dxprog.com/blog/reddit_bots.jpg "Pew pew pew")
 

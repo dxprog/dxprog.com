@@ -4,6 +4,8 @@ slug: i-has-a-shiny-new-toy
 date: 2012-07-07T19:55:58-05:00
 tags:
 - daily
+redirect_from:
+- entry/i-has-a-shiny-new-toy/
 ---
 ![](http://images.dxprog.com/blog/me2012.jpg "The only face I know how to make")
 

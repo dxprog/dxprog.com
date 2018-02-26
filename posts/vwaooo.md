@@ -5,6 +5,8 @@ date: 2006-07-18T02:13:36-05:00
 tags:
 - broken laptop
 - snes
+redirect_from:
+- entry/vwaooo/
 ---
 50 points for the person (who is not related to me) that can say where "vwaooo" comes from.
 

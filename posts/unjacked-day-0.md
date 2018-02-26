@@ -5,6 +5,8 @@ date: 2012-10-08T07:48:42-05:00
 tags:
 - general
 - unjacked
+redirect_from:
+- entry/unjacked-day-0/
 ---
 So, I have successfully completed my little one week sans-Internet challenge. I would leave my thoughts here, but as stated, I kept small little journalings through out. In the spirit of nigh-free blog fodder, I shall post the scans (plus a transcription after the break because my handwriting is terrible).
 

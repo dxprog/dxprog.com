@@ -5,6 +5,8 @@ date: 2013-06-14T10:10:28-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/an-interview-in-akiba/
 ---
 So - yes, I am opening up my blog post with "so" - we were bumming around Akiba (day 2) and meandering through yet another 7 story nerd shop. We happened to be on one of the manga floors when some older Japanese dude walks up to us. Now, at this point I'm kind of freaking out because I'm expecting huge language barrier and having to blow him off as rudelessly as I can. But, he starts speaking in what is more than passable English, asking us how we're enjoying things and, the odd bit, if we wouldn't mind being filmed for a promotional video for his company.
 

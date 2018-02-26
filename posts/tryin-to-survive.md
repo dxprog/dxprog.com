@@ -9,6 +9,8 @@ tags:
 - priates of the carribean
 - spider-man
 - work
+redirect_from:
+- entry/tryin-to-survive/
 ---
 No laptop yet. I'd check to see how things were coming on Toshiba's website, but I don't have my service order number or anything (left it at the UPS store :-P) so I'll just have to be pleasently surprised when it gets here. Driving me nuts, though, because my bros' computer is fritzin' out so I'm having to resort to other "activities" to keep me entertained. Mainly drawing. Actually, I'd like to think that my artwork has evolved quite a bit since even the last comic I made (before the [Paint Chronicles](http://digitaldouble.smackjeeves.com/comics/54184/), that is).
 

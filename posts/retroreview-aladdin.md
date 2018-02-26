@@ -6,6 +6,8 @@ tags:
 - disney
 - movie
 - review
+redirect_from:
+- entry/retroreview-aladdin/
 ---
 ![](http://i.imgur.com/JwgroQG.jpg "Aladdin")
 

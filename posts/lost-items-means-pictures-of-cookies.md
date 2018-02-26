@@ -4,6 +4,8 @@ slug: lost-items-means-pictures-of-cookies
 date: 2012-07-10T21:37:49-05:00
 tags:
 - daily
+redirect_from:
+- entry/lost-items-means-pictures-of-cookies/
 ---
 Sadly, the mounting plate for my tripod seems to have gone missing which is really putting a damper on my video shooting ability (I fear I may have shipped it away with my camcorder).
 

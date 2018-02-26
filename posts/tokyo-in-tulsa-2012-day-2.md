@@ -5,6 +5,8 @@ date: 2012-07-21T22:36:07-05:00
 tags:
 - con
 - daily
+redirect_from:
+- entry/tokyo-in-tulsa-2012-day-2/
 ---
 Another long day, not so many photos, but it'll have to suffice.
 

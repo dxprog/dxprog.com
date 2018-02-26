@@ -5,6 +5,8 @@ date: 2008-11-03T21:28:32-06:00
 tags:
 - after effects
 - coding
+redirect_from:
+- entry/display-time-code-in-after-effects-with-expressions/
 ---
 Whilst working on my current video project, I came across a need to display the current time code. Expressions are the answer, of course, so I came up with this.
 

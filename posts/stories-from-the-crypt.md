@@ -4,6 +4,8 @@ slug: stories-from-the-crypt
 date: 2012-07-06T21:09:08-05:00
 tags:
 - daily
+redirect_from:
+- entry/stories-from-the-crypt/
 ---
 That thing that was supposed to come through today didn't which means I am left to my own devices all weekend. So, tonight I'll just repost this comment I left on reddit some days ago (because that's what we do):
 

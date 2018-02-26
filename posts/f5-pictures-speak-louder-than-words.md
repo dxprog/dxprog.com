@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - kathleen
+redirect_from:
+- entry/f5-pictures-speak-louder-than-words/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54175/)
 

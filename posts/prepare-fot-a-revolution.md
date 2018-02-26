@@ -6,6 +6,8 @@ tags:
 - moving
 - pictures
 - revolution
+redirect_from:
+- entry/prepare-fot-a-revolution/
 ---
 It was certainly an exciting weekend for those of us paying attention to TGS (Tokyo Game Show). The new Nintendo Revolution controller was finally unveiled. At first I was kind of skeptical, I mean the thing is a freakin' remote:
 ![](http://cubemedia.ign.com/cube/image/article/651/651275/hands-on-the-revolution-controller-20050915054852879-000.jpg "image")

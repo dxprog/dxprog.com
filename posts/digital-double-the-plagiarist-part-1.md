@@ -5,6 +5,8 @@ date: 2006-07-31T04:24:43-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-the-plagiarist-part-1/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54192/)
 

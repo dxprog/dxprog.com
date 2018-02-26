@@ -4,6 +4,8 @@ slug: 2014-micro-retrospectives-intro-bikes
 date: 2014-12-31T01:09:00-06:00
 tags:
 - general
+redirect_from:
+- entry/2014-micro-retrospectives-intro-bikes/
 ---
 2014 is winding down as the shadow of 2015 looms over us. I don't even know why we give this any mind; time is but a human construct and the "new year" marker could have been placed at any point. Indeed, other cultures have their own ways of keeping time with their own "new years". Interesting that the concept of a "year", a larger span of time filled with many smaller demarcations of time, is seen in most of these calendar systems. Still, I'm happy to use an arbitrary position on our planet's orbit to define the changing of the year. Whatever, that's not what I'm here to talk about.
 

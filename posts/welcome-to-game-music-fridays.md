@@ -6,6 +6,8 @@ tags:
 - game music friday
 - games
 - music
+redirect_from:
+- entry/welcome-to-game-music-fridays/
 ---
 ![](http://www.dxprog.com/pics/gmf.png "image")
 

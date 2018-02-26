@@ -5,6 +5,8 @@ date: 2011-06-24T22:23:32-05:00
 tags:
 - daily
 - rant
+redirect_from:
+- entry/i-dont-even-know-what-to-write-about-anymore/
 ---
 I'm so close to making this month-of-blogging thing that I cannot let a little thing like writer's block stop me now. I suppose I can just ramble.
 

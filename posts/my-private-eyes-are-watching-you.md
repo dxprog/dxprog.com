@@ -4,6 +4,8 @@ slug: my-private-eyes-are-watching-you
 date: 2013-09-08T09:33:54-05:00
 tags:
 - general
+redirect_from:
+- entry/my-private-eyes-are-watching-you/
 ---
 A couple weeks back, I was hunting for the keys to the familial house, hoping that I could make my surprise appearance back to the midwest even more so by just showing up in the house. I never found those keys, but as I was digging I came across my old yearbooks from a time when I actually attended school; kindergarten through second grade, to be exact.
 

@@ -5,6 +5,8 @@ date: 2013-02-21T00:00:00-06:00
 tags:
 - movie
 - review
+redirect_from:
+- entry/movie-review-battle-royale/
 ---
 ![](http://images.dxprog.com/blog/battle_royale.jpg "Battle Royale")
 

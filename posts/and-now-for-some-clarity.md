@@ -5,6 +5,8 @@ date: 2012-03-17T15:17:10-05:00
 tags:
 - eyes
 - surgery
+redirect_from:
+- entry/and-now-for-some-clarity/
 ---
 Pun totally intended :D
 

@@ -4,6 +4,8 @@ slug: i-present-purple-fusion
 date: 2007-05-24T03:42:06-05:00
 tags:
 - web programming
+redirect_from:
+- entry/i-present-purple-fusion/
 ---
 This is the name of the new site backend I've been working on. Now, for anybody who's been paying attention I haven't written a web engine since Tetra 2. The last time I worked on it was sometime back in '05 I believe. Back then I was extremely proud of my little creation but I look back on it and think to myself "that is one bloated piece of crap". It really was. Over 2500 lines of code. In comparison my new engine is only one or two hundred lines of code and almost as powerful (or it will be).
 

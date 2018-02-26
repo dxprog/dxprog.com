@@ -4,6 +4,8 @@ slug: 2013-anime-boys-bracket-a-postmortem
 date: 2013-10-05T10:43:00-05:00
 tags:
 - daily
+redirect_from:
+- entry/2013-anime-boys-bracket-a-postmortem/
 ---
 Today wound up the [anime boys bracket](http://bracket.awwni.me/2013-boys-bracket/view/) I ran as a precursor to the big girls bracket, testing out some new rules and a much needed overhaul for the administrative side. All in all, it was a roaring success.
 

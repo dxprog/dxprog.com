@@ -6,6 +6,8 @@ tags:
 - daily
 - movie
 - review
+redirect_from:
+- entry/movie-review-oz-the-great-and-powerful/
 ---
 As I plan on being drunk tonight ushering a coworker off to other pastures, I will pen something not about Japan because I don't have access to my photo stores. So, instead, I'll review a movie I watched on the flight back, namely Oz the Great and Powerful.
 

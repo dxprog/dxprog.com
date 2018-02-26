@@ -6,6 +6,8 @@ tags:
 - daily
 - e3
 - games
+redirect_from:
+- entry/could-the-naming-department-please-step-forward/
 ---
 All the major game dev pressers have come and gone leaving myself with with feelings of excitement and mild depression over failed predictions (more in a second). I'll go through my thoughts for each presser in the order they happened.
 

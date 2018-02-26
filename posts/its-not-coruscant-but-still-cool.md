@@ -5,6 +5,8 @@ date: 2013-06-26T11:28:42-05:00
 tags:
 - daily
 - japan
+redirect_from:
+- entry/its-not-coruscant-but-still-cool/
 ---
 On the same day that we [crossed the Rainbow Bridge](http://www.dxprog.com/entry/a-gay-romp-across-the-rainbow-bridge/) and saw the ass of a Gundam in [Odaiba](http://www.dxprog.com/entry/breezing-through-odaiba/), we took a wander around the Imperial Palace in the heart of Tokyo. Here's a bunch of pictures and little write up because... well, there's not really a story here and sadly no swan boats.
 

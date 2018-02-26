@@ -4,6 +4,8 @@ slug: accountability-report-week-1-off-to-a-roaring-stop
 date: 2013-01-06T06:43:57-06:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-week-1-off-to-a-roaring-stop/
 ---
 It's time for the first installment of my public shaming, an activity aimed at keeping me on the straight and narrow for my [New Year's resolutions](http://dxprog.com/entry/hindsight-is-2012/).
 

@@ -6,6 +6,8 @@ tags:
 - coding
 - music page
 - web dev
+redirect_from:
+- entry/celebrating-one-year-of-the-music-page/
 ---
 For the casual frequenter of my blog, you've probably seen me mention the illustrious [Music Page](http://dxprog.com/entry/building-a-web-based-media-player---part-1/) before. It has been my pet project for a year now and has been the catalyst for a few leaps in coding practice for me. Firstly, it's responsible for my becoming quite adept at advanced "OOP"-like JavaScript-ing. Secondly, it's given me an outlet to try out new things such as dynamic graphs in PHP or using Bing's search API. Let's take a brief walk through history.[break]
 

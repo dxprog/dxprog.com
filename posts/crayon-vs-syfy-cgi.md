@@ -6,6 +6,8 @@ tags:
 - art
 - crayon
 - random
+redirect_from:
+- entry/crayon-vs-syfy-cgi/
 ---
 Received this message on Facebook from a buddy of mine today:
 

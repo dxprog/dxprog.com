@@ -4,6 +4,8 @@ slug: accountability-report-week-5
 date: 2013-02-04T01:58:44-06:00
 tags:
 - weekly
+redirect_from:
+- entry/accountability-report-week-5/
 ---
 **Finances** - Resisting the urge to buy something when you know you can _afford_ but don't actually _need_ it is quite frustrating. However, I have done well on resisting the urge for the most part. I did line up a couple things for pre-order and have settled on the number of $50/mo to satisfy my urge to purchase Japanese items. Also, unbeknownst to me, Amazon decided that they would charge me for Prime without notice once my trial had ended. Now I have Prime. Generally when it comes to online ordering, I trade patience for money and go with the cheapest shipping option, but I guess that's moot now. Also, I'll probably be purchasing from Amazon instead of rightstuf just so I can somewhat justify the money they have taken from me. I did do some spontaneous "gifting" of things last week, which was some money gone not planned. That shouldn't, however, become anything regular.
 

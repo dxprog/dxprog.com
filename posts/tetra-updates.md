@@ -6,6 +6,8 @@ tags:
 - bowling
 - tetra
 - work
+redirect_from:
+- entry/tetra-updates/
 ---
 I was kind of feeling the lack of Tetra's blog features today so I went in and started piddling around with stuff. As you can see the archives list is now sorted in descending order and I also have a little links bar (I can add as many side bars as I want too :-)). Also, fixed a few problems in the message board code and cleaned up a couple other things that had been bothering me for months.
 

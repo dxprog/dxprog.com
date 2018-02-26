@@ -7,6 +7,8 @@ tags:
 - css
 - daily
 - html
+redirect_from:
+- entry/the-best-way-to-hide-text-in-favor-of-an-image/
 ---
 hashtag html5, hashtag css3!
 

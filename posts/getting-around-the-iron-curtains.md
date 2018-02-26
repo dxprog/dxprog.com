@@ -5,6 +5,8 @@ date: 2014-02-23T08:55:48-06:00
 tags:
 - coding
 - webdev
+redirect_from:
+- entry/getting-around-the-iron-curtains/
 ---
 Last week, a friend clued me into CloudFlare, a CDN service that also somehow has a free tier with unlimited bandwidth. This played right into my fears of hitting the 4TB bandwidth ceiling on my current hosting tier. Put into perspective, that's pretty close to all the digital storage I have available in my apartment. Also, it quells the fears that users on the other side of the pond are getting subpar download times. So, with minimal weighing of the consequences, I flipped everything over. And, lo and behold, it worked!
 

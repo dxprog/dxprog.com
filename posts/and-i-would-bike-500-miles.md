@@ -4,6 +4,8 @@ slug: and-i-would-bike-500-miles
 date: 2014-09-07T11:53:41-05:00
 tags:
 - daily
+redirect_from:
+- entry/and-i-would-bike-500-miles/
 ---
 But I wouldn't bike 500 more. At least, not within the span of a month.
 

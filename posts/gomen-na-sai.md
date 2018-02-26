@@ -5,6 +5,8 @@ date: 2011-06-26T21:41:39-05:00
 tags:
 - daily
 - video
+redirect_from:
+- entry/gomen-na-sai/
 ---
 Okay, so I actually filmed _two_ things yesterday. I'm very sorry!
 

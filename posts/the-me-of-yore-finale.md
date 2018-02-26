@@ -4,6 +4,8 @@ slug: the-me-of-yore-finale
 date: 2012-05-20T20:27:06-05:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-finale/
 ---
 It's been a while since I posted a journal entry (or anything, really), and the interestingness of this final journal is drying up. So, I'm going to jump to the most important entry in there; the entry that, looking back on it, in many ways kick started my life on the path that has led me here. Without further ado:
 

@@ -5,6 +5,8 @@ date: 2011-03-12T14:05:52-06:00
 tags:
 - general
 - work
+redirect_from:
+- entry/many-comma-delimited-lists-inside/
 ---
 So, it would seem that I have already completed my first week at Winnercomm. I'm currently suffering from what I can best describe as culture shock. A good many things are polar opposite from how they were at Griffin. There's no phones ringing all the time, no boss interrupting every ten minutes and also it is very, very quiet. Like, I haven't really spoken to anybody all week and it seems (from where I sit) that there are no other impromptu coworker conversations breaking out. That part I kind of miss, but the quiet certainly does lend well to productivity.
 

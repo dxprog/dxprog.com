@@ -4,6 +4,8 @@ slug: solving-inane-issues-with-programming
 date: 2012-07-16T00:00:00-05:00
 tags:
 - daily
+redirect_from:
+- entry/solving-inane-issues-with-programming/
 ---
 I'm slowly running out of things to say for the remainder of the month and the most interesting stuff is still five days out. Also, my brother and I have run out of things to watch, having finished seven seasons of How I Met Your Mother and rewatched both seasons of Higurashi in about a couple months. We're about to start watching Clannad again, but there's actually a simple solution to both of these problems.
 

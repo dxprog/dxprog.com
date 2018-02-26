@@ -4,6 +4,8 @@ slug: soba
 date: 2016-11-21T12:07:13-06:00
 tags:
 - general
+redirect_from:
+- entry/soba/
 ---
 Switching gears for a moment to document some soba I made off the top of my head. I'll try to keep the words to a minimum and let the pictures talk (zoom into the picture for recipe type shits).
 

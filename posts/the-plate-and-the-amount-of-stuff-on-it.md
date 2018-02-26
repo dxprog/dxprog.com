@@ -4,6 +4,8 @@ slug: the-plate-and-the-amount-of-stuff-on-it
 date: 2013-09-30T01:15:27-05:00
 tags:
 - general
+redirect_from:
+- entry/the-plate-and-the-amount-of-stuff-on-it/
 ---
 My mom decided to try out my month of one blog per day thing. I couldn't just take that sitting down, so here I am in a [mother disapproved word removed]-wagging contest, a contest which really doesn't exist.
 

@@ -4,6 +4,8 @@ slug: lets-talk-about-ikea
 date: 2016-11-08T11:57:59-06:00
 tags:
 - general
+redirect_from:
+- entry/lets-talk-about-ikea/
 ---
 Was looking on IKEA's website for a cheap cart that I could use for the coffee equipment at the new office. While getting there, I ran into this gem of a photo:
 

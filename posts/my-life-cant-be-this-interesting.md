@@ -4,6 +4,8 @@ slug: my-life-cant-be-this-interesting
 date: 2013-12-12T07:25:27-06:00
 tags:
 - general
+redirect_from:
+- entry/my-life-cant-be-this-interesting/
 ---
 I'm sitting in the Atlanta airport awaiting the flight that will whisk me into Jamaica to celebrate the marriage of my [oldest friend](http://dxprog.com/comic/dark-over-light/). I'm short on sleep, having lost three hours on the flight over from the Pacific coast, and am oddly reflective on the previous year.
 

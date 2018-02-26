@@ -4,6 +4,8 @@ slug: not-lost-but-certainly-forgotten
 date: 2014-07-27T09:11:26-05:00
 tags:
 - general
+redirect_from:
+- entry/not-lost-but-certainly-forgotten/
 ---
 Somehow, I found myself poking around in the darker corners of my backup drive today. I don't even remember the original reason I hooked the thing up, but as is wont to happen, I headed in a downward spiral into my past. I like to use these things as a measuring stick to measure not only my progress as a professional, but also as a person. To that latter point, the jury's out on whether I've changed at all...
 

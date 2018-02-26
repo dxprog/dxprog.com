@@ -4,6 +4,8 @@ slug: round-2
 date: 2016-11-13T11:15:45-06:00
 tags:
 - general
+redirect_from:
+- entry/round-2/
 ---
 Want to polish up my LED grid a bit before writing more on that, so I'm going to do that "stream of consciousness" thing again. Giving myself four minutes out of the gate, this time. And... WE'RE OFF!
 

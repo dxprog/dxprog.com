@@ -5,6 +5,8 @@ date: 2008-08-28T07:25:05-05:00
 tags:
 - relaunch
 - web design
+redirect_from:
+- entry/we-bring-you-dxprog-media/
 ---
 After a month of crazy coding and hard work, I unveil to the world dxprog media! dxprog media is, for all intents and purposes, just a front for myself and my work.
 

@@ -5,6 +5,8 @@ date: 2007-07-19T03:24:52-05:00
 tags:
 - eternal sonata
 - xbox 360
+redirect_from:
+- entry/eternal-sonata---an-eternal-wait/
 ---
 Must post. Must get awful picture off the front page!
 

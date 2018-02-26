@@ -4,6 +4,8 @@ slug: 2012-things-to-do-before-we-all-die
 date: 2012-01-02T16:33:01-06:00
 tags:
 - general
+redirect_from:
+- entry/2012-things-to-do-before-we-all-die/
 ---
 ![](http://images.dxprog.com/blog/2012_new_year.jpg "Year of the Dragon")
 

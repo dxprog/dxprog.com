@@ -4,6 +4,8 @@ slug: one-mans-mission-for-a-burrito
 date: 2013-10-12T09:37:46-05:00
 tags:
 - daily
+redirect_from:
+- entry/one-mans-mission-for-a-burrito/
 ---
 The title's a joke because the burrito place was on 24th and Mission in the Mission district. I'M CLEVER~!
 

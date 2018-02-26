@@ -4,6 +4,8 @@ slug: teh-arts
 date: 2007-07-15T19:55:53-05:00
 tags:
 - art
+redirect_from:
+- entry/teh-arts/
 ---
 Last couple days I decided to actually DO something and crack out my Prismas and create beautiful masterpiec es that will be remembered long after I die. Or something.
 

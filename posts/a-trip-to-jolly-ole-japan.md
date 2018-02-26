@@ -4,6 +4,8 @@ slug: a-trip-to-jolly-ole-japan
 date: 2013-05-29T11:40:32-05:00
 tags:
 - japan
+redirect_from:
+- entry/a-trip-to-jolly-ole-japan/
 ---
 The "weekly" accountability report was one of those things that was supposed to help keep me in check in conforming to my goals for the year. It's hardly been weekly and it's hardly been keeping me on track (ask me how many times I've ordered Papa John's in the last month. I dare you). But, there was one item on the list that's about to get scratched off and that is the trip to _Nihon_.
 

@@ -5,6 +5,8 @@ date: 2011-04-15T00:08:36-05:00
 tags:
 -  contest
 - easter egg
+redirect_from:
+- entry/the-great-201-easter-egg-hunt/
 ---
 ![](http://images.dxprog.com/blog/2011_egg_hunt.jpg "Inspect Clouseau is on the case!")
 

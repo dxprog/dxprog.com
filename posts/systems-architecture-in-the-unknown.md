@@ -5,6 +5,8 @@ date: 2014-01-29T11:13:27-06:00
 tags:
 -  webdev
 - coding
+redirect_from:
+- entry/systems-architecture-in-the-unknown/
 ---
 Just over a year ago, I launched [redditbooru](http://redditbooru.com) to the world, rolling together a bunch of ideas spawned by the [awwnime repost checker](http://dxprog.com/entry/a-cute-world-of-programming-possibilities/) into a single place. In addition to that, I added the ability for users to host content in addition to being able to index multiple subreddits. To say that it became a wild success would almost be selling it short. At launch, it was indexing maybe 5 subs, now it's 16, my server went from averaging ~23/Kbps per month to over 10/Mbps, and am nearing 100k pageviews for a rolling 30 day period. Despite exponential growth in traffic, the site has experienced almost no traffic related issues proving that my code is able to handle scale. What started off as a fun little afternoon of experimenting has become quite a success.
 

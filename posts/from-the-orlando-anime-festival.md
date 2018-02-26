@@ -5,6 +5,8 @@ date: 2008-08-16T21:25:47-05:00
 tags:
 - anime convention
 - video
+redirect_from:
+- entry/from-the-orlando-anime-festival/
 ---
 Yesterday, we (Ryan, Tyler, and I) had the pleasure of finally attending my very first convention (outside of the local county fair). Sadly, it wasn't a sci-fi convention as I would have liked, but an anime convention. I don't consider myself to be an anime nerd, and even border on disliking the genre entirely, but I did have a pretty good time none the less. The convention itself was fairly small in comparison to others, but there was still a goodly amount of things going on and plenty of dealers peddling their anime related wares.
 

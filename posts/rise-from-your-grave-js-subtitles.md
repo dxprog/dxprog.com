@@ -7,6 +7,8 @@ tags:
 - html5
 - javascript
 - video
+redirect_from:
+- entry/rise-from-your-grave-js-subtitles/
 ---
 ![](http://images.dxprog.com/blog/rise_from_your_grave.jpg "It LIVES!")
 

@@ -5,6 +5,8 @@ date: 2006-10-14T02:27:12-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-what-elton-john-sang-at-his-wedding/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/70642/)
 

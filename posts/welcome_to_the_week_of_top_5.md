@@ -8,6 +8,8 @@ tags:
 - guitar hero
 - mario
 - zelda
+redirect_from:
+- entry/welcome_to_the_week_of_top_5/
 ---
 I'm going to do something interesting this week and post all sorts of nonsense top 5 lists. Why? Because I can. That, my friend, is the beauty of the internets.
 

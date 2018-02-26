@@ -4,6 +4,8 @@ slug: the-de-evolution-of-nintendo-box-asses
 date: 2008-10-19T22:00:54-05:00
 tags:
 - design nintendo
+redirect_from:
+- entry/the-de-evolution-of-nintendo-box-asses/
 ---
 It can be argued that Nintendo has somewhat ripped off Apple when it comes to design and asthetics. Everything is very simple and clean almost to the point of being sterile (as in the hospital, not the inability to bear children). However, one disturbing trend seems to be their boxes. Not the fronts, mind you, but rather the backs. Join me as I go through a box design from every generation of Nintendo console (save N64) and grade them on design.[break]
 

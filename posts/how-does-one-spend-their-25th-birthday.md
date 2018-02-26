@@ -6,6 +6,8 @@ tags:
 - birthday
 - daily
 - video
+redirect_from:
+- entry/how-does-one-spend-their-25th-birthday/
 ---
 I had a few people ask me how I was going to spend my birthday this year, so I just decided to make a video of it. Enjoy!
 

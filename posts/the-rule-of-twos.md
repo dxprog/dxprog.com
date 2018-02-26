@@ -4,6 +4,8 @@ slug: the-rule-of-twos
 date: 2013-07-27T05:43:13-05:00
 tags:
 - general
+redirect_from:
+- entry/the-rule-of-twos/
 ---
 I'm mildly inebriated right now, having partaken in a particularly vicious [Squid Girl drinking game](http://www.reddit.com/r/awwnime/comments/1iqt7z/multiplayer_moe_week_42/). Two gin and tonics is enough to get me a little loopy, apparently. But, that's not why we're here.
 

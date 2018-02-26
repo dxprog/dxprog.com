@@ -48,6 +48,8 @@ foreach ($data->body->content as $post) {
   foreach ($post->tags as $tag) {
     $out .= '- ' . $tag->name . PHP_EOL;
   }
+  $out .= 'redirect_from:' . PHP_EOL;
+  $out .= '- entry/' . $post->perma . '/' . PHP_EOL;
   $out .= '---' . PHP_EOL;
 
   $body = preg_replace($exp, $rpl, $post->body);

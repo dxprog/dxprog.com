@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - gameboyz
+redirect_from:
+- entry/f5-your-ass-property-of-reggie/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54179/)
 

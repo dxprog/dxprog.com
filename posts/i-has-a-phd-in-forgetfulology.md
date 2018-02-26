@@ -4,6 +4,8 @@ slug: i-has-a-phd-in-forgetfulology
 date: 2011-06-10T20:31:32-05:00
 tags:
 - daily
+redirect_from:
+- entry/i-has-a-phd-in-forgetfulology/
 ---
 My dear sweet mother has a blog entitled ["Oh, Crap"](http://mom28kids.com/) where she documents all of life's little FFFFFFFUUUUUUUUUUUU moments. Well, perfect being that I am, I experienced a couple of these recently.
 

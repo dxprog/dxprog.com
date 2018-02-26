@@ -5,6 +5,8 @@ date: 2013-10-01T08:36:51-05:00
 tags:
 - coding
 - php
+redirect_from:
+- entry/php-events-and-the-ajax-pipeline/
 ---
 Working at LinkedIn, I feel almost required to talk about coding on my blog, especially if I want to keep my [Junior Woodchuck Engineer](http://i.imgur.com/8ALLwfP.jpg) sash.
 

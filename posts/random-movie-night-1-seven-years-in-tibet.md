@@ -6,6 +6,8 @@ tags:
 - daily
 - movie
 - review
+redirect_from:
+- entry/random-movie-night-1-seven-years-in-tibet/
 ---
 ![](http://images.dxprog.com/blog/tibet.jpg "Seven Years in Tibet")
 

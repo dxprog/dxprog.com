@@ -7,6 +7,8 @@ tags:
 - chris
 - jeff
 - reviews
+redirect_from:
+- entry/a-collab-of-reviews-part-2/
 ---
 Alright, here we are at round two of the Super Hackmann Bros. "Shit we watched in 2010" anime review. It's a little shorter today as we were all down with the sickness at various points last week, but rest assured more is to come.
 

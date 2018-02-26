@@ -6,6 +6,8 @@ tags:
 - games
 - rant
 - web programming
+redirect_from:
+- entry/ahhh-programming/
 ---
 I've managed to land myself on a project that combines my two loves: games and web. Tryblithe, owner of [CT Square](http://www.ctsquare.net) web hosting, has signed me on to help him with a brand new type of online game... it's all done within the browser (i.e. no flash, java, etc.). That in itself may not seem much of a feat, but it's much more complex than previous browser games including some real-time elements. So that's pretty cool :-)
 

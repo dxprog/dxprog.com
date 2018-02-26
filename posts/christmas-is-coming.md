@@ -9,6 +9,8 @@ tags:
 - layaway
 - music
 - work
+redirect_from:
+- entry/christmas-is-coming/
 ---
 Twas some days before Christmas and all through the house,
 not a creature was stirring except for the dudeon his laptop.

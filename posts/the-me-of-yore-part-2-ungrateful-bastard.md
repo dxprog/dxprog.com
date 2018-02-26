@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-2-ungrateful-bastard
 date: 2012-01-22T22:53:27-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-2-ungrateful-bastard/
 ---
 I will open this post with a profuse apology to my aunt and god mother, Jennie, who's kind birthday gift of **_free money_** was apparently shat upon by my younger self (how I hate him).
 

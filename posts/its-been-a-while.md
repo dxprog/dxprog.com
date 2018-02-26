@@ -9,6 +9,8 @@ tags:
 - nostalgia
 - work
 - xbox
+redirect_from:
+- entry/its-been-a-while/
 ---
 Save the comic posts and podcast, it's been a little bit since I've written anything. So I guess I'll start by dropping this bomb: Hi.
 

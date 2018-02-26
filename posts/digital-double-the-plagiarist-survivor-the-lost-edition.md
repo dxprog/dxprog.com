@@ -5,6 +5,8 @@ date: 2006-08-14T00:12:51-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-the-plagiarist-survivor-the-lost-edition/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54195/)
 

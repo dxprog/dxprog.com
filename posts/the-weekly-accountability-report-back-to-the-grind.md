@@ -5,6 +5,8 @@ date: 2013-06-17T11:20:09-05:00
 tags:
 - daily
 - weekly
+redirect_from:
+- entry/the-weekly-accountability-report-back-to-the-grind/
 ---
 It's been a little while since I last did this, but since life is only going to even out from here, it's time to return to the Goals of the Year(R).
 

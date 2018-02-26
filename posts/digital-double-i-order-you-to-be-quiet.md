@@ -6,6 +6,8 @@ tags:
 - comic
 - digital double
 - star trek
+redirect_from:
+- entry/digital-double-i-order-you-to-be-quiet/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/62369/)
 

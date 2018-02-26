@@ -4,6 +4,8 @@ slug: riiiiccoollaaaaaaaa
 date: 2015-06-04T09:38:45-05:00
 tags:
 - general
+redirect_from:
+- entry/riiiiccoollaaaaaaaa/
 ---
 Hey, there. It's been quite some time. About two months, I'd reckon. Actually, I'm not even sure that last post counts for much, being that it was entirely technical. The one before it doesn't count either, as it was more of an op-ed piece... I guess? I dunno...
 

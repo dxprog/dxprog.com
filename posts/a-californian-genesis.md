@@ -5,6 +5,8 @@ date: 2013-05-22T08:43:58-05:00
 tags:
 - general
 - linkedin
+redirect_from:
+- entry/a-californian-genesis/
 ---
 In lieu of the weekly accountability report, I shall begin documenting the events that came about to land me where I am today (for posterity and stuff). Following that, I will also document my thoughts and adventures on living in the famous Bay Area (lots of pictures 'n shit).
 

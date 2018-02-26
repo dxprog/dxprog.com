@@ -7,6 +7,8 @@ tags:
 - halo
 - phoenix wright
 - xbox 360
+redirect_from:
+- entry/archives-360/
 ---
 I'm sure you've noticed the archives bar over there so I will swiftly move on to a cooler topic.
 

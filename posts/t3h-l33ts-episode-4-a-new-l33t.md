@@ -6,6 +6,8 @@ tags:
 - halo
 - podcast
 - teh leets
+redirect_from:
+- entry/t3h-l33ts-episode-4-a-new-l33t/
 ---
 A brand spanking new episode of t3h l33ts is out! Inside we discuss everything from Halo to Reggie for President! Also, our first mailbag :-D
 

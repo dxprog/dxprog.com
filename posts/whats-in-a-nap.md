@@ -4,6 +4,8 @@ slug: whats-in-a-nap
 date: 2014-09-02T11:54:50-05:00
 tags:
 - daily
+redirect_from:
+- entry/whats-in-a-nap/
 ---
 The clock says 9:55pm and I have, more or less, just awoken from an evening nap... that lasted two hours. I make no secret of the amount of time I spend napping, but generally it's 20-30 minutes. Two hours is excessive and it's now eaten away at time that I was going to spend working on my bracket app.
 

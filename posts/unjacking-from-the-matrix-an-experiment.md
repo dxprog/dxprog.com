@@ -4,6 +4,8 @@ slug: unjacking-from-the-matrix-an-experiment
 date: 2012-09-30T04:19:52-05:00
 tags:
 - general
+redirect_from:
+- entry/unjacking-from-the-matrix-an-experiment/
 ---
 The internet these days is ubiquitous; you can hardly go anywhere without encountering it. Of course, having internet enabled phones means we can take the 'net with you wherever you go. You can't escape the thing, it seems. This goes doubly so for me since my sole source of income hinges on this internet existing. But, in the name of science, I am going to eschew all that for an entire week (insofar as I am able).
 

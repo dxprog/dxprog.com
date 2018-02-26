@@ -7,6 +7,8 @@ tags:
 - convention
 - cosplay
 - daily
+redirect_from:
+- entry/dammit-jim-im-a-programmer-not-a-tailor/
 ---
 Sew, you are probably aware that I am going to a convention and [cosplaying](http://dxprog.com/entry/getting-fit-to-look-less-nerdy-to-look-more-nerdy-at-a-nerd-convention) this year. Using a sewing machine kindly borrowed from my sisters, I laid down the first stitches to that end today.
 

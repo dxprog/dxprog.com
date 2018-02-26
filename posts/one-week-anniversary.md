@@ -6,6 +6,8 @@ tags:
 - new emulator
 - pictures
 - work
+redirect_from:
+- entry/one-week-anniversary/
 ---
 As of today (or yesterday now :-P) I've been working at Wal-mart for one week. I've done probably about everything, now, and seen just about everything put on layaway (except groceries). I'm not sure what my standing is now, but I was already getting high praise on Monday (can't let it get to my head). Also, yesterday, the other layaway boy had his first day and I showed him the ropes. He'll be mainly working when I'm not. Just some interesting stats that I'll be updating regularly. To date I've boxed/binned the following:
 4 GameCubes

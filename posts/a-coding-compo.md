@@ -6,6 +6,8 @@ tags:
 - coding
 - contest
 - game
+redirect_from:
+- entry/a-coding-compo/
 ---
 I was sitting in lab last night bored out of my skull. Yes, I could have (and should have) been working on my project, but when you're already ahead of schedule it's okay to slack off now and again.
 

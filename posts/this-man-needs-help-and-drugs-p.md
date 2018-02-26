@@ -4,6 +4,8 @@ slug: this-man-needs-help-and-drugs-p
 date: 2006-09-03T23:51:24-05:00
 tags:
 - arch nemsis
+redirect_from:
+- entry/this-man-needs-help-and-drugs-p/
 ---
 Recently, there was a story on digg about a website run on old Apple Lisa 2 computers. The guy running the site made it sound like they were all "tricked out", if you will. Intrigued, I e-mailed him asking what was under the hood. His e-mail, apparently a pre-written response, was a fitting answer to a thread going on in the story's comments, so I answered them with the text of the e-mail I got.
 

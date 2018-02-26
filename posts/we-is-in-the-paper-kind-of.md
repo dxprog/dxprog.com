@@ -5,6 +5,8 @@ date: 2005-07-02T00:28:47-05:00
 tags:
 - rennovation
 - tetra
+redirect_from:
+- entry/we-is-in-the-paper-kind-of/
 ---
 While we're not mentioned directly (at the parents request) the local paper, Examiner Enterprise (aka Teh Typo Tymes), [ran an article](http://www.examiner-enterprise.com/articles/2005/06/30/lifestyles_and_entertainment/c588.txt) on the group that's been helping us get the house whipped into shape. Now this is a crummy recreation of what's in the paper, but until I can get all the pictures scanned and stuff this'll have to do.
 

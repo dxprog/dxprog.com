@@ -6,6 +6,8 @@ tags:
 - coding
 - javascript
 - jslive
+redirect_from:
+- entry/jslive-updates-now-with-less-crappy/
 ---
 I haven't actually worked on jsLive since moving, though that's not to say no work has been done since my [last update](http://dxprog.com/entry/jslive-a-video-of-buggy-fail/). In fact, I made some great strides in the graphics department as you can see below.
 

@@ -7,6 +7,8 @@ tags:
 - college
 - ged
 - moving
+redirect_from:
+- entry/title-goes-here-best-i-could-do-p/
 ---
 Some interesting things happened today (we had burgers for supper, that in itself makes it interesting ;-)).
 

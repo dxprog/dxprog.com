@@ -5,6 +5,8 @@ date: 2013-10-11T22:23:45-05:00
 tags:
 - daily
 - star wars
+redirect_from:
+- entry/before-jj-abrams-i-was-going-to-make-star-wars-vii/
 ---
 Fresh out of things to post about, I decided to poke around the darker regions of my backup drive in search of some old material I could use. Apparently, my debut into Star Wars fanfic was not with homoeroticism, but an old screenplay for a Star Wars film I wanted to make somewhere in the early 2000s. Actually, I have [an old blog post](http://dxprog.com/entry/moving-on-03/) that mentions it. Still, it turns out that this is a complete thing which I don't honestly remember doing.
 

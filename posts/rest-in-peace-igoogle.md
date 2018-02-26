@@ -4,6 +4,8 @@ slug: rest-in-peace-igoogle
 date: 2012-07-03T20:49:30-05:00
 tags:
 - daily
+redirect_from:
+- entry/rest-in-peace-igoogle/
 ---
 ![](http://images.dxprog.com/blog/igoogle_tombstone.jpg "Now I could never be sure, but I thought that I heard the sound of 'Taps' being played. Gently.")
 

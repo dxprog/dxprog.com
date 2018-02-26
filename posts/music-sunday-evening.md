@@ -4,6 +4,8 @@ slug: music-sunday-evening
 date: 2016-11-06T11:38:13-06:00
 tags:
 - general
+redirect_from:
+- entry/music-sunday-evening/
 ---
 My mom does this thing on her blog called "music monday" where she chooses some song and then writes about the lyrics and how it relates to her or discussing the meaning. I'm going to do that, but with two changes:
 

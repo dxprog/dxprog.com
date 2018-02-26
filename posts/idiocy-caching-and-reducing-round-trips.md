@@ -4,6 +4,8 @@ slug: idiocy-caching-and-reducing-round-trips
 date: 2015-07-07T09:31:16-05:00
 tags:
 - coding
+redirect_from:
+- entry/idiocy-caching-and-reducing-round-trips/
 ---
 Over the last few days, I'd been receiving high CPU usage alerts from my host. A tad perplexed, I'd login in, check the graph and logs to see that, indeed, CPU usage was high, but nothing really seemed out of the ordinary. Google Analytics showed that traffic was moderately high, to be expected with a few widely visible brackets going on in /r/anime, but it wasn't anything to raise an eyebrow at. Still, you can't look at the following graph and notice a very predictable period of high activity:
 

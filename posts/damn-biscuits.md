@@ -9,6 +9,8 @@ tags:
 - games
 - phoenix wright
 - zelda
+redirect_from:
+- entry/damn-biscuits/
 ---
 I had the top 5 post all written up and something went screwy when trying to post it. Now it's gone. Lost forever in the digital mines of hell. I'll give you the basic rundown without the commentary because I don't feel like typing it again.
 

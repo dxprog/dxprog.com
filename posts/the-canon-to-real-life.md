@@ -5,6 +5,8 @@ date: 2005-07-28T00:18:14-05:00
 tags:
 - games
 - job
+redirect_from:
+- entry/the-canon-to-real-life/
 ---
 It seems I may be launched from my protective shelter at home with my family right into "real" life soon (what is "real"? ;-)). I'm currently being considered for a job at Gamespot/TV.com/MP3.com doing web work for them. Now that in itself is cool but it would mean relocating to San Fransico (a good several hundred miles from here). It's kind of an exciting thought, though. Finally making my own money, putting aside worries of my future at least for the time being.
 

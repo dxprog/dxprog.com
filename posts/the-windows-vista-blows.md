@@ -7,6 +7,8 @@ tags:
 - ics
 - windows
 - work
+redirect_from:
+- entry/the-windows-vista-blows/
 ---
 ...and sucks, at the same time!
 

@@ -7,6 +7,8 @@ tags:
 - release
 - tetra
 - web
+redirect_from:
+- entry/make-it-open-the-tetras/
 ---
 ![](http://images.dxprog.com/blog/tetra_logo.jpg "The Tetra logo, courtesy of Don Kennedy")
 

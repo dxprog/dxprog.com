@@ -6,6 +6,8 @@ tags:
 - art
 - guitar hero
 - mario
+redirect_from:
+- entry/comic-and-drawings/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/212739/the-intertubes-part-1/)
 

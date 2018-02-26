@@ -6,6 +6,8 @@ tags:
 - aaple. os x
 - mario
 - wii
+redirect_from:
+- entry/safari-how-you-piss-me-off/
 ---
 I've been booting over to OS X lately seeing as I'll have to get used to it when I go to school. Safari, however, is pissing me off. The colors on here don't render properly. It's the same problem that plagued IE4-5. So the gradient at the top doesn't properly blend into the background. Instead it's a disgusting blocky chunk. At that the gradient isn't smooth like it's doing some sort of weird compression thing a la AOL. Apple, if you're software "just works" why does it have problems that were fixed over ten years ago? Bastards.
 

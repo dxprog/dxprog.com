@@ -5,6 +5,8 @@ date: 2006-11-20T23:51:27-06:00
 tags:
 - video
 - wii
+redirect_from:
+- entry/wii-sensor-bar/
 ---
 Here's a quick video we shot explaining how the Wii's sensor bar works:
 

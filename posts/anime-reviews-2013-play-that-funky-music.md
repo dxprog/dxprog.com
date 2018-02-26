@@ -5,6 +5,8 @@ date: 2013-12-23T10:48:14-06:00
 tags:
 - anime
 - reviews
+redirect_from:
+- entry/anime-reviews-2013-play-that-funky-music/
 ---
 It's time again for the wave of anime reviews from the brothers Hack (swear we'll actually finish this year). Per usual, we're kicking it off by picking our top openers and enders of the year. Steve is absent this year because he's being *super lazy* and lying on the couch whining that he doesn't have enough time to write - forget the fact that Chris and Jeff started and finished just moments ago. But whatever, here we go!
 

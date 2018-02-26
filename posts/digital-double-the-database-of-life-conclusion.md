@@ -5,6 +5,8 @@ date: 2006-11-13T00:13:23-06:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-the-database-of-life-conclusion/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/78743/)
 

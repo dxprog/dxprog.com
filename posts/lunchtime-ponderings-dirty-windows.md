@@ -6,6 +6,8 @@ tags:
 - christmas
 - lunch
 - random
+redirect_from:
+- entry/lunchtime-ponderings-dirty-windows/
 ---
 I was on a journey through downtown, returning from the library where I had hoped to temporarily acquire some Death Note manga. As I was walking, I noticed somebody washing the outside windows of a building. I immediately heard an oft used phrase of my parents: "Keep your face/hands off the glass, somebody has to come along and clean those." That's when it hit me: this adage doesn't really hold any water. Why?
 

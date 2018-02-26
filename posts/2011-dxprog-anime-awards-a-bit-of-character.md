@@ -5,6 +5,8 @@ date: 2011-12-30T20:22:03-06:00
 tags:
 - anime
 - review
+redirect_from:
+- entry/2011-dxprog-anime-awards-a-bit-of-character/
 ---
 <p>Welcome back, and now for installment two of the 2011 Best of Anime Awards (<a href="http://dxprog.com/entry/2011-best-of-anime-awards" target="_blank">Part 1, if you missed it</a>).</p>
 <h4>Best Character</h4>

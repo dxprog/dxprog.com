@@ -6,6 +6,8 @@ tags:
 - art
 - random
 - sketches
+redirect_from:
+- entry/you-wanted-emo-here-it-is/
 ---
 Dear Livejournal,
 

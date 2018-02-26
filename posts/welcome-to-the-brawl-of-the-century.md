@@ -6,6 +6,8 @@ tags:
 - nos
 - school
 - video
+redirect_from:
+- entry/welcome-to-the-brawl-of-the-century/
 ---
 [![youtube video](https://img.youtube.com/vi/UeKY0PD2JC8/0.jpg)](https://www.youtube.com/watch?v=UeKY0PD2JC8)
 Hah! You thought it was going to be something about Smash Bros., didn't you? Well, my friend, you were WRONG!

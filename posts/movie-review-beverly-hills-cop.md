@@ -5,6 +5,8 @@ date: 2013-02-22T12:10:09-06:00
 tags:
 - movie
 - review
+redirect_from:
+- entry/movie-review-beverly-hills-cop/
 ---
 ![](http://i.imgur.com/R4uspxN.jpg "Beverly Hills Cop")
 

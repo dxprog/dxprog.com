@@ -12,6 +12,8 @@ tags:
 - final fantasy
 - full sail
 - work
+redirect_from:
+- entry/comics-update/
 ---
 I haven't been posting here very much lately. Why? Well... I dunno :-P. Firstly, though, I'll get the comic links up to speed:
 

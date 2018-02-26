@@ -4,6 +4,8 @@ slug: are-the-robots-getting-smarter
 date: 2013-10-02T09:19:21-05:00
 tags:
 - daily
+redirect_from:
+- entry/are-the-robots-getting-smarter/
 ---
 I was going to talk about how I used nodejs to move redditbooru off of crontab and prevent crazy CPU spikes I was seeing, but then I received this crazy recruiter email that I'm still wrapping my mind around. Ever since I made the jump to Winnercomm, I've been bombarded by a goodly number of people trying to recruit me every month. Since moving to the Valley, nothing's changed except now the companies are ones I've heard of. But today... I received perhaps one of the more bizarre ones I've seen yet:
 

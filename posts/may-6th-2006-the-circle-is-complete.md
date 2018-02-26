@@ -8,6 +8,8 @@ tags:
 - drivers license
 - wacom
 - work
+redirect_from:
+- entry/may-6th-2006-the-circle-is-complete/
 ---
 Yeah, Star Wars VII is coming to theaters! YAY! No, seriously, it's only coming to DVD ;-)
 

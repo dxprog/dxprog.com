@@ -7,6 +7,8 @@ tags:
 - devusb
 - digital double
 - ghost busters
+redirect_from:
+- entry/f5-dev-u-suck-2/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54168/)
 

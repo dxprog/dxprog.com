@@ -4,6 +4,8 @@ slug: this-site-of-yore
 date: 2012-01-23T20:53:47-06:00
 tags:
 - redesign
+redirect_from:
+- entry/this-site-of-yore/
 ---
 Going to take a small break from the journal entries to dip into another vein of memories. A couple of coworkers of mine (well, one ex-coworker) were [waxing nostalgic](https://twitter.com/#!/Fulcan/status/161539757921402880) about our baby steps in the world of web design. It's pretty hideous stuff, to be sure. But, I will not muddle this entry with many words. Here is every version of my site that I still have code/screen caps for:
 

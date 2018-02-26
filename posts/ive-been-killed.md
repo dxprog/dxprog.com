@@ -5,6 +5,8 @@ date: 2008-09-03T01:52:14-05:00
 tags:
 - comic
 - square headed
+redirect_from:
+- entry/ive-been-killed/
 ---
 [![](http://www.dxprog.com/pics/bumpers/square_headed.png "image")](http://squareheaded.smackjeeves.com/comics/429172/sigh-here-we-go-again/)
 

@@ -7,6 +7,8 @@ tags:
 - php
 - site
 - web
+redirect_from:
+- entry/with-the-addition-of-search-the-circle-is-complete/
 ---
 Sometime in late 2002, I was welcomed on to the [partyfish](http://partyfish.sf.net/) dev team. My first task: create the site wide search. Now, bear in mind that this was my first time really doing anything in PHP and search is quite a big thing. Ask Google. I'm pretty sure they'd back me up.
 

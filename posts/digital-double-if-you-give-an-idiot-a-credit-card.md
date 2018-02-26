@@ -7,6 +7,8 @@ tags:
 - comic
 - digital double
 - work
+redirect_from:
+- entry/digital-double-if-you-give-an-idiot-a-credit-card/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54448/)
 

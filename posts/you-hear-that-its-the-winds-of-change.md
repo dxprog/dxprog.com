@@ -6,6 +6,8 @@ tags:
 - ics
 - music
 - work
+redirect_from:
+- entry/you-hear-that-its-the-winds-of-change/
 ---
 In what could be marked as a pardigm shift for me I have purchased my first "real" song off of iTunes, meaning it is a modern rock song. Now the song, which I will name, I've heard plenty of times at Wal-Mart (as much as one can hear it over *beep* *beep* *beep* and all the chatter), but I suppose I have devusb to thank for it in the end. Using some iTunes VPN thingy I was digging through his music this morn and I was able to listen to the entire song and found, horror of horrors, I actually liked it. This leads me to wonder if I shouldn't broaden my musical horizons just a hair.... But anyhoo, you're probably wondering what song could cause such a cataclysmic shift in such a humble being as myself. It's "[Dirty Little Secret](http://phobos.apple.com/WebObjects/MZStore.woa/wa/viewAlbum?playlistId=73648639&s=143441&i=73648643)" by the All-American Rejects.
 

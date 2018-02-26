@@ -4,6 +4,8 @@ slug: the-me-of-yore:-part-6-entrepreneurial-ventures
 date: 2012-02-13T23:17:10-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore:-part-6-entrepreneurial-ventures/
 ---
 Getting down to the last of these.
 

@@ -7,6 +7,8 @@ tags:
 - me
 - nostalgia
 - ypn
+redirect_from:
+- entry/life-as-an-internet-microcelebrity/
 ---
 If you frequent digg you no doubt saw [this](http://www.careerdistinction.com/onlineid/step1.html) a while back. For those who don't enjoy clicking links to find out pertinent information, it's a page that calculates how "famous" you are on the internet. I'll say this isn't entirely foolproof. All calculations are done via google search results, but it gives you somewhat of an idea about your... uniqueness.
 

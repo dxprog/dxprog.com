@@ -4,6 +4,8 @@ slug: the-me-of-yore-part-13-an-unentertaining-youth
 date: 2012-04-28T22:20:02-05:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore-part-13-an-unentertaining-youth/
 ---
 Returning back to my own youthful scribblings, there's nothing terribly exciting in today's batch.
 

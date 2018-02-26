@@ -7,6 +7,8 @@ tags:
 - final fantasy
 - mario
 - sketches
+redirect_from:
+- entry/sketcharoo/
 ---
 Remember that sketch a day routine I suggested last week. Well it's back, only not quite so themed. The reason I stopped in the first place is because thqat Midna picture really bummed me out. It sucked. Hard core.
 

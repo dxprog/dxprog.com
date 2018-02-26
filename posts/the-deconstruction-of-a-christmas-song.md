@@ -5,6 +5,8 @@ date: 2011-12-17T00:00:00-06:00
 tags:
 - christmas
 - rant
+redirect_from:
+- entry/the-deconstruction-of-a-christmas-song/
 ---
 It is that time of year again as so can be plainly seen by the appearance of Vulgar Santa on my site. So, given the spirit of the season, I shell delve into Christmas related subject. Today, I will be violently tearing apart a Christmas song (no, not the Nat King Cole one).
 

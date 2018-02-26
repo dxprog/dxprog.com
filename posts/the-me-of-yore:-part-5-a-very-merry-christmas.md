@@ -4,6 +4,8 @@ slug: the-me-of-yore:-part-5-a-very-merry-christmas
 date: 2012-02-10T01:15:14-06:00
 tags:
 - journal
+redirect_from:
+- entry/the-me-of-yore:-part-5-a-very-merry-christmas/
 ---
 We return after the downer that was the previous post with some Christmas joy! Between this entry and the previous, I began writing in a new notebook (thus resetting the entry number count). But, this is a pretty awesome entry, if only for the memories it brings back.
 

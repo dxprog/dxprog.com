@@ -7,6 +7,8 @@ tags:
 - coding
 - daily
 - games
+redirect_from:
+- entry/the-gauntlet-i-have-thrown-it/
 ---
 ![](http://images.dxprog.com/blog/gauntlet_attack.jpg "Red warrior is about to die!")
 So good to be back at my computer with a real keyboard and a copy of Photoshop with which to make stupid blog headers.

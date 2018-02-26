@@ -5,6 +5,8 @@ date: 2013-06-25T22:40:00-05:00
 tags:
 - daily
 - weekly
+redirect_from:
+- entry/accountability-report-a-little-tipsy/
 ---
 Contrary to yesterday's post, I should embrace the accountability report because it's stupid simple to write. A handful of subjects and some words on how I failed to meet them. Works well today when I'm buzzing a bit and just need to get a post out.
 

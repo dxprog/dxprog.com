@@ -5,6 +5,8 @@ date: 2006-07-21T01:22:15-05:00
 tags:
 - comic
 - digital double
+redirect_from:
+- entry/digital-double-cheese-whiz/
 ---
 [Comic](http://digitaldouble.smackjeeves.com/comics/54189/)
 

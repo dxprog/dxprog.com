@@ -5,6 +5,8 @@ date: 2013-06-03T04:43:53-05:00
 tags:
 -  daily
 - japan
+redirect_from:
+- entry/akihabara-day-1-or-how-i-learned-i-have-a-gambling-problem/
 ---
 One of the primary trips for our coming to Japan was to visit Akihabara, the mecca of all things _otaku_ in this planet earth. If there is a "genre" of thing that could fit under the nerd label, Akiba will have a lot of something for you. Today (by date in the western hemisphere), we made our first pilgrimige to this magical land.
 

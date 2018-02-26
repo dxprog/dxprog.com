@@ -6,6 +6,8 @@ tags:
 - daily
 - movies
 - sci fi
+redirect_from:
+- entry/scifi-movie-time/
 ---
 ![](http://images.dxprog.com/blog/blade_oddessy.jpg "I can't let you do that, Han")
 

@@ -7,6 +7,8 @@ tags:
 - convention
 - cosplay
 - daily
+redirect_from:
+- entry/getting-fit-to-look-less-nerdy-to-look-more-nerdy-at-a-nerd-convention/
 ---
 ![](http://images.dxprog.com/blog/smexy_spock.jpg "Ladies...")
 

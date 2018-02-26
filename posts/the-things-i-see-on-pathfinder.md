@@ -8,5 +8,7 @@ tags:
 - mushrooms
 - pathfinder
 - photoshop
+redirect_from:
+- entry/the-things-i-see-on-pathfinder/
 ---
 ![](http://images.dxprog.com/blog/pathfinder_mushrooms.jpg "Where there are mushrooms, there will be a Mushroom Kingdom")

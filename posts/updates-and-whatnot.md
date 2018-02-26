@@ -7,6 +7,8 @@ tags:
 - layaway
 - wii
 - work
+redirect_from:
+- entry/updates-and-whatnot/
 ---
 So, I haven't really done any updates on my personal life in a while. Let's see, since I last blogged I've gotten married, had three kids, won a Nobel Peace prize and purchased a Wii. Only one of these things is important, but I'll leave it to you to figure out.
 

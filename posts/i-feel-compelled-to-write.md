@@ -8,6 +8,8 @@ tags:
 - philisophy
 - school
 - web
+redirect_from:
+- entry/i-feel-compelled-to-write/
 ---
 It is another month and with that another wave of classes. Lucky me has class six days a week! (except next week where I only have class four days. Whatever.) So, you're probably asking "Hey, Matt! What kind of awesome stuff do you get to do this month?" To which I answer "Have you not been paying attention, compadre? Classes aren't fun anymore." This month is the exciting world of portfolio creation and business communication (see this, here, now? I'm communicating. Perhaps to businesses).
 

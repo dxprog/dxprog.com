@@ -4,6 +4,8 @@ slug: spector-of-the-past
 date: 2006-07-14T03:39:09-05:00
 tags:
 - recap
+redirect_from:
+- entry/spector-of-the-past/
 ---
 Well, like I said, I got my old Tetra blog moved over. You can start [here](http://www.dxprog.com/?p=67). And now the highlights of the last year:
 
