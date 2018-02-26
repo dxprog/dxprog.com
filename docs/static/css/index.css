@@ -89,19 +89,19 @@ a {
   .intro-bar--horizontal {
     margin-bottom: 10rem;
     background-attachment: fixed;
-    background-position: center;
+    background-position: bottom;
     box-shadow: 0 5px 5px rgba(0, 0, 0, 0.25);
     position: relative;
     padding: 5rem 0;
     overflow: hidden; }
     .intro-bar--horizontal:before {
       z-index: 0;
-      opacity: .5; }
+      opacity: .75; }
     .intro-bar--horizontal:after {
       content: ''; }
-    .intro-bar--horizontal .intro-bar__name,
+    .intro-bar--horizontal .intro-bar__header,
     .intro-bar--horizontal .intro-bar__subhead,
-    .intro-bar--horizontal .social-links {
+    .intro-bar--horizontal .intro-bar__social-nav {
       z-index: 1; }
     .intro-bar--horizontal .intro-bar__name {
       display: inline; }
