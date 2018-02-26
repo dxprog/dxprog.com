@@ -123,6 +123,6 @@ At the shopping arcade, we came across a sit down style restaurant and had ourse
 
 After eating, we made our way to the Taito station for some Taiko and so I could squander away the rest of my money on crane machines (a whole $3 at this point). There was also a rather interesting game next to the Taiko machine that I just had to video, it was so ridiculous. I apologize for the vertical problem; I guess my phone isn't smart enough to know when I'm filming in the correct position.
 
-[![youtube video](https://img.youtube.com/vi/057TJ0FQF6I/0.jpg)](https://www.youtube.com/watch?v=057TJ0FQF6I)
+[![youtube video](https://img.youtube.com/vi/057TJ0FQF6I/0.jpg)](https://www.youtube.com/watch?v=057TJ0FQF6I&youtube-thumb)
 
 So, that pretty much ended the day. And now that I've typed this twice, I'm done.

@@ -10,7 +10,7 @@ tags:
 redirect_from:
 - entry/jslive-a-video-of-buggy-fail/
 ---
-[![youtube video](https://img.youtube.com/vi/fZuAdDLlib8/0.jpg)](https://www.youtube.com/watch?v=fZuAdDLlib8)
+[![youtube video](https://img.youtube.com/vi/fZuAdDLlib8/0.jpg)](https://www.youtube.com/watch?v=fZuAdDLlib8&youtube-thumb)
 
 A little more teaser of my progress on JsLive. Honestly, this video probably seems like _less_ progress than the [screen shots](http://dxprog.com/entry/jslive-progress-report-and-screenshots) I put up previously, but it does demonstrate some things that static pictures cannot: "motion" and audio.
 

@@ -14,7 +14,7 @@ Firstly, today's [comic](http://digitaldouble.smackjeeves.com/comics/72069/).
 
 I'm not sure if I've said or not, but I'm currently in the middle of my two week hiatus from Wal-Mart (unpaid, sadly, but I'm not one to quibble when it means two weeks of care free goodness). One of the things I vowed to do in my two weeks of freedom was teach myself how to play piano. Overall I'd say it's going pretty well and having a keyboard that totally rocks helps ;-). But don't take my word for it, here's me playing a little piece of Zelda music (actually, I've been passively working on learning this piece for over a year :-P):
 
-[![youtube video](https://img.youtube.com/vi/BJCFtI9wjcQ/0.jpg)](https://www.youtube.com/watch?v=BJCFtI9wjcQ)
+[![youtube video](https://img.youtube.com/vi/BJCFtI9wjcQ/0.jpg)](https://www.youtube.com/watch?v=BJCFtI9wjcQ&youtube-thumb)
 
 I'm hoping that by next summer I'll be proficient enough to play the song in its entirety (without screwing up) along with some others (Final Fantasy X's [To Zanarkand](http://www.youtube.com/watch?v=Ty8PPnrKY0w) being of them).
 

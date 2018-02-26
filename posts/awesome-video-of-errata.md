@@ -9,7 +9,7 @@ tags:
 redirect_from:
 - entry/awesome-video-of-errata/
 ---
-[![youtube video](https://img.youtube.com/vi/B3Vh--awqmQ/0.jpg)](https://www.youtube.com/watch?v=B3Vh--awqmQ)
+[![youtube video](https://img.youtube.com/vi/B3Vh--awqmQ/0.jpg)](https://www.youtube.com/watch?v=B3Vh--awqmQ&youtube-thumb)
 
 Now, I realize that the "system specs" spewed forth in the above video were probably intentionally skewed so as to follow the whacky, 80s style zaniness, but as an uber nerd and somebody who's intimately familiar with NES hardware, I feel compelled to correct their errors.
 

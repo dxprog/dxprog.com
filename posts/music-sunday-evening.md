@@ -14,7 +14,7 @@ My mom does this thing on her blog called "music monday" where she chooses some 
 
 ## The Best is Yet to Come - Metal Gear Solid
 
-[![youtube video](https://img.youtube.com/vi/6miaTf1gF4g/0.jpg)](https://www.youtube.com/watch?v=6miaTf1gF4g)
+[![youtube video](https://img.youtube.com/vi/6miaTf1gF4g/0.jpg)](https://www.youtube.com/watch?v=6miaTf1gF4g&youtube-thumb)
 
 _The Best is Yet to Come_ is the song you hear upon completing Metal Gear Solid. It begins playing after we've watched Snake and Meryl (or Otacon, if you fucked up) take off across the snow swept plains of Alaska. It's a lovely and haunting piece that captures the exact essence of "Alaskan Plains".
 

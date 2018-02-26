@@ -10,4 +10,4 @@ redirect_from:
 ---
 Okay, so I actually filmed _two_ things yesterday. I'm very sorry!
 
-[![youtube video](https://img.youtube.com/vi/C_1FX-TKXvY/0.jpg)](https://www.youtube.com/watch?v=C_1FX-TKXvY)
+[![youtube video](https://img.youtube.com/vi/C_1FX-TKXvY/0.jpg)](https://www.youtube.com/watch?v=C_1FX-TKXvY&youtube-thumb)

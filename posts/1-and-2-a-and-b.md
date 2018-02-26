@@ -35,6 +35,6 @@ _Well, I see the way to go but there isn't any light_
 
 and the Queen Mother of all of them is _You Don't Believe_ which I won't write down, because the whole song is a series of SOCs. Check for yourself:
 
-[![youtube video](https://img.youtube.com/vi/ylcHHb93GRo/0.jpg)](https://www.youtube.com/watch?v=ylcHHb93GRo)
+[![youtube video](https://img.youtube.com/vi/ylcHHb93GRo/0.jpg)](https://www.youtube.com/watch?v=ylcHHb93GRo&youtube-thumb)
 
 I'm sure I've missed a few of these, but those were the one's off the top of my head. It's an interesting hallmark of the group for sure.

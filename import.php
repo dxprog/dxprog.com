@@ -28,7 +28,7 @@ $rpl = array (
   "## \$1",
   "\$1",
   "- \$1\n",
-  "[![youtube video](https://img.youtube.com/vi/\$1/0.jpg)](https://www.youtube.com/watch?v=\$1)",
+  "[![youtube video](https://img.youtube.com/vi/\$1/0.jpg)](https://www.youtube.com/watch?v=\$1&youtube-thumb)",
   "<div id=\"flash_embed\"><script type=\"text/javascript\">\$(function(){\$(\"#flash_embed\").flash({swf:\"\$1\", width:630, height:375})});</script></div>",
   "```\$1\n\$2\n```");
 

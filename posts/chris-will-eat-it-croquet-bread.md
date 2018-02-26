@@ -11,6 +11,6 @@ redirect_from:
 ---
 It's another exciting episode of Chris Will Eat It! Also, the last episode!
 
-[![youtube video](https://img.youtube.com/vi/oRy0ITGeE7g/0.jpg)](https://www.youtube.com/watch?v=oRy0ITGeE7g)
+[![youtube video](https://img.youtube.com/vi/oRy0ITGeE7g/0.jpg)](https://www.youtube.com/watch?v=oRy0ITGeE7g&youtube-thumb)
 
 Maybe it's not the last, though.....

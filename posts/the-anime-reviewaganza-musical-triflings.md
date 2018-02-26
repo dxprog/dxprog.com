@@ -12,7 +12,7 @@ As has been customary for four years now, I and some of my brothers have put int
 
 ## Best Opening
 **Chris - _Crossing Field (Sword Art Online)_**
-[![youtube video](https://img.youtube.com/vi/gMDwrRNTp8M/0.jpg)](https://www.youtube.com/watch?v=gMDwrRNTp8M)
+[![youtube video](https://img.youtube.com/vi/gMDwrRNTp8M/0.jpg)](https://www.youtube.com/watch?v=gMDwrRNTp8M&youtube-thumb)
 
 It would be inaccurate to state that I know how to explain music, or why I like certain songs more than others. Unfortunately, my cognitive capacity for this activity is far outweighed by the naturalness of describing things assaulting my other, far more supple senses.
 
@@ -23,13 +23,13 @@ This song kicks ass – I can’t explain why, but that is the way of things, an
 OH, SNAP.[break]
 
 **Matt - _Euphoric Field ~English~ (ef - A Tale of Memories)_**
-[![youtube video](https://img.youtube.com/vi/9DXTk9gtOHY/0.jpg)](https://www.youtube.com/watch?v=9DXTk9gtOHY)
+[![youtube video](https://img.youtube.com/vi/9DXTk9gtOHY/0.jpg)](https://www.youtube.com/watch?v=9DXTk9gtOHY&youtube-thumb)
 
 I will not lie; I chose this song solely because it had the most play counts for the year (281 as of this writing). However, it is entirely deserving of this position. Both the music, which is at the same time both powerful and gentle, and the opening visuals are pretty fantastic. The visuals in particular are dripping with a design aesthetic that could only come from studio SHAFT (coincidentally, they’re also responsible for [my best OP pick last year](http://dxprog.com/entry/2011-best-of-anime-awards/)). A combination of a shitload of text combined with bright solids give what’s left of the designer in me a raging design boner.
 
 ## Best Ending
 **Chris - _Umikaze no Brave (Robotics;Notes)_**
-[![youtube video](https://img.youtube.com/vi/TomOoTkiCTY/0.jpg)](https://www.youtube.com/watch?v=TomOoTkiCTY)
+[![youtube video](https://img.youtube.com/vi/TomOoTkiCTY/0.jpg)](https://www.youtube.com/watch?v=TomOoTkiCTY&youtube-thumb)
 _(note - this is the only video of this song I could find)_
 
 You know what sucks? That’s a secret, but I’ll tell you what doesn’t suck: this song.
@@ -43,7 +43,7 @@ It starts out unassuming enough, one of those songs where it will pop up in your
 I would make a comment about the aforementioned refrain making my DICK super ROCK HARD, but that wouldn’t be gentlemanly.
 
 **Matt - _Coloring (Papakiki)_**
-[![youtube video](https://img.youtube.com/vi/Ov1lWsFvS80/0.jpg)](https://www.youtube.com/watch?v=Ov1lWsFvS80)
+[![youtube video](https://img.youtube.com/vi/Ov1lWsFvS80/0.jpg)](https://www.youtube.com/watch?v=Ov1lWsFvS80&youtube-thumb)
 Again, chosen by listening habits (164 plays). I suppose that this method of choosing is not entirely fair since this show was released in the winter season, but in a season that was pretty bleak on the music front, this one stood head and shoulders above everything else (and also pretty much the only good thing to come out of this show). Much like my OP pick, the animation for this is comprised of a lot of bright solids (I like that, so sue me), but the music itself is very, very different. Where Euphoric Field is a kind of orchestral rock piece, Coloring is 100% synth pop. And I enjoy synth pop sometimes. It’s all about diversity.
 
 Tune in again in a few days for more reviewy goodness.

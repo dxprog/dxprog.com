@@ -10,4 +10,4 @@ redirect_from:
 ---
 No, not *those* balls, you sick perv. Takoyaki, or battered and fried octopus tentacles (yes, *those* tentacles, you sick perv).
 
-[![youtube video](https://img.youtube.com/vi/2q_GglE025U/0.jpg)](https://www.youtube.com/watch?v=2q_GglE025U)
+[![youtube video](https://img.youtube.com/vi/2q_GglE025U/0.jpg)](https://www.youtube.com/watch?v=2q_GglE025U&youtube-thumb)

@@ -60,6 +60,42 @@
       font-size: 2rem;
     }
 
+    // [youtube] link styling
+    a[href*="youtube-thumb"] {
+      display: block;
+      position: relative;
+      &:before {
+        content: '';
+        position: absolute;
+        width: 20rem;
+        height: 20rem;
+        left: 50%;
+        top: 50%;
+        border-radius: 20rem * 2;
+        transform: translateX(-50%) translateY(-50%);
+        background: rgba(#000, .5);
+      }
+
+      &:after {
+        content: '';
+        border: 5rem solid transparent;
+        border-left-color: rgba(#fff, .75);
+        position: absolute;
+        top: 50%;
+        left: calc(50% + 3rem);
+        transform: translateX(-50%) translateY(-50%);
+      }
+
+      &:hover {
+        &:before {
+          background: rgba(#000, .75);
+        }
+
+        &:after {
+          border-left-color: #fff;
+        }
+      }
+    }
   }
 
   .post-page & {

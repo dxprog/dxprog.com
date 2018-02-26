@@ -8,7 +8,7 @@ tags:
 redirect_from:
 - entry/the-automated-warner-waterer/
 ---
-[![youtube video](https://img.youtube.com/vi/R0EhqLACsw4/0.jpg)](https://www.youtube.com/watch?v=R0EhqLACsw4)
+[![youtube video](https://img.youtube.com/vi/R0EhqLACsw4/0.jpg)](https://www.youtube.com/watch?v=R0EhqLACsw4&youtube-thumb)
 
 Out of nowhere, a blog post!
 

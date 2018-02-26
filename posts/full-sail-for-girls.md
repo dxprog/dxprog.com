@@ -10,6 +10,6 @@ tags:
 redirect_from:
 - entry/full-sail-for-girls/
 ---
-[![youtube video](https://img.youtube.com/vi/7LAqypepGRM/0.jpg)](https://www.youtube.com/watch?v=7LAqypepGRM)
+[![youtube video](https://img.youtube.com/vi/7LAqypepGRM/0.jpg)](https://www.youtube.com/watch?v=7LAqypepGRM&youtube-thumb)
 
 Not going to put a whole bunch of useless text on this one, however I will explain things a bit. This is yet another project for motion graphics. The criteria on this one was to create a commercial for a demographic outside of my own. So, I decided to market Full Sail to women (because we don't have near enough). Enjoy.

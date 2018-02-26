@@ -16,10 +16,10 @@ Some time ago, video game news site [Joystiq](http://www.joystiq.com/) began a w
 Without further ado, I bring to you the first Game Music Friday, the topic of choice being Dr. Mario. Enjoy![break]
 
 **Chill Theme (CalebElijah)**
-[![youtube video](https://img.youtube.com/vi/knloGmZMENo/0.jpg)](https://www.youtube.com/watch?v=knloGmZMENo)
+[![youtube video](https://img.youtube.com/vi/knloGmZMENo/0.jpg)](https://www.youtube.com/watch?v=knloGmZMENo&youtube-thumb)
 
 **NES Title Theme (Ju768/Su Mao)**
-[![youtube video](https://img.youtube.com/vi/UUy5NrTUjFI/0.jpg)](https://www.youtube.com/watch?v=UUy5NrTUjFI)
+[![youtube video](https://img.youtube.com/vi/UUy5NrTUjFI/0.jpg)](https://www.youtube.com/watch?v=UUy5NrTUjFI&youtube-thumb)
 
 **Fever Theme (brentalfloss)**
-[![youtube video](https://img.youtube.com/vi/qQuvCFbsgRY/0.jpg)](https://www.youtube.com/watch?v=qQuvCFbsgRY)
+[![youtube video](https://img.youtube.com/vi/qQuvCFbsgRY/0.jpg)](https://www.youtube.com/watch?v=qQuvCFbsgRY&youtube-thumb)

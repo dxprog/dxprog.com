@@ -13,7 +13,7 @@ I was minding my own business last night, doing some programming and listening t
 
 But, I have also written things so that I can control the playlist of any person currently using the page. So, I fired the following back at my brother:
 
-[![youtube video](https://img.youtube.com/vi/nKEI3rjzAGY/0.jpg)](https://www.youtube.com/watch?v=nKEI3rjzAGY)
+[![youtube video](https://img.youtube.com/vi/nKEI3rjzAGY/0.jpg)](https://www.youtube.com/watch?v=nKEI3rjzAGY&youtube-thumb)
 
 Best $0.99 I've ever spent on a karaoke song.
 

@@ -12,7 +12,7 @@ redirect_from:
 ---
 Tossing your works out onto the internets for everybody to see comes with a few interesting points. Without knowing it, you can be featured in a [Brazilian magazine](http://dxprog.com/entry/holy-crap/), offered employment at a [large game company](http://dxprog.com/entry/welcome-to-the-brawl-of-the-century/#comments) and now have one's work translated and dubbed into another language:
 
-[![youtube video](https://img.youtube.com/vi/dS7MjQss1i8/0.jpg)](https://www.youtube.com/watch?v=dS7MjQss1i8)
+[![youtube video](https://img.youtube.com/vi/dS7MjQss1i8/0.jpg)](https://www.youtube.com/watch?v=dS7MjQss1i8&youtube-thumb)
 
 Thank you, Ju4NJo09, for making my labor day weekend a little more awesome! 
 

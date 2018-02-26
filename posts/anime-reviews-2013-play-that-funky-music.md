@@ -12,7 +12,7 @@ It's time again for the wave of anime reviews from the brothers Hack (swear we'l
 
 ## Best Opener
 
-[![youtube video](https://img.youtube.com/vi/8OkpRK2_gVs/0.jpg)](https://www.youtube.com/watch?v=8OkpRK2_gVs)
+[![youtube video](https://img.youtube.com/vi/8OkpRK2_gVs/0.jpg)](https://www.youtube.com/watch?v=8OkpRK2_gVs&youtube-thumb)
 
 **Matt - Guren no Yumiya (_Attack on Titan_)**
 
@@ -24,7 +24,7 @@ Trying to figure out what the best songs of the year is a difficult task. It's e
 
 We all know this is the case, so this doesn’t really need to be said, but Guren no Yumiya was by far the best OP of 2013.  Not only is the song excellent - although this sadly doesn't carry over to the full version - but the visuals work with the song to get you super pumped up and your pants off.  That's pretty badass.
 
-[![youtube video](https://img.youtube.com/vi/2c1GN5O6mx4/0.jpg)](https://www.youtube.com/watch?v=2c1GN5O6mx4)
+[![youtube video](https://img.youtube.com/vi/2c1GN5O6mx4/0.jpg)](https://www.youtube.com/watch?v=2c1GN5O6mx4&youtube-thumb)
 
 _(Note - this is a promotional video and not the actual opener. It is the right song, however)_
 
@@ -40,7 +40,7 @@ Fuck you, "Guren No Yumiya long version".
 
 ## Best Ending
 
-[![youtube video](https://img.youtube.com/vi/g_ErEdPos_o/0.jpg)](https://www.youtube.com/watch?v=g_ErEdPos_o)
+[![youtube video](https://img.youtube.com/vi/g_ErEdPos_o/0.jpg)](https://www.youtube.com/watch?v=g_ErEdPos_o&youtube-thumb)
 
 **Matt - Bokura no Tsubasa (_Haganai NEXT_)**
 
@@ -50,7 +50,7 @@ Sadly, unlike the hands down winner that was best OP, I had to go back to play s
 
 I’m really not good at writing about music - fuck that shit - but I will say that Haganai S2 has a very good ED from a musical standpoint.  But, more than that, I found the art that went with it to be very beautiful, using a mixture of bright - but not oversaturated - colors and outlines to create a very nice visual aesthetic.  I usually sit through the ending anytime I watch an episode of anime, but I made special care to do so in this case.
 
-[![youtube video](https://img.youtube.com/vi/vLFx0yedlxc/0.jpg)](https://www.youtube.com/watch?v=vLFx0yedlxc)
+[![youtube video](https://img.youtube.com/vi/vLFx0yedlxc/0.jpg)](https://www.youtube.com/watch?v=vLFx0yedlxc&youtube-thumb)
 
 **Jeff - Daisy (_Kyoukai no Kanata_)**
 

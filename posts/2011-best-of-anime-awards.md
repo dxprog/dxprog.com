@@ -36,29 +36,29 @@ Oh, and there's a milk maid. But she doesn't get her milk from cows... her cow s
 
 ## Best Opening Song
 **Chris - Hacking to the Gate (_Steins; Gate_)**
-[![youtube video](https://img.youtube.com/vi/nLGS_rNSlKU/0.jpg)](https://www.youtube.com/watch?v=nLGS_rNSlKU)
+[![youtube video](https://img.youtube.com/vi/nLGS_rNSlKU/0.jpg)](https://www.youtube.com/watch?v=nLGS_rNSlKU&youtube-thumb)
 This song is from Steins; Gate, which automatically makes it awesome.  Do you know how many times I've listened to this song?  _One hundreds of zillions of times_.  FUCK YOU, that is a real number.
 
 **Jeff - God Only Knows (_The World God Only Knows_)**
-[![youtube video](https://img.youtube.com/vi/wDQvptDvA_0/0.jpg)](https://www.youtube.com/watch?v=wDQvptDvA_0)
+[![youtube video](https://img.youtube.com/vi/wDQvptDvA_0/0.jpg)](https://www.youtube.com/watch?v=wDQvptDvA_0&youtube-thumb)
 "The World God Only Knows" season one wins the award for best opening. No, I'm not going to elaborate. To express my feelings behind this choice is impossible, go listen to the song if you want validation.
 
 **Matt - Shoujo Q (_Pani Poni Dash_)**
-[![youtube video](https://img.youtube.com/vi/dQbaJquz_jo/0.jpg)](https://www.youtube.com/watch?v=dQbaJquz_jo)
+[![youtube video](https://img.youtube.com/vi/dQbaJquz_jo/0.jpg)](https://www.youtube.com/watch?v=dQbaJquz_jo&youtube-thumb)
 I'd considered choosing Madoka Magica's [Connect](http://www.youtube.com/watch?v=btNSYi2QMTM), but instead opted for Pani Poni Dash' third opener. What bumps Shojou Q above is how the song is drippy with 80s goodness, from the synth stabs to the wire frames littered throughout the opening animation. This really fits in well with Pani Poni's pop culture referential, super random craziness.
 
 ## Best Ending Song
 **Chris - Sky Clad no Kansokusha (Sky Clad Observer) (_Steins; Gate_)**
-[![youtube video](https://img.youtube.com/vi/mKQ2DCMC0JM/0.jpg)](https://www.youtube.com/watch?v=mKQ2DCMC0JM)
+[![youtube video](https://img.youtube.com/vi/mKQ2DCMC0JM/0.jpg)](https://www.youtube.com/watch?v=mKQ2DCMC0JM&youtube-thumb)
 This song was used as the ending in one episode of Steins; Gate, but that' enough to grab the award from me.  As with my choice of best opening, I have listened to this song _one zillion jillion times_.  Not possible?  This song makes it possible through pure badassery.
 
 **Jeff - Ahita, boku wa kimi ni ai ni wuku**
-[![youtube video](https://img.youtube.com/vi/3xIM-JnIB8s/0.jpg)](https://www.youtube.com/watch?v=3xIM-JnIB8s)
+[![youtube video](https://img.youtube.com/vi/3xIM-JnIB8s/0.jpg)](https://www.youtube.com/watch?v=3xIM-JnIB8s&youtube-thumb)
 As for best ending? It comes from a show I didn't even watch, which I will not name. The name of the song is "Ahita, boku wa kimi ni ai ni wuku". Again, it is impossible for me to validate this decision with words. My taste in music is largely arbitrary, so again go listen to the song if you want to know why I chose it.
 I make no guarantees that you will like either of them.
 
 **Matt - Secret Base (_AnoHana_)**
-[![youtube video](https://img.youtube.com/vi/asQHzJYIF2A/0.jpg)](https://www.youtube.com/watch?v=asQHzJYIF2A)
+[![youtube video](https://img.youtube.com/vi/asQHzJYIF2A/0.jpg)](https://www.youtube.com/watch?v=asQHzJYIF2A&youtube-thumb)
 The ender for AnoHana is actually a cover of a JPOP song from the turn of the century, but this version seems to kick the original's ass. I think part of this is due to this version being played slightly softer which really helps it punctuate the end of every episode of the show (which, arguably, ended with a lot of downers).
 
 That's all for this round. Tune in again tomorrow for the next wave!

@@ -13,4 +13,4 @@ Bag of white chocolate chips - $2
 Canon Vixia HV30 - $600
 Blowing a Sunday evening making a dumb ass video? Expensive
 
-[![youtube video](https://img.youtube.com/vi/cZoIHLqIsng/0.jpg)](https://www.youtube.com/watch?v=cZoIHLqIsng)
+[![youtube video](https://img.youtube.com/vi/cZoIHLqIsng/0.jpg)](https://www.youtube.com/watch?v=cZoIHLqIsng&youtube-thumb)

@@ -13,7 +13,7 @@ I've been wanting an Arduino microcontroller for some time and last week I final
 
 To that end, I horked some code from a Taiko no Tatsujin clone I'd been writing a few years ago and tossed the output at the Arduino via serial data. Here's the result:
 
-[![youtube video](https://img.youtube.com/vi/NNB-FKYbRWY/0.jpg)](https://www.youtube.com/watch?v=NNB-FKYbRWY)
+[![youtube video](https://img.youtube.com/vi/NNB-FKYbRWY/0.jpg)](https://www.youtube.com/watch?v=NNB-FKYbRWY&youtube-thumb)
 
 Code is after the break![break]
 

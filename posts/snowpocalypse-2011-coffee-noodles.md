@@ -10,4 +10,4 @@ redirect_from:
 ---
 ![](http://images.dxprog.com/blog/snowpocalypse2011.jpg "Day 3")
 I'm sorry.
-[![youtube video](https://img.youtube.com/vi/fkyu6T0tLaY/0.jpg)](https://www.youtube.com/watch?v=fkyu6T0tLaY)
+[![youtube video](https://img.youtube.com/vi/fkyu6T0tLaY/0.jpg)](https://www.youtube.com/watch?v=fkyu6T0tLaY&youtube-thumb)

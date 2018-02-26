@@ -178,6 +178,31 @@ a {
     margin: 2rem;
     padding: 3rem 3rem 1px;
     font-size: 2rem; }
+  .post__content a[href*="youtube-thumb"] {
+    display: block;
+    position: relative; }
+    .post__content a[href*="youtube-thumb"]:before {
+      content: '';
+      position: absolute;
+      width: 20rem;
+      height: 20rem;
+      left: 50%;
+      top: 50%;
+      border-radius: 40rem;
+      transform: translateX(-50%) translateY(-50%);
+      background: rgba(0, 0, 0, 0.5); }
+    .post__content a[href*="youtube-thumb"]:after {
+      content: '';
+      border: 5rem solid transparent;
+      border-left-color: rgba(255, 255, 255, 0.75);
+      position: absolute;
+      top: 50%;
+      left: calc(50% + 3rem);
+      transform: translateX(-50%) translateY(-50%); }
+    .post__content a[href*="youtube-thumb"]:hover:before {
+      background: rgba(0, 0, 0, 0.75); }
+    .post__content a[href*="youtube-thumb"]:hover:after {
+      border-left-color: #fff; }
   .post-page .post {
     max-width: 1100px;
     margin: 0 auto; }

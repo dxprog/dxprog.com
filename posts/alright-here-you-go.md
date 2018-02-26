@@ -11,6 +11,6 @@ redirect_from:
 ---
 Shaving it a little close today...
 
-[![youtube video](https://img.youtube.com/vi/ZTxHJxUnGtk/0.jpg)](https://www.youtube.com/watch?v=ZTxHJxUnGtk)
+[![youtube video](https://img.youtube.com/vi/ZTxHJxUnGtk/0.jpg)](https://www.youtube.com/watch?v=ZTxHJxUnGtk&youtube-thumb)
 
 Pretty sure I promised pictures some time ago. Well, my iPhone sucks at taking pictures and video is better. Plus, it gave me an excuse to bust out some kinetic typography!
