@@ -32,6 +32,7 @@ pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
 pg.writer.addStaticContent('static/images', path.join(staticDir, 'images'));
 
 pg.addReader(new PostsReader(path.resolve('comics/')));
+pg.addReader(new PostsReader(path.resolve('art/')));
 
 pg.build()
   .then(() => sassRenderAsync({
