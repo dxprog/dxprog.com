@@ -13,24 +13,24 @@
 </ul>
 <p><strong>Example</strong></p>
 <pre><code class="lang-php">
-include(&#39;id3lib.php&#39;);
-$songs = array(&#39;song1.mp3&#39;, &#39;song2.mp3&#39;, &#39;song3.mp3&#39;);
-$id3 = new ID3Lib();
-for ($i = 0, $count = count($songs); i &lt; $count; i++) {
+<span class="hljs-keyword">include</span>(<span class="hljs-string">'id3lib.php'</span>);
+$songs = <span class="hljs-keyword">array</span>(<span class="hljs-string">'song1.mp3'</span>, <span class="hljs-string">'song2.mp3'</span>, <span class="hljs-string">'song3.mp3'</span>);
+$id3 = <span class="hljs-keyword">new</span> ID3Lib();
+<span class="hljs-keyword">for</span> ($i = <span class="hljs-number">0</span>, $count = count($songs); i &lt; $count; i++) {
     $id3-&gt;readFile;
-    $min = floor($id3-&gt;length / 60);
-    $sec = $id3-&gt;length - ($min * 60);
-    $sec = strlen($sec) == 1 ? &#39;0&#39; . $sec : $sec;
-    echo &#39;Title: &#39;, $id3-&gt;title, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Artist: &#39;, $id3-&gt;artist, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Album: &#39;, $id3-&gt;album, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Track Number: &#39;, $id3-&gt;track, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Disc: &#39;, $id3-&gt;disc, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Year: &#39;, $id3-&gt;year, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Genre: &#39;, $id3-&gt;genre, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Length: &#39;, $min, &#39;:&#39;, $sec, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Avg. Bit Rate: &#39;, $id3-&gt;bitrate, &#39;&lt;br /&gt;&#39;;
-    $id3-&gt;savePicture($i.&#39;_pic.jpg&#39;);
+    $min = floor($id3-&gt;length / <span class="hljs-number">60</span>);
+    $sec = $id3-&gt;length - ($min * <span class="hljs-number">60</span>);
+    $sec = strlen($sec) == <span class="hljs-number">1</span> ? <span class="hljs-string">'0'</span> . $sec : $sec;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Title: '</span>, $id3-&gt;title, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Artist: '</span>, $id3-&gt;artist, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Album: '</span>, $id3-&gt;album, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Track Number: '</span>, $id3-&gt;track, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Disc: '</span>, $id3-&gt;disc, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Year: '</span>, $id3-&gt;year, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Genre: '</span>, $id3-&gt;genre, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Length: '</span>, $min, <span class="hljs-string">':'</span>, $sec, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Avg. Bit Rate: '</span>, $id3-&gt;bitrate, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    $id3-&gt;savePicture($i.<span class="hljs-string">'_pic.jpg'</span>);
 }
 
 </code></pre>

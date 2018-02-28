@@ -2,30 +2,30 @@
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Getting a YouTube FLV through PHP</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><section class="post-page"><section class="intro-bar intro-bar--horizontal"><img src="http://staticr.dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/getting-a-youtube-flv-through-php">Getting a YouTube FLV through PHP</a></h1><time class="post__published">October 4, 2009</time></header><div class="post__content"><p><img src="http://images.dxprog.com/blog/php_corner.png" alt="" title="PHP Corner">
 Recently, while making some additions to the <a href="http://labs.dxprog.com/smp/">Music Page</a>, I came across the need to get the location of a YouTube FLV. Unfortunately, most of my googling turned up outdated results that no longer work. Fortunately, unlike a certain <a href="http://hulu.com/">other</a> site, it&#39;s not impossible. Below is a quick explanation of what I got to work. I&#39;ll be assuming that you know how to get your hands on the video ID (the &quot;v&quot; parameter in the query string).</p>
 <p>There really is only one thing that&#39;s needed by YouTube to get the video file, and that&#39;s the video token. As far as I can tell, this is a time sensitive key that is generated for the user to prevent abuse on the YouTube servers. Luckily, this is pretty easy to obtain. The get_video_info page returns not only the token, but all sorts of other valuable information about the video, such as author, date uploaded, length in seconds, etc. Here&#39;s a small function that retrieves this information and returns it as an object:</p>
-<pre><code class="lang-php">function ytGetInfo ($id)
-{
-    $file = file_get_contents (&quot;http://www.youtube.com/get_video_info?&amp;video_id=$id&quot;);
-    $a = explode (&quot;&amp;&quot;, urldecode ($file));
-    foreach ($a as $i) {
-        $e = explode (&quot;=&quot;, $i, 2);
-        $ret-&gt;$e[0] = $e[1];
+<pre><code class="lang-php"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ytGetInfo</span> <span class="hljs-params">($id)</span>
+</span>{
+    $file = file_get_contents (<span class="hljs-string">"http://www.youtube.com/get_video_info?&amp;video_id=$id"</span>);
+    $a = explode (<span class="hljs-string">"&amp;"</span>, urldecode ($file));
+    <span class="hljs-keyword">foreach</span> ($a <span class="hljs-keyword">as</span> $i) {
+        $e = explode (<span class="hljs-string">"="</span>, $i, <span class="hljs-number">2</span>);
+        $ret-&gt;$e[<span class="hljs-number">0</span>] = $e[<span class="hljs-number">1</span>];
     }
-    return $ret;
+    <span class="hljs-keyword">return</span> $ret;
 }
 </code></pre>
 <p>Simple stuff, really. The contents of get_video_info are retrieved and stored in $file. This information comes URL encoded, so we first need to decode that. As with any URL string, each variable is separated by an ampersand (&amp;), so when calling <a href="http://us.php.net/manual/en/function.explode.php">explode</a>. That returns the variable/value pairs in an array ([0]=&gt;&quot;author=dxprog&quot;, [1]=&gt;&quot;token=asi940tnas&quot;, ...). Iterating through each of those, we then explode the var/value pairs and add them to our outgoing object. Now we have the token (amongst other info), so next will be retrieving the video file itself.</p>
 <p>YouTube uses get_video to return where the actual video is stored. Now, I don&#39;t know all the nuances of this method, but as of this writing, it returns a 303 See other HTTP response code with the location header pointing to the actual, real address of the video file. We&#39;ll functionize that:</p>
-<pre><code class="lang-php">function ytGetVideoPath ($id)
-{
+<pre><code class="lang-php"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">ytGetVideoPath</span> <span class="hljs-params">($id)</span>
+</span>{
     $info = ytGetInfo ($id);
     $token = $info-&gt;token;
-    $headers = get_headers (&quot;http://www.youtube.com/get_video?video_id=$id&amp;t=$token&amp;fmt=18&quot;);
-    foreach ($headers as $item) {
-        if (strpos ($item, &quot;Location: &quot;) !== false) {
-            return str_replace (&quot;Location: &quot;, &quot;&quot;, $item);
+    $headers = get_headers (<span class="hljs-string">"http://www.youtube.com/get_video?video_id=$id&amp;t=$token&amp;fmt=18"</span>);
+    <span class="hljs-keyword">foreach</span> ($headers <span class="hljs-keyword">as</span> $item) {
+        <span class="hljs-keyword">if</span> (strpos ($item, <span class="hljs-string">"Location: "</span>) !== <span class="hljs-keyword">false</span>) {
+            <span class="hljs-keyword">return</span> str_replace (<span class="hljs-string">"Location: "</span>, <span class="hljs-string">""</span>, $item);
         }
     }
-    return false;
+    <span class="hljs-keyword">return</span> <span class="hljs-keyword">false</span>;
 }
 </code></pre>
 <p>First thing this function does is grab the video information so that we can get the token. We then retrieve the headers of the video providing the video ID <em>(v)</em> and the token <em>(t)</em> as parameters to get_video. The <em>fmt</em> parameter specifies the quality video you want, none being low, 18 being high, and 22 being HD. Using the <a href="http://us.php.net/manual/en/function.get-headers.php">get_headers</a> function, we should be returned a 303 response code with the location header set to the video location. I can&#39;t guarantee that this is always the case, but it hasn&#39;t failed me yet.</p>

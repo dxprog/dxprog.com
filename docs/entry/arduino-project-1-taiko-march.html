@@ -5,22 +5,22 @@
 <p>Code is after the break!</p>
 <p>The sketch for this is stupid simple: take the number from serial, make that pin high. Wait a bit, turn it off. Rinse and repeat.</p>
 <pre><code class="lang-arduino">
-int rxPin = 0;
+<span class="hljs-keyword">int</span> rxPin = <span class="hljs-number">0</span>;
 
-void setup() {
-  Serial.begin(9600); 
-  pinMode(8, OUTPUT);
-  pinMode(9, OUTPUT);
-  pinMode(10, OUTPUT);
-  pinMode(11, OUTPUT);
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">setup</span>() {
+  <span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>); 
+  <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">8</span>, <span class="hljs-literal">OUTPUT</span>);
+  <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">9</span>, <span class="hljs-literal">OUTPUT</span>);
+  <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">10</span>, <span class="hljs-literal">OUTPUT</span>);
+  <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">11</span>, <span class="hljs-literal">OUTPUT</span>);
 }
 
-void loop() {
-  if (Serial.available() &gt; 0) {
-    rxPin = Serial.read();
-    digitalWrite(rxPin + 8, HIGH);
-    delay(10);
-    digitalWrite(rxPin + 8, LOW);
+<span class="hljs-keyword">void</span> <span class="hljs-built_in">loop</span>() {
+  <span class="hljs-built_in">if</span> (<span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">available</span>() &gt; <span class="hljs-number">0</span>) {
+    rxPin = <span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">read</span>();
+    <span class="hljs-built_in">digitalWrite</span>(rxPin + <span class="hljs-number">8</span>, <span class="hljs-literal">HIGH</span>);
+    <span class="hljs-built_in">delay</span>(<span class="hljs-number">10</span>);
+    <span class="hljs-built_in">digitalWrite</span>(rxPin + <span class="hljs-number">8</span>, <span class="hljs-literal">LOW</span>);
   }
 }
 
@@ -28,68 +28,68 @@ void loop() {
 <p>All the magic happens in the C# application that funnels the data down to the Arduino. It reads the beatmap (a custom XML format with data scraped from an osu! beatmap) and times the whole thing out.</p>
 <pre><code class="lang-c#">
 
-using System;
-using System.Collections.Generic;
-using System.Diagnostics;
-using System.IO.Ports;
-using System.Xml;
-using System.Media;
+<span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> System.Collections.Generic;
+<span class="hljs-keyword">using</span> System.Diagnostics;
+<span class="hljs-keyword">using</span> System.IO.Ports;
+<span class="hljs-keyword">using</span> System.Xml;
+<span class="hljs-keyword">using</span> System.Media;
 
-using WMPLib;
+<span class="hljs-keyword">using</span> WMPLib;
 
-namespace ArduinoTalk
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">ArduinoTalk</span>
 {
-    class Program
+    <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span>
     {
 
-        private class Note
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">class</span> <span class="hljs-title">Note</span>
         {
-            public int x, type, accuracy;
-            public bool active, deployed, hasBeenClosest, closest;
-            public long delay;
+            <span class="hljs-keyword">public</span> <span class="hljs-keyword">int</span> x, type, accuracy;
+            <span class="hljs-keyword">public</span> <span class="hljs-keyword">bool</span> active, deployed, hasBeenClosest, closest;
+            <span class="hljs-keyword">public</span> <span class="hljs-keyword">long</span> delay;
         }
 
-        // Constants
-        private const int EASY = 0;
-        private const int NORMAL = 1;
-        private const int HARD = 2;
-        private const int ONI = 3;
-        private const int DON = 0;
-        private const int KA = 1;
+        <span class="hljs-comment">// Constants</span>
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> EASY = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> NORMAL = <span class="hljs-number">1</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> HARD = <span class="hljs-number">2</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> ONI = <span class="hljs-number">3</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> DON = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">const</span> <span class="hljs-keyword">int</span> KA = <span class="hljs-number">1</span>;
 
-        private static List&lt;Note&gt; notes = new List&lt;Note&gt;();
-        private static string songTitle, songFile;
-        private static int bpm, noteSpeed, noteOffset, frameRate, currentNote;
-        private static string[] maps = new string[4];
-        private static WindowsMediaPlayer player = new WindowsMediaPlayer();
-        private static int lastNote = 0;
-        private static int prevNote = 0;
-        private static int noteRun = 0;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> List&lt;Note&gt; notes = <span class="hljs-keyword">new</span> List&lt;Note&gt;();
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span> songTitle, songFile;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> bpm, noteSpeed, noteOffset, frameRate, currentNote;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">string</span>[] maps = <span class="hljs-keyword">new</span> <span class="hljs-keyword">string</span>[<span class="hljs-number">4</span>];
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> WindowsMediaPlayer player = <span class="hljs-keyword">new</span> WindowsMediaPlayer();
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> lastNote = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> prevNote = <span class="hljs-number">0</span>;
+        <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> noteRun = <span class="hljs-number">0</span>;
 
-        static void Main(string[] args)
-        {
+        <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
+        </span>{
 
-            SerialPort port = new SerialPort(&quot;COM5&quot;);
+            SerialPort port = <span class="hljs-keyword">new</span> SerialPort(<span class="hljs-string">"COM5"</span>);
             port.Open();
-            if (port.IsOpen)
+            <span class="hljs-keyword">if</span> (port.IsOpen)
             {
-                loadSong(&quot;taiko_march&quot;);
-                port.BaudRate = 9600;
+                loadSong(<span class="hljs-string">"taiko_march"</span>);
+                port.BaudRate = <span class="hljs-number">9600</span>;
                 beginSong(HARD);
 
-                System.Threading.Thread.Sleep(100);
+                System.Threading.Thread.Sleep(<span class="hljs-number">100</span>);
 
-                while (player.controls.currentPosition &lt; player.currentMedia.duration)
+                <span class="hljs-keyword">while</span> (player.controls.currentPosition &lt; player.currentMedia.duration)
                 {
-                    double positionMilli = Math.Round(player.controls.currentPosition * 1000);
-                    if (lastNote &lt; notes.Count &amp;&amp; notes[lastNote].delay - positionMilli &lt;= 0)
+                    <span class="hljs-keyword">double</span> positionMilli = Math.Round(player.controls.currentPosition * <span class="hljs-number">1000</span>);
+                    <span class="hljs-keyword">if</span> (lastNote &lt; notes.Count &amp;&amp; notes[lastNote].delay - positionMilli &lt;= <span class="hljs-number">0</span>)
                     {
-                        noteRun = prevNote == notes[lastNote].type ? noteRun + 1 : 0;
-                        int type = notes[lastNote].type * 2;
-                        type = prevNote == notes[lastNote].type ? type + noteRun % 2 : type;
-                        byte[] data = new byte[] { Convert.ToByte(type) };
-                        port.Write(data, 0, 1);
-                        Console.WriteLine(&quot;{0}, {1}, {2}&quot;, notes[lastNote].type, type, noteRun);
+                        noteRun = prevNote == notes[lastNote].type ? noteRun + <span class="hljs-number">1</span> : <span class="hljs-number">0</span>;
+                        <span class="hljs-keyword">int</span> type = notes[lastNote].type * <span class="hljs-number">2</span>;
+                        type = prevNote == notes[lastNote].type ? type + noteRun % <span class="hljs-number">2</span> : type;
+                        <span class="hljs-keyword">byte</span>[] data = <span class="hljs-keyword">new</span> <span class="hljs-keyword">byte</span>[] { Convert.ToByte(type) };
+                        port.Write(data, <span class="hljs-number">0</span>, <span class="hljs-number">1</span>);
+                        Console.WriteLine(<span class="hljs-string">"{0}, {1}, {2}"</span>, notes[lastNote].type, type, noteRun);
                         prevNote = notes[lastNote].type;
                         lastNote++;
                     }
@@ -99,79 +99,79 @@ namespace ArduinoTalk
             }
         }
 
-        private static void loadSong(string patternFile)
-        {
+        <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">loadSong</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> patternFile</span>)
+        </span>{
 
-            XmlDocument xmlDoc = new XmlDocument();
+            XmlDocument xmlDoc = <span class="hljs-keyword">new</span> XmlDocument();
 
-            // Load and parse the song file
-            xmlDoc.Load(&quot;maps/&quot; + patternFile + &quot;.xml&quot;);
-            foreach (XmlNode node in xmlDoc.FirstChild)
+            <span class="hljs-comment">// Load and parse the song file</span>
+            xmlDoc.Load(<span class="hljs-string">"maps/"</span> + patternFile + <span class="hljs-string">".xml"</span>);
+            <span class="hljs-keyword">foreach</span> (XmlNode node <span class="hljs-keyword">in</span> xmlDoc.FirstChild)
             {
-                switch (node.Name)
+                <span class="hljs-keyword">switch</span> (node.Name)
                 {
-                    case &quot;title&quot;:
+                    <span class="hljs-keyword">case</span> <span class="hljs-string">"title"</span>:
                         songTitle = node.FirstChild.Value;
-                        break;
-                    case &quot;bpm&quot;:
+                        <span class="hljs-keyword">break</span>;
+                    <span class="hljs-keyword">case</span> <span class="hljs-string">"bpm"</span>:
                         bpm = Convert.ToInt32(node.FirstChild.Value);
-                        break;
-                    case &quot;file&quot;:
+                        <span class="hljs-keyword">break</span>;
+                    <span class="hljs-keyword">case</span> <span class="hljs-string">"file"</span>:
                         songFile = node.FirstChild.Value;
-                        break;
-                    case &quot;maps&quot;:
-                        foreach (XmlNode xmlMap in node.ChildNodes)
+                        <span class="hljs-keyword">break</span>;
+                    <span class="hljs-keyword">case</span> <span class="hljs-string">"maps"</span>:
+                        <span class="hljs-keyword">foreach</span> (XmlNode xmlMap <span class="hljs-keyword">in</span> node.ChildNodes)
                         {
-                            switch (xmlMap.Name)
+                            <span class="hljs-keyword">switch</span> (xmlMap.Name)
                             {
-                                case &quot;easy&quot;:
+                                <span class="hljs-keyword">case</span> <span class="hljs-string">"easy"</span>:
                                     maps[EASY] = xmlMap.FirstChild.Value;
-                                    break;
-                                case &quot;normal&quot;:
+                                    <span class="hljs-keyword">break</span>;
+                                <span class="hljs-keyword">case</span> <span class="hljs-string">"normal"</span>:
                                     maps[NORMAL] = xmlMap.FirstChild.Value;
-                                    break;
-                                case &quot;hard&quot;:
+                                    <span class="hljs-keyword">break</span>;
+                                <span class="hljs-keyword">case</span> <span class="hljs-string">"hard"</span>:
                                     maps[HARD] = xmlMap.FirstChild.Value;
-                                    break;
-                                case &quot;oni&quot;:
+                                    <span class="hljs-keyword">break</span>;
+                                <span class="hljs-keyword">case</span> <span class="hljs-string">"oni"</span>:
                                     maps[ONI] = xmlMap.FirstChild.Value;
-                                    break;
+                                    <span class="hljs-keyword">break</span>;
                             }
                         }
-                        break;
+                        <span class="hljs-keyword">break</span>;
                 }
             }
 
         }
 
-        public static void beginSong(int difficulty)
-        {
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">beginSong</span>(<span class="hljs-params"><span class="hljs-keyword">int</span> difficulty</span>)
+        </span>{
 
-            // Load the map
-            string[] map = maps[difficulty].Split(&#39;,&#39;);
+            <span class="hljs-comment">// Load the map</span>
+            <span class="hljs-keyword">string</span>[] map = maps[difficulty].Split(<span class="hljs-string">','</span>);
             notes.Clear();
-            foreach (string note in map)
+            <span class="hljs-keyword">foreach</span> (<span class="hljs-keyword">string</span> note <span class="hljs-keyword">in</span> map)
             {
-                Note t = new Note();
-                string type = note.Substring(0, 1);
-                t.delay = Convert.ToInt32(note.Substring(1, note.Length - 1));
-                switch (type)
+                Note t = <span class="hljs-keyword">new</span> Note();
+                <span class="hljs-keyword">string</span> type = note.Substring(<span class="hljs-number">0</span>, <span class="hljs-number">1</span>);
+                t.delay = Convert.ToInt32(note.Substring(<span class="hljs-number">1</span>, note.Length - <span class="hljs-number">1</span>));
+                <span class="hljs-keyword">switch</span> (type)
                 {
-                    case &quot;d&quot;:
+                    <span class="hljs-keyword">case</span> <span class="hljs-string">"d"</span>:
                         t.type = DON;
-                        break;
-                    case &quot;k&quot;:
+                        <span class="hljs-keyword">break</span>;
+                    <span class="hljs-keyword">case</span> <span class="hljs-string">"k"</span>:
                         t.type = KA;
-                        break;
+                        <span class="hljs-keyword">break</span>;
                 }
-                t.x = 852;
+                t.x = <span class="hljs-number">852</span>;
                 notes.Add(t);
             }
-            currentNote = 0;
+            currentNote = <span class="hljs-number">0</span>;
             notes.Sort((x, y) =&gt; x.delay.CompareTo(y.delay));
 
-            // Play the song and note the start time
-            player.URL = &quot;C:\\Users\\Matt\\Documents\\Visual~1\\Projects\\ArduinoTalk\\ArduinoTalk\\bin\\Debug\\maps\\&quot; + songFile;
+            <span class="hljs-comment">// Play the song and note the start time</span>
+            player.URL = <span class="hljs-string">"C:\\Users\\Matt\\Documents\\Visual~1\\Projects\\ArduinoTalk\\ArduinoTalk\\bin\\Debug\\maps\\"</span> + songFile;
             player.controls.play();
 
         }

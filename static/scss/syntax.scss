@@ -1,0 +1,15 @@
+@import 'solarized-dark';
+
+// Lifted from .hljs which never gets invoked since
+// the markdown parser doesn't add that class.
+// TODO - alter marked to add the "hljs" class to code blocks
+pre code {
+  display: block;
+  overflow-x: auto;
+  padding: 0.5em;
+  background: #002b36;
+  color: #839496;
+
+  font-size: 2.4rem;
+  margin-bottom: 3rem;
+}

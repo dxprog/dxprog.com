@@ -18,9 +18,9 @@
 <p>The above code is pretty much a direct port of Keith Burnett&#39;s implementation <a href="http://bodmas.org/astronomy/riset.html">here</a>. Outside of porting, my only changes were some code clean up and having the timezone be calculated automatically for the longitude given. This means that you will always get back a time stamp that is local to the point of origin.</p>
 <p><strong>How to Use</strong>
 Moon::calculateMoonTimes(<em>month</em>, <em>day</em>, <em>year</em>, <em>latitude</em>, <em>longitude</em>);</p>
-<pre><code class="lang-php">date_default_timezone_set(&#39;America/Chicago&#39;);
-include(&#39;moon.php&#39;);
-print_r(Moon::calculateMoonTimes(6, 28, 2011, 36.754478, -96.110291));
+<pre><code class="lang-php">date_default_timezone_set(<span class="hljs-string">'America/Chicago'</span>);
+<span class="hljs-keyword">include</span>(<span class="hljs-string">'moon.php'</span>);
+print_r(Moon::calculateMoonTimes(<span class="hljs-number">6</span>, <span class="hljs-number">28</span>, <span class="hljs-number">2011</span>, <span class="hljs-number">36.754478</span>, <span class="hljs-number">-96.110291</span>));
 </code></pre>
 <p>The above code will output the following result:</p>
 <pre><code class="lang-output">stdClass Object ( [moonrise] =&gt; 1309246800 [moonset] =&gt; 1309300560 )

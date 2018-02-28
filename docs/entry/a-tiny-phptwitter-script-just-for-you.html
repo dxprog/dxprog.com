@@ -1,39 +1,39 @@
 <!DOCTYPE html>
 <html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>A tiny PHP/Twitter script just for you!</title><link rel="stylesheet" type="text/css" href="http://staticr.dxprog.com/static/css/index.css"/></head><body><section class="post-page"><section class="intro-bar intro-bar--horizontal"><img src="http://staticr.dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/a-tiny-phptwitter-script-just-for-you">A tiny PHP/Twitter script just for you!</a></h1><time class="post__published">February 24, 2009</time></header><div class="post__content"><p>Was rather bored this afternoon and then I though to myself &quot;Why not add Twitter functionality to my music page?&quot; So, after some digging through Twitter APIs and some refreshers on HTTP Authentication, I wrote this tiny, beautiful little script.</p>
 <pre><code class="lang-php">
-// Return values
-define (&quot;TWITTER_OK&quot;, true);
-define (&quot;TWITTER_UNAUTHORIZED&quot;, -1);
-define (&quot;TWITTER_TOO_LONG&quot;, -2);
-define (&quot;TWITTER_COULD_NOT_CONNECT&quot;, -3);
+<span class="hljs-comment">// Return values</span>
+define (<span class="hljs-string">"TWITTER_OK"</span>, <span class="hljs-keyword">true</span>);
+define (<span class="hljs-string">"TWITTER_UNAUTHORIZED"</span>, <span class="hljs-number">-1</span>);
+define (<span class="hljs-string">"TWITTER_TOO_LONG"</span>, <span class="hljs-number">-2</span>);
+define (<span class="hljs-string">"TWITTER_COULD_NOT_CONNECT"</span>, <span class="hljs-number">-3</span>);
 
-function sendTweet ($status, $userName, $userPass)
-{
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sendTweet</span> <span class="hljs-params">($status, $userName, $userPass)</span>
+</span>{
 
-    // Open a socket to Twitter
-    if (!($socket = fsockopen (&quot;twitter.com&quot;, 80)))
-        return TWITTER_COULD_NOT_CONNECT;
+    <span class="hljs-comment">// Open a socket to Twitter</span>
+    <span class="hljs-keyword">if</span> (!($socket = fsockopen (<span class="hljs-string">"twitter.com"</span>, <span class="hljs-number">80</span>)))
+        <span class="hljs-keyword">return</span> TWITTER_COULD_NOT_CONNECT;
 
-    // Create the headers
-    $headers = &quot;POST /statuses/update.xml HTTP/1.1\r\n&quot;;
-    $headers .= &quot;Host: twitter.com\r\n&quot;;
-    $headers .= &quot;Authorization: Basic &quot;.base64_encode ($userName.&quot;:&quot;.$userPass).&quot;\r\n&quot;;
-    $headers .= &quot;Content-length: &quot;.strlen (&quot;status=$status&quot;).&quot;\r\n\r\n&quot;;
-    $headers .= &quot;status=$status\r\n&quot;;
+    <span class="hljs-comment">// Create the headers</span>
+    $headers = <span class="hljs-string">"POST /statuses/update.xml HTTP/1.1\r\n"</span>;
+    $headers .= <span class="hljs-string">"Host: twitter.com\r\n"</span>;
+    $headers .= <span class="hljs-string">"Authorization: Basic "</span>.base64_encode ($userName.<span class="hljs-string">":"</span>.$userPass).<span class="hljs-string">"\r\n"</span>;
+    $headers .= <span class="hljs-string">"Content-length: "</span>.strlen (<span class="hljs-string">"status=$status"</span>).<span class="hljs-string">"\r\n\r\n"</span>;
+    $headers .= <span class="hljs-string">"status=$status\r\n"</span>;
 
-    // Send the headers
+    <span class="hljs-comment">// Send the headers</span>
     fwrite ($socket, $headers);
 
-    // Get the response
-    $response = &quot;&quot;;
-    while (!feof ($socket))
-        $response .= fgets ($socket, 1024);
+    <span class="hljs-comment">// Get the response</span>
+    $response = <span class="hljs-string">""</span>;
+    <span class="hljs-keyword">while</span> (!feof ($socket))
+        $response .= fgets ($socket, <span class="hljs-number">1024</span>);
 
-    // Check for HTTP status OK (200)
-    if (!strpos ($response, &quot;200&quot;))
-        return TWITTER_UNAUTHORIZED;
+    <span class="hljs-comment">// Check for HTTP status OK (200)</span>
+    <span class="hljs-keyword">if</span> (!strpos ($response, <span class="hljs-string">"200"</span>))
+        <span class="hljs-keyword">return</span> TWITTER_UNAUTHORIZED;
 
-    return TWITTER_OK;
+    <span class="hljs-keyword">return</span> TWITTER_OK;
 
 }
 

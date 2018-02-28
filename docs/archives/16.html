@@ -17,29 +17,29 @@
 <p>Some months ago, I was trying to beef up the user feedback that <a href="http://awwnime.redditbooru.com/">redditbooru</a> would give when making requests to the server. One thing I wanted to do was, during a reverse image lookup, have a continually updating status to the user. &quot;Retrieving image&quot;, &quot;Searching database&quot;, and then the final data. This required a couple of interesting things: implementing an event model in PHP, and the not-so-talked-about third readyState value in the XMLHttpRequest response: 3, or &quot;processing request&quot;.</p>
 <h2 id="php-eventing">PHP Eventing</h2>
 <p>Anybody who has coded JavaScript for more than thirty minutes will understand that it runs on a highly evented model. You attach a listener to an object with a function callback, the object fires and event, and the callback is called with data provided pertaining to the event in question. PHP, being a highly linear programming language, doesn&#39;t really have such a concept baked in. Being that I wanted something that could be easily reused through out an entire project, I came up with a stupid simple <a href="https://github.com/dxprog/reddit-booru/blob/master/lib/events.php">events library</a>. Pertaining to the internal event modelling, it exposes the following two methods:</p>
-<pre><code class="lang-php">public static function addEventListener($eventType, $callback);
-public static function fire($eventType, $data = null);
+<pre><code class="lang-php"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">addEventListener</span><span class="hljs-params">($eventType, $callback)</span></span>;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">fire</span><span class="hljs-params">($eventType, $data = null)</span></span>;
 </code></pre>
 <p>These work essentially as they do in JavaScript: subscribe to an event with addEventListener and provide a callback. Fire an event with fire of that event type with whatever relevant information that goes with. addEventListener is constructed such that you can add multiple callbacks for a single event, much like the sugary goodness that jQuery provides to the DOM. One possible drawback of my implementation is that the event bus is essentially global, being that all the methods are static. This means you could have naming collisions on event types. Granted, this could easily be converted into an abstract class that any class could later inherit, providing this functionality.</p>
 <p>Here are a couple of quick production examples of <a href="https://github.com/dxprog/reddit-booru/blob/master/api/image.php#L215">event firing</a> and <a href="https://github.com/dxprog/reddit-booru/blob/master/controller/images.php#L199">event subscribing</a>. One half of the puzzle solved.</p>
 <h2 id="sending-and-parsing-evented-json">Sending and Parsing Evented JSON</h2>
 <p>As stated previously, on modern browsers, the XMLHttpRequest response has a third ready state of &quot;processing request&quot;. Essentially, this fires at certain points as the request is receiving data. We can use this to our advantage to send small status updates to the user as the backend performs numerous/long running tasks. Part of the events library are some calls to handle what I refer to as &quot;evented Ajax&quot;, though I&#39;m sure there&#39;s a real term for it. It has the following methods:</p>
-<pre><code class="lang-php">public static function beginAjaxEvent();
-public static function endAjaxEvent();
-public static function sendAjaxEvent($eventType, $data);
+<pre><code class="lang-php"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">beginAjaxEvent</span><span class="hljs-params">()</span></span>;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">endAjaxEvent</span><span class="hljs-params">()</span></span>;
+<span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sendAjaxEvent</span><span class="hljs-params">($eventType, $data)</span></span>;
 </code></pre>
 <p>beginAjaxEvent and endAjaxEvent do essentially what you would expect: they prime the system for sending data out in this fashion and tidy everything up necessarily. sendAjaxEvent is where all the fun happens. I&#39;m going to go through this guy line by line.</p>
-<pre><code class="lang-php">public static function sendAjaxEvent($eventType, $data) {
-$out = new stdClass;
+<pre><code class="lang-php"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">sendAjaxEvent</span><span class="hljs-params">($eventType, $data)</span> </span>{
+$out = <span class="hljs-keyword">new</span> stdClass;
 $out-&gt;eventType = $eventType;
 $out-&gt;data = $data;
 $out = json_encode($out);
 
-// Pad out the request to a minimum of 4K for Chrome
-if (strlen($out) &lt; 4096) {
-$out = str_pad($out, 4096, &#39; &#39;);
+<span class="hljs-comment">// Pad out the request to a minimum of 4K for Chrome</span>
+<span class="hljs-keyword">if</span> (strlen($out) &lt; <span class="hljs-number">4096</span>) {
+$out = str_pad($out, <span class="hljs-number">4096</span>, <span class="hljs-string">' '</span>);
 }
-echo $out;
+<span class="hljs-keyword">echo</span> $out;
 flush();
 }
 </code></pre>

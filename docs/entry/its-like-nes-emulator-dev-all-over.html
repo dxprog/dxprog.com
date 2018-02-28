@@ -9,13 +9,13 @@
 <ol>
 <li>A PHP script parses the decompiled source code and converts the above into a JSON format like so:</li>
 </ol>
-<pre><code class="lang-JSON">{&quot;action&quot;:&quot;assign&quot;,&quot;name&quot;:&quot;strS[1900]&quot;,&quot;value&quot;:&quot;strS[1901]&quot;,&quot;operation&quot;:&quot;+=&quot;,&quot;ln&quot;:18487}
+<pre><code class="lang-JSON">{<span class="hljs-attr">"action"</span>:<span class="hljs-string">"assign"</span>,<span class="hljs-attr">"name"</span>:<span class="hljs-string">"strS[1900]"</span>,<span class="hljs-attr">"value"</span>:<span class="hljs-string">"strS[1901]"</span>,<span class="hljs-attr">"operation"</span>:<span class="hljs-string">"+="</span>,<span class="hljs-attr">"ln"</span>:<span class="hljs-number">18487</span>}
 </code></pre>
 <p>Name is what&#39;s on the left hand side of the equation, operation is the operator and value is the right hand side of the operation.</p>
 <ol>
 <li>Now. that format was setup before I realized that true language parsing was going to be required, so at this point my JavaScript is reconstructing the original equation from those variables. It passes these off to a function called &quot;evaluateExpression&quot; which figures out what&#39;s a string, variable, function, number, operator, etc. and remaps everything so that it points to internal functions and variables. This string would then look like this:</li>
 </ol>
-<pre><code class="lang-JavaScript">variables[&quot;strS[1900]&quot;] += variables[&quot;strS[1900]&quot;]
+<pre><code class="lang-JavaScript">variables[<span class="hljs-string">"strS[1900]"</span>] += variables[<span class="hljs-string">"strS[1900]"</span>]
 </code></pre>
 <p>This string is then run through <em>eval</em> and is parsed by JS natively (allowing me to cop out of writing the really difficult stuff).</p>
 <p>So, at this point, I have most all of the branching and logic functions working correctly (as far as I&#39;m aware) in addition to the sound and music (super simple stuff). Now I&#39;m working towards getting the core graphics functions in place which should get me pretty close to a playable state.</p>

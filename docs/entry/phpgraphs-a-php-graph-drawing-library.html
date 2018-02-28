@@ -3,12 +3,12 @@
 Over the past few days, I&#39;ve been developing a library to help in drawing graphs for various stuff on the <a href="http://dxprog.com/entry/celebrating-one-year-of-the-music-page">music page</a>. I&#39;ve built to to be a fairly complete solution that is both robust and simple to use. Today, I offer phpGraphs to the masses to do with as they please, <a href="http://dxprog.com/files/phpGraphs_1.0.zip">free of charge.</a> Follow the break for a quick tutorial on how to use it.
 phpGraphs requires PHP5 and the GD2 extension to be enabled. To install, simply copy the phpGraph.php to a place accessible to your script.
 Here&#39;s a small script that sets up the graph object an adds data:</p>
-<pre><code class="lang-php">include (&quot;http://dxprog.com/phpGraphs.php&quot;);
+<pre><code class="lang-php"><span class="hljs-keyword">include</span> (<span class="hljs-string">"http://dxprog.com/phpGraphs.php"</span>);
 
-$graph = new Graph (&quot;My Graph&quot;, 640, 480);
-$dataSet = $graph-&gt;createDataSet (&quot;Data Set 1&quot;);
-for ($i = 0; $i &lt; 50; $i++)
-    $dataSet-&gt;add (rand () % 100);
+$graph = <span class="hljs-keyword">new</span> Graph (<span class="hljs-string">"My Graph"</span>, <span class="hljs-number">640</span>, <span class="hljs-number">480</span>);
+$dataSet = $graph-&gt;createDataSet (<span class="hljs-string">"Data Set 1"</span>);
+<span class="hljs-keyword">for</span> ($i = <span class="hljs-number">0</span>; $i &lt; <span class="hljs-number">50</span>; $i++)
+    $dataSet-&gt;add (rand () % <span class="hljs-number">100</span>);
 </code></pre>
 <p><strong>Line 2 - </strong>Here, we include the phpGraph library. Pretty self-explanitory.
 <strong>Line 4 - </strong>We create our graph object in the variable $graph. The argument passed is the title that will be drawn at the top of the graph. The second two parameters are the width and height of the image, respectively.
@@ -45,19 +45,19 @@ _index - _setDataColor allows you to change the color of the lines, bars and sli
 Below is an example of a graph that has a custom color scheme:
 <img src="http://dxprog.com/pics/phpGraphs_custom.png" alt="" title="A graph using custom colors">
 Expounding upon the example given above, here is how a complete script would look.</p>
-<pre><code class="lang-php">include (&quot;http://dxprog.com/phpGraphs.php&quot;);
+<pre><code class="lang-php"><span class="hljs-keyword">include</span> (<span class="hljs-string">"http://dxprog.com/phpGraphs.php"</span>);
 
-// Create the graph and add some data
-$graph = new Graph (&quot;My Graph&quot;, 640, 480);
-$dataSet = $graph-&gt;createDataSet (&quot;Data Set 1&quot;);
-for ($i = 0; $i &lt; 50; $i++)
-    $dataSet-&gt;add (rand () % 100);
+<span class="hljs-comment">// Create the graph and add some data</span>
+$graph = <span class="hljs-keyword">new</span> Graph (<span class="hljs-string">"My Graph"</span>, <span class="hljs-number">640</span>, <span class="hljs-number">480</span>);
+$dataSet = $graph-&gt;createDataSet (<span class="hljs-string">"Data Set 1"</span>);
+<span class="hljs-keyword">for</span> ($i = <span class="hljs-number">0</span>; $i &lt; <span class="hljs-number">50</span>; $i++)
+    $dataSet-&gt;add (rand () % <span class="hljs-number">100</span>);
 
-// Draw the graph
-$img = $graph-&gt;drawLineGraph (&quot;Iteration&quot;, &quot;Value&quot;, false);
+<span class="hljs-comment">// Draw the graph</span>
+$img = $graph-&gt;drawLineGraph (<span class="hljs-string">"Iteration"</span>, <span class="hljs-string">"Value"</span>, <span class="hljs-keyword">false</span>);
 
-// Add the appropriate headers so the browser recognizes this as an image
-header (&quot;Content-type: image/png&quot;);
+<span class="hljs-comment">// Add the appropriate headers so the browser recognizes this as an image</span>
+header (<span class="hljs-string">"Content-type: image/png"</span>);
 imagepng ($img);
 imagedestroy ($img);
 </code></pre>

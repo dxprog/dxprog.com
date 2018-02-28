@@ -31,25 +31,25 @@
 <p>Trailer for the horror in question can be seen <a href="http://www.youtube.com/watch?v=P2HGoR8pSps&amp;feature=player_embedded#!">here</a>.</p>
 </div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/the-things-i-see-on-pathfinder">The Things I See on Pathfinder</a></h1><time class="post__published">September 25, 2010</time></header><div class="post__content"><p><img src="http://images.dxprog.com/blog/pathfinder_mushrooms.jpg" alt="" title="Where there are mushrooms, there will be a Mushroom Kingdom"></p>
 </div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/wordpress-related-posts-script">Wordpress - Related Posts Script</a></h1><time class="post__published">September 13, 2010</time></header><div class="post__content"><p>At my job, I currently have three Wordpress sites under my watchful eye. On one, I was tasked with creating a related posts feature. Now, there are certainly enough plug-ins that will do just that, but none of them worked how I wanted to or were generally more complex than necessary. So, I whipped up this little script:</p>
-<pre><code class="lang-php">function relatedPosts($id) {
+<pre><code class="lang-php"><span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">relatedPosts</span><span class="hljs-params">($id)</span> </span>{
 
-    /* Build a query to get a list of all posts that share similar tags */
-    $s = microtime(true);
-    $q = &quot;SELECT count(*) AS total, p.ID, p.post_title, p.post_date FROM wp_posts p INNER JOIN wp_term_relationships t ON p.ID=t.object_id AND t.term_taxonomy_id in (SELECT s.term_taxonomy_id FROM wp_term_relationships s WHERE s.object_id=$id) AND t.object_id != $id AND p.post_status=&#39;publish&#39; GROUP BY p.id ORDER BY total DESC, p.post_date DESC LIMIT 5&quot;;
+    <span class="hljs-comment">/* Build a query to get a list of all posts that share similar tags */</span>
+    $s = microtime(<span class="hljs-keyword">true</span>);
+    $q = <span class="hljs-string">"SELECT count(*) AS total, p.ID, p.post_title, p.post_date FROM wp_posts p INNER JOIN wp_term_relationships t ON p.ID=t.object_id AND t.term_taxonomy_id in (SELECT s.term_taxonomy_id FROM wp_term_relationships s WHERE s.object_id=$id) AND t.object_id != $id AND p.post_status='publish' GROUP BY p.id ORDER BY total DESC, p.post_date DESC LIMIT 5"</span>;
 
-    /* Format the output */
-    $out = &quot;&quot;;
+    <span class="hljs-comment">/* Format the output */</span>
+    $out = <span class="hljs-string">""</span>;
     $result = @mysql_query($q);
-    if ($result &amp;&amp; @mysql_num_rows($result) &gt; 0) {
-        $out = &quot;&lt;h3 class=\&quot;related\&quot;&gt;Related Posts&lt;/h3&gt;&lt;ul class=\&quot;related\&quot;&gt;&quot;;
-        while ($row = mysql_fetch_object($result)) {
+    <span class="hljs-keyword">if</span> ($result &amp;&amp; @mysql_num_rows($result) &gt; <span class="hljs-number">0</span>) {
+        $out = <span class="hljs-string">"&lt;h3 class=\"related\"&gt;Related Posts&lt;/h3&gt;&lt;ul class=\"related\"&gt;"</span>;
+        <span class="hljs-keyword">while</span> ($row = mysql_fetch_object($result)) {
             $perma = get_permalink($row-&gt;ID);
-            $out .= &#39;&lt;li&gt;&lt;a href=&quot;&#39;.$perma.&#39;&quot;&gt;&#39;.$row-&gt;post_title.&#39;&lt;/a&gt; - &#39;.date(&quot;F j, Y&quot;, strtotime($row-&gt;post_date)).&#39;&lt;/li&gt;&#39;;
+            $out .= <span class="hljs-string">'&lt;li&gt;&lt;a href="'</span>.$perma.<span class="hljs-string">'"&gt;'</span>.$row-&gt;post_title.<span class="hljs-string">'&lt;/a&gt; - '</span>.date(<span class="hljs-string">"F j, Y"</span>, strtotime($row-&gt;post_date)).<span class="hljs-string">'&lt;/li&gt;'</span>;
         }
-        $out .= &quot;&lt;/ul&gt;&quot;;
+        $out .= <span class="hljs-string">"&lt;/ul&gt;"</span>;
     }
 
-    echo($out);
+    <span class="hljs-keyword">echo</span>($out);
 
 }
 </code></pre>

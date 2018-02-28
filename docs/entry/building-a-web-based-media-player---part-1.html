@@ -23,18 +23,18 @@
 </ul>
 <p>Most of these fields should be self-explanitory. The tracks table can expand or contract to include what ever metadata you want (I personally left out genre as I hardly ever use that). date_played will store the Unix timestamp of the last time the song was played. I personally like storing my timestamps without formatting as to forego the unnecessary strtotime () conversion. We&#39;ll use this later when we create the recently played list.</p>
 <p>About now I would begin to discuss how we&#39;re going to get this information into the database, but first we need to be able to get the information from the files. I&#39;ve got two methods for this and it all really depends on your programming skills and what you have available on your server. The first, and most available option is through Actionscript. Let&#39;s jump to code.</p>
-<pre><code class="lang-actionscript">var tagLoader:Sound = new Sound();
-tagLoader.load (&quot;my_song.mp3&quot;);
+<pre><code class="lang-actionscript"><span class="hljs-keyword">var</span> tagLoader:Sound = <span class="hljs-keyword">new</span> Sound();
+tagLoader.load (<span class="hljs-string">"my_song.mp3"</span>);
 tagLoader.addEventListener (Event.ID3, tagsLoadedHandler)
 tagLoader.addEventListener (Event.COMPLETE, tagsLoadedHandler)
 
-function tagsLoadedHandler (e:Event):void
-{
-    var title:String = tagLoader.id3.title;
-    var artist:String = tagLoader.id3.artist;
-    var album:String = tagLoader.id3.album;
-    var track:String = tagLoader.id3.track;
-    // Send to database
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">tagsLoadedHandler</span> <span class="hljs-params">(e:Event)</span>:void
+</span>{
+    <span class="hljs-keyword">var</span> title:String = tagLoader.id3.title;
+    <span class="hljs-keyword">var</span> artist:String = tagLoader.id3.artist;
+    <span class="hljs-keyword">var</span> album:String = tagLoader.id3.album;
+    <span class="hljs-keyword">var</span> track:String = tagLoader.id3.track;
+    <span class="hljs-comment">// Send to database</span>
     tagLoader.removeEventListener (Event.COMPLETE, tagsLoadedHandler);
 }
 </code></pre>
@@ -47,44 +47,44 @@ We store the song information for temporary storage until we send it all off to 
 <strong><em>Line 13</em></strong>
 We remove the event listener on the COMPLETE event. In the probable case that the ID3 event was dispatched we want the COMPLETE event removed otherwise all this code will run again adding your song to the database twice. We don&#39;t want to pull and iTunes with duplicate song issues.</p>
 <p>Alright, that&#39;s the first, and slowest way to do things. I say slowest because it actually requires that the song be downloaded to your computer before it gets the information. This isn&#39;t bad if you&#39;re on a LAN connection, but it&#39;s not near as fast as using the server itself to get the information (which we&#39;ll be doing now).</p>
-<pre><code class="lang-c++">#include &lt;taglib/tag.h&gt;
-#include &lt;taglib/fileref.h&gt;
+<pre><code class="lang-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;taglib/tag.h&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;taglib/fileref.h&gt;</span></span>
 
-using namespace std;
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
 
-void readID3 (char *fileName)
-{
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">readID3</span> <span class="hljs-params">(<span class="hljs-keyword">char</span> *fileName)</span>
+</span>{
 
-    TagLib::FileRef f(fileName);
+    TagLib::<span class="hljs-function">FileRef <span class="hljs-title">f</span><span class="hljs-params">(fileName)</span></span>;
 
-    cout &lt;&lt; &quot;\\t\\t&lt;album&gt;&quot; &lt;&lt; f.tag()-&gt;album() &lt;&lt; &quot;&lt;/album&gt;\\n&quot;;
-    cout &lt;&lt; &quot;\\t\\t&lt;artist&gt;&quot; &lt;&lt; f.tag()-&gt;artist() &lt;&lt; &quot;&lt;/artist&gt;\\n&quot;;
-    cout &lt;&lt; &quot;\\t\\t&lt;title&gt;&quot; &lt;&lt; f.tag()-&gt;title() &lt;&lt; &quot;&lt;/title&gt;\\n&quot;;
-    cout &lt;&lt; &quot;\\t\\t&lt;genre&gt;&quot; &lt;&lt; f.tag()-&gt;genre() &lt;&lt; &quot;&lt;/genre&gt;\\n&quot;;
-    cout &lt;&lt; &quot;\\t\\t&lt;year&gt;&quot; &lt;&lt; f.tag()-&gt;year() &lt;&lt; &quot;&lt;/year&gt;\\n&quot;;
-    cout &lt;&lt; &quot;\\t\\t&lt;track&gt;&quot; &lt;&lt; f.tag()-&gt;track() &lt;&lt; &quot;&lt;/track&gt;\\n&quot;;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t\\t&lt;album&gt;"</span> &lt;&lt; f.tag()-&gt;album() &lt;&lt; <span class="hljs-string">"&lt;/album&gt;\\n"</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t\\t&lt;artist&gt;"</span> &lt;&lt; f.tag()-&gt;artist() &lt;&lt; <span class="hljs-string">"&lt;/artist&gt;\\n"</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t\\t&lt;title&gt;"</span> &lt;&lt; f.tag()-&gt;title() &lt;&lt; <span class="hljs-string">"&lt;/title&gt;\\n"</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t\\t&lt;genre&gt;"</span> &lt;&lt; f.tag()-&gt;genre() &lt;&lt; <span class="hljs-string">"&lt;/genre&gt;\\n"</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t\\t&lt;year&gt;"</span> &lt;&lt; f.tag()-&gt;year() &lt;&lt; <span class="hljs-string">"&lt;/year&gt;\\n"</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t\\t&lt;track&gt;"</span> &lt;&lt; f.tag()-&gt;track() &lt;&lt; <span class="hljs-string">"&lt;/track&gt;\\n"</span>;
 
 }
 
-int main (int argc, char *argv[])
-{
+<span class="hljs-function"><span class="hljs-keyword">int</span> <span class="hljs-title">main</span> <span class="hljs-params">(<span class="hljs-keyword">int</span> argc, <span class="hljs-keyword">char</span> *argv[])</span>
+</span>{
 
-    if (argc == 1) {
-        printf (&quot;Usage --\\ntid3xml INPUT\\n&quot;);
-        return 1;
+    <span class="hljs-keyword">if</span> (argc == <span class="hljs-number">1</span>) {
+        <span class="hljs-built_in">printf</span> (<span class="hljs-string">"Usage --\\ntid3xml INPUT\\n"</span>);
+        <span class="hljs-keyword">return</span> <span class="hljs-number">1</span>;
     }
 
-    cout &lt;&lt; &quot;&lt;?xml version=&quot;1.0&quot; ?&gt;\\n&quot;;
-    cout &lt;&lt; &quot;&lt;songs&gt;\\n&quot;;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"&lt;?xml version="</span><span class="hljs-number">1.0</span><span class="hljs-string">" ?&gt;\\n"</span>;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"&lt;songs&gt;\\n"</span>;
 
-    for (int i = 1; i &lt; argc; i++) {
-        cout &lt;&lt; &quot;\\t&lt;song file=\\&quot;&quot; &lt;&lt; argv[i] &lt;&lt; &quot;\\&quot;&gt;\\n&quot;;
+    <span class="hljs-keyword">for</span> (<span class="hljs-keyword">int</span> i = <span class="hljs-number">1</span>; i &lt; argc; i++) {
+        <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t&lt;song file=\\"</span><span class="hljs-string">" &lt;&lt; argv[i] &lt;&lt; "</span>\\<span class="hljs-string">"&gt;\\n"</span>;
         readID3 (argv[i]);
-        cout &lt;&lt; &quot;\\t&lt;/song&gt;\\n&quot;;
+        <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"\\t&lt;/song&gt;\\n"</span>;
     }
 
-    cout &lt;&lt; &quot;&lt;/songs&gt;\\n&quot;;
-    return 0;
+    <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"&lt;/songs&gt;\\n"</span>;
+    <span class="hljs-keyword">return</span> <span class="hljs-number">0</span>;
 
 }
 </code></pre>

@@ -23,24 +23,24 @@
 </ul>
 <p><strong>Example</strong></p>
 <pre><code class="lang-php">
-include(&#39;id3lib.php&#39;);
-$songs = array(&#39;song1.mp3&#39;, &#39;song2.mp3&#39;, &#39;song3.mp3&#39;);
-$id3 = new ID3Lib();
-for ($i = 0, $count = count($songs); i &lt; $count; i++) {
+<span class="hljs-keyword">include</span>(<span class="hljs-string">'id3lib.php'</span>);
+$songs = <span class="hljs-keyword">array</span>(<span class="hljs-string">'song1.mp3'</span>, <span class="hljs-string">'song2.mp3'</span>, <span class="hljs-string">'song3.mp3'</span>);
+$id3 = <span class="hljs-keyword">new</span> ID3Lib();
+<span class="hljs-keyword">for</span> ($i = <span class="hljs-number">0</span>, $count = count($songs); i &lt; $count; i++) {
     $id3-&gt;readFile;
-    $min = floor($id3-&gt;length / 60);
-    $sec = $id3-&gt;length - ($min * 60);
-    $sec = strlen($sec) == 1 ? &#39;0&#39; . $sec : $sec;
-    echo &#39;Title: &#39;, $id3-&gt;title, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Artist: &#39;, $id3-&gt;artist, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Album: &#39;, $id3-&gt;album, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Track Number: &#39;, $id3-&gt;track, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Disc: &#39;, $id3-&gt;disc, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Year: &#39;, $id3-&gt;year, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Genre: &#39;, $id3-&gt;genre, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Length: &#39;, $min, &#39;:&#39;, $sec, &#39;&lt;br /&gt;&#39;;
-    echo &#39;Avg. Bit Rate: &#39;, $id3-&gt;bitrate, &#39;&lt;br /&gt;&#39;;
-    $id3-&gt;savePicture($i.&#39;_pic.jpg&#39;);
+    $min = floor($id3-&gt;length / <span class="hljs-number">60</span>);
+    $sec = $id3-&gt;length - ($min * <span class="hljs-number">60</span>);
+    $sec = strlen($sec) == <span class="hljs-number">1</span> ? <span class="hljs-string">'0'</span> . $sec : $sec;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Title: '</span>, $id3-&gt;title, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Artist: '</span>, $id3-&gt;artist, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Album: '</span>, $id3-&gt;album, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Track Number: '</span>, $id3-&gt;track, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Disc: '</span>, $id3-&gt;disc, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Year: '</span>, $id3-&gt;year, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Genre: '</span>, $id3-&gt;genre, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Length: '</span>, $min, <span class="hljs-string">':'</span>, $sec, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Avg. Bit Rate: '</span>, $id3-&gt;bitrate, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    $id3-&gt;savePicture($i.<span class="hljs-string">'_pic.jpg'</span>);
 }
 
 </code></pre>
@@ -48,36 +48,36 @@ for ($i = 0, $count = count($songs); i &lt; $count; i++) {
 </div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="http://staticr.dxprog.com/entry/the-revenge-of-bottomembly">The Revenge of Bottomembly</a></h1><time class="post__published">October 14, 2010</time></header><div class="post__content"><p>A few days ago I was out walking and reminiscing, as I am wont to do. While I was doing this, I  recalled some of my first web related programming projects, most notably YPNgine. Considering it was my first major PHP outing, I pulled off quite a feat. Writing a message board is no small task. However, there was one part in particular that I was mulling over: the censor. </p>
 <p>If you happen to be a former YPNer, you may recall seeing many references to &quot;bottomembly&quot;. Carrying over the censor find/replace list that had been used on phpBB before it, all instances of the character sequence &quot;ass&quot; were summarily replaced with &quot;bottom&quot;. Now I am being very choosy when I say &quot;character sequence&quot; and not &quot;word&quot; as the censor couldn&#39;t differentiate words.</p>
 <p>This oversight was brought to my attention my young programmer self struggled to figure out a solution. Here&#39;s what I wound up doing:</p>
-<pre><code class="lang-php">// Copyright (c) 2003 Matt Hackmann
-// Full copyright info in index.php
+<pre><code class="lang-php"><span class="hljs-comment">// Copyright (c) 2003 Matt Hackmann</span>
+<span class="hljs-comment">// Full copyright info in index.php</span>
 
-function censor_post ($body)
-{
+<span class="hljs-function"><span class="hljs-keyword">function</span> <span class="hljs-title">censor_post</span> <span class="hljs-params">($body)</span>
+</span>{
 
-    $query = &quot;SELECT * FROM bannedwords&quot;;
+    $query = <span class="hljs-string">"SELECT * FROM bannedwords"</span>;
     $result = db_Query ($query);
 
-    $body = &quot; &quot;.$body;
+    $body = <span class="hljs-string">" "</span>.$body;
 
-    $body = str_ireplace (&quot;assembly&quot;, &quot;ytrewq&quot;, $body);
-    $body = str_ireplace (&quot;assum&quot;, &quot;asd;ljf&quot;, $body);
-    $body = str_ireplace (&quot;glass&quot;, &quot;glss&quot;, $body);
-    $body = str_ireplace (&quot;hello&quot;, &quot;hllo&quot;, $body);
+    $body = str_ireplace (<span class="hljs-string">"assembly"</span>, <span class="hljs-string">"ytrewq"</span>, $body);
+    $body = str_ireplace (<span class="hljs-string">"assum"</span>, <span class="hljs-string">"asd;ljf"</span>, $body);
+    $body = str_ireplace (<span class="hljs-string">"glass"</span>, <span class="hljs-string">"glss"</span>, $body);
+    $body = str_ireplace (<span class="hljs-string">"hello"</span>, <span class="hljs-string">"hllo"</span>, $body);
 
-    for ($i = 0; $i &lt; db_num_Rows ($result); $i++) {
+    <span class="hljs-keyword">for</span> ($i = <span class="hljs-number">0</span>; $i &lt; db_num_Rows ($result); $i++) {
         $row = db_fetch_array ($result);
-        $body = str_ireplace ($row[&quot;blocked_word&quot;], &quot;&quot;, $body);
+        $body = str_ireplace ($row[<span class="hljs-string">"blocked_word"</span>], <span class="hljs-string">""</span>, $body);
     }
 
-    if ($body == &quot; &quot;)
-        $body = &quot;Censored&quot;;
+    <span class="hljs-keyword">if</span> ($body == <span class="hljs-string">" "</span>)
+        $body = <span class="hljs-string">"Censored"</span>;
 
-    $body = str_replace (&quot;asd;ljf&quot;, &quot;assum&quot;, $body);
-    $body = str_replace (&quot;ytrewq&quot;, &quot;assembly&quot;, $body);
-    $body = str_replace (&quot;glss&quot;, &quot;glass&quot;, $body);
-    $body = str_ireplace (&quot;hllo&quot;, &quot;hello&quot;, $body);
+    $body = str_replace (<span class="hljs-string">"asd;ljf"</span>, <span class="hljs-string">"assum"</span>, $body);
+    $body = str_replace (<span class="hljs-string">"ytrewq"</span>, <span class="hljs-string">"assembly"</span>, $body);
+    $body = str_replace (<span class="hljs-string">"glss"</span>, <span class="hljs-string">"glass"</span>, $body);
+    $body = str_ireplace (<span class="hljs-string">"hllo"</span>, <span class="hljs-string">"hello"</span>, $body);
 
-    return $body;
+    <span class="hljs-keyword">return</span> $body;
 
 }
 </code></pre>

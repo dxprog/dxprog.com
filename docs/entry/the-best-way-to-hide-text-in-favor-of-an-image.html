@@ -5,13 +5,13 @@
 <p>That last part is fine, the other part is not.</p>
 <p>When you text-indent something -9999px offscreen, you&#39;re really fucking up the internal render dimensions of the item for the browser. Some dude from Netflix explained more about this on a talk he gave about fixing performance issues on mobile, but I&#39;ll be damned if I can find it now. The short of it is, it&#39;s bad practice, bad for performance, and you shouldn&#39;t do it. But, there&#39;s a nifty, cross-browser friendly way to have your cake without resorting to ugly hacks like text-indent.</p>
 <p>Disclaimer: I can&#39;t take any credit for any of this. I picked it up from my pal Mickael Lucchini during my first tenure at Griffin. However, I have yet to see this trick used or mentioned anywhere else on the internet, so it needs to be shared.</p>
-<pre><code class="lang-css">.image-text {
-display: [block|inline-block];
-height: 0;
-padding-top: 10px;
-width: 10px;
-overflow: hidden;
-background: url(BACKGROUND_IMAGE);
+<pre><code class="lang-css"><span class="hljs-selector-class">.image-text</span> {
+<span class="hljs-attribute">display</span>: [block|inline-block];
+<span class="hljs-attribute">height</span>: <span class="hljs-number">0</span>;
+<span class="hljs-attribute">padding-top</span>: <span class="hljs-number">10px</span>;
+<span class="hljs-attribute">width</span>: <span class="hljs-number">10px</span>;
+<span class="hljs-attribute">overflow</span>: hidden;
+<span class="hljs-attribute">background</span>: <span class="hljs-built_in">url</span>(BACKGROUND_IMAGE);
 }
 </code></pre>
 <p>A quick description of what&#39;s going on:</p>

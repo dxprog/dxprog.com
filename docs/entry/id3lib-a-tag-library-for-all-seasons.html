@@ -3,51 +3,51 @@
 <p>ID3Lib [ <a href="http://dxprog.com/files/ID3Lib.zip">Download</a> ]</p>
 <p>As one may have derived from previous posts, I have a <a href="http://labs.dxprog.com/smp/">project</a> the uses MP3s quite heavily. As such, retrieving tag data from these is quite an important thing. Having recently migrated my personal server to Windows, I needed a non-Linux variant of my previous <a href="http://dxprog.com/entry/building-a-web-based-media-player---part-1/">tag read</a>. I thought that while I was at it I could add an additional feature, namely saving embedded album art. Unfortunately, I was unable to find any clear directions on how to do so using <a href="http://developer.kde.org/~wheeler/taglib.html">TagLib</a>, so I created my own library. Three different times. In three different languages. A C++ version, a .NET version and, finally, a PHP version.</p>
 <p>Each of these libraries works pretty similar, but to give you the general idea, I&#39;ll write out a simple program for each.</p>
-<pre><code class="lang-c++">#include &lt;iostream&gt;
-#include &quot;id3lib.h&quot;
+<pre><code class="lang-c++"><span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">&lt;iostream&gt;</span></span>
+<span class="hljs-meta">#<span class="hljs-meta-keyword">include</span> <span class="hljs-meta-string">"id3lib.h"</span></span>
 
-using namespace std;
+<span class="hljs-keyword">using</span> <span class="hljs-keyword">namespace</span> <span class="hljs-built_in">std</span>;
 
-void main () {
-    ID3Lib id3(&quot;my.mp3&quot;); // Create the object
-    if (!id3)
-        cout &lt;&lt; &quot;Unable to parse file&quot;;
-    else {
-        cout &lt;&lt; &quot;Title: &quot; &lt;&lt; id3.artist() &lt;&lt; &quot;n&quot;; // Output title using shortcut method
-        cout &lt;&lt; &quot;Album: &quot; &lt;&lt; id3.tag(&quot;TALB&quot;) &lt;&lt; &quot;n&quot;; // Can retrieve any tag with this method
-        id3.saveAlbumArt (&quot;album_art.jpg&quot;); // Save any embedded picture
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">main</span> <span class="hljs-params">()</span> </span>{
+    <span class="hljs-function">ID3Lib <span class="hljs-title">id3</span><span class="hljs-params">(<span class="hljs-string">"my.mp3"</span>)</span></span>; <span class="hljs-comment">// Create the object</span>
+    <span class="hljs-keyword">if</span> (!id3)
+        <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Unable to parse file"</span>;
+    <span class="hljs-keyword">else</span> {
+        <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Title: "</span> &lt;&lt; id3.artist() &lt;&lt; <span class="hljs-string">"n"</span>; <span class="hljs-comment">// Output title using shortcut method</span>
+        <span class="hljs-built_in">cout</span> &lt;&lt; <span class="hljs-string">"Album: "</span> &lt;&lt; id3.tag(<span class="hljs-string">"TALB"</span>) &lt;&lt; <span class="hljs-string">"n"</span>; <span class="hljs-comment">// Can retrieve any tag with this method</span>
+        id3.saveAlbumArt (<span class="hljs-string">"album_art.jpg"</span>); <span class="hljs-comment">// Save any embedded picture</span>
     }
 }
 </code></pre>
-<pre><code class="lang-c#">using System;
-using System.Collections.Generic;
-using System.Text;
-using Id3Lib_Net;
+<pre><code class="lang-c#"><span class="hljs-keyword">using</span> System;
+<span class="hljs-keyword">using</span> System.Collections.Generic;
+<span class="hljs-keyword">using</span> System.Text;
+<span class="hljs-keyword">using</span> Id3Lib_Net;
 
-namespace Id3LibNet_Test
+<span class="hljs-keyword">namespace</span> <span class="hljs-title">Id3LibNet_Test</span>
 {
-    class Program
+    <span class="hljs-keyword">class</span> <span class="hljs-title">Program</span>
     {
-        static void Main(string[] args)
-        {
-            Reader t = new Reader(&quot;my.mp3&quot;); // Load the MP3 file
-            Console.WriteLine(t.title()); // Print out the title using shorthand method
-            Frame album = t.getFrame(&quot;TALB&quot;); // All loaded tags can be retrieved this way
-            t.savePicture (&quot;album_art.jpg&quot;);
+        <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
+        </span>{
+            Reader t = <span class="hljs-keyword">new</span> Reader(<span class="hljs-string">"my.mp3"</span>); <span class="hljs-comment">// Load the MP3 file</span>
+            Console.WriteLine(t.title()); <span class="hljs-comment">// Print out the title using shorthand method</span>
+            Frame album = t.getFrame(<span class="hljs-string">"TALB"</span>); <span class="hljs-comment">// All loaded tags can be retrieved this way</span>
+            t.savePicture (<span class="hljs-string">"album_art.jpg"</span>);
         }
     }
 }
 </code></pre>
-<pre><code class="lang-php">include (&quot;id3lib.php&quot;);
+<pre><code class="lang-php"><span class="hljs-keyword">include</span> (<span class="hljs-string">"id3lib.php"</span>);
 
-$id3 = new ID3Lib (&quot;my.mp3&quot;); // Create the ID3Lib object
-if (!$id3-&gt;getErr()) { // Will be null if load was successful
-    echo (&quot;Title: &quot;.$id3-&gt;title); // A shortcut for getting the title
-    echo (&quot;Album: &quot;.$id3-&gt;tags-&gt;TALB); // All tags can be accessed this way
-    $id3-&gt;savePicture (&quot;album_art.jpg&quot;); // Saves an embedded picture
+$id3 = <span class="hljs-keyword">new</span> ID3Lib (<span class="hljs-string">"my.mp3"</span>); <span class="hljs-comment">// Create the ID3Lib object</span>
+<span class="hljs-keyword">if</span> (!$id3-&gt;getErr()) { <span class="hljs-comment">// Will be null if load was successful</span>
+    <span class="hljs-keyword">echo</span> (<span class="hljs-string">"Title: "</span>.$id3-&gt;title); <span class="hljs-comment">// A shortcut for getting the title</span>
+    <span class="hljs-keyword">echo</span> (<span class="hljs-string">"Album: "</span>.$id3-&gt;tags-&gt;TALB); <span class="hljs-comment">// All tags can be accessed this way</span>
+    $id3-&gt;savePicture (<span class="hljs-string">"album_art.jpg"</span>); <span class="hljs-comment">// Saves an embedded picture</span>
 }
-else
-    echo (&quot;There was an error opening the MP3: &quot;.$id3-&gt;getErr());
+<span class="hljs-keyword">else</span>
+    <span class="hljs-keyword">echo</span> (<span class="hljs-string">"There was an error opening the MP3: "</span>.$id3-&gt;getErr());
 </code></pre>
 <p>Each library includes a set of methods/properties for the following common tags: title, album, artist, disc, track, year.</p>
 <p>All three libraries are licensed under the GPLv3 and have the original source code, so you can do with them what you wish, though credit and a link back here is always nice :-).</p>
