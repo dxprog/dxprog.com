@@ -2,6 +2,7 @@ import * as bluebird from 'bluebird';
 import * as fs from 'fs-extra';
 import * as sass from 'node-sass';
 import {
+  PostsReader,
   SiteGenerator,
   Renderers } from 'staticr-site';
 import * as path from 'path';
@@ -29,6 +30,8 @@ const pg = new SiteGenerator({
 
 pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
 pg.writer.addStaticContent('static/images', path.join(staticDir, 'images'));
+
+pg.addReader(new PostsReader(path.resolve('comics/')));
 
 pg.build()
   .then(() => sassRenderAsync({
