@@ -24,8 +24,9 @@ const pg = new SiteGenerator({
     HomePageRenderer,
     Renderers.PostRedirectRenderer,
   ],
-  baseUrl: 'http://staticr.dxprog.com/',
+  baseUrl: 'http://dxprog.com/',
   markedOptions: MarkedHighlightConfig,
+  siteTitle: ' - Matt Hackmann',
 });
 
 pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
