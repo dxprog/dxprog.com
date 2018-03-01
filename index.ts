@@ -24,7 +24,7 @@ const pg = new SiteGenerator({
     HomePageRenderer,
     Renderers.PostRedirectRenderer,
   ],
-  baseUrl: 'http://dxprog.com/',
+  baseUrl: 'https://dxprog.com/',
   markedOptions: MarkedHighlightConfig,
   siteTitle: ' - Matt Hackmann',
 });
