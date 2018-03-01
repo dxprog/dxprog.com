@@ -45,7 +45,7 @@ export const RollupPageRenderer: IRenderer = {
             siteGenerator={siteGenerator}
             previousPage={postsPage.previousPage}
             nextPage={postsPage.nextPage}
-            variant={IntroBarVariant.Small}
+            introBarVariant={IntroBarVariant.Small}
             classNamespace="rollup-page" />
         )
       });
