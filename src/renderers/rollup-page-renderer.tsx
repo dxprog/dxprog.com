@@ -8,7 +8,7 @@ import {
   Renderers,
   SiteGenerator } from 'staticr-site';
 
-import { IntroBarOrientation } from '../components/intro-bar';
+import { IntroBarVariant } from '../components/intro-bar';
 import { Page } from '../components/page';
 
 const BREAK_TAG = '[break]';
@@ -45,7 +45,7 @@ export const RollupPageRenderer: IRenderer = {
             siteGenerator={siteGenerator}
             previousPage={postsPage.previousPage}
             nextPage={postsPage.nextPage}
-            introBarOrientation={IntroBarOrientation.Horizontal}
+            variant={IntroBarVariant.Small}
             classNamespace="rollup-page" />
         )
       });

@@ -27,7 +27,7 @@ export class Page extends React.Component<IPageProps, undefined> {
   render(): ReactNode {
     return (
       <section className={this.props.classNamespace}>
-        <IntroBar siteGenerator={this.props.siteGenerator} orientation={this.props.introBarOrientation} />
+        <IntroBar siteGenerator={this.props.siteGenerator} variant={this.props.introBarVariant} />
         <PostsRollup
           posts={this.props.posts}
           siteGenerator={this.props.siteGenerator}

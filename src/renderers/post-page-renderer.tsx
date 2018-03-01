@@ -11,7 +11,7 @@ import {
 import { Footer } from '../components/footer';
 import {
   IntroBar,
-  IntroBarOrientation } from '../components/intro-bar';
+  IntroBarVariant } from '../components/intro-bar';
 
 const POSTS_PER_PAGE = 5;
 const { Post } = Components;
@@ -31,7 +31,7 @@ export const PostPageRenderer: IRenderer = {
         path: `entry/${post.attributes.slug}`,
         pageComponent: (
           <section className="post-page">
-            <IntroBar siteGenerator={siteGenerator} orientation={IntroBarOrientation.Horizontal} />
+            <IntroBar siteGenerator={siteGenerator} variant={IntroBarVariant.Small} />
             <Post post={postCopy} siteGenerator={siteGenerator} />
             <Footer />
           </section>

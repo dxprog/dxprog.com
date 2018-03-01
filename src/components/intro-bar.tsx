@@ -2,32 +2,34 @@ import * as React from 'react';
 import { ReactNode } from 'react';
 import { SiteGenerator } from 'staticr-site';
 
-export enum IntroBarOrientation {
-  Vertical = 'vertical',
-  Horizontal = 'horizontal'
+export enum IntroBarVariant {
+  Small = 'small',
+  Full = 'full',
 }
 
 export interface IIntroBarProps {
   siteGenerator: SiteGenerator;
-  orientation?: IntroBarOrientation;
+  variant?: IntroBarVariant;
 }
 
 export class IntroBar extends React.Component<IIntroBarProps, undefined> {
   public props: IIntroBarProps;
-  private orientation: IntroBarOrientation;
+  private variant: IntroBarVariant;
 
   constructor(...args: any[]) {
     super(...args);
-    this.orientation = this.props.orientation || IntroBarOrientation.Vertical;
+    this.variant = this.props.variant || IntroBarVariant.Full;
   }
 
   render(): ReactNode {
     return (
-      <section className={`intro-bar intro-bar--${this.orientation}`}>
+      <section className={`intro-bar intro-bar--${this.variant}`}>
         <img src={this.props.siteGenerator.generateUrl('static/images/me.jpg')} alt="Matt Hackmann" className="intro-bar__photo" />
         <h1 className="intro-bar__header">
-          <span className="intro-bar__name intro-bar__name--first">Matt</span>
-          <span className="intro-bar__name intro-bar__name--last">Hackmann</span>
+          <a href={this.props.siteGenerator.generateUrl('')} title="Back to home" className="intro-bar__home-link">
+            <span className="intro-bar__name intro-bar__name--first">Matt</span>
+            <span className="intro-bar__name intro-bar__name--last">Hackmann</span>
+          </a>
         </h1>
         <h2 className="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2>
         <nav className="intro-bar__social-nav">
