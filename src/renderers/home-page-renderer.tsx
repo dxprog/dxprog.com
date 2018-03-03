@@ -7,6 +7,7 @@ import {
   Renderers,
   SiteGenerator } from 'staticr-site';
 
+import { handlePostsBreak } from '../handle-posts-break';
 import { IntroBarVariant } from '../components/intro-bar';
 import { Page } from '../components/page';
 
@@ -22,13 +23,15 @@ export const HomePageRenderer: IRenderer = {
       return (new Date(a.attributes.date)).getTime() > (new Date(b.attributes.date)).getTime() ? -1 : 1;
     });
 
+    const postsCopy: Array<IPost> = handlePostsBreak(sortedPosts.slice(0, 5), siteGenerator);
+
     return Promise.resolve([
       {
         title: 'Home',
         path: 'index',
         pageComponent: (
           <Page
-            posts={sortedPosts.slice(0, 5)}
+            posts={postsCopy}
             siteGenerator={siteGenerator}
             nextPage={2}
             variant={IntroBarVariant.Full}
