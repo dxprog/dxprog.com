@@ -1,5 +1,41 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Archives - Page 62 - Matt Hackmann</title><link rel="stylesheet" type="text/css" href="https://dxprog.com/static/css/index.css"/></head><body><section class="rollup-page"><section class="intro-bar intro-bar--small"><img src="https://dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><a href="https://dxprog.com/" title="Back to home" class="intro-bar__home-link"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></a></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><section class="article-list"><article class="post"><header class="post__header"><h1 class="post__title"><a href="https://dxprog.com/entry/the-revenge-of-bottomembly">The Revenge of Bottomembly</a></h1><time class="post__published">October 14, 2010</time></header><div class="post__content"><p>A few days ago I was out walking and reminiscing, as I am wont to do. While I was doing this, I  recalled some of my first web related programming projects, most notably YPNgine. Considering it was my first major PHP outing, I pulled off quite a feat. Writing a message board is no small task. However, there was one part in particular that I was mulling over: the censor. </p>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Archives - Page 62 - Matt Hackmann</title><link rel="stylesheet" type="text/css" href="https://dxprog.com/static/css/index.css"/></head><body><section class="rollup-page"><section class="intro-bar intro-bar--small"><img src="https://dxprog.com/static/images/me.jpg" alt="Matt Hackmann" class="intro-bar__photo"/><h1 class="intro-bar__header"><a href="https://dxprog.com/" title="Back to home" class="intro-bar__home-link"><span class="intro-bar__name intro-bar__name--first">Matt</span><span class="intro-bar__name intro-bar__name--last">Hackmann</span></a></h1><h2 class="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2><nav class="intro-bar__social-nav"><ul class="social-links"><li class="social-links__item"><a class="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a></li><li class="social-links__item"><a class="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a></li><li class="social-links__item"><a class="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a></li><li class="social-links__item"><a class="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a></li></ul></nav></section><section class="article-list"><article class="post"><header class="post__header"><h1 class="post__title"><a href="https://dxprog.com/entry/php-id3lib-10-release">PHP ID3Lib 1.0 Release</a></h1><time class="post__published">November 6, 2010</time></header><div class="post__content"><p>Brand spanking new release of the PHP branch of ID3Lib!</p>
+<p>[ <a href="http://dxprog.com/files/id3lib_php.zip">Download</a> ]
+[ <a href="http://dxprog.com/docs/id3lib/">Documentation</a> ]</p>
+<p><strong>What&#39;s new:</strong></p>
+<ul>
+<li>Added support for ID3v1, older ID3v2</li>
+<li>Genre now returned on all tag versions</li>
+<li>Calculates song duration and average bit rate for constant (CBR) and variable (VBR) bit rate files</li>
+<li>Single object instantiation can read more than one file</li>
+<li>Much improved inline documentation (phpDoc style)</li>
+<li>General code clean-up, bug fixes and improved compatibility</li>
+</ul>
+<p><strong>Example</strong></p>
+<pre><code class="lang-php">
+<span class="hljs-keyword">include</span>(<span class="hljs-string">'id3lib.php'</span>);
+$songs = <span class="hljs-keyword">array</span>(<span class="hljs-string">'song1.mp3'</span>, <span class="hljs-string">'song2.mp3'</span>, <span class="hljs-string">'song3.mp3'</span>);
+$id3 = <span class="hljs-keyword">new</span> ID3Lib();
+<span class="hljs-keyword">for</span> ($i = <span class="hljs-number">0</span>, $count = count($songs); i &lt; $count; i++) {
+    $id3-&gt;readFile;
+    $min = floor($id3-&gt;length / <span class="hljs-number">60</span>);
+    $sec = $id3-&gt;length - ($min * <span class="hljs-number">60</span>);
+    $sec = strlen($sec) == <span class="hljs-number">1</span> ? <span class="hljs-string">'0'</span> . $sec : $sec;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Title: '</span>, $id3-&gt;title, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Artist: '</span>, $id3-&gt;artist, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Album: '</span>, $id3-&gt;album, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Track Number: '</span>, $id3-&gt;track, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Disc: '</span>, $id3-&gt;disc, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Year: '</span>, $id3-&gt;year, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Genre: '</span>, $id3-&gt;genre, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Length: '</span>, $min, <span class="hljs-string">':'</span>, $sec, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    <span class="hljs-keyword">echo</span> <span class="hljs-string">'Avg. Bit Rate: '</span>, $id3-&gt;bitrate, <span class="hljs-string">'&lt;br /&gt;'</span>;
+    $id3-&gt;savePicture($i.<span class="hljs-string">'_pic.jpg'</span>);
+}
+
+</code></pre>
+<p>If you have any comments/issues, let me know!</p>
+</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="https://dxprog.com/entry/the-revenge-of-bottomembly">The Revenge of Bottomembly</a></h1><time class="post__published">October 14, 2010</time></header><div class="post__content"><p>A few days ago I was out walking and reminiscing, as I am wont to do. While I was doing this, I  recalled some of my first web related programming projects, most notably YPNgine. Considering it was my first major PHP outing, I pulled off quite a feat. Writing a message board is no small task. However, there was one part in particular that I was mulling over: the censor. </p>
 <p>If you happen to be a former YPNer, you may recall seeing many references to &quot;bottomembly&quot;. Carrying over the censor find/replace list that had been used on phpBB before it, all instances of the character sequence &quot;ass&quot; were summarily replaced with &quot;bottom&quot;. Now I am being very choosy when I say &quot;character sequence&quot; and not &quot;word&quot; as the censor couldn&#39;t differentiate words.</p>
 <p>This oversight was brought to my attention my young programmer self struggled to figure out a solution. Here&#39;s what I wound up doing:</p>
 <pre><code class="lang-php"><span class="hljs-comment">// Copyright (c) 2003 Matt Hackmann</span>
@@ -63,11 +99,4 @@
 <li>My face is almost always pointed away from the camera</li>
 <li>I get fatter as time goes on</li>
 </ul>
-</div></article><article class="post"><header class="post__header"><h1 class="post__title"><a href="https://dxprog.com/entry/crayon-vs-syfy-cgi">Crayon vs SyFy CGI</a></h1><time class="post__published">September 26, 2010</time></header><div class="post__content"><p>Received this message on Facebook from a buddy of mine today:</p>
-<blockquote>
-<p>Did you see (and I am NOT making this up) OCTOSHARK on SCI-FI last night.  I mean the (so called) special effects were anything but!  You with a crayon and a piece of paper drawing the title creature could have made a scarier one.</p>
-</blockquote>
-<p>I&#39;m never one to turn down a challenge like that, so I give you the terror of the deep, Sharktopus!</p>
-<p><img src="http://images.dxprog.com/blog/sharktopus.jpg" alt="" title="Dawwww...."></p>
-<p>Trailer for the horror in question can be seen <a href="http://www.youtube.com/watch?v=P2HGoR8pSps&amp;feature=player_embedded#!">here</a>.</p>
 </div></article><div class="paging"><a href="https://dxprog.com/archives/63" class="paging__link paging__link--next">Earlier Posts</a><a href="https://dxprog.com/archives/61" class="paging__link paging__link--previous">Later Posts</a></div></section><footer class="footer"><p class="footer__copyright">Copyright © 2018 Matt Hackmann</p></footer></section></body></html>
