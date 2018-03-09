@@ -1,7 +1,7 @@
 ---
 title: Poking and Prodding at a Famicom
 slug: poking-and-prodding-at-a-famicom
-date: 2018-03-06T22:00:00-08:00
+date: 2018-03-07T22:00:00-08:00
 tags:
 - "blog a day"
 - hacking
