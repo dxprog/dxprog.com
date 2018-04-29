@@ -10,6 +10,7 @@ import * as path from 'path';
 import { HomePageRenderer } from './src/renderers/home-page-renderer';
 import { PostPageRenderer } from './src/renderers/post-page-renderer';
 import { RollupPageRenderer } from './src/renderers/rollup-page-renderer';
+import { RssPostsRenderer } from './src/renderers/rss-posts-renderer';
 import { MarkedHighlightConfig } from './src/marked-highlight-config';
 
 const sassRenderAsync = bluebird.promisify(sass.render);
@@ -23,6 +24,7 @@ const pg = new SiteGenerator({
     PostPageRenderer,
     HomePageRenderer,
     Renderers.PostRedirectRenderer,
+    // RssPostsRenderer,
   ],
   baseUrl: 'https://dxprog.com/',
   markedOptions: MarkedHighlightConfig,
@@ -31,6 +33,7 @@ const pg = new SiteGenerator({
 
 pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
 pg.writer.addStaticContent('static/images', path.join(staticDir, 'images'));
+pg.writer.addStaticContent('static/js', path.join(staticDir, 'js'));
 
 pg.addReader(new PostsReader(path.resolve('comics/')));
 pg.addReader(new PostsReader(path.resolve('art/')));
