@@ -5,7 +5,7 @@ date: 2020-01-02T22:36:00-00:00
 tags:
 - "note to self"
 ---
-In what's become the only reliant thing on this blog (outside of my making statements like this), I wrote a letter to myself last year, as I do. Here's most of that letter, with some rather... personal thoughts redacted.
+In what's become the only reliable thing on this blog (outside of my making statements like this), I wrote a letter to myself last year, as I do. Here's most of that letter, with some rather... personal thoughts redacted.
 
 > Dear FutureMe,
 >
