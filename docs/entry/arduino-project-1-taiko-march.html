@@ -7,7 +7,7 @@
 <pre><code class="lang-arduino">
 <span class="hljs-keyword">int</span> rxPin = <span class="hljs-number">0</span>;
 
-<span class="hljs-keyword">void</span> <span class="hljs-built_in">setup</span>() {
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">setup</span><span class="hljs-params">()</span> </span>{
   <span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">begin</span>(<span class="hljs-number">9600</span>); 
   <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">8</span>, <span class="hljs-literal">OUTPUT</span>);
   <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">9</span>, <span class="hljs-literal">OUTPUT</span>);
@@ -15,8 +15,8 @@
   <span class="hljs-built_in">pinMode</span>(<span class="hljs-number">11</span>, <span class="hljs-literal">OUTPUT</span>);
 }
 
-<span class="hljs-keyword">void</span> <span class="hljs-built_in">loop</span>() {
-  <span class="hljs-built_in">if</span> (<span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">available</span>() &gt; <span class="hljs-number">0</span>) {
+<span class="hljs-function"><span class="hljs-keyword">void</span> <span class="hljs-title">loop</span><span class="hljs-params">()</span> </span>{
+  <span class="hljs-keyword">if</span> (<span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">available</span>() &gt; <span class="hljs-number">0</span>) {
     rxPin = <span class="hljs-built_in">Serial</span>.<span class="hljs-built_in">read</span>();
     <span class="hljs-built_in">digitalWrite</span>(rxPin + <span class="hljs-number">8</span>, <span class="hljs-literal">HIGH</span>);
     <span class="hljs-built_in">delay</span>(<span class="hljs-number">10</span>);
@@ -66,8 +66,8 @@
         <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> prevNote = <span class="hljs-number">0</span>;
         <span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">int</span> noteRun = <span class="hljs-number">0</span>;
 
-        <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)
-        </span>{
+        <span class="hljs-function"><span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">Main</span>(<span class="hljs-params"><span class="hljs-keyword">string</span>[] args</span>)</span>
+        {
 
             SerialPort port = <span class="hljs-keyword">new</span> SerialPort(<span class="hljs-string">"COM5"</span>);
             port.Open();
@@ -99,8 +99,8 @@
             }
         }
 
-        <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">loadSong</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> patternFile</span>)
-        </span>{
+        <span class="hljs-function"><span class="hljs-keyword">private</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">loadSong</span>(<span class="hljs-params"><span class="hljs-keyword">string</span> patternFile</span>)</span>
+        {
 
             XmlDocument xmlDoc = <span class="hljs-keyword">new</span> XmlDocument();
 
@@ -144,8 +144,8 @@
 
         }
 
-        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">beginSong</span>(<span class="hljs-params"><span class="hljs-keyword">int</span> difficulty</span>)
-        </span>{
+        <span class="hljs-function"><span class="hljs-keyword">public</span> <span class="hljs-keyword">static</span> <span class="hljs-keyword">void</span> <span class="hljs-title">beginSong</span>(<span class="hljs-params"><span class="hljs-keyword">int</span> difficulty</span>)</span>
+        {
 
             <span class="hljs-comment">// Load the map</span>
             <span class="hljs-keyword">string</span>[] map = maps[difficulty].Split(<span class="hljs-string">','</span>);
@@ -181,4 +181,4 @@
 }
 
 </code></pre>
-</div></article><footer class="footer"><p class="footer__copyright">Copyright © 2018 Matt Hackmann</p><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-280226-1"></script><script src="//dxprog.com/static/js/dxprog.js"></script></footer></section></body></html>
+</div></article><footer class="footer"><p class="footer__copyright">Copyright © 2020 Matt Hackmann</p><script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-280226-1"></script><script src="//dxprog.com/static/js/dxprog.js"></script></footer></section></body></html>
