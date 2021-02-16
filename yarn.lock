@@ -405,8 +405,8 @@ escape-string-regexp@^1.0.2, escape-string-regexp@^1.0.5:
   resolved "https://registry.yarnpkg.com/escape-string-regexp/-/escape-string-regexp-1.0.5.tgz#1b61c0562190a8dff6ae3bb2cf0200ca130b86d4"
 
 esprima@^4.0.0:
-  version "4.0.0"
-  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.0.tgz#4499eddcd1110e0b218bacf2fa7f7f59f55ca804"
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/esprima/-/esprima-4.0.1.tgz#13b04cdb3e6c5d19df91ab6987a8695619b0aa71"
 
 extend@~3.0.0, extend@~3.0.1:
   version "3.0.1"
@@ -769,8 +769,8 @@ js-tokens@^3.0.0:
   resolved "https://registry.yarnpkg.com/js-tokens/-/js-tokens-3.0.2.tgz#9866df395102130e38f7f996bceb65443209c25b"
 
 js-yaml@^3.10.0:
-  version "3.11.0"
-  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.11.0.tgz#597c1a8bd57152f26d622ce4117851a51f5ebaef"
+  version "3.14.1"
+  resolved "https://registry.yarnpkg.com/js-yaml/-/js-yaml-3.14.1.tgz#dae812fdb3825fa306609a8717383c50c36a0537"
   dependencies:
     argparse "^1.0.7"
     esprima "^4.0.0"
@@ -1372,9 +1372,9 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-staticr-site@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-0.9.0.tgz#51ad5d206f51b483a5fc50b151ec0b54f71593ad"
+staticr-site@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-1.0.0.tgz#1da43ff171c33d6069e981307513f154ca3c77f7"
   dependencies:
     front-matter "^2.3.0"
     fs-extra "^5.0.0"
