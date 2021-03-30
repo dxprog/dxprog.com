@@ -1372,9 +1372,9 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-staticr-site@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-0.9.0.tgz#51ad5d206f51b483a5fc50b151ec0b54f71593ad"
+staticr-site@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-1.0.0.tgz#1da43ff171c33d6069e981307513f154ca3c77f7"
   dependencies:
     front-matter "^2.3.0"
     fs-extra "^5.0.0"
@@ -1586,8 +1586,8 @@ xtend@^4.0.0:
   resolved "https://registry.yarnpkg.com/xtend/-/xtend-4.0.1.tgz#a5c6d532be656e23db820efb943a1f04998d63af"
 
 y18n@^3.2.1:
-  version "3.2.1"
-  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.1.tgz#6d15fba884c08679c0d77e88e7759e811e07fa41"
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/y18n/-/y18n-3.2.2.tgz#85c901bd6470ce71fc4bb723ad209b70f7f28696"
 
 yallist@^2.1.2:
   version "2.1.2"
