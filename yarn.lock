@@ -1372,9 +1372,9 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-staticr-site@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-0.9.0.tgz#51ad5d206f51b483a5fc50b151ec0b54f71593ad"
+staticr-site@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-1.0.0.tgz#1da43ff171c33d6069e981307513f154ca3c77f7"
   dependencies:
     front-matter "^2.3.0"
     fs-extra "^5.0.0"
@@ -1514,8 +1514,8 @@ typescript@^2.7.1:
   resolved "https://registry.yarnpkg.com/typescript/-/typescript-2.7.2.tgz#2d615a1ef4aee4f574425cdff7026edf81919836"
 
 ua-parser-js@^0.7.9:
-  version "0.7.17"
-  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.17.tgz#e9ec5f9498b9ec910e7ae3ac626a805c4d09ecac"
+  version "0.7.28"
+  resolved "https://registry.yarnpkg.com/ua-parser-js/-/ua-parser-js-0.7.28.tgz#8ba04e653f35ce210239c64661685bf9121dec31"
 
 universalify@^0.1.0:
   version "0.1.1"
