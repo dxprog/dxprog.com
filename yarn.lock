@@ -874,6 +874,10 @@ marked@^0.3.12:
   version "0.3.17"
   resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.17.tgz#607f06668b3c6b1246b28f13da76116ac1aa2d2b"
 
+marked@^4.0.10:
+  version "4.0.10"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-4.0.10.tgz#423e295385cc0c3a70fa495e0df68b007b879423"
+
 meow@^3.7.0:
   version "3.7.0"
   resolved "https://registry.yarnpkg.com/meow/-/meow-3.7.0.tgz#72cb668b425228290abbfa856892587308a801fb"
@@ -1372,9 +1376,9 @@ sshpk@^1.7.0:
     jsbn "~0.1.0"
     tweetnacl "~0.14.0"
 
-staticr-site@^0.9.0:
-  version "0.9.0"
-  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-0.9.0.tgz#51ad5d206f51b483a5fc50b151ec0b54f71593ad"
+staticr-site@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/staticr-site/-/staticr-site-1.0.0.tgz#1da43ff171c33d6069e981307513f154ca3c77f7"
   dependencies:
     front-matter "^2.3.0"
     fs-extra "^5.0.0"
