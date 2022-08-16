@@ -21,7 +21,7 @@ There it was. _EXTERMELY_ faint such that I needed a flashlight to confirm for s
 
 She tested negative, and, after a slightly tearful "good bye", I resigned myself to the guest bedroom. Luckily, we'd just refurnished it in anticipation of my sister visiting, so I'd have a comfy bed and a TV. Quite cush, really. However, the fever continued to rise, hovering just under 102, and I never really got sleep. Morning came and we did our tests. Kayla once again was negative, I was very definitely positive. I guess my nose was now holding more _viral load_.
 
-[](!https://i.imgur.com/ahv7AVX.jpg)
+![](https://i.imgur.com/ahv7AVX.jpg)
 
 That's pretty much been my life for the last nearly twenty-four hours. I've watched untold amounts of long-form video essays on YouTube and still haven't really slept. My fever broke for just a bit this evening, but now seems to be coming back. The only real down-side (outside of not being able to be around my wife) is the fact that we did not plan meals with the anticipation that I would be at home this week. That's meant a lot of trail and chex mix for me throughout the day. It's definitely gotten old, but I didn't really feel like trying to be clever and cook something either.
 
