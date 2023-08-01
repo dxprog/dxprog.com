@@ -8,8 +8,11 @@ tags:
 Occasionally, [mia madre](https://mom28kids.com/) and myself enter into a pact wherein we try to churn out one blog post a day for a month. This is one of those months, as it turns out. Given recent developments in my life, I have lots of thoughts to get out. But, as a warm-up exercise, I'll start with what I generally blog these days: publish and comment on a letter I wrote to myself in the past. A bit over a year ago, I decided that in addition to the end-of-year letter to myself, I'd do a birthday one as well. So, here's that:
 
 > FutureMe's persistent push for engagement has worked this time. Writing a letter to yourself twice a year roughly six months apart is an intriguing notion. You do always boast about how you get presents twice a year, why not a present from yourself?
+>
 > You've been married half a year now, that's exciting. Baby plans have been put (temporarily) on hold for various reasons, which does open up the possibility of squeezing in some additional world galivanting (as "the COVID" allows to permit). Disney this weekend, Bend the next, Maggie visits after that, a cruise in August. Hoping for some Japan action, but we shall see.
+>
 > You'll probably remember this, but playing pretend boss is no fun. Management track has _never_ had appeal, but you have to try everything once, I suppose. Glad to be doing it on a trial basis, because I would not want to be doing it full time. No thanks, gimme code. (The ultimate irony will be 37-year-old me is a Sr Eng Mgr...)
+>
 > Hope you open a dope ass Etsy shop with the laser (once that office room gets cleaned up). Thanks and Happy Birthday!
 
 Going off of paragraph one, the middle of the year letter was hardly my actual idea and FutureMe suddenly being very annoying about sending emails. I've since unsubscribed...
