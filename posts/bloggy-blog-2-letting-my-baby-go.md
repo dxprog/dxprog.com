@@ -1,7 +1,7 @@
 ---
 title: "Bloggy Blog 2 - Letting My Baby Go"
 slug: bloggy-blog-2-letting-my-baby-go
-date: 2023-07-02T21:45:00-07:00
+date: 2023-08-02T00:00:00-07:00
 tags:
 - general
 ---

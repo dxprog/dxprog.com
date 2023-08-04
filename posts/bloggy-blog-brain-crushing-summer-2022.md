@@ -1,7 +1,7 @@
 ---
 title: "Bloggy Blog - The Brain Crushing Summer of 2022"
 slug: bloggy-blog-brain-crushing-summer-2022
-date: 2023-07-01T11:30:00-07:00
+date: 2023-08-01T11:30:00-07:00
 tags:
 - general
 ---
