@@ -41,9 +41,6 @@ export class IntroBar extends React.Component<IIntroBarProps, undefined> {
               <a className="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a>
             </li>
             <li className="social-links__item">
-              <a className="social-links__link social-links__link--twitter" target="_blank" href="https://twitter.com/dxprog">Twitter</a>
-            </li>
-            <li className="social-links__item">
               <a className="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a>
             </li>
           </ul>
