@@ -5,7 +5,7 @@ date: 2023-08-07T00:00:00-07:00
 tags:
 - general
 ---
-With the arrival of our wee baby, so to has arrived a big increase in our TV watching. When you're at home all day with a baby who prefers human contact all the time, there's only so many forms of entertainment to turn to. Since we're modern cord-cut millenials, all our video watchings get streamed over the internet. And with this uptick in watching, that's meant we've come _very_ close to hitting our monthly bandwidth caps. But, I've been finding little ways to curb that in an epic battle against the number of bits coming in and out.
+With the arrival of our wee baby, so too has arrived a big increase in our TV watching. When you're at home all day with a baby who prefers human contact all the time, there's only so many forms of entertainment to turn to. Since we're modern cord-cut millenials, all our video watchings get streamed over the internet. And with this uptick in watching, that's meant we've come _very_ close to hitting our monthly bandwidth caps. But, I've been finding little ways to curb that in an epic battle against the number of bits coming in and out.
 
 To get an idea of where all the bandwidth was being pissed away, I turned to the daily reports that my eero router provides. It breaks down bandwidth usage grouped by device type (computers, streaming devices, phones, etc) and then further by device. This tells me exactly where I should be looking for reductions. By far the biggest bandwidth suck was on the main TV, so that's where a lot of my effort has been focused.
 
