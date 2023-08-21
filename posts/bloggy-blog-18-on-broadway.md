@@ -5,9 +5,9 @@ date: 2023-08-18T00:00:00-07:00
 tags:
 - general
 ---
-One of the more interesting developments of 2022 was a run of going to see a number Broadway productions. This came about during a visit to New York in February of 2022, where we both had our first, second, _and third_ Broadway experiences in the span of a week. It didn't end there, however, as we continued to see travelling shows a little closer to home.
+One of the more interesting developments of 2022 was a run of going to see a number Broadway productions. This came about during a visit to New York that February, where we both had our first, second, _and third_ Broadway experiences in the span of a week. It didn't end there, however, as we continued to see travelling shows a much closer to home.
 
-If you were to ask me ten years ago if I'd ever go to a musical production, I'd probably give a shitty remark that would've been offensive to _someone_. But, I'd gone to and enjoyed a few productions with friends, and then this string with Kayla over the last year. There's something about watching a group of people pull off a real-time professional production that's got a different feel to it. Appreciation for the craft, perhaps.
+If you were to ask me ten years ago if I'd ever go to a musical production, I'd probably give a shitty remark that would've been offensive to _someone_ instead of a simple "no". But, I'd since gone to and enjoyed a few shows in SF with friends, and then this string with Kayla over the last year. There's definitely something about watching a group of people pull off a real-time professional production that's got a particular feel to it. Appreciation for the craft, perhaps.
 
 But, anyways. The thrust of today's venture will be in writing tiny reviews of the shows that Kayla and I saw together.
 
@@ -33,6 +33,6 @@ But, anyways. The thrust of today's venture will be in writing tiny reviews of t
 
 **Six (6/10)** - Rounding everything out is _Six_, a pop musical about the six wives of King Henry VIII. This was another soundtrack that Kayla had incorporated into regular rotation prior to seeing and... kind of the same issue with Moulin Rouge: seeing it acted out didn't really add a whole lot more. I'm only partial to one or two of the songs, so that didn't really leave a lot left. Also, it just had me remembering all that time spent on European history that I didn't care about :|.
 
-That concludes all the Broadway shows we say starting in February of last year. A real 0-60 in a hurry situation, but I'm not against going to more shows. Or the symphony, that's always fun.
+That concludes all the Broadway shows we saw since that journey to New York. A real zero to sixty in a hurry situation, but I'm not against going to more shows. Or the symphony, that's always fun.
 
 With a baby, though, who knows when that'll be.
