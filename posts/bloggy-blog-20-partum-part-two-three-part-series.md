@@ -23,7 +23,7 @@ There's not really a lot to say about that trip. We went to the hospital and wer
 
 It's a strange sensation having had the "ticking time bomb" go off and then... you're just going around doing normal stuff. That's all we did. We did a couple of around the block walks and Kayla adopted the yoga ball as her new sitting spot. All of this was set to a backdrop of uncomfortable anticipation, at least for me. But nothing happend and, as we'd arranged, went to the hospital late that evening.
 
-[](https://hackmann.family/photos/delivery-room.jpg)
+![](https://hackmann.family/photos/delivery-room.jpg)
 
 We were immediately escorted into the kingly suite that was the delivery room, and no that's not sarcasm. I've stayed in hotel rooms that were smaller than this place. But, that's good, because we were about to spend the next > 24 hours there.
 
