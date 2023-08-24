@@ -130,3 +130,11 @@
     }
   }
 }
+
+@media screen and (max-width: 667px) {
+  .intro-bar__subhead {
+    padding: 0 2rem;
+    font-size: 3.6rem;
+    line-height: 1.2;
+  }
+}
