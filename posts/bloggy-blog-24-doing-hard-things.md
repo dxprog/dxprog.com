@@ -1,7 +1,7 @@
 ---
 title: "Bloggy Blog 24 - Doing Hard Things"
 slug: bloggy-blog-24-doing-hard-things
-date: 2023-08-24T00:00:00-07:00
+date: 2023-08-25T00:00:00-07:00
 tags:
 - general
 ---
