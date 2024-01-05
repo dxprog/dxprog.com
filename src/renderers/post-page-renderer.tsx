@@ -37,6 +37,12 @@ export const PostPageRenderer: IRenderer = {
       pages.push({
         title: post.attributes.title,
         path: `entry/${post.attributes.slug}`,
+        headComponents: (
+          <>
+            <link rel="canonical" href={siteGenerator.generateUrl(`entry/${post.attributes.slug}`)} />
+            <meta name="og:title" content={post.attributes.title} />
+          </>
+        ),
         pageComponent: (
           <section className="post-page">
             <IntroBar siteGenerator={siteGenerator} variant={IntroBarVariant.Small} />
