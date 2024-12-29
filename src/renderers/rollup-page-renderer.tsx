@@ -1,12 +1,12 @@
 import * as React from 'react';
-import { ReactElement } from 'react';
 import {
   IPost,
   IPostsRollupPage,
   IRenderer,
   IRenderedPage,
   Renderers,
-  SiteGenerator } from 'staticr-site';
+  SiteGenerator,
+} from 'staticr-site';
 
 import { handlePostsBreak } from '../handle-posts-break';
 import { IntroBarVariant } from '../components/intro-bar';

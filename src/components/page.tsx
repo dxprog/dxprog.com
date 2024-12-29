@@ -19,14 +19,14 @@ export interface IPageProps {
   classNamespace: string;
   previousPage?: number;
   nextPage?: number;
-  introBarOrientation: IntroBarVariant;
+  introBarVariant: IntroBarVariant;
 }
 
 export const Page = ({
-  posts, siteGenerator, classNamespace, previousPage, nextPage, introBarOrientation
+  posts, siteGenerator, classNamespace, previousPage, nextPage, introBarVariant
 }: IPageProps): React.ReactNode => (
   <section className={classNamespace}>
-    <IntroBar siteGenerator={siteGenerator} variant={introBarOrientation} />
+    <IntroBar siteGenerator={siteGenerator} variant={introBarVariant} />
     <PostsRollup
       posts={posts}
       siteGenerator={siteGenerator}
