@@ -20,7 +20,7 @@ const { PostsRollupRenderer } = Renderers;
  */
 export const RollupPageRenderer: IRenderer = {
   renderPosts(posts: Array<IPost>, siteGenerator: SiteGenerator): Promise<Array<IRenderedPage>> {
-    const rollupRender = new PostsRollupRenderer(5);
+    const rollupRender = new PostsRollupRenderer(POSTS_PER_PAGE);
 
     const pages: Array<IRenderedPage> = [];
     rollupRender.iteratePostPages(posts, (postsPage: IPostsRollupPage) => {

@@ -1,11 +1,10 @@
 import * as React from 'react';
-import { ReactElement } from 'react';
 import {
   IPost,
   IRenderer,
   IRenderedPage,
-  Renderers,
-  SiteGenerator } from 'staticr-site';
+  SiteGenerator,
+} from 'staticr-site';
 
 import { handlePostsBreak } from '../handle-posts-break';
 import { IntroBarVariant } from '../components/intro-bar';
@@ -18,12 +17,12 @@ const POSTS_PER_PAGE = 5;
  */
 export const HomePageRenderer: IRenderer = {
   renderPosts(posts: Array<IPost>, siteGenerator: SiteGenerator): Promise<Array<IRenderedPage>> {
-    let sortedPosts = [ ...posts ];
+    const sortedPosts = [ ...posts ];
     sortedPosts.sort((a: IPost, b: IPost) => {
       return (new Date(a.attributes.date)).getTime() > (new Date(b.attributes.date)).getTime() ? -1 : 1;
     });
 
-    const postsCopy: Array<IPost> = handlePostsBreak(sortedPosts.slice(0, 5), siteGenerator);
+    const postsCopy: Array<IPost> = handlePostsBreak(sortedPosts.slice(0, POSTS_PER_PAGE), siteGenerator);
 
     return Promise.resolve([
       {

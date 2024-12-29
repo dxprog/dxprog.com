@@ -1,18 +1,16 @@
 import * as React from 'react';
-import { ReactElement } from 'react';
 import {
   IPost,
   IPostsRollupPage,
   IRenderer,
   IRenderedPage,
   Renderers,
-  SiteGenerator } from 'staticr-site';
+  SiteGenerator,
+} from 'staticr-site';
 
-import { handlePostsBreak } from '../handle-posts-break';
 import { IntroBarVariant } from '../components/intro-bar';
 import { Page } from '../components/page';
 
-const POSTS_PER_PAGE = 5;
 const { PostsRollupRenderer } = Renderers;
 
 /**
