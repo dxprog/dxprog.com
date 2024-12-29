@@ -35,7 +35,7 @@ Rounding out the cross-country mooching, we finished our run in Oklahoma and mad
 
 **July/August**
 
-After six months of various madness, we were moved into our place and took it chill for a couple months. The only travel that snuck in was at the _very_ end of August, back to the Bay for the aby shower of one of Kayla's friends. Luckily, the travel from PDX to the Bay isn't barely a deal at all, so a pretty chill time.
+After six months of various madness, we were moved into our place and took it chill for a couple months. The only travel that snuck in was at the _very_ end of August, back to the Bay for the baby shower of some friends who were having their first kiddo. Luckily, travel from PDX to the Bay is barely a deal at all, so a pretty chill time.
 
 **September**
 
