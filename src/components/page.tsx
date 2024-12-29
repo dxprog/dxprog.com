@@ -1,14 +1,15 @@
 import {
   Components,
   IPost,
-  SiteGenerator } from 'staticr-site';
+  SiteGenerator
+} from 'staticr-site';
 import * as React from 'react';
-import { ReactNode } from 'react';
 
 import { Footer } from './footer';
 import {
   IntroBar,
-  IntroBarOrientation } from './intro-bar';
+  IntroBarVariant
+} from './intro-bar';
 
 const { PostsRollup } = Components;
 
@@ -18,23 +19,19 @@ export interface IPageProps {
   classNamespace: string;
   previousPage?: number;
   nextPage?: number;
-  introBarOrientation: IntroBarOrientation;
+  introBarVariant: IntroBarVariant;
 }
 
-export class Page extends React.Component<IPageProps, undefined> {
-  public props: IPageProps;
-
-  render(): ReactNode {
-    return (
-      <section className={this.props.classNamespace}>
-        <IntroBar siteGenerator={this.props.siteGenerator} variant={this.props.introBarVariant} />
-        <PostsRollup
-          posts={this.props.posts}
-          siteGenerator={this.props.siteGenerator}
-          previousPage={this.props.previousPage}
-          nextPage={this.props.nextPage} />
-        <Footer />
-      </section>
-    );
-  }
-}
+export const Page = ({
+  posts, siteGenerator, classNamespace, previousPage, nextPage, introBarVariant
+}: IPageProps): React.ReactNode => (
+  <section className={classNamespace}>
+    <IntroBar siteGenerator={siteGenerator} variant={introBarVariant} />
+    <PostsRollup
+      posts={posts}
+      siteGenerator={siteGenerator}
+      previousPage={previousPage}
+      nextPage={nextPage} />
+    <Footer />
+  </section>
+);

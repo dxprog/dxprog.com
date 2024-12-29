@@ -19,7 +19,7 @@ const LANGUAGE_MAP: object = {
 };
 
 export const MarkedHighlightConfig: object = {
-  highlight: (code: string, lang: String) => {
+  highlight: (code: string, lang: string) => {
     let retVal = code;
     const desiredLang = lang ? lang.toLowerCase() : null;
     if (LANGUAGE_MAP[desiredLang]) {

@@ -1,8 +1,13 @@
 import * as React from 'react';
-import { IPost, SiteGenerator, IPostsRollupPage } from 'staticr-site';
+import { SiteGenerator, IPostsRollupPage } from 'staticr-site';
+
+type PostFooterProps = {
+  posts: IPostsRollupPage;
+  siteGenerator: SiteGenerator;
+};
 
 export const PostFooter = (
-  { posts, siteGenerator }: { posts: IPostsRollupPage, siteGenerator: SiteGenerator }
+  { posts, siteGenerator }: PostFooterProps
 ) => {
   const { sortedPosts, sortedPostIndex } = posts;
   const previousPost = posts.previousPage !== null ? sortedPosts[sortedPostIndex - 1] : null;

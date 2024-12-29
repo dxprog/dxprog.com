@@ -8,34 +8,28 @@ import {
   SiteGenerator,
 } from 'staticr-site';
 
-import { handlePostsBreak } from '../handle-posts-break';
 import { IntroBarVariant } from '../components/intro-bar';
 import { Page } from '../components/page';
 
-const POSTS_PER_PAGE = 5;
 const { PostsRollupRenderer } = Renderers;
 
 /**
  * Renders individual posts pages
  */
-export const RollupPageRenderer: IRenderer = {
+export const ComicsPageRenderer: IRenderer = {
   renderPosts(posts: Array<IPost>, siteGenerator: SiteGenerator): Promise<Array<IRenderedPage>> {
-    const rollupRender = new PostsRollupRenderer(POSTS_PER_PAGE);
+    const rollupRender = new PostsRollupRenderer(1);
 
     const pages: Array<IRenderedPage> = [];
-    rollupRender.iteratePostPages(posts, (postsPage: IPostsRollupPage) => {
-      const path = `archives/${postsPage.pageNum}`;
-
-      // Create a deep copy of the posts array so we can honor the [break]
-      // tag without mutating data down the line
-      const postsCopy: Array<IPost> = handlePostsBreak(postsPage.posts, siteGenerator);
-
+    const comics = posts.filter(post => post.attributes.type === 'comic');
+    rollupRender.iteratePostPages(comics, (postsPage: IPostsRollupPage) => {
+      const path = `comics/${postsPage.pageNum === 1 ? 'index' : postsPage.pageNum}`;
       pages.push({
-        title: `Archives - Page ${postsPage.pageNum}`,
+        title: `Comics - Page ${postsPage.pageNum}`,
         path,
         pageComponent: (
           <Page
-            posts={postsCopy}
+            posts={postsPage.posts}
             siteGenerator={siteGenerator}
             previousPage={postsPage.previousPage}
             nextPage={postsPage.nextPage}
