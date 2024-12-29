@@ -1,6 +1,8 @@
 import * as React from 'react';
 import { SiteGenerator } from 'staticr-site';
 
+import { SocialLink } from './SocialLink';
+
 export enum IntroBarVariant {
   Small = 'small',
   Full = 'full',
@@ -25,15 +27,15 @@ export const IntroBar = (
     <h2 className="intro-bar__subhead">The thoughts and goings-on of some programmer dude.</h2>
     <nav className="intro-bar__social-nav">
       <ul className="social-links">
-        <li className="social-links__item">
-          <a className="social-links__link social-links__link--rss" target="_blank" href="http://feeds.feedburner.com/dxprog">RSS Feed</a>
-        </li>
-        <li className="social-links__item">
-          <a className="social-links__link social-links__link--github" target="_blank" href="https://github.com/dxprog">GitHub</a>
-        </li>
-        <li className="social-links__item">
-          <a className="social-links__link social-links__link--linkedin" target="_blank" href="https://www.linkedin.com/in/mhackmann">LinkedIn Profile</a>
-        </li>
+        <SocialLink classModifier="rss" href="http://feeds.feedburner.com/dxprog">
+          RSS Feed
+        </SocialLink>
+        <SocialLink classModifier="github" href="https://github.com/dxprog">
+          GitHub
+        </SocialLink>
+        <SocialLink classModifier="linkedin" href="https://www.linkedin.com/in/mhackmann">
+          LinkedIn Profile
+        </SocialLink>
       </ul>
     </nav>
   </section>
