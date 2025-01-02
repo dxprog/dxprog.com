@@ -1,7 +1,7 @@
 ---
 title: "Annularium"
 slug: annularium
-date: 2024-01-01T22:30:00-08:00
+date: 2025-01-01T22:30:00-08:00
 tags:
 - general
 ---

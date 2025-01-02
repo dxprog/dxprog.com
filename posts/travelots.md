@@ -5,7 +5,7 @@ date: 2024-12-28T19:45:00-08:00
 tags:
 - general
 ---
-It's not often I preempt my annual commentary of my annual eamil to myself, but there's a particular thing related to a particular elephant in the room that would be better addressed on its own: that is, the absolute insane amount of travel that we did this year. Much of that was either in service of or related to our move from California to Oregon, but there was plenty unrelated. Let's get down to it. (Keep in mind that most all of this was done with a 6-17 month old baby toddler.)
+It's not often I preempt my annual commentary of my annual email to myself, but there's a particular thing related to a particular elephant in the room that would be better addressed on its own: that is, the absolute insane amount of travel that we did this year. Much of that was either in service of or related to our move from California to Oregon, but there was plenty unrelated. Let's get down to it. (Keep in mind that most all of this was done with a 6-17 month old baby toddler.)
 
 **January**
 
