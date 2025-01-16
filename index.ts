@@ -10,8 +10,8 @@ import * as path from 'path';
 import { HomePageRenderer } from './src/renderers/home-page-renderer';
 import { PostPageRenderer } from './src/renderers/post-page-renderer';
 import { RollupPageRenderer } from './src/renderers/rollup-page-renderer';
-import { RssPostsRenderer } from './src/renderers/rss-posts-renderer';
 import { MarkedHighlightConfig } from './src/marked-highlight-config';
+import { CONFIG } from './config';
 
 const sassRenderAsync = bluebird.promisify(sass.render);
 const outputDir = path.join(process.cwd(), 'docs/');
@@ -24,11 +24,9 @@ const pg = new SiteGenerator({
     PostPageRenderer,
     HomePageRenderer,
     Renderers.PostRedirectRenderer,
-    // RssPostsRenderer,
   ],
-  baseUrl: 'https://dxprog.com/',
   markedOptions: MarkedHighlightConfig,
-  siteTitle: ' - Matt Hackmann',
+  ...CONFIG,
 });
 
 pg.writer.addStaticContent('CNAME', path.join(staticDir, 'CNAME'));
