@@ -1,5 +1,4 @@
 import {
-  Components,
   IPost,
   SiteGenerator
 } from 'staticr-site';
@@ -10,8 +9,7 @@ import {
   IntroBar,
   IntroBarVariant
 } from './intro-bar';
-
-const { PostsRollup } = Components;
+import { PostsRollup } from './PostsRollup';
 
 export interface IPageProps {
   posts: Array<IPost>;

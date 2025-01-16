@@ -3,7 +3,6 @@ import {
   IPost,
   IRenderer,
   IRenderedPage,
-  Components,
   SiteGenerator,
   Renderers,
 } from 'staticr-site';
@@ -13,9 +12,9 @@ import {
   IntroBar,
   IntroBarVariant } from '../components/intro-bar';
 import { PostFooter } from '../components/post-footer';
+import { Post } from '../components/Post';
 
 const { PostsRollupRenderer } = Renderers;
-const { Post } = Components;
 
 /**
  * Renders individual posts pages
