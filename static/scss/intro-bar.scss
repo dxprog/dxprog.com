@@ -1,12 +1,12 @@
 .intro-bar {
-  background: url(../images/sidebar.jpg) no-repeat;
+  background: url(../images/header-2025-st-johns.jpg) no-repeat;
   background-size: cover;
   background-attachment: fixed;
   background-position: bottom;
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 5rem 0;
+  padding: 4.8rem 0 2.4rem;
   margin-bottom: 10rem;
   box-shadow: 0 5px 5px rgba(0, 0, 0, .25);
   position: relative;
@@ -20,7 +20,7 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(to top, rgba(255, 255, 255, .3), rgba(255, 255, 255, 0));
+    background: linear-gradient(to top, rgba(0, 0, 0, .3), rgba(0, 0, 0, 0));
     z-index: 0;
     opacity: .75;
   }
@@ -41,15 +41,15 @@
   }
 
   &__home-link {
-    color: #000;
+    color: #fff;
     text-decoration: none;
 
     &:visited {
-      color: #000;
+      color: #eee;
     }
 
     &:hover {
-      color: #444;
+      color: #f0f0f0;
     }
   }
 
@@ -57,7 +57,7 @@
     display: block;
     text-transform: uppercase;
     text-align: center;
-    text-shadow: 0 0 1rem rgba(#fff, .4);
+    text-shadow: 0 0 1rem rgba(#000, .4);
 
     &--first {
       font: 4.8rem/1 sans-serif;
@@ -70,8 +70,9 @@
 
   &__subhead {
     font: 2.4rem/1 sans-serif;
+    color: #eee;
     text-align: center;
-    text-shadow: 0 0 1rem rgba(#fff, .4);
+    text-shadow: 0 0 1rem rgba(#000, .4);
     z-index: 1;
   }
 
@@ -93,40 +94,19 @@
     }
   }
 
-}
-
-.social-links {
-  display: flex;
-  justify-content: space-between;
-  list-style: none;
-  margin-top: 5rem;
-
-  &__item {
-    margin-left: 2rem;
-
-    &:first-child {
-      margin-left: 0;
-    }
-  }
-
-  &__link {
-    display: block;
-    width: 32px;
-    height: 0;
-    padding: 32px 0 0;
-    overflow: hidden;
-    background: url(../images/social-icons.png) no-repeat;
-
-    &--github {
-      background-position: -32px 0;
+  .social {
+    &__links {
+      padding-top: 2.4rem;
     }
 
-    &--twitter {
-      background-position: -64px 0;
-    }
+    &__link {
+      &:before {
+        background-color: #f0f0f0;
+      }
 
-    &--linkedin {
-      background-position: -96px 0;
+      a {
+        color: #f0f0f0;
+      }
     }
   }
 }

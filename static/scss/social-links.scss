@@ -1,0 +1,27 @@
+.social {
+  &__links {
+    text-align: center;
+  }
+
+  &__link {
+    &:before {
+      content: '';
+      position: absolute;
+      left: -0.5rem;
+      top: 50%;
+      transform: translateY(-50%);
+      width: 1rem;
+      height: 1rem;
+      border-radius: 0.5rem;
+    }
+
+    &:first-child:before {
+      content: none;
+    }
+
+    position: relative;
+    display: inline-block;
+    font: 2.4rem/1 sans-serif;
+    padding: 2rem;
+  }
+}
