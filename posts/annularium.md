@@ -1,6 +1,6 @@
 ---
-title: "Annularium"
-slug: annularium
+title: "Annualarium"
+slug: annualarium
 date: 2025-01-01T22:30:00-08:00
 tags:
 - general
